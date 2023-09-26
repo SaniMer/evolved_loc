@@ -1,0 +1,390 @@
+﻿l_russian:
+# Misc
+# ------------------------------------------------------------
+    # Mods
+	tec_starting_level: "Начальный уровень"
+	mod_tec_leader_starting_skill_add: "Лидер $tec_starting_level$"
+	mod_tec_admiral_starting_skill_add: "$admiral_with_icon$ $tec_starting_level$"
+	mod_tec_general_starting_skill_add: "$general_with_icon$ $tec_starting_level$"
+	mod_tec_governor_starting_skill_add: "$governor_with_icon$ $tec_starting_level$"
+	mod_tec_scientist_starting_skill_add: "$scientist_with_icon$ $tec_starting_level$"
+
+	tec_starting_traits: "Исходные черты"
+	mod_tec_leader_starting_traits_add: "Лидер $tec_starting_traits$"
+	mod_tec_admiral_starting_traits_add: "$admiral_with_icon$ $tec_starting_traits$"
+	mod_tec_general_starting_traits_add: "$general_with_icon$ $tec_starting_traits$"
+	mod_tec_governor_starting_traits_add: "$governor_with_icon$ $tec_starting_traits$"
+	mod_tec_scientist_starting_traits_add: "$scientist_with_icon$ $tec_starting_traits$"
+
+	tec_max_negative_traits: "Максимум отрицательных черт"
+	mod_tec_leader_negative_traits_add: "Лидер $tec_max_negative_traits$"
+	mod_tec_admiral_negative_traits_add: "$admiral_with_icon$ $tec_max_negative_traits$"
+	mod_tec_general_negative_traits_add: "$general_with_icon$  $tec_max_negative_traits$"
+	mod_tec_governor_negative_traits_add: "$governor_with_icon$ $tec_max_negative_traits$"
+	mod_tec_scientist_negative_traits_add: "$scientist_with_icon$ $tec_max_negative_traits$"
+	mod_tec_aiauth_node_negative_traits_add: "$tec_loc_ai_node$ $tec_max_negative_traits$"
+	mod_tec_ruler_only_councilor_traits: "$tec_loc_ruler_plural$ могу только получить $tec_loc_councilor_traits$"
+	mod_tec_councilor_only_councilor_traits: "$tec_loc_councilor_plural$ могу только получить $tec_loc_councilor_traits$"
+	mod_tec_leader_only_councilor_traits: "Лидер может получить только $tec_loc_councilor_traits$"
+	mod_tec_leader_only_normal_traits: "Лидер может получить только $tec_loc_normal_traits$"
+
+	tec_not_count_towards_leader_cap: "не учитывается в качестве лидера"
+
+	mod_tec_leader_not_count_towards_leader_cap: "Лидер делает $tec_not_count_towards_leader_cap$"
+	mod_tec_councilor_not_count_towards_leader_cap: "$tec_loc_councilor_plural$ делать $tec_not_count_towards_leader_cap$"
+	mod_tec_admiral_not_count_towards_leader_cap: "$admiral_plural_with_icon$ делать $tec_not_count_towards_leader_cap$"
+	mod_tec_general_not_count_towards_leader_cap: "$general_plural_with_icon$ делать $tec_not_count_towards_leader_cap$"
+	mod_tec_governor_not_count_towards_leader_cap: "$governor_plural_with_icon$ dделать $tec_not_count_towards_leader_cap$"
+	mod_tec_scientist_not_count_towards_leader_cap: "$scientist_plural_with_icon$ делать $tec_not_count_towards_leader_cap$"
+ # /
+#/                                                                                                                                                                   
+# Traits
+# ------------------------------------------------------------
+ # --------------- Destiny gestalt
+	# Example
+		#leader_trait_educator:0 "Проницательный наставник" 
+		#leader_trait_educator_desc:1 "Знания и опыт являются основой любого великого общества. Этот лидер обладает этими ценностями и делает все, чтобы продвигать и поощрять их в других." 
+		#leader_trait_bellicose_effect:1 "$EMPIRE_EFFECTS_TXT$:\n$t$Все [Leader.GetLeaderSoldierJobType]:\n$tt$$MOD_COUNTRY_NAVAL_CAP_ADD$: §G+2§!\n$tt$$MOD_DEFENSE_ARMIES_ADD$: §G+1§!" 
+		# #leader_trait_mediator_effect:0 "$PLANET_EFFECTS_TXT$:\n$t$Увеличить производство £amenities£$PLANET_AMENITIES_TITLE$ на §G1%§! для каждого вида на планете\n$t$Увеличить §Y$MOD_POP_HAPPINESS$§! на §G1%§! для каждого вида на планете\n$t$$MOD_POP_GROWTH_FROM_IMMIGRATION$: $t$0!" 
+		# #leader_trait_repair_crew_effect:0 "$SYSTEM_EFFECTS_TXT$:\n$t$Дружественные корабли в системе:\n$tt$Ежемесячный ремонт корпуса: §G+10%§!" 
+		# #leader_trait_pilferer_effect:1 "$ARMY_EFFECTS_TXT$ §EВыигрыш§! в §YНаземном вторжении§!:\n$t$Ресурсы на связанный £district£ §YРайон§!:\n$tt$ §G+100§! §YБазовые ресурсы§! £energy£ £minerals£ £food£\n$tt$ $t$0! §YДополнительные ресурсы§! $t$1 $t$2\n$tt$ $t$4! §YОчки исследования§! $t$5 $t$6 $t$7" 
+	# /
+ # Generic
+ # Note: fallbacks
+	leader_trait_tec_uber_generic_science_machine:0 "ДЕЛАТЬ" 
+	leader_trait_tec_uber_generic_science_machine_desc:0 "ДЕЛАТЬ ОПИСАНИЕ." 
+
+	leader_trait_tec_uber_generic_science_normalhive:0 "ДЕЛАТЬ" 
+	leader_trait_tec_uber_generic_science_normalhive_desc:0 "ДЕЛАТЬ ОПИСАНИЕ." 
+
+	leader_trait_tec_uber_generic_science_cyberhive:0 "ДЕЛАТЬ" 
+	leader_trait_tec_uber_generic_science_cyberhive_desc:0 "ДЕЛАТЬ ОПИСАНИЕ." 
+
+	leader_trait_tec_uber_generic_science_biohive:0 "ДЕЛАТЬ" 
+	leader_trait_tec_uber_generic_science_biohive_desc:0 "ДЕЛАТЬ ОПИСАНИЕ." 
+
+	leader_trait_tec_uber_generic_science_biomechanical_hive:0 "ДЕЛАТЬ" 
+	leader_trait_tec_uber_generic_science_biomechanical_hive_desc:0 "ДЕЛАТЬ ОПИСАНИЕ." 
+
+ # Governor
+	leader_trait_tec_uber_governor_A_machine:0 "ДЕЛАТЬ" 
+	leader_trait_tec_uber_governor_A_machine_desc:0 "ДЕЛАТЬ ОПИСАНИЕ." 
+
+	leader_trait_tec_uber_governor_normalhive_sapient:0 "ДЕЛАТЬ" 
+	leader_trait_tec_uber_governor_normalhive_sapient_desc:0 "ДЕЛАТЬ ОПИСАНИЕ." 
+
+	leader_trait_tec_uber_governor_normalhive_sapient:0 "ДЕЛАТЬ" 
+	leader_trait_tec_uber_governor_normalhive_sapient_desc:0 "ДЕЛАТЬ ОПИСАНИЕ." 
+
+	leader_trait_tec_uber_governor_cyberhive_fragmentation:0 "ДЕЛАТЬ" 
+	leader_trait_tec_uber_governor_cyberhive_fragmentation_desc:0 "ДЕЛАТЬ ОПИСАНИЕ." 
+
+	leader_trait_tec_uber_governor_cyberhive_fragmentation:0 "ДЕЛАТЬ" 
+	leader_trait_tec_uber_governor_cyberhive_fragmentation_desc:0 "ДЕЛАТЬ ОПИСАНИЕ." 
+
+	leader_trait_tec_uber_governor_biohive_brood:0 "Мастер выводка" 
+	leader_trait_tec_uber_governor_biohive_brood_desc:0 "ДЕЛАТЬ ОПИСАНИЕ." 
+	# Empire: Увеличивает рост и скорость сборки, но также и содержание
+	# Planet: Имеет шанс продублировать биологического поселенца при его создании
+
+	leader_trait_tec_uber_governor_bio_hive_genetailor:0 "Биогенный Альтератор" 
+	leader_trait_tec_uber_governor_bio_hive_genetailor_desc:0 "ДЕЛАТЬ ОПИСАНИЕ." 
+	# Empire: Увеличивает генопункты и уменьшает пункты видовой модификации
+	# Planet: Увеличение производства поселенцев и поселенцы генерируют общество, но также увеличивает использование удобств
+
+ # /
+ # Scientist
+
+
+	leader_trait_tec_uber_scientist_bio_hive_genetailor:0 "Биогенный ткач" 
+	leader_trait_tec_uber_scientist_bio_hive_genetailor_desc:0 "ДЕЛАТЬ ОПИСАНИЕ." 
+	# Empire: Увеличивает генопункты и уменьшает пункты видовой модификации
+	# Planet: Увеличение производства поселенцев и поселенцы генерируют общество, но также увеличивает использование удобств
+
+	leader_trait_tec_uber_scientist_bio_hive_genetailor:0 "Биогенный ткач" 
+	leader_trait_tec_uber_scientist_bio_hive_genetailor_desc:0 "ДЕЛАТЬ ОПИСАНИЕ." 
+	# Empire: Увеличивает генопункты и уменьшает пункты видовой модификации
+	# Planet: Увеличение производства поселенцев и поселенцы генерируют общество, но также увеличивает использование удобств
+ # /
+ # Admiral
+
+ # /
+ # General
+	leader_trait_tec_uber_general_machine_jaeger:0 "ДЕЛАТЬ" 
+	leader_trait_tec_uber_general_machine_jaeger_desc:0 "ДЕЛАТЬ ОПИСАНИЕ." 
+
+	leader_trait_tec_uber_general_machine_spawner:0 "ДЕЛАТЬ" 
+	leader_trait_tec_uber_general_machine_spawner_desc:0 "ДЕЛАТЬ ОПИСАНИЕ." 
+	# Battle: Каждые 10 дней в планетарной битве будут порождать новую армию роботов
+
+	leader_trait_tec_uber_general_machine_virus:0 "ДЕЛАТЬ" 
+	leader_trait_tec_uber_general_machine_virus_desc:0 "ДЕЛАТЬ ОПИСАНИЕ." 
+	# Battle: Каждые 10 дней в планетарной битве будут порождать новую армию роботов
+	# Espionage:
+
+	leader_trait_tec_uber_general_machine_requisition:0 "ДЕЛАТЬ" 
+	leader_trait_tec_uber_general_machine_requisition_desc:0 "ДЕЛАТЬ ОПИСАНИЕ." 
+	# Battle:
+	# Espionage:
+
+	leader_trait_tec_uber_general_machine_infiltration:0 "ДЕЛАТЬ" 
+	leader_trait_tec_uber_general_machine_infiltration_desc:0 "ДЕЛАТЬ ОПИСАНИЕ." 
+	# Battle:
+	# Espionage:
+
+	leader_trait_tec_uber_general_machine_todo:0 "ДЕЛАТЬ" 
+	leader_trait_tec_uber_general_machine_todo_desc:0 "ДЕЛАТЬ ОПИСАНИЕ." 
+	# Battle:
+	# Espionage:
+ # /
+
+
+ # Vanilla ref
+	#leader_trait_educator:0 "Проницательный наставник" 
+	#leader_trait_educator_desc:1 "Знания и опыт являются основой любого великого общества. Этот лидер обладает этими ценностями и делает все, чтобы продвигать и поощрять их в других." 
+	#leader_trait_master_bureaucrat:0 "Мастер-бюрократ" 
+	#leader_trait_master_bureaucrat_desc:1 "Поработав бюрократом, этот лидер является мастером бумажной работы. Когда все правильно оформлено, можно больше времени уделять своим подчиненным." 
+	#leader_trait_selfcare_expert:0 "Специалист по здоровью" 
+	#leader_trait_selfcare_expert_desc:1 "Некоторые люди настолько одержимы заботой о себе, что становятся мастерами своего дела. Жесткая дисциплина в отношении сна, приема пищи и физических упражнений сделала этого лидера настоящим гуру здоровья." 
+
+	# Governor
+	#leader_trait_shroud_preacher:0 "Проповедник Покрова" 
+	#leader_trait_shroud_preacher_effect:1 "$t$Каждые §Y10 лет§! предоставляет 1 £pop£ с признаком §Y$trait_latent_psionic$§!." 
+	#leader_trait_shroud_preacher_desc:1 "Покров охватывает все живое. Связанный с внутренними силами, этот лидер воспитывает в своих последователях истинную преданность." 
+	#leader_trait_master_diplomat:0 "Мастер-дипломат" 
+	#leader_trait_master_diplomat_desc:1 "После многих лет работы с дипломатами в иностранных посольствах этот лидер знает, как ориентироваться в культурных нюансах, мастерски управляя сетью высокопоставленных чиновников из соседних империй." 
+	#leader_trait_supreme_organizer:0 "Серый кардинал" 
+	#leader_trait_supreme_organizer_desc:1 "Обладая строгим контролем над государственными делами, этот лидер находится в центре лабиринта правил, законов и бюрократических процедур, призванных усилить его собственную власть." 
+	#leader_trait_aturion_organizer:0 "Эффективность Атуриона" 
+	#leader_trait_aturion_organizer_desc:0 "$#leader_trait_supreme_organizer_desc$" 
+	#leader_trait_arbiter:0 "Безжалостный разработчик" 
+	#leader_trait_arbiter_desc:1 "С железной рукой и полным безразличием к правилам безопасности этот лидер увеличивает производительность за счет снижения продолжительности жизни и периодических массовых забастовок. Однако при должном количестве силы с такими неприятностями легко справиться." 
+	#trait_ruler_fertility_preacher_2:0 "$trait_ruler_fertility_preacher$ II" 
+	#trait_ruler_fertility_preacher_2_desc:0 "$trait_ruler_fertility_preacher_desc$" 
+	#leader_trait_automation_champion:0 "Чемпион автоматизации" 
+	#leader_trait_automation_champion_desc:1 "Оптимизация имеет первостепенное значение для этого лидера. Автоматизация — это ключ, и все можно автоматизировать. Будь то передовая робототехника или более простое оборудование, ни одно направление не останется неисследованным." 
+	#leader_trait_expert_survivalist:0 "Эксперт выживания" 
+	#leader_trait_expert_survivalist_desc:1 "Некоторые люди обладают высокой квалификацией в искусстве выживания. Этот лидер умеет цепляться за жизнь даже в самых суровых и негостеприимных условиях, позволяя процветать новым поселениям." 
+	#leader_trait_utopian_idealist:0 "Утопический идеалист" 
+	#leader_trait_utopian_idealist_desc:1 "Многие мечтают построить поистине утопическое общество. Этот лидер работает над тем, чтобы превратить эти мечты в реальность." 
+	#leader_trait_mediator:0 "Ксено-посредник" 
+	#leader_trait_mediator_desc:1 "Квалифицированный посредник необходим в самых разных населенных пунктах. Этот лидер знает, как разрядить обстановку и эффективно управлять многорасовой планетой." 
+	#leader_trait_mediator_effect:0 "$PLANET_EFFECTS_TXT$:\n$t$Увеличивает объем производства £amenities£$PLANET_AMENITIES_TITLE$ на §G1%§! на каждый вид на планете\n$t$Увеличьте §Y$MOD_POP_HAPPINESS$§! на §G1%§! на каждый вид на планете\n$t$$MOD_POP_GROWTH_FROM_IMMIGRATION$: $t$0!" 
+	#leader_trait_efficient:0 "Элитный благодетель" 
+	#leader_trait_efficient_desc:1 "Рожденный в высших эшелонах общества, этот лидер имеет сильное чувство собственного достоинства и склонен отдавать предпочтение сверстникам из высших слоев общества." 
+	#leader_trait_galvanizer:0 "Гальванизатор" 
+	#leader_trait_galvanizer_effect_non_gestalt:1 "$PLANET_EFFECTS_TXT$:\n$t$£unity£ $unity$ от работающих групп населения £pop£: §G+0.50§!\n$t$£society£ $society_research$ от работающих групп населения £pop£: §G+0.50§!\n$t$$t$2 Торговая стоимость от работающих групп населения £pop£: $t$4!" 
+	#leader_trait_galvanizer_desc:1 "Наличие сильного чувства цели приводит ко многим положительным результатам. Этот лидер знает, как обращаться с населением, давая им общую цель, которую нужно энергично преследовать." 
+
+	# Scientist
+	#leader_trait_great_researcher:0 "Великий исследователь" 
+	#leader_trait_great_researcher_desc:1 "В редких случаях один человек может превзойти целую команду исследователей. Когда дело доходит до экспериментальных разработок, новых решений и новых технологий, этот лидер — настоящий гений." 
+	#leader_trait_deep_space_explorer:0 "Исследователь глубокого космоса" 
+	#leader_trait_deep_space_explorer_desc:1 "Офицерам по исследованию дальнего космоса поручено исследовать самые отдаленные уголки галактики. Этот лидер — один из таких исследователей, вооруженный самыми современными технологиями, чтобы продвигать их в неизведанное." 
+	#leader_trait_xeno_cataloger:0 "Каталогизатор ксено" 
+	#leader_trait_xeno_cataloger_desc:1 "Этому лидеру поручено обнаружить, идентифицировать и каталогизировать все формы жизни ксеносов. Затем данные оцениваются для определения любых возможных угроз и будущих протоколов заражения." 
+	#leader_trait_xeno_cataloger_effect:1 "$t$По завершении опроса:\n$tt$Получите 3 месяца производства £unity£§Y$unity$§!" 
+	#leader_trait_frontier_adventurer:0 "Пограничный авантюрист" 
+	#leader_trait_frontier_adventurer_desc:1 "Исследование новых систем, поиск новых миров и обнаружение давно забытых цивилизаций — главные задачи любого настоящего искателя приключений. Этот лидер является воплощением этого идеала, всегда в поисках утраченных знаний или забытых руин." 
+	#leader_trait_frontier_adventurer_effect:1 "$t$По завершении опроса:\n$tt$Получите 3 месяца производства £society£§Y$society_research$§!" 
+	#leader_trait_brilliant_shipwright:0 "Блестящий корабельщик" 
+	#leader_trait_brilliant_shipwright_desc:1 "Обладая обширными знаниями и врожденным пониманием судостроения, этот лидер отвечает не только за новые технологии, но и за надзор за нашими верфями." 
+	#leader_trait_truth_seeker:0 "Искатель правды" 
+	#leader_trait_truth_seeker_desc:1 "Стремиться к истине — значит открывать свой разум возможностям за горизонтом; возможно, за завесой самой реальности. У этого лидера есть глубокое желание раскрыть все тайны вселенной, невзирая на риски." 
+	#leader_trait_midas_touch:0 "Яркий рассказчик" 
+	#leader_trait_midas_touch_desc:1 "Часто уезжая на работу за пределы планеты, этот лидер стал свидетелем поистине удивительных, отдаленных мест. Их подвиги вдохновляют население, предоставляя ценную информацию о редких ресурсах и аномальных явлениях в галактике." 
+	#leader_trait_midas_touch_effect:2 "$t$Шанс обнаружения стратегических ресурсов: §G+10%§!" 
+	#leader_trait_surveyor:0 "Планетарный аналитик" 
+	#leader_trait_surveyor_desc:1 "Передовые геодезические методы и оборудование требуют обширного полевого опыта. Опыт этого лидера превратил планетарную съемку в искусство." 
+	#leader_trait_surveyor_tt:0 "$ASSIST_RESEARCH_EFFECTS_TXT$:\n$t$$mod_planet_districts_generator_physics_research_produces_add$: §G+3§!\n$t$$mod_planet_districts_farming_society_research_produces_add$: §G+3§!\n$t$$mod_planet_districts_mining_engineering_research_produces_add$: §G+3§!" 
+	#leader_trait_repair_crew:1 "Инженер-натуралист" 
+	#leader_trait_repair_crew_effect:0 "$SYSTEM_EFFECTS_TXT$:\n$t$Дружественные корабли в системе:\n$tt$Ежемесячный ремонт корпуса: §G+10%§!" 
+	#leader_trait_repair_crew_desc:1 "Прирожденный мастер чинить сломанные вещи, этот лидер практически вырос в инженерном отсеке. Их способности делают их экспертами в обслуживании флота, даже без надлежащей верфи." 
+	#leader_trait_robotist:1 "Повелитель ботов" 
+	#leader_trait_robotist_desc:1 "Этот лидер является чемпионом в области проектирования роботов и производственных процессов, всегда раздвигая границы возможного. Если есть достижения в области робототехники, этот человек, вероятно, имел к этому какое-то отношение." 
+	#leader_trait_knowledge_for_the_masses:0 "Ведущий педагог" 
+	#leader_trait_knowledge_for_the_masses_effect:0 "$t$Исследования на одного поселенца: §G+$@trait_knowledge_masses_research_amt$§!" 
+	#leader_trait_knowledge_for_the_masses_desc:1 "Нет ничего важнее правильного образования. Этот лидер не жалеет усилий для развития молодых умов, чему помогают преданные последователи выпускников." 
+
+	# Admiral
+	#leader_trait_fanatic:0 "Фанатичный военачальник" 
+	#leader_trait_fanatic_desc:1 "Одержимый фанатичным стремлением уничтожить своих врагов в бою, этот адмирал может приблизиться к состоянию безумия. Хотя они очень эффективны в борьбе со смертью, их безрассудство часто приводит к большим потерям с обеих сторон." 
+	#leader_trait_reverse_engineer:0 "Технологический мусорщик" 
+	#leader_trait_reverse_engineer_effect:1 "$NAVAL_BATTLE_WON_TXT$:\n$t$Возможность украсть технологию: §Y33%§!\n$t$Первоначальный прогресс исследования: §G+50%§!\n$t$Действительные категории:\n$tt$£engineering_research£ §YДвигательная установка§!\n$tt$£physics_research£ §YЧастицы§!" 
+	#leader_trait_reverse_engineer_desc:0 "Всегда стремящийся исследовать новые и неизвестные технологии, этот адмирал обладает обширными знаниями и гибким умом, часто обучаясь на работе, сталкиваясь с более продвинутыми противниками." 
+	#leader_trait_supreme_admiral:0 "Командир Армады" 
+	#leader_trait_supreme_admiral_desc:1 "Этот адмирал, отлично разбирающийся в логистике и стратегическом планировании, способен командовать флотом, который перегрузил бы его меньших собратьев." 
+	#leader_trait_armorer:0 "Гениальный оружейник" 
+	#leader_trait_armorer_desc:1 "Этот лидер изобрел новые способы упрочнения доспехов. В галактике мало оружия, способного пробить корпус кораблей, построенных по проектам [Root.GetHisHer]." 
+	#leader_trait_military_overseer:0 "Военный надзиратель" 
+	#leader_trait_military_overseer_desc:1 "Морская организация — сложная задача, требующая тщательного планирования и безупречных стандартов. Опыт этого лидера является бесценным активом в создании эффективного флота." 
+	#leader_trait_master_gunner:0 "Мастер-стрелок" 
+	#leader_trait_master_gunner_desc:1 "Адмирал, уделяющий большое внимание разработке оружия, всегда держит и себя, и свое оружие в первозданном рабочем состоянии." 
+	#leader_trait_demolisher_destiny:1 "Молот Империи" 
+	#leader_trait_demolisher_destiny_desc:1 "Нашим врагам следует опасаться того дня, когда этот адмирал присоединится к драке. Ведя большие флоты в бой с безупречной эффективностью и смертоносной проницательностью, немногие оборонительные периметры имеют шанс." 
+	#leader_trait_destiny_engineer:0 "Стойкий командир" 
+	#leader_trait_destiny_engineer_desc:0 "В космической войне любая ошибка может стать смертельной. Этот лидер настаивает на строгих процедурах технического обслуживания, чтобы поддерживать флот в отличном состоянии." 
+	#leader_trait_guerilla_tactics:0 "Партизанский тактик" 
+	#leader_trait_guerilla_tactics_desc:1 "Большой флот не всегда лучший инструмент для работы. Этот адмирал умеет командовать небольшими отрядами, чтобы перехитрить более медленных или более многочисленных противников." 
+	#leader_trait_survivalist:0 "Щит Империи" 
+	#leader_trait_survivalist_desc:1 "Воплощение защитника, этот адмирал является настоящей опорой на передовой, препятствуя любым врагам, которые посмеют проникнуть на нашу территорию." 
+	#leader_trait_maven_of_war:0 "Архитектор войны" 
+	#leader_trait_maven_of_war_desc:1 "Иметь это звание – большая честь. Такой адмирал не только обладает обширными познаниями в области войны, но и является важным связующим звеном с коллегами из научного отдела." 
+	#leader_trait_peacekeeper:0 "Миротворец" 
+	#leader_trait_peacekeeper_desc:1 "Этот лидер признает, что для сохранения мира необходимо забросить широкую сеть. Лучшие адмиралы выслеживают тех диссидентов, пиратов и мелких преступников, которые пытаются использовать наши торговые пути." 
+	# General
+	#leader_trait_supreme_warrior:0 "Верховный воин" 
+	#leader_trait_supreme_warrior_effect:0 "$t$Каждые §Y10§! дней в наземных боях:\n$tt$Шанс мгновенно уничтожить вражескую армию: §Y15%§!" 
+	#leader_trait_supreme_warrior_desc:1 "Этот лидер — один из немногих генералов, удостоившихся этого звания. Они лично возглавляют свои войска, вдохновляя союзников и сокрушая даже самых стойких врагов." 
+	#leader_trait_fortress_cracker:0 "Взломщик крепостей" 
+	#leader_trait_fortress_cracker_desc:1 "Требуется сочетание силы, хитрости и опыта, чтобы разрушить хорошо спроектированное оборонительное сооружение. Этот генерал получает удовольствие от вызова и добивается успеха там, где другие отказались бы от него как от безнадежного дела." 
+	#leader_trait_chainbreaker:0 "Разрушитель цепей" 
+	#leader_trait_chainbreaker_desc:1 "Ни одно разумное существо не должно быть порабощено и эксплуатируемо для выгоды других. Репутация этого лидера опережает их: порабощенные и угнетенные с радостью берутся за оружие, когда их призывают." 
+	#leader_trait_chainbreaker_effect:0 "$t$70% шанс породить §G1§! армию по §Y$pop_cat_slave$§! на атакованной планете" 
+	#leader_trait_honored_warmaster:0 "Заслуженный магистр войны" 
+	#leader_trait_honored_warmaster_desc:1 "Воители — известные генералы. Этот лидер вселяет гордость и мужество, побуждая людей хвататься за оружие и вступать в ряды." 
+	#leader_trait_honored_warmaster_effect:0 "$PLANET_EFFECTS_WHILE_DEFENDING_TXT$\n$t$Создает §G1§! оборонительную армию §YНе рабов§!" 
+	#leader_trait_academia_recruiter:1 "Академический рекрутер" 
+	#leader_trait_academia_recruiter_desc:1 "В наших учебных заведениях вербовщики превозносят достоинства военной службы перед нашими лучшими и самыми яркими умами. Практический опыт, полученный на поле боя, нельзя передать в классе, и он должен привести к прогрессу в технике и технологиях." 
+	#leader_trait_academia_recruiter_effect:0 "$t$£job_researcher£ $job_researcher_plural$ создает §G1§! оборонительную армию" 
+	#leader_trait_pilferer:0 "Разбойничающий военачальник" 
+	#leader_trait_pilferer_effect:1 "$ARMY_EFFECTS_TXT$ §EВыигрыш§! в §YНаземном вторжении§!:\n$t$Ресурсы на связанный £district£ §YРайон§!:\n$tt$ §G+100§! §YОсновные ресурсы§! £energy£ £minerals£ £food£\n$tt$ $t$0! §YДополнительные ресурсы§! $t$1 $t$2\n$tt$ $t$4! §YОчки исследования§! $t$5 $t$6 $t$7" 
+	#leader_trait_pilferer_desc:1 "Чем богаче планета, тем больше добычи. Этот лидер умеет извлекать выгоду с минимальными затратами." 
+	#leader_trait_taskmaster:0 "Великий надсмотрщик" 
+	#leader_trait_taskmaster_desc:1 "Надсмотрщики сосредотачиваются не только на стратегии, но и на мелочах повседневной жизни каждого солдата." 
+	#leader_trait_spymaster:0 "Теневой посредник" 
+	#leader_trait_spymaster_desc:1 "Далеко не простой шпион, этот лидер плетет сеть осведомителей, контрабандистов и убийц. Когда что-то нужно делать тихо, это может оказаться огромным преимуществом." 
+	#leader_trait_totalitarian:0 "Вестник Империи" 
+	#leader_trait_totalitarian_desc:1 "Обладая почетным титулом и репутацией, Вестник является мастером в великой игре наций. Такие генералы обеспечивают надежную связь между сюзереном и его вассалами." 
+	#leader_trait_bellicose:0 "Уважаемый квартирмейстер" 
+	#leader_trait_bellicose_effect:1 "$EMPIRE_EFFECTS_TXT$:\n$t$Все [Leader.GetLeaderSoldierJobType]:\n$tt$$MOD_COUNTRY_NAVAL_CAP_ADD$: §G+2§!\n$tt$$MOD_DEFENSE_ARMIES_ADD$: §G+1§!" 
+	#leader_trait_bellicose_desc:1 "Обладая гением логистики, этот генерал поддерживает эффективность военных операций с помощью обманчиво простых решений." 
+
+ # /
+
+
+# Council Seat
+# ------------------------------------------------------------
+	# Возвышенное священство на ваниле
+	# Аристо элита на ванили
+	# Торговые гильдии в ванили
+	council_tec_technocracy_NAME:0 "Главный технократ" 
+	council_tec_technocracy_DESC:0 "Главные технократы координируют своих подчиненных, чтобы значительно повысить эффективность и снизить административную нагрузку империи в целом." 
+	# effect:
+
+	council_tec_regular_stratocracy_NAME:0 "Стратегическое командование" 
+	council_tec_regular_stratocracy_DESC:0 "Стратегическое командование возглавляет корпус стратегов, обладающих превосходным мастерством в управлении правительственными и военными активами, планируя все соответствующим образом." 
+	# effect:
+
+	council_tec_regular_irenic_bureaucracy_NAME:0 "Иреник Сейдж" 
+	council_tec_regular_irenic_bureaucracy_DESC:0 "Иреник Сейдж — вознесенный бюрократ, который делится своими административными знаниями со всеми рангами, находящимися под его контролем." 
+	# effect:
+
+	council_tec_archivist_NAME:0 "Хранитель архивов" 
+	council_tec_archivist_DESC:0 "Хранитель — высший авторитет в мудрых и практических знаниях, знающий все ноу-хау каждого архива, каждого хранилища, каждого культурного акта внутри империи." 
+	# effect:
+
+	council_tec_occultist_NAME:0 "Рука оккультизма" 
+	council_tec_occultist_DESC:0 "Немногие могут стремиться стать руками оккультизма, но те, кто осмеливается подняться до этого статуса, являются прославленными личностями с глубоким знанием тайны и оккультизма." 
+	# effect:
+
+	council_tec_inventinkers_NAME:0 "ДЕЛАТЬ" 
+	council_tec_inventinkers_DESC:0 "ДЕЛАТЬ." 
+
+	council_tec_science_directorate_NAME:0 "ДЕЛАТЬ" 
+	council_tec_science_directorate_DESC:0 "ДЕЛАТЬ." 
+
+	council_tec_overseers_NAME:0 "ДЕЛАТЬ" 
+	council_tec_overseers_DESC:0 "ДЕЛАТЬ." 
+
+	council_tec_procurators_NAME:0 "ДЕЛАТЬ" 
+	council_tec_procurators_DESC:0 "ДЕЛАТЬ." 
+
+	council_tec_inquisitors_NAME:0 "ДЕЛАТЬ" 
+	council_tec_inquisitors_DESC:0 "ДЕЛАТЬ." 
+
+	council_tec_diplomats_NAME:0 "ДЕЛАТЬ" 
+	council_tec_diplomats_DESC:0 "ДЕЛАТЬ." 
+
+	council_tec_socialguards_NAME:0 "ДЕЛАТЬ" 
+	council_tec_socialguards_DESC:0 "ДЕЛАТЬ." 
+
+	council_tec_senators_NAME:0 "ДЕЛАТЬ" 
+	council_tec_senators_DESC:0 "ДЕЛАТЬ." 
+	# effect:
+
+
+# Paragon leaders
+# ------------------------------------------------------------
+
+# ------------------------------------------------- Cyberocrats
+	tec_leader_cyberocrat_governor_n_NAME:0 "С-Альфа 200А" 
+	tec_leader_cyberocrat_governor_n_TITLE:0 "Киберократ" 
+	tec_leader_cyberocrat_governor_n_DESC:0 "С-Альфа 0A — киберократ §YГубернатор§! из автономного мира Киберократ. Идеально спроектированный кибернетический клон, созданный исключительно для контроля и улучшения государственных дел." 
+	tec_leader_cyberocrat_governor_n_INTRO:0 "§HСистемы телеметрии были временно деактивированы присутствием Киберократа — их шифрование слишком сильное, чтобы его можно было обойти§!\n\nКиберократы сочли ваш запрос приемлемым, и мне поручили улучшить производительность вашей империи.\ Индивидуум С-Альфа восприимчив к вашему вкладу в течение следующего галактического цикла." 
+
+	tec_leader_cyberocrat_scientist_n_NAME:0 "С-Альфа 200B" 
+	tec_leader_cyberocrat_scientist_n_TITLE:0 "Киберократ" 
+	tec_leader_cyberocrat_scientist_n_DESC:0 "C-Альфа 0B — киберократ §YУченый§! из автономного мира Киберократ. Идеально спроектированный кибернетический клон, созданный исключительно для создания и развития технологий." 
+	tec_leader_cyberocrat_scientist_n_INTRO:0 "$tec_leader_cyberocrat_governor_n_INTRO$" 
+
+	tec_leader_cyberocrat_admiral_n_NAME:0 "С-Альфа 200С" 
+	tec_leader_cyberocrat_admiral_n_TITLE:0 "Киберократ" 
+	tec_leader_cyberocrat_admiral_n_DESC:0 "C-Альфа 0B — киберократ §YАдмирал§! из автономного мира Киберократ. Идеально спроектированный кибернетический клон, созданный исключительно для улучшения флота и боевой тактики." 
+	tec_leader_cyberocrat_admiral_n_INTRO:0 "$tec_leader_cyberocrat_governor_n_INTRO$" 
+
+# ------------------------------------------------- Rogue AIS
+	tec_leader_rogueAI__NAME:0 ""
+
+
+
+# External leaders
+# ------------------------------------------------------------
+
+# ------------------------------------------------- Ro D'Ahtnov
+ # --------------- Desc
+	tec_leader_rodahtnov_NAME:0 "Ро Д'Ахтнов" 
+	tec_leader_rodahtnov_TITLE:0 "Универсальный путешественник" 
+	tec_leader_rodahtnov_DESC:0 "Ро Д'Ахтнов — управляющий [redacted] из мира [redacted] [redacted]. Никто не знает его прошлого, никто не может получить о нем никакой информации." 
+	tec_leader_rodahtnov_INTRO:0 "Итак, мы снова встретились! А может, мы еще не встречались? На данный момент я не знаю ничего о измерении, вселенной и еще тысяче переменных, но определенно...\n§HРо Д'Ахтнов пожимает плечами§!\n... Это не имеет большого значения! Я знаю, знаю... это кажется странным, но я обязательно найду способ возвысить вас! Если вы этого желаете, конечно." 
+
+ # --------------- Events
+	tec_leader_rodahtnov.10.name:0 "ДЕЛАТЬ" 
+	tec_leader_rodahtnov.10.desc:0 "ДЕЛАТЬ" 
+	tec_leader_rodahtnov.10.a:0 "А" 
+	tec_leader_rodahtnov.10.a.tooltip:0 "А" 
+	tec_leader_rodahtnov.10.b:0 "Б" 
+	tec_leader_rodahtnov.10.b.tooltip:0 "Б" 
+
+	tec_leader_rodahtnov.11.name:0 "ДЕЛАТЬ" 
+	tec_leader_rodahtnov.11.desc:0 "ДЕЛАТЬ" 
+	tec_leader_rodahtnov.11.a:0 "А" 
+	tec_leader_rodahtnov.11.a.tooltip:0 "А" 
+	tec_leader_rodahtnov.11.b:0 "Б" 
+	tec_leader_rodahtnov.11.b.tooltip:0 "Б" 
+
+	tec_leader_rodahtnov.12.name:0 "ДЕЛАТЬ" 
+	tec_leader_rodahtnov.12.desc:0 "ДЕЛАТЬ" 
+	tec_leader_rodahtnov.12.a:0 "А" 
+	tec_leader_rodahtnov.12.a.tooltip:0 "А" 
+	tec_leader_rodahtnov.12.b:0 "Б" 
+	tec_leader_rodahtnov.12.b.tooltip:0 "Б" 
+
+# ------------------------------------------------- Codemaster Roadd
+	tec_leader_roadd_NAME:0 "Кодмастер Роудд" 
+	tec_leader_roadd_DESC:0 "ДЕЛАТЬ" 
+
+# ------------------------------------------------- Zyralynn, herald of Arts
+
+# Legendary leaders
+# ------------------------------------------------------------
+# ------------------------------------------------- Psionic T2
+
+ # ---- Gates
+
+
+
+tec_aiauth_ruler: "Главный узел ИИ" 
+tec_aiauth_planetary_governor: "[event_target:tec_aiauth_planetary_node_planet.GetName] Узел искусственного интеллекта"
+
+tec_aiauth_planetary_governor_desc: ""

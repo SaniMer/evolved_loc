@@ -1,0 +1,500 @@
+﻿l_russian:
+
+
+# - - Misc text here - Usually go in other files but in this case better have all located in the same place
+# --------------- Origins
+ origin_tec_bioshapers:0  "Биологические формирователи"
+  origin_tec_bioshapers_desc:0  "Это общество было одержимо идеей сотворенной жизни с самых ранних дней своего существования. Хотя многие сказали бы, что такое невозможно, первые настоящие биоконструкции покинули родильные палаты еще до того, как идея космического полета пришла им в голову."
+  origin_tec_bioshapers_secondary_species:0  "Биологический вид-слуга"
+  origin_tooltip_tec_bioshapers_effects:0  "Начните игру с §Y2§! дополнительные £pop£ Поселения. \n Начните игру с §Y8§! Биоконструкция £pop£ Заменяющая это множество первоначальных поселений и с инфраструктурой для строительства большего количества биоконструкций."
+  START_SCREEN_TEC_BIOSHAPERS:0  "Различные культуры [GetHomeWorldName] вскоре поняли, что генетические манипуляции были способом улучшить их жизнь, от отбора фруктов до крупного рогатого скота, от создания нитей до выживания при пандемиях и вредителях или использования их в своих интересах. \nЭта одержимость генетическим совершенством полученные в результате колоссальных научных усилий по применению этих знаний в науке, чтобы иметь возможность создавать жизнь, совершенную и послушную жизнь, служащую их цели. \n После столетий развития они сделали это, создав новое существо из местного вида, нового послушного слугу, которого они могли создать еще до его существования, строя его блок за блоком, клетку за клеткой. \n\nКогда они подчиняли и контролировали нашу сами по себе жизненные блоки, они будут формировать вселенную своей мощью".
+
+  origin_tec_synthetics:0  "ДЕЛАТЬ"
+  origin_tec_synthetics_desc:0  "TO DO."
+  origin_tec_synthetics_tooltip:0  "TO DO"
+  START_SCREEN_ORIGIN_TEC_SYNTHETICS:0  "TO DO"
+ 
+  origin_tec_biomechanical:0  "TO DO"
+  origin_tec_biomechanical_desc:0  "TO DO."
+  origin_tec_biomechanical_tooltip:0  "TO DO"
+  START_SCREEN_ORIGIN_TEC_BIOMECHANICAL:0  "TO DO"
+
+  origin_tec_shieldworld:0  "TO DO"
+  origin_tec_shieldworld_desc:0  "TO DO."
+  origin_tec_shieldworld_tooltip:0  "TO DO"
+  START_SCREEN_ORIGIN_TEC_SHIELDWORLD:0  "TO DO"
+
+# --------------- Origin civics 
+
+
+# --------------- Origin civics 
+
+
+# --------------- Regular civics
+
+
+  civic_tec_machine_composers:0  "TO DO"
+  civic_tec_machine_composers_desc:0  "TO DO"
+ civic_tec_machine_composers_desc:0 "TO DO"
+
+
+# TO DO
+
+
+
+# --------------- AI civics
+
+
+# --------------- Hive
+
+
+# --------------- Cyberhives
+
+
+
+# --------------- Biohive inspired
+
+
+# .............. sort
+  building_tec_old_machine_capital:0  "A"
+  building_tec_old_machine_capital_desc:0  "A"
+  building_tec_old_machine_major_capital:0  "A"
+  building_tec_old_machine_major_capital_desc:0  "A"
+  building_tec_old_machine_system_capital:0  "A"
+  building_tec_old_machine_system_capital_desc:0  "A"
+  building_tec_old_machine_galactic_capital:0  "A"
+  building_tec_old_machine_galactic_capital_desc:0  "A"
+  building_tec_old_machine_imperial_capital:0  "A"
+  building_tec_old_machine_imperial_capital_desc:0  "A"
+  building_tec_scifi_capital:0  "A"
+  building_tec_scifi_capital_desc:0  "A"
+  building_tec_scifi_major_capital:0  "A"
+  building_tec_scifi_major_capital_desc:0  "A"
+  building_tec_scifi_system_capital:0  "A"
+  building_tec_scifi_system_capital_desc:0  "A"
+  building_tec_scifi_galactic_capital:0  "A"
+  building_tec_scifi_galactic_capital_desc:0  "A"
+  building_tec_biohive:0  "A"
+  building_tec_biohive_desc:0  "A"
+  building_tec_biohive_military:0  "A"
+  building_tec_biohive_military_desc:0  "A"
+  building_tec_biohive_stronghold:0  "A"
+  building_tec_biohive_stronghold_desc:0  "A"
+  building_tec_biohive_fortress:0  "A"
+  building_tec_biohive_fortress_desc:0  "A"
+  building_tec_naval_biohive_1:0  "A"
+  building_tec_naval_biohive_1_plural:0  "A"
+  building_tec_naval_biohive_1_desc:0  "A"
+  building_tec_naval_biohive_2:0  "A"
+  building_tec_naval_biohive_2_plural:0  "A"
+  building_tec_naval_biohive_2_desc:0  "A"
+  building_tec_naval_biohive_3:0  "A"
+  building_tec_naval_biohive_3_plural:0  "A"
+  building_tec_naval_biohive_3_desc:0  "A"
+  building_tec_biohive_science_1:0  "A"
+  building_tec_biohive_science_1_desc:0  "A"
+  building_tec_biohive_science_2:0  "A"
+  building_tec_biohive_science_2_desc:0  "A"
+  building_tec_biohive_science_3:0  "A"
+  building_tec_biohive_science_3_desc:0  "A"
+  building_tec_biohive_brain:0  "A"
+  building_tec_biohive_brain_desc:0  "A"
+  building_tec_organic_composer_2:0  "A"
+  building_tec_organic_composer_2_desc:0  "A"
+
+# ------------------------------------------------- Outreach
+ building_tec_outreach_autofabricator:0  "Автопроизводители"
+  building_tec_outreach_autofabricator_desc:0  "Модульные и эффективные сооружения с очень богатой базой данных, разработанные для удовлетворения потребностей колонии со всеми возможными стандартными строительными шаблонами, независимо от расстояния или технологического уровня".
+  building_tec_outreach_autofabricator_effect:0  "Это £building£ автоматически собирает как £job_roboticist£ Роботизированные, так и £tec_genetics_icon£ Органические поселения"
+
+# ------------------------------------------------- SR uses - Nanites
+  building_tec_nanite_spawner_1:0  "Нано-проращиватель"
+  building_tec_nanite_spawner_1_desc:0  "."
+  building_tec_nanite_spawner_1_effect:0  "Это £building£ "
+
+  building_tec_nanite_spawner_2:0  "Нанокластер"
+  building_tec_nanite_spawner_2_desc:0  "."
+  building_tec_nanite_spawner_2_effect:0  "Это £building£ "
+
+  building_tec_nanite_menial:0  "Нанопроцессоры"
+  building_tec_nanite_menial_desc:0  "."
+  building_tec_nanite_menial_effect:0  "Это £building£ "
+
+  building_tec_nanite_fabricator:0  "Нанопроизводители"
+  building_tec_nanite_fabricator_desc:0  "."
+  building_tec_nanite_fabricator_effect:0  "Это £building£ "
+
+  building_tec_nanite_terraformer:0  "Наногеоскульптор"
+  building_tec_nanite_terraformer_desc:0  "Геологические станции с мириадами целевых наноботов, используемых для легкого изменения и улучшения целых областей рельефа или целых континентов".
+  building_tec_nanite_terraformer_effect:0  "Это £building£ "
+
+  building_tec_nanite_difussor:0  "Нанонитовый диффузор"
+  building_tec_nanite_difussor_desc:0  "Эти нанитовые диспергаторы предназначены для воздействия на жилые центры, для использования населением и улучшения повседневных элементов".
+  building_tec_nanite_difussor_effect:0  "Это £building£ "
+
+# ------------------------------------------------- Использование SR - Живой металл
+  building_tec_living_forge_1:0  "Разумная кузница"
+  building_tec_living_forge_1_desc:0  "."
+  building_tec_living_forge_1_effect:0  "Это £building£ "
+
+ building_tec_living_forge_1:0 "Разумный производитель"
+building_tec_living_forge_1_desc:0 "."
+ building_tec_living_forge_1_effect:0 "Это £building£ "
+
+  building_tec_living_constructor:0  "Живой конструктор"
+  building_tec_living_constructor_desc:0  "."
+  building_tec_living_constructor_effect:0  "Это £building£ "
+
+ building_tec_living_constructor:0 "Живой конструктор"
+ building_tec_living_constructor_desc:0 "."
+ building_tec_living_constructor_effect:0 "Это £building£ "
+
+# ------------------------------------------------- SR uses - Dark matter
+ building_tec_contained_singularity_1:0  "Замкнутая сингулярность"
+  building_tec_contained_singularity_1_desc:0  "Используя гравитон и энтропийную энергию, внутри этой структуры создается микросингулярность, обеспечивающая широкие возможности для изучения и извлечения из нее экзотических материалов".
+  building_tec_contained_singularity_1_effect:0  "Это £building£ "
+
+  building_tec_contained_singularity_2:0  "Изолированная сингулярность"
+  building_tec_contained_singularity_2_desc:0  "За счет использования гравитона и энтропийной энергии внутри этой структуры создается сингулярность, обеспечивающая широкие возможности для изучения и извлечения из нее экзотических материалов".
+  building_tec_contained_singularity_2_effect:0  "Это £building£ "
+
+# ------------------------------------------------- Другие материалы
+  building_tec_mini_replicator:0  "Миниатюрный репликатор"
+  building_tec_mini_replicator_desc:0  "Портативная высокотехнологичная структура, имитирующая процессор-репликатор материи в малом масштабе, который преобразует энергию в осязаемую материю. Тепловой побочный продукт его деятельности необходимо постоянно сдерживать, чтобы избежать полного расплавления окружающей среды."
+  building_tec_mini_replicator_effect:0  "Это £building£ "
+
+# ------------------------------------------------- Синтезатор t2 ascension
+
+
+# ------------------------------------------------- Лабораторные обмены
+# Итераторы
+  building_tec_machine_iteration:0  "Итерационные центры"
+  building_tec_machine_iteration_desc:0  "."
+  building_tec_machine_iteration_effect:0  "Это £building£ "
+
+# Матрица
+  building_tec_machine_matrix_base:0  "Нейроэнергетическая установка"
+  building_tec_machine_matrix_base_desc:0  "."
+  building_tec_machine_matrix_base_effect:0  "Это £building£ "
+
+  building_tec_machine_matrix_research:0  "Установка нейро-инсайта"
+  building_tec_machine_matrix_research_desc:0  "."
+  building_tec_machine_matrix_research_effect:0  "Это £building£ "
+
+  building_tec_machine_matrix_automation:0  "Установка для создания нейрорамок"
+  building_tec_machine_matrix_automation_desc:0  "."
+  building_tec_machine_matrix_automation_effect:0  "Это £building£ "
+
+  building_tec_machine_matrix_servitor:0  "Растение нейро-удовольствия"
+  building_tec_machine_matrix_servitor_desc:0  "."
+  building_tec_machine_matrix_servitor_effect:0  "Это £building£ "
+
+# ------------------------------------------------- Temple swaps
+	# Primary
+		# tec_is_death_cult = yes
+		# tec_is_machine_cult = yes
+		# tec_is_paperwork_cult = yes
+		# tec_is_atom_cult = yes
+		# tec_is_paranormal_cult = yes
+
+# Paperwork cult
+ building_tec_paperwork_temple_1:0  "Бюрократический монастырь"
+  building_tec_paperwork_temple_1_desc:0  "Шумное место как культа, так и бюрократии, где административные священники переписывают, редактируют священные документы и поклоняются им".
+  building_tec_paperwork_temple_2:0  "Бюрократическое аббатство"
+  building_tec_paperwork_temple_2_desc:0  "Шумное и гигантское место как культа, так и бюрократии, где административные священники переписывают, редактируют священные документы и поклоняются им".
+  building_tec_paperwork_temple_3:0  "Бюрократический Верховный монастырь"
+  building_tec_paperwork_temple_3_desc:0  "Шумное и похожее на лабиринт место как культа, так и бюрократии, где административные жрецы переписывают, редактируют священные документы и поклоняются им. Ходят слухи, что вам нужно по-настоящему помолиться, чтобы завершить бюрократический процесс, после заполнения нескольких десятков документов и административных лекций".
+
+  job_tec_high_paperwork_priest:0  "Бюро-декан"
+  job_tec_high_paperwork_priest_plural:0  "Бюро-декан"
+  job_tec_high_paperwork_priest_desc:0  "Эксперты и мудрые жрецы, посвященные в самые высокие, самые утомительные и священные бюрократические дела. Ходят слухи, что для того, чтобы даже просто связаться с ними, требуется запрос, подписанный в трех экземплярах."
+  job_tec_high_paperwork_priest_effect_desc:0  "£job_tec_high_paperwork_priest£ $job_tec_high_paperwork_priest_plural$ производить §Y$tec_loc_unity$§!, §Y$tec_loc_amenities$§! и §Y$tec_loc_edict_funds$§!."
+ #", и уменьшить §Y$mod_planet_pops_robotics_upkeep_mult$§!."
+  mod_job_tec_high_paperwork_priest_add:0  "$job_tec_high_paperwork_priest$ Вакансии"
+  mod_job_tec_high_paperwork_priest_per_pop:0  "§G+1§! $job_tec_high_paperwork_priest$ как вид деятельности для $VALUE$ Поселений"
+  mod_job_tec_high_paperwork_priest_per_pop_short:0  " \n§G+1§! £mod_job_tec_high_paperwork_priest_add£ за $VALUE$ £pop£"
+
+  job_tec_paperwork_priest:0  "Бюро-Монах"
+  job_tec_paperwork_priest_plural:0  "Бюро-монахи"
+  job_tec_paperwork_priest_desc:0  "Человек, посвятивший себя бумажной работе и административному просвещению. Не мешайте им, пока они расшифровывают святые слова бюрократии".
+  job_tec_paperwork_priest_effect_desc:0  "£job_tec_paperwork_priest£ $job_tec_paperwork_priest_plural$ производить §Y$tec_loc_unity$§!, §Y$tec_loc_amenities$§! и §Y$tec_loc_edict_funds$§!."
+ #", и уменьшить §Y$mod_planet_pops_robotics_upkeep_mult$§!."
+  mod_job_tec_paperwork_priest_add:0  "$job_tec_paperwork_priest$ Вакансии"
+  mod_job_tec_paperwork_priest_per_pop:0  "§G+1§! $job_tec_paperwork_priest$ как вид деятельности для $VALUE$ Поселений"
+  mod_job_tec_paperwork_priest_per_pop_short:0  " \n§G+1§! £mod_job_tec_paperwork_priest_add£ за $VALUE$ £pop£"
+# /
+
+# Культ атома
+  building_tec_atom_temple_1:0  "Часовня изобилия"
+  building_tec_atom_temple_1_desc:0  "делать"
+  building_tec_atom_temple_2:0  "Святилище богатства"
+  building_tec_atom_temple_2_desc:0  "делать"
+  building_tec_atom_temple_3:0  "Базилика изобилия"
+  building_tec_atom_temple_3_desc:0  "делать"
+
+  job_tec_high_atom_priest:0  "Епископ богатства"
+  job_tec_high_atom_priest_plural:0  "Епископы богатства"
+  job_tec_high_atom_priest_desc:0  "делать"
+  job_tec_high_atom_priest_effect_desc:0  "£job_tec_high_atom_priest£ $job_tec_high_atom_priest_plural$ производить §Y$tec_loc_unity$§!, §Y$tec_loc_amenities$§! и §Y$tec_loc_edict_funds$§!."
+ #", и уменьшить §Y$mod_planet_pops_robotics_upkeep_mult$§!."
+  mod_job_tec_high_atom_priest_add:0  "$job_tec_high_atom_priest$ Вакансии"
+  mod_job_tec_high_atom_priest_per_pop:0  "§G+1§! $job_tec_high_atom_priest$ как вид деятельности для $VALUE$ Поселений"
+  mod_job_tec_high_atom_priest_per_pop_short:0  " \n§G+1§! £mod_job_tec_high_atom_priest_add£ за $VALUE$ £pop£"
+
+  job_tec_atom_priest:0  "Пастор"
+  job_tec_atom_priest_plural:0  "Парсонс"
+  job_tec_atom_priest_desc:0  "делать"
+  job_tec_atom_priest_effect_desc:0  "£job_tec_atom_priest£ $job_tec_atom_priest_plural$ производить §Y$tec_loc_unity$§!, §Y$tec_loc_amenities$§! и §Y$tec_loc_edict_funds$§!."
+ #", и уменьшить §Y$mod_planet_pops_robotics_upkeep_mult$§!."
+  mod_job_tec_atom_priest_add:0  "$job_tec_atom_priest$ Вакансии"
+  mod_job_tec_atom_priest_per_pop:0  "§G+1§! $job_tec_atom_priest$ как вид деятельности для $VALUE$ Поселений"
+  mod_job_tec_atom_priest_per_pop_short:0  " \n§G+1§! £mod_job_tec_atom_priest_add£ за $VALUE$ £pop£"
+# /
+
+# Paranormal cult
+ building_tec_paranormal_temple_1:0  "Жуткий храм"
+  building_tec_paranormal_temple_1_desc:0  "делать"
+  building_tec_paranormal_temple_2:0  "Сверхъестественное святилище"
+  building_tec_paranormal_temple_2_desc:0  "делать"
+  building_tec_paranormal_temple_3:0  "Паранормальный собор"
+  building_tec_paranormal_temple_3_desc:0  "делать"
+
+  job_tec_high_paranormal_priest:0  "Каббалист"
+  job_tec_high_paranormal_priest_plural:0  "Каббалисты"
+  job_tec_high_paranormal_priest_desc:0  "делать"
+  job_tec_high_paranormal_priest_effect_desc:0  "£job_tec_high_paranormal_priest£ $job_tec_high_paranormal_priest_plural$ производить §Y$tec_loc_unity$§!, §Y$tec_loc_amenities$§! и §Y$tec_loc_edict_funds$§!."
+ #", и уменьшить §Y$mod_planet_pops_robotics_upkeep_mult$§!."
+  mod_job_tec_high_paranormal_priest_add:0  "$job_tec_high_paranormal_priest$ Вакансии"
+  mod_job_tec_high_paranormal_priest_per_pop:0  "§G+1§! $job_tec_high_paranormal_priest$ как вид деятельности для $VALUE$ Поселений"
+  mod_job_tec_high_paranormal_priest_per_pop_short:0  " \n§G+1§! £mod_job_tec_high_paranormal_priest_add£ за $VALUE$ £pop£"
+
+  job_tec_paranormal_priest:0  "Послушник"
+  job_tec_paranormal_priest_plural:0  "Послушники"
+  job_tec_paranormal_priest_desc:0  "делать"
+  job_tec_paranormal_priest_effect_desc:0  "£job_tec_paranormal_priest£ $job_tec_paranormal_priest_plural$ производить §Y$tec_loc_unity$§!, §Y$tec_loc_amenities$§! и §Y$tec_loc_edict_funds$§!."
+ #", и уменьшить §Y$mod_planet_pops_robotics_upkeep_mult$§!."
+  mod_job_tec_paranormal_priest_add:0  "$job_tec_paranormal_priest$ Вакансии"
+  mod_job_tec_paranormal_priest_per_pop:0  "§G+1§! $job_tec_paranormal_priest$ как вид деятельности для $VALUE$ Поселений"
+  mod_job_tec_paranormal_priest_per_pop_short:0  " \n§G+1§! £mod_job_tec_paranormal_priest_add£ за $VALUE$ £pop£"
+# /
+
+# VICAR!!
+
+	# Secondary
+		# tec_is_occult_cult = yes
+		# tec_is_starseeker_cult = yes
+		# tec_is_cycle_cult = yes
+		# tec_is_wealth_cult = yes
+		# tec_is_butlerian_cult = yes
+
+# Wealth cult
+ building_tec_wealth_temple_1:0  "Часовня изобилия"
+  building_tec_wealth_temple_1_desc:0  "делать"
+  building_tec_wealth_temple_2:0  "Святилище роскоши"
+  building_tec_wealth_temple_2_desc:0  "делать"
+  building_tec_wealth_temple_3:0  "Базилика роскоши"
+  building_tec_wealth_temple_3_desc:0  "делать"
+
+  job_tec_high_wealth_priest:0  "Епископ богатства"
+  job_tec_high_wealth_priest_plural:0  "Епископы богатства"
+  job_tec_high_wealth_priest_desc:0  "делать"
+  job_tec_high_wealth_priest_effect_desc:0  "£job_tec_high_wealth_priest£ $job_tec_high_wealth_priest_plural$ производить §Y$tec_loc_unity$§!, §Y$tec_loc_amenities$§! и §Y$tec_loc_edict_funds$§!."
+ #", и уменьшить §Y$mod_planet_pops_robotics_upkeep_mult$§!."
+  mod_job_tec_high_wealth_priest_add:0  "$job_tec_high_wealth_priest$ Вакансии"
+  mod_job_tec_high_wealth_priest_per_pop:0  "§G+1§! $job_tec_high_wealth_priest$ как вид деятельности для $VALUE$ Поселений"
+  mod_job_tec_high_wealth_priest_per_pop_short:0  " \n§G+1§! £mod_job_tec_high_wealth_priest_add£ за $VALUE$ £pop£"
+
+  job_tec_wealth_priest:0  "Пастор"
+  job_tec_wealth_priest_plural:0  "Парсонс"
+  job_tec_wealth_priest_desc:0  "делать"
+  job_tec_wealth_priest_effect_desc:0  "£job_tec_wealth_priest£ $job_tec_wealth_priest_plural$ производить §Y$tec_loc_unity$§!, §Y$tec_loc_amenities$§! и §Y$tec_loc_edict_funds$§!."
+ #", и уменьшить §Y$mod_planet_pops_robotics_upkeep_mult$§!."
+  mod_job_tec_wealth_priest_add:0  "$job_tec_wealth_priest$ Вакансии"
+  mod_job_tec_wealth_priest_per_pop:0  "§G+1§! $job_tec_wealth_priest$ как вид деятельности для $VALUE$ Поселений"
+  mod_job_tec_wealth_priest_per_pop_short:0  " \n§G+1§! £mod_job_tec_wealth_priest_add£ за $VALUE$ £pop£"
+# /
+
+# Бутлерианский культ
+  building_tec_butlerian_1:0  "Установки ментатов"
+  building_tec_butlerian_1_desc:0  "делать"
+  building_tec_butlerian_2:0  "Кампус ментата"
+  building_tec_butlerian_2_desc:0  "делать"
+  building_tec_butlerian_3:0  "Святилище ментатов"
+  building_tec_butlerian_3_desc:0  "делать"
+
+  job_tec_mentat:0  "Ментат"
+  job_tec_mentat_plural:0  "Ментаты"
+  job_tec_mentat_desc:0  "Калькуляторы, математики, бюрократы и в целом брокеры данных, ментаты - это живые компьютеры, которые превосходят ожидания и ограничения органического разума".
+  job_tec_mentat_effect_desc_regular:0  "£job_tec_mentat£ $job_tec_mentat_plural$ преобразовать §Y$tec_loc_consumer_goods$§! в §Y$tec_loc_unity$§!, §Y$tec_loc_research_resources$§! и §Y$tec_loc_edict_funds$§!."
+  job_tec_mentat_effect_desc_corporate:0  "£job_tec_mentat£ $job_tec_mentat_plural$ преобразовать §Y$tec_loc_consumer_goods$§! в §Y$tec_loc_unity$§!, §Y$tec_loc_research_resources$§! и §Y$tec_loc_trade_value$§!."
+  job_tec_mentat_effect_desc:0  "£job_tec_mentat£ $job_tec_mentat_plural$ преобразовать §Y$tec_loc_consumer_goods$§! в §Y$tec_loc_unity$§!, §Y$tec_loc_research_resources$§! и §Y$tec_loc_edict_funds$§!."
+ #", и уменьшить §Y$mod_planet_pops_robotics_upkeep_mult$§!."
+  mod_job_tec_mentat_add:0  "$job_tec_mentat$ Вакансии"
+  mod_job_tec_mentat_per_pop:0  "§G+1§! $job_tec_mentat$ как вид деятельности для $VALUE$ Поселений"
+  mod_job_tec_mentat_per_pop_short:0  " \n§G+1§! £mod_job_tec_mentat_add£ за $VALUE$ £pop£"
+# /
+
+# ------------------------------------------------- TRAITS
+
+
+# --------------- MACHINE PROCESSING ----------------------
+
+
+# --------------- MACHINE CIVICS ----------------------
+
+
+
+# ------------------------------------------------- Megacities
+ #  Note:  Not og civic but better putting these all together
+ # Just for the sake of convenience
+	 building_tec_megacity:0  "Мегаполис"
+	 building_tec_megacity_plural:0  "Мегаполисы"
+
+# t1
+ building_tec_megacity_standard_1:0  "Мегаполис"
+  building_tec_megacity_standard_1_plural:0  "Мегаполисы"
+  building_tec_megacity_standard_1_desc:0  "Разрастающийся мегаплотный городской сектор является результатом объединения нескольких городских районов на планете в рамках одного мегаполиса. С высокими небоскребами и подземными производствами, расположенными на глубине, это те места, где вы получаете имя по тому, как вы умираете, а теперь и по тому, как вы живете".
+
+  building_tec_megacity_research_1:0  "Научно-исследовательский мегаполис"
+  building_tec_megacity_research_1_plural:0  "Научно-исследовательские мегаполисы"
+  building_tec_megacity_research_1_desc:0  "Разрастающийся мегаплотный городской сектор является результатом объединения нескольких городских районов на планете в рамках одного мегаполиса. Благодаря особому городскому центру, занимающемуся исследованиями, разработками и инновациями, он становится изюминкой, когда речь заходит об академических учреждениях, лабораториях или технических установках".
+
+  building_tec_megacity_industrial_1:0  "Промышленный мегаполис"
+  building_tec_megacity_industrial_1_plural:0  "Мегаполисы"
+  building_tec_megacity_industrial_1_desc:0  "Разрастающийся мегаплотный городской сектор является результатом объединения нескольких городских районов на планете в рамках одного мегаполиса. Вся его подземная часть оснащена передовым промышленным оборудованием, перекачивающим ценные материалы, которые хранятся вдали от жилых помещений на верхних этажах."
+
+  building_tec_megacity_corporate_1:0  "Корпоративный мегаполис"
+  building_tec_megacity_corporate_1_plural:0  "Корпоративные мегаполисы"
+  building_tec_megacity_corporate_1_desc:0  "Разрастающийся мегаплотный городской сектор является результатом объединения нескольких городских районов на планете в рамках одного мегаполиса. Огромные парки в полисе принадлежат различным корпоративным структурам с важными флагманами и услугами по капитализации."
+
+  building_tec_megacity_militarized_1:0  "Милитаризованный мегаполис"
+  building_tec_megacity_militarized_1_plural:0  "Милитаризованные мегаполисы"
+  building_tec_megacity_militarized_1_desc:0  "Разрастающийся мегаплотный городской сектор является результатом объединения нескольких городских районов на планете в рамках одного мегаполиса. Большая часть города переоборудована для военного использования, от заводов по производству боеприпасов до сухих доков."
+
+# t2
+ building_tec_megacity_standard_2:0  "Мегаполис"
+  building_tec_megacity_standard_2_plural:0  "Мегаполисы"
+  building_tec_megacity_standard_2_desc:0  "§HОбновление второго уровня§! \n$building_tec_megacity_standard_1_desc$"
+
+  building_tec_megacity_research_2:0  "Научно-исследовательский мегаполис"
+  building_tec_megacity_research_2_plural:0  "Научно-исследовательские мегаполисы"
+  building_tec_megacity_research_2_desc:0  "§HОбновление второго уровня§! \n$building_tec_megacity_research_1_desc$"
+
+  building_tec_megacity_industrial_2:0  "Промышленный мегаполис"
+  building_tec_megacity_industrial_2_plural:0  "Мегаполисы"
+  building_tec_megacity_industrial_2_desc:0  "§HОбновление второго уровня§! \n$building_tec_megacity_industrial_1_desc$"
+
+  building_tec_megacity_corporate_2:0  "Корпоративный мегаполис"
+  building_tec_megacity_corporate_2_plural:0  "Корпоративные мегаполисы"
+  building_tec_megacity_corporate_2_desc:0  "§HОбновление второго уровня§! \n$building_tec_megacity_corporate_1_desc$"
+
+  building_tec_megacity_militarized_2:0  "Милитаризованный мегаполис"
+  building_tec_megacity_militarized_2_plural:0  "Милитаризованные мегаполисы"
+  building_tec_megacity_militarized_2_desc:0  "§HОбновление второго уровня§! \n$building_tec_megacity_militarized_1_desc$"
+
+# t3
+ building_tec_megacity_standard_3:0  "Мегаполис"
+  building_tec_megacity_standard_3_plural:0  "Мегаполисы"
+  building_tec_megacity_standard_3_desc:0  "§HОбновление третьего уровня§! \n$building_tec_megacity_standard_1_desc$"
+
+  building_tec_megacity_research_3:0  "Научно-исследовательский мегаполис"
+  building_tec_megacity_research_3_plural:0  "Научно-исследовательские мегаполисы"
+  building_tec_megacity_research_3_desc:0  "§HОбновление третьего уровня§! \n$building_tec_megacity_research_1_desc$"
+
+  building_tec_megacity_industrial_3:0  "Промышленный мегаполис"
+  building_tec_megacity_industrial_3_plural:0  "Мегаполисы"
+  building_tec_megacity_industrial_3_desc:0  "§HОбновление третьего уровня§! \n$building_tec_megacity_industrial_1_desc$"
+
+  building_tec_megacity_corporate_3:0  "Корпоративный мегаполис"
+  building_tec_megacity_corporate_3_plural:0  "Корпоративные мегаполисы"
+  building_tec_megacity_corporate_3_desc:0  "§HОбновление третьего уровня§! \n$building_tec_megacity_corporate_1_desc$"
+
+  building_tec_megacity_militarized_3:0  "Милитаризованный мегаполис"
+  building_tec_megacity_militarized_3_plural:0  "Милитаризованные мегаполисы"
+  building_tec_megacity_militarized_3_desc:0  "§HОбновление третьего уровня§! \n$building_tec_megacity_militarized_1_desc$"
+
+
+# ------------------------------------------------- More cyberpunk references
+
+# /
+# ------------------------------------------------- OTHER
+
+
+
+
+# ------------------------------------------------- ETHICS
+
+
+# ------------------------------------------------- Cybernetic Rework
+
+# ------------------------------------------------- Genetic Rework
+
+
+
+# ------------------------------------------------- Techs
+  tech_tec_megastructure_production:0  "Мегаструктурная эффективность"
+  tech_tec_megastructure_production_desc:0  "ДЕЛАТЬ"
+  TECH_TEC_MEGASTRUCTURE_PRODUCTION_TITLE:0  "£trigger_tec_basic_resources£ Базовые ресурсы из мегаструктур: §G+10%§!"
+  TECH_TEC_MEGASTRUCTURE_PRODUCTION_DESC:0  "ДЕЛАТЬ".
+
+  tech_tec_megastructures_energy:0  "Мегаструктурные микрогенераторы"
+  tech_tec_megastructures_energy_desc:0  "ДЕЛАТЬ"
+  TECH_TEC_MEGASTRUCTURES_ENERGY_TITLE:0  "ДЕЛАТЬ"
+  TECH_TEC_MEGASTRUCTURES_ENERGY_DESC:0  "ДЕЛАТЬ".
+
+  tech_tec_megastructures_minerals:0  "Сжатие материи"
+  tech_tec_megastructures_minerals_desc:0  "ДЕЛАТЬ"
+  TECH_TEC_MEGASTRUCTURES_MINERALS_TITLE:0  "ДЕЛАТЬ"
+  TECH_TEC_MEGASTRUCTURES_MINERALS_DESC:0  "ДЕЛАТЬ".
+
+  tech_tec_megastructures_food:0  "Эдемское садоводство"
+  tech_tec_megastructures_food_desc:0  "ДЕЛАТЬ"
+  TECH_TEC_MEGASTRUCTURES_FOOD_TITLE:0  "ДЕЛАТЬ"
+  TECH_TEC_MEGASTRUCTURES_FOOD_DESC:0  "ДЕЛАТЬ".
+
+  tech_tec_megastructures_research:0  "Макроструктурное вычисление"
+  tech_tec_megastructures_research_desc:0  "ДЕЛАТЬ"
+  TECH_TEC_MEGASTRUCTURES_RESEARCH_TITLE:0  "ДЕЛАТЬ"
+  TECH_TEC_MEGASTRUCTURES_RESEARCH_DESC:0  "ДЕЛАТЬ".
+
+  tech_tec_megastructures_ringworld:0  "Оптимизированное наслоение колец"
+  tech_tec_megastructures_ringworld_desc:0  "ДЕЛАТЬ"
+  TECH_TEC_MEGASTRUCTURES_RINGWORLD_TITLE:0  "ДЕЛАТЬ"
+  TECH_TEC_MEGASTRUCTURES_RINGWORLD_DESC:0  "ДЕЛАТЬ".
+
+# ------------------------------------------------- Политика
+# Перейти к политике - ПРАВИТЕЛЬСТВЕННОЙ ПОЛИТИКЕ
+
+
+# Секрет, совершенно не похоже на 40-тысячную крепость Блэкстоун
+  TEC_VOIDCACHE_0:0  "Разрушенная мегаструктура"
+  TEC_VOIDCACHE_0_DESC:0  "Делать"
+  TEC_VOIDCACHE_MEGASTRUCTURE_DETAILS:0  "Делать"
+
+  TEC_VOIDCACHE_REPAIRED:0  "ДЕЛАТЬ"
+  TEC_VOIDCACHE_REPAIRED_DESC:0  "Делать"
+  TEC_VOIDCACHE_REPAIRED_MEGASTRUCTURE_DETAILS:0  "Делать"
+
+  TEC_VOIDCACHE_HABITAT:0  "ДЕЛАТЬ"
+  TEC_VOIDCACHE_HABITAT_DESC:0  "Делать"
+  TEC_VOIDCACHE_HABITAT_MEGASTRUCTURE_DETAILS:0  "Делать"
+
+
+  TEC_VOIDCACHE_STARBASE:0  "ДЕЛАТЬ"
+  TEC_VOIDCACHE_STARBASE_DESC:0  "Делать"
+  TEC_VOIDCACHE_STARBASE_MEGASTRUCTURE_DETAILS:0  "Делать"
+# /
+
+# Probability engine - hyper jumpdrive at no negative
+
+# /
+
+ trait_tec_test_scripvar:0  "ТЕСТ"
+ TRAIT_TEC_TEST_SCRIPVAR_EFFECT:0  "$tec_test_scripvar_bonus$"
+  tec_test_scripvar_bonus:0  "[owner.tec_test_scripvar_bonus_1] [owner.tec_test_scripvar_bonus_2] [owner.tec_test_scripvar_bonus_3]"
+  tec_test_scripvar_bonus_1_a:0  "ПРИМЕР 1А"
+  tec_test_scripvar_bonus_1_b:0  "ПРИМЕР 1B"
+  tec_test_scripvar_bonus_2_a:0  "ПРИМЕР 2А"
+  tec_test_scripvar_bonus_2_b:0  "ПРИМЕР 2B"
+  tec_test_scripvar_bonus_3_a:0  "ПРИМЕР 3A"
+  tec_test_scripvar_bonus_3_b:0  "ПРИМЕР 3B"

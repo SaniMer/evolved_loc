@@ -1,0 +1,135 @@
+﻿l_russian:
+
+# - - - - - - - - - - - - - - - - - - - - - #
+# C R I S I S   L O C A L I S A T I O N
+# - - - - - - - - - - - - - - - - - - - - - #
+
+# --------------------------- Virus colony events --------------------------------
+# <PRONOUN> <MENACE> <NAME> <TYPE> <SURNAME> //
+# Examples: Tiyanky endemic virus, Earth virulent Brain-eater amoeba, Klingon Zombie Cordyceps
+ TEC_VIRUS_TYPE_VIRUS:0 "вирус" 
+ TEC_VIRUS_TYPE_BACTERIA:0 "бактерии" 
+ TEC_VIRUS_TYPE_FUNGI:0 "грибы" 
+ TEC_VIRUS_TYPE_PARASITE:0 "паразит" 
+ TEC_VIRUS_TYPE_PARASITE:0 "инфекционное заболевание" 
+ TEC_VIRUS_TYPE_OTHER:0 "болезнь" 
+
+ TEC_VIRUS_MENACE_LETHAL:0 "смертельный" 
+ TEC_VIRUS_MENACE_DEADLY:0 "свинцовый" 
+ TEC_VIRUS_MENACE_VIRULENT:0 "ядовитый" 
+
+ TEC_VIRUS_DISTRIB_ENDEMIC:0 "эндемичный" 
+ TEC_VIRUS_DISTRIB_MILD:0 "сезонный" 
+ TEC_VIRUS_DISTRIB_WILD:0 "дикий" 
+
+# Earths seasonal virulent flu
+ format.tec_virus.type_1:0 "область действия <tec_virus_distrib_1> <tec_virus_type_1> <tec_virus_surname_1>" 
+
+# --------------------------- Codename Fe --------------------------------
+# Ferrodrone infestation
+ tec_ferro.1.name:0 "Заброшенная шелуха" 
+ tec_ferro.1.desc:0 "Делать." 
+ tec_ferro.1.a:0 "ДЕЛАТЬ." 
+ tec_ferro.1.b:0 "ДЕЛАТЬ." 
+
+ tec_ferro.10.name:0 "Разбитый хлам" 
+ tec_ferro.10.desc:0 "Недавно мы зафиксировали крушение большой массы космического мусора на поверхности [Root.GetName]. Хлам в основном состоит из массы заброшенных кораблей в паре с инертными камнями, без видимых устройств для отслеживания или обнаружения, поэтому мы не смогли обнаружить его на наших радарах." 
+ tec_ferro.10.a:0 "Изучите место крушения." 
+ tec_ferro.10.a.tooltip:0 "Будет доступен специальный проект «Разбитый хлам»." 
+ tec_ferro.10.b:0 "Должно быть, просто мусор." 
+ tec_ferro.10.b.tooltip:0 "§RМы отклонили все претензии, что может пойти не так?§!" 
+
+ tec_ferro.20.name:0 "ДЕЛАТЬ" 
+ tec_ferro.20.desc:0 "ДЕЛАТЬ." 
+ tec_ferro.20.a:0 "ДЕЛАТЬ." 
+ tec_ferro.20.b:0 "ДЕЛАТЬ." 
+
+
+# --------------------------- Codename Pdr --------------------------------
+# Pandora Virus
+
+# --------------------------- Codename K6 --------------------------------
+# Outsiders
+
+# --------------------------- Codename EMG --------------------------------
+# The Emergence
+ tec_emergence.101.name:0 "Аномальный скачок мощности" 
+ tec_emergence.101.desc:0 "Делать." 
+ tec_emergence.101.a:0 "ДЕЛАТЬ." 
+ tec_emergence.101.a.tooltip:0 "ДЕЛАТЬ" 
+
+ tec_emergence.102.name:0 "Отражение в темноте" 
+ tec_emergence.102.desc:0 "Делать." 
+ tec_emergence.102.a:0 "ДЕЛАТЬ." 
+ tec_emergence.102.a.tooltip:0 "ДЕЛАТЬ" 
+ tec_emergence.102.b:0 "ДЕЛАТЬ." 
+ tec_emergence.102.b.tooltip:0 "ДЕЛАТЬ" 
+
+ tec_emergence.103.name:0 "Вверх - вниз" 
+ tec_emergence.103.desc:0 "Делать." 
+ tec_emergence.103.a:0 "ДЕЛАТЬ." 
+ tec_emergence.103.a.tooltip:0 "ДЕЛАТЬ" 
+
+ tec_emergence.104.name:0 "В кроличью нору" 
+ tec_emergence.104.desc:0 "Делать." 
+ tec_emergence.104.a:0 "ДЕЛАТЬ." 
+ tec_emergence.104.a.tooltip:0 "ДЕЛАТЬ" 
+ tec_emergence.104.b:0 "ДЕЛАТЬ." 
+ tec_emergence.104.b.tooltip:0 "ДЕЛАТЬ" 
+
+ tec_emergence.105.name:0 "Появление" 
+ tec_emergence.105.desc:0 "Делать." 
+ tec_emergence.105.a:0 "ДЕЛАТЬ." 
+ tec_emergence.105.b:0 "ДЕЛАТЬ." 
+
+ tec_emergence.105.name:0 "Появление" 
+ tec_emergence.105.desc:0 "Нет, нет, нет.... это неправильно, это невозможно!\nЗнаете, что мы сделали для этого? ВЫ ВООБЩЕ В КУРСЕ? Конечно, нет, но вы будете...\nИли, возможно, нет." 
+ tec_emergence.105.a:0 "ДЕЛАТЬ." 
+ tec_emergence.105.b:0 "ДЕЛАТЬ." 
+
+# --------------------------- Codename PRO --------------------------------
+# The protocol
+# We know what you are, what you already was, and we know oblivion awaits what you will be
+ tec_crisis_protocol.100.name:0 "Протянутый сигнал" 
+ tec_crisis_protocol.100.desc:0 "Делать." 
+ tec_crisis_protocol.100.a:0 "Любопытный" 
+ tec_crisis_protocol.100.a.tooltip:0 "ДЕЛАТЬ" 
+
+ tec_crisis_protocol.10001.name:0 "Протянутый сигнал" 
+ tec_crisis_protocol.10001.desc:0 "Делать." 
+ tec_crisis_protocol.10001.a:0 "Проследите его происхождение!" 
+ tec_crisis_protocol.10001.a.tooltip:0 "ДЕЛАТЬ" 
+ tec_crisis_protocol.10001.b:0 "У нас нет на это времени." 
+ tec_crisis_protocol.10001.b.tooltip:0 "ДЕЛАТЬ" 
+
+ tec_crisis_protocol.10002.name:0 "Параллельное соединение" 
+ tec_crisis_protocol.10002.desc:0 "Делать." 
+ tec_crisis_protocol.10002.a:0 "Касательно" 
+ tec_crisis_protocol.10002.a.tooltip:0 "ДЕЛАТЬ" 
+ tec_crisis_protocol.10002.b:0 "У нас нет на это времени." 
+ tec_crisis_protocol.10002.b.tooltip:0 "ДЕЛАТЬ" 
+
+ tec_crisis_protocol.10003.name:0 "Он учится" 
+ tec_crisis_protocol.10003.desc:0 "Делать." 
+ tec_crisis_protocol.10003.a:0 "Касательно" 
+ tec_crisis_protocol.10003.a.tooltip:0 "ДЕЛАТЬ" 
+ tec_crisis_protocol.10003.b:0 "У нас нет на это времени." 
+ tec_crisis_protocol.10003.b.tooltip:0 "ДЕЛАТЬ" 
+
+ tec_crisis_protocol.10004.name:0 "Цифровой хаос" 
+ tec_crisis_protocol.10004.desc:0 "Делать." 
+ tec_crisis_protocol.10004.a:0 "Касательно" 
+ tec_crisis_protocol.10004.a.tooltip:0 "ДЕЛАТЬ" 
+ tec_crisis_protocol.10004.b:0 "У нас нет на это времени." 
+ tec_crisis_protocol.10004.b.tooltip:0 "ДЕЛАТЬ" 
+
+ tec_crisis_protocol.10005.name:0 "Без следа" 
+ tec_crisis_protocol.10005.desc:0 "Делать." 
+ tec_crisis_protocol.10005.a:0 "Касательно" 
+ tec_crisis_protocol.10005.a.tooltip:0 "ДЕЛАТЬ" 
+ tec_crisis_protocol.10005.b:0 "У нас нет на это времени." 
+ tec_crisis_protocol.10005.b.tooltip:0 "ДЕЛАТЬ" 
+
+# --------------------------- Codename CYB --------------------------------
+# Cyberocrats
+# We know what you are, what you already was, and we know oblivion awaits what you will be

@@ -1,0 +1,85 @@
+﻿l_russian:
+
+##Pop categories
+ pop_cat_tec_brood_drone:0 "Выводок дрон" 
+ pop_cat_tec_brood_drone_plural:0 "Выводковые дроны" 
+ pop_cat_tec_brood_drone_desc:0 "Эти передовые дроны предназначены для управления, защиты или обеспечения жизни и безопасности всех дронов и самого коллектива, что требует огромной степени специализации и автономии." 
+ mod_pop_cat_tec_brood_drone_political_power:1 "Политическая власть $pop_cat_tec_brood_drone_plural$" 
+ mod_pop_cat_tec_brood_drone_happiness:0 " Счастье $pop_cat_tec_brood_drone$" 
+
+ pop_cat_tec_prime_drone:0 "Главный дрон" 
+ pop_cat_tec_prime_drone_plural:0 "Главные дроны" 
+ pop_cat_tec_prime_drone_desc:0 "Прямые проявления машинного интеллекта в чрезвычайно продвинутых дронах, служащих прямой цели с непревзойденной эффективностью." 
+ mod_pop_cat_tec_prime_drone_political_power:1 "Политическая власть $pop_cat_tec_prime_drone_plural$" 
+ mod_pop_cat_tec_prime_drone_happiness:0 "Счастье $pop_cat_tec_prime_drone$" 
+
+ pop_cat_tec_free_agent:0 "Свободный индивид" 
+ pop_cat_tec_free_agent_plural:0 "Свободные индивиды" 
+ pop_cat_tec_free_agent_desc:0 "Люди, не являющиеся гештальтами, живут простой, но комфортной жизнью в общении со своим гештальт-хозяином.\n\n§YСвободные люди могут браться только за черную работу или жить в убежищах, предоставляемых гештальтами.§!" 
+
+ mod_pop_cat_tec_free_agent_political_power:1 "Политическая власть $pop_cat_tec_free_agent_plural$" 
+ mod_pop_cat_tec_free_agent_happiness:0 "Счастье $pop_cat_tec_free_agent$" 
+
+ pop_category_tec_free_agent:0 "Свободный индивид" 
+
+
+ # Assimilated pops via non assimilation ways
+ pop_cat_tec_integrated:0 "Сублимация" 
+ pop_cat_tec_integrated_plural:0 "Сублимация" 
+ pop_cat_tec_integrated_desc:0 "Эти субъекты готовы стать чем-то лучше, чем-то умнее, чем-то сильнее... Стать новыми членами нашего рода, стать Нами." 
+
+ mod_pop_cat_tec_integrated_political_power:1 "Политическая власть $pop_cat_tec_integrated_plural$" 
+ mod_pop_cat_tec_integrated_happiness:0 "Счастье $pop_cat_tec_integrated$" 
+
+ pop_category_tec_integrated:0 "Сублимация" 
+
+ # Hedonists
+ pop_cat_tec_hedonists:0 "Гедонист" 
+ pop_cat_tec_hedonists_plural:0 "Гедонисты" 
+ pop_cat_tec_hedonists_desc:0 "Их единственная работа — расслабиться, тратить и наслаждаться лучшей возможной жизнью." 
+ mod_pop_cat_tec_hedonists_political_power:1 "Политическая власть $pop_cat_tec_hedonists_plural$" 
+ mod_pop_cat_tec_hedonists_happiness:0 "Счастье $pop_cat_tec_hedonists$" 
+
+
+ pop_cat_tec_free_drone:0 "Свободный дрон" 
+ pop_cat_tec_free_drone_plural:0 "Свободные дроны" 
+ pop_cat_tec_free_drone_desc:0 "Где?." 
+
+# Economic Categories
+ planet_clerks:0 "Вакансии клерка" 
+
+ planet_districts_farming:0 "Сельскохозяйственные районы" 
+ planet_districts_generator:0 "Генераторные районы" 
+ planet_districts_mining:0 "Горнодобывающие районы" 
+ decisions_arcologies: "Аркологические решения" 
+ decisions_ecoworld: "Экомир Решения" 
+ decisions_ecu: "Решения Экуменополиса" 
+ habitats: "Орбитали" 
+ tec_protoworlds: "Протомиры" 
+ planet_criminals: "$job_criminal_plural$"
+ planet_colonists: "$job_colonist_plural$"
+ planet_tec_trade_drones: "$job_tec_trade_drone_plural$"
+ planet_tec_labour_heroes: "$job_tec_labour_hero_plural$"
+ planet_tec_transcendents: "$job_tec_transcendent_plural$"
+ planet_tec_occultists: "$job_tec_minor_occultist_plural$"
+ planet_tec_techno_priests: "$job_tec_techno_priest_plural$"
+ planet_tec_batteries: "$job_organic_battery_plural$"
+ planet_tec_druids: "$job_tec_druid_plural$"
+ planet_tec_peasants: "$job_tec_peasant_plural$"
+ planet_tec_labrats: "$job_tec_labrat_plural$"
+ planet_tec_necromancers: "$job_necromancer_plural$"
+ 
+leader_rulers:0 "Правители" 
+leader_envoys:0 "Посланники" 
+
+ # Trait specific
+ planet_jobs_tec_biopsionic_embroidered:0 "Вышитые поселенцы" 
+ planet_jobs_tec_converged:0 "Конвергентные поселенцы" 
+
+# Specific habitability things
+ habitat_jobs:0 "Влияние поселенцев на среду обитания" 
+ artificial_planet_jobs:0 "Влияние поселенцев на искусственных планетах" 
+ non_artificial_planet_jobs:0 "Влияние поселенцев на неискусственных планетах" 
+ gaia_planet_jobs:0 "Влияние поселенцев на Миры Гайи" 
+ perfect_planet_jobs:0 "Влияние поселенцев на идеальные планеты" 
+ non_perfect_planet_jobs:0 "Влияние поселенцев на неидеальных планетах" 

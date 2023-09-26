@@ -1,0 +1,97 @@
+﻿l_russian:
+
+
+# - - - - - - - - - - - - - - - - - - - - - #######
+### RELICS
+# - - - - - - - - - - - - - - - - - - - - - #######
+
+# New precursors
+r_kohn:0 "Тессеракт Кона" 
+r_kohn_desc:0 "А." 
+
+r_demonic:0 "Тигель Щедани" 
+r_demonic_desc:0 "А." 
+
+r_mecabrain:0 "Киданиевый Мозг" 
+r_mecabrain_desc:0 "А." 
+
+r_librarian:0 "Библиотечный каталог" 
+r_librarian_desc:0 "А." 
+
+r_theria:0 "Семя Терии" 
+r_theria_desc:0 "А." 
+
+r_theria:0 "Семя Терии" 
+r_theria_desc:0 "А." 
+
+r_cosmickey:0 "Ключ космоса" 
+r_cosmickey_desc:0 "А." 
+
+r_cosmickey_repaired:0 "Ключ космоса" 
+r_cosmickey_repaired_desc:0 "А." 
+
+r_codcorp_credit:0 "Последний кредит Трески" 
+r_codcorp_credit_desc:0 "Эта маленькая и, по-видимому, инертная кредитная единица на самом деле является физической записью карты звездных торговых путей, искусно вырезанной нановолокнами из очень плотного и экзотического металла, вероятно, используемой торговцами CodCorp в качестве надежной карты маршрутов в случае галактических бурь." 
+
+#Crisis
+r_originator:0 "Устройство-оригинатор" 
+r_originator_desc:0 "А." 
+
+r_pandorasample:0 "Образец Пандоры" 
+r_pandorasample_desc:0 "А." 
+
+r_nullcontainer:0 "Нулевой контейнер" 
+r_nullcontainer_desc:0 "А." 
+
+r_xphyzx:0 "Флагман Ксфузкс" 
+r_xphyzx_desc:0 "А." 
+
+
+# Ascension
+
+#Civics
+# Technocracy
+r_tecnosphere:0 "Сфера эффективности" 
+r_tecnosphere_desc:0 "А." 
+
+# Librarians
+r_curatorbook:0 "Книга веков" 
+r_curatorbook_desc:0 "А." 
+
+# Occultists
+r_occultgrimo:0 "Гримуар запретного знания" 
+r_occultgrimo_desc:0 "А." 
+
+# Exalted priesthood
+r_psalms:0 "Псалмы избранных" 
+r_psalms_desc:0 "А." 
+
+# Bureaucratic
+r_bureauedict:0 "Первый указ" 
+r_bureauedict_desc:0 "А." 
+
+#Auth
+# Politic
+r_declaration:0 "Декларация свободы" 
+r_declaration_desc:0 "А." 
+
+# Dictato
+r_emperorthrone:0 "Трон Императора" 
+r_emperorthrone_desc:0 "А." 
+
+# Machine
+r_machinecore:0 "основное Ядро сознания" 
+r_machinecore_desc:0 "А." 
+
+# Machine
+r_machinecore2:0 "основное Ядро сознания" 
+r_machinecore2_desc:0 "А." 
+
+# Hive
+r_hivecore:0 "Наш собственный кулачный рожденный" 
+r_hivecore_desc:0 "А." 
+
+# Hive2
+r_hivecore2:0 "Проявление нашей воли" 
+r_hivecore2_desc:0 "А." 
+

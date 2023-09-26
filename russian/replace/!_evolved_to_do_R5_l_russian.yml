@@ -1,0 +1,409 @@
+﻿l_russian:
+# R5 - Machine path
+
+# T O D O 
+	# [ ] Machine rework
+	#     [X]  - Capital prime drone
+	#     [X]  - Civic adjustment
+	#     [R6] - Processing cap mechanic
+	# [ ] Synthetic ascension
+	# [ ] Ascension Paths reworks
+	#     [ ] - Move them to one requirement later
+	#     [ ] - Cybernetic changes
+	#     [ ] - Bio changes
+	# [ ] Patch
+	#     [X] - Adjust code
+	#     [ ] - Review primitive origin
+	#     [ ] - Add custom temples to colony automation
+	#     [X] - Colony Types - To roadd
+	#     [ ] - check has_research_job
+	#     [?] - check deposits (specifically 01_blocker_deposits.txt )
+	#        >  NOTE:  Recheck
+	#     [ ] - Adjust district_crashed_slaver_ship and etc
+	#     [ ] - Adjust building_xeno_zoo
+	#     [ ] - Check district_industrial for origin_fear_of_the_dark (industrial job conditions)
+	#     [ ] - New civic ai weights
+	#     [ ] - Regenerate opinion modifiers for modded ethics
+	#     [ ] - To do faction relations with primitives
+	#     [ ] - To do faction cross demands
+	#        >  Example:  technologist xenophiles giving positives when doing treaties with primitives
+	#     [ ] - Check jobs (optimization)
+	#        > livestock_zoo_animal
+	#        > fotd_protectors
+	#        > xeno_zoo_keeper
+	#        > unifier
+	#        > archaeoengineers
+	#        > archaeo_drone
+	#        > archaeo_unit
+	#     [ ] - Scripted effects
+	#     [ ] - Start of the game effects - REVIEW AND REESTRUCTURE ALL
+	#     [X] - Events
+	#        > ancient_relics_arcsite_events_1.txt
+	#          - ancrel.2056 create country - adapt to evolved
+	#        > ancient_relics_arcsite_events_2.txt
+	#          - ancrel.12090 create country - adapt to evolved
+	#        > action.22
+	#          - Check new purge types
+	#        > action.39
+	#          - Check new personalities
+	#        > action.48
+	#          - Add new 
+	#        > action.229
+	#          - Check set_origin_effect effect
+	#        > !!_origin_events_3
+	#          - Added tree of life events as a reminder we need to change them
+
+	#     [X] - Interface changes
+	#     [X] - Prescripted Countries
+	# [ ] Evolved Content
+	#     [ ] - Check mechadendrite
+	#     [ ] - Redo ascension scripted effects tec_create_latent_psionic_species etc
+	#     [ ] - Add psychic trait to the psionic mutuals
+
+
+# [ ] ------------------------------------------------- Machine rework
+
+ # --------------- Mechanic
+	 sr_tec_machine_processing_local:0  "Обрабатывающая мощность"
+	 sr_tec_machine_processing_local_desc:0  "Макрокомпьютер требует надлежащего перенаправления вычислений, процессов и потоков данных; обязанность этих пакетов передачи состоит в том, чтобы быть должным образом отсортированными, уточненными и улучшенными, обеспечивая идеальную синхронность работы каждого беспилотника, каждого инструмента, каждого протокола в рамках коллектива".
+
+	 mod_planets_sr_tec_machine_processing_local_produces_add:  "$tec_loc_machine_processing$ ( Местный)"
+
+	 sr_tec_machine_processing_empire:0  "Обрабатывающая мощность"
+	 sr_tec_machine_processing_empire_desc:0  "Макрокомпьютер требует надлежащего перенаправления вычислений, процессов и потоков данных; обязанность этих пакетов передачи состоит в том, чтобы быть должным образом отсортированными, уточненными и улучшенными, обеспечивая идеальную синхронность работы каждого беспилотника, каждого инструмента, каждого протокола в рамках коллектива".
+
+	 mod_country_sr_tec_machine_processing_local_produces_add:  "$tec_loc_machine_processing$ ( Империя)"
+
+	 sr_tec_machine_processing_redirection:0  "Перенаправленная обработка"
+	 sr_tec_machine_processing_redirection_desc:0  "Несколько протоколов были перенаправлены для расширения возможностей планетарных ретрансляторов обработки, предоставляя специально заряженные пакеты вычислительной мощности, увеличивая производительность в локальном масштабе".
+
+	 mod_country_sr_tec_machine_processing_redirection_produces_add:  "$tec_loc_machine_processing$ ( Перенаправлено)"
+
+	 building_tec_machine_intranetwork:0  "Внутрисетевое ядро"
+	 building_tec_machine_intranetwork_desc:0  "ДЕЛАТЬ".
+	 building_tec_machine_intranetwork_effect:0  "Этот £building£ служит ретранслятором для планеты £sr_tec_machine_processing_empire£ §Y$sr_tec_machine_processing_empire$§!, экспортирует свой производственный поток в §HКоллектив§! как £strategic£ §YПолезный ресурс§! с помощью политик и указов"
+
+	 building_tec_machine_exonetwork:0  "Ядро экзосети"
+	 building_tec_machine_exonetwork_desc:0  "ДЕЛАТЬ".
+	 building_tec_machine_exonetwork_effect:0  "Это £building£ служит каналом для планеты £sr_tec_machine_processing_empire£ §Y$sr_tec_machine_processing_empire$§!, преобразуя его в £sr_tec_machine_processing_redirection£ §Y$sr_tec_machine_processing_redirection$§!, стимулирование местного £pop£ §HР”сЂрѕрЅ§! и £engineering£ §HАвтоматизация§! §YВывод§!"
+
+	 building_tec_machine_processcap_effect:0  "£sr_tec_machine_processing_empire£ §Y$sr_tec_machine_processing_empire$§! это специальный модификатор, который дроны потребляют для повышения эффективности - избыточные вычислительные мощности могут быть перенаправлены в другие колонии, самостоятельно перенаправлены на планету или коллективу в качестве полезного ресурс"
+	 building_tec_machine_processcap_1:0  "Сервер обработки"
+	 building_tec_machine_processcap_1_desc:0  "Специальная установка, предназначенная для приема, обработки, подавления помех и распространения сигналов обработки от коллектива".
+	building_tec_machine_processcap_1:0 "Реле обработки"
+	building_tec_machine_processcap_1_desc:0 "Специальная установка, предназначенная для эффективного приема, обработки, подавления помех и распространения сигналов обработки от коллектива".
+	building_tec_machine_processcap_1:0 "Узел обработки"
+building_tec_machine_processcap_1_desc:0 "Усовершенствованная установка, предназначенная для приема, обработки, подавления помех и распространения сигналов обработки от коллектива с высокой эффективностью и производительностью".
+
+	 job_tec_processcap_drone:0  "Декодер" #Средство очистки данных - depurator
+	 job_tec_processcap_drone_plural:0  "Декодеры"
+	 job_tec_processcap_drone_desc:0  "Единственная цель этих Дронов - перехватывать, перенаправлять и усиливать сигнал машинного сознания, должным образом разделяя приказы, команды и вычисления, увеличивая общую производительность обработки, применяемую к каждому подразделению и активу в локальном или глобальном масштабе".
+	 job_tec_processcap_drone_effect_desc:0  "£job_tec_processcap_drone£ $job_tec_processcap_drone_plural$ потреблять §Y$tec_loc_energy$§! для создания §Y$tec_loc_sr_tec_machine_processing_empire$§!."
+	 mod_job_tec_processcap_drone_add:0  "$job_tec_processcap_drone$ Вакансии"
+	 mod_job_tec_processcap_drone_per_pop:0  "§G+1§! $job_tec_processcap_drone$ Работа за $VALUE$ РџРѕСЃРµР»РµРЅРёСЏ"
+	 mod_job_tec_processcap_drone_per_pop_short:0  " \n§G+1§! £mod_job_tec_processcap_drone_add£ за $VALUE$ £pop£"
+
+ # /
+
+ # --------------- Processcap code
+	 building_tec_machine_processcap_indicator:0  "Planet processcap: §Y[tec_entropy_display]§!"
+	 building_tec_machine_shared_processcap_indicator:0  "Shared processcap: §Y[tec_entropy_display]§!"
+	 building_tec_machine_redirected_processcap_indicator:0  "Redirected processcap: §Y[tec_entropy_display]§!"
+ # /
+
+
+# ------------------------------------------------- Synthetic T2
+# check https://discord.com/channels/871511987677442151/885287627639619625/1012116011786440704
+ # Nanite assembler - create  РџРѕСЃРµР»РµРЅРёСЏwithout the need of jobs
+	 building_tec_nanite_assembler_effect:0  "это £building£ сборке РџРѕСЃРµР»РµРЅРёСЏat быстром темпе, без необходимости назначается вакансии"
+
+	 building_tec_nanite_assembler_1:0  "Установка для нанорепликации"
+	 building_tec_nanite_assembler_1_plural:0  "Установки для нанорепликации"
+	 building_tec_nanite_assembler_1_desc:0  "ДЕЛАТЬ"
+
+	 building_tec_nanite_assembler_2:0  "Комплекс для нанорепликации"
+	 building_tec_nanite_assembler_2_plural:0  "Комплексы для нанорепликации"
+	 building_tec_nanite_assembler_2_desc:0  "ДЕЛАТЬ"
+
+	 building_tec_nanite_assembler_3:0  "Нано-репликационная связь"
+	 building_tec_nanite_assembler_3_plural:0  "Нано-репликационная связь"
+	 building_tec_nanite_assembler_3_desc:0  "ДЕЛАТЬ"
+ # /
+
+ # Тигель для живого металла - Преобразует живой металл в выходные данные на основе назначения
+	 building_tec_machine_living_metal_reformation_effect:0  "Это £building£ обеспечивает дополнительную производительность труда в зависимости от назначения планеты и ключевых производственных зданий"
+
+	 building_tec_machine_living_metal_reformation_1:0  "Тигель реформации"
+	 building_tec_machine_living_metal_reformation_1_plural:0  "Тигли реформации"
+	 building_tec_machine_living_metal_reformation_1_desc:0  "ДЕЛАТЬ"
+
+	 building_tec_machine_living_metal_reformation_2:0  "Связь реформации"
+	 building_tec_machine_living_metal_reformation_2_plural:0  "Связь реформации"
+	 building_tec_machine_living_metal_reformation_2_desc:0  "ДЕЛАТЬ"
+ # /
+
+ # Оцифровка - преобразование РџРѕСЃРµР»РµРЅРёСЏinto постоянные данные
+
+	 building_tec_machine_digitalization_center_1:0  "Разумный завод по перековке"
+	 building_tec_machine_digitalization_center_1_plural:0  "Разумные перековываемые растения"
+	 building_tec_machine_digitalization_center_1_desc:0  "ДЕЛАТЬ"
+
+	 building_tec_machine_digitalization_center_2:0  "Разумный завод по перековке"
+	 building_tec_machine_digitalization_center_2_plural:0  "Разумные перековываемые растения"
+	 building_tec_machine_digitalization_center_2_desc:0  "ДЕЛАТЬ"
+
+	 building_tec_machine_digitalization_center_3:0  "Разумный завод по перековке"
+	 building_tec_machine_digitalization_center_3_plural:0  "Разумные перековываемые растения"
+	 building_tec_machine_digitalization_center_3_desc:0  "ДЕЛАТЬ"
+
+ # /
+
+ # Living metal crucible - Improves job output and generate living metal
+	
+ # /
+
+# /
+
+
+# ------------------------------------------------- Robot Buff
+ # Tech
+	 tech_tec_robot_control_1:0  "Управляемая автоматика"
+	 tech_tec_robot_control_1_desc:0  "Автоматизированные активы нуждаются в постоянном контроле и настройках для обеспечения наилучшего обслуживания; централизованный способ обеспечения правильной работы этих элементов принесет нам большую пользу".
+
+	 tech_tec_robot_control_2:0  "Продвинутая автоматизация"
+	 tech_tec_robot_control_2_desc:0  "Перевод части нашей рабочей силы на координацию автоматизированных задач гарантирует, что технология будет работать как отлаженный механизм".
+
+	 tech_tec_robot_control_3:0  "Псевдосознательная автоматизация"
+	 tech_tec_robot_control_3_desc:0  "Использование улучшенных алгоритмов обучения и самостоятельно разработанных искусственных кодов, применяемых к постоянным задачам автоматизации, увеличит производство автоматизированных элементов намного больше, чем мы можем рассчитать".
+ # /
+ # Строительство
+	 building_tec_robot_control_effect_robots:0  "Это £building£ увеличивает £job_roboticist£ возможности робота".
+	 building_tec_robot_control_effect_automation:0  "Это £building£ увеличивает £building£ Возможности автоматизации".
+
+	 building_tec_robot_control_1:0  "Отсек автоматизации"
+	 building_tec_robot_control_1_desc:0  "Серия взаимосвязанных терминалов координирует разработку автоматизированных задач и улучшает общую производительность синтетических элементов".
+
+	 building_tec_robot_control_2:0  "Автоматизированный терминал"
+	 building_tec_robot_control_2_desc:0  "Серия взаимосвязанных терминалов координирует разработку автоматизированных задач и улучшает общую производительность синтетических элементов".
+
+	building_tec_robot_control_2:0 "Процессор автоматизации"
+	 building_tec_robot_control_2_desc:0  "Серия взаимосвязанных терминалов координирует разработку автоматизированных задач и улучшает общую производительность синтетических элементов".
+ # /
+ # Задание
+ job_tec_mechanitor:0  "Механик"
+	 job_tec_mechanitor_plural:0  "Механизаторы"
+	 job_tec_mechanitor_desc:0  "Специализированный корпус, предназначенный для обеспечения быстрого и эффективного выполнения автоматизированных задач для улучшения производительности колонии".
+	 job_tec_mechanitor_effect_desc:0  "£job_tec_mechanitor£ $job_tec_mechanitor_plural$ повернись §Y$tec_loc_consumer_goods$§! в §Y$tec_loc_amenities$§!, §Y$tec_loc_robot_assembly_mult$§!, §Y$tec_loc_robot_pop_output$§! и §Y$tec_loc_automation_output$§!."
+	 job_tec_mechanitor_effect_desc_cyborg:0  "£job_tec_mechanitor£ $job_tec_mechanitor_plural$ повернись §Y$tec_loc_consumer_goods$§! в §Y$tec_loc_amenities$§!, §Y$tec_loc_cybernetic_assembly_mult$§!, §Y$tec_loc_cyborg_pop_output$§! и §Y$tec_loc_automation_output$§!."
+	 mod_job_tec_mechanitor_add:0  "$job_tec_mechanitor$ Вакансии"
+	 mod_job_tec_mechanitor_per_pop:0  "§G+1§! $job_tec_mechanitor$ Работа за $VALUE$ РџРѕСЃРµР»РµРЅРёСЏ"
+	 mod_job_tec_mechanitor_per_pop_short:0  " \n§G+1§! £job_tec_mechanitor£ за $VALUE$ £pop£"
+
+	 job_tec_mechanitor_drone:0  "Механик Р"сЂрѕрЅ”
+	 job_tec_mechanitor_drone_plural:0  "Механик Р"СЂрѕрЅс"
+	 job_tec_mechanitor_drone_desc:0  "Специализированные дроны, предназначенные для обеспечения быстрого и эффективного выполнения автоматизированных задач на благо коллектива".
+	 job_tec_mechanitor_drone_effect_desc:0  "£job_tec_mechanitor£ $job_tec_mechanitor_drone_plural$ превратите $tec_loc_basic_resources$ в §Y$tec_loc_amenities_gestalt$§!, §Y$tec_loc_robot_assembly_mult$§!, §Y$tec_loc_robot_pop_output$§! и §Y$tec_loc_automation_output$§!."
+	 job_tec_mechanitor_drone_effect_desc_cyborg:0  "£job_tec_mechanitor£ $job_tec_mechanitor_drone_plural$ превратите $tec_loc_basic_resources$ в §Y$tec_loc_amenities_gestalt$§!, §Y$tec_loc_cybernetic_assembly_mult$§!, §Y$tec_loc_cyborg_pop_output$§! и §Y$tec_loc_automation_output$§!."
+	 mod_job_tec_mechanitor_drone_add:0  "$job_tec_mechanitor_drone$ Вакансии"
+	 mod_job_tec_mechanitor_drone_per_pop:0  "§G+1§! $job_tec_mechanitor_drone$ Работа за $VALUE$ РџРѕСЃРµР»РµРЅРёСЏ"
+	 mod_job_tec_mechanitor_drone_per_pop_short:0  " \n§G+1§! £job_tec_mechanitor£ за $VALUE$ £pop£"
+
+	 job_tec_mechanitor_machine:0  "Механик"
+	 job_tec_mechanitor_machine_plural:0  "Механизаторы"
+	 job_tec_mechanitor_machine_desc:0  "Специализированные беспилотные летательные аппараты, предназначенные для обеспечения быстрого и эффективного выполнения автоматизированных задач на благо машинного интеллекта".
+	 job_tec_mechanitor_machine_effect_desc:0  "£job_tec_mechanitor£ $job_tec_mechanitor_machine_plural$ повернись §Y$tec_loc_energy$§! в §Y$tec_loc_amenities_gestalt$§!, §Y$tec_loc_robot_assembly_mult$§!, §Y$tec_loc_robot_pop_output$§! и §Y$tec_loc_automation_output$§!."
+	 job_tec_mechanitor_machine_effect_desc_cyborg:0  "£job_tec_mechanitor£ $job_tec_mechanitor_machine_plural$ повернись §Y$tec_loc_energy$§! в §Y$tec_loc_amenities_gestalt$§!, §Y$tec_loc_cybernetic_assembly_mult$§!, §Y$tec_loc_cyborg_pop_output$§! и §Y$tec_loc_automation_output$§!."
+	 mod_job_tec_mechanitor_machine_add:0  "$job_tec_mechanitor_machine$ Вакансии"
+	 mod_job_tec_mechanitor_machine_per_pop:0  "§G+1§! $job_tec_mechanitor_machine$ Работа за $VALUE$ РџРѕСЃРµР»РµРЅРёСЏ"
+	 mod_job_tec_mechanitor_machine_per_pop_short:0  " \n§G+1§! £job_tec_mechanitor£ за $VALUE$ £pop£"
+
+ # /
+# /
+
+# ------------------------------------------------- Gene Ascension
+ # --------------- Biological archetype traits
+	# Humanoid + mammalian
+	 trait_tec_gene_archetype_mammalian:0  "TO DO"
+	 trait_tec_gene_archetype_mammalian_desc:0  "§LTO DO.§!"
+
+	# Avian + reptilian
+	 trait_tec_gene_archetype_saurian:0  "TO DO"
+	 trait_tec_gene_archetype_saurian_desc:0  "§LTO DO.§!"
+
+	# Chitinous - Arthropoid + molluscoid
+	 trait_tec_gene_archetype_chitinous:0  "TO DO"
+	 trait_tec_gene_archetype_chitinous_desc:0  "§LTO DO.§!"
+
+	# Aquatic
+	 trait_tec_gene_archetype_aquatic:0  "TO DO"
+	 trait_tec_gene_archetype_aquatic_desc:0  "§LTO DO.§!"
+
+	# Lithoid
+	 trait_tec_gene_archetype_lithoid:0  "TO DO"
+	 trait_tec_gene_archetype_lithoid_desc:0  "§LTO DO.§!"
+
+	# Necroid
+	 trait_tec_gene_archetype_necroid:0  "Bio-Mollecular Cleansing"
+	 trait_tec_gene_archetype_necroid_desc:0  "§LTO DO.§!"
+
+	# Toxoid
+	 trait_tec_gene_archetype_toxoid:0  "TO DO"
+	 trait_tec_gene_archetype_toxoid_desc:0  "§LTO DO.§!"
+
+	# Building
+	 building_tec_genetic_recombinator:0  "Генетический рекомбинатор"
+	 building_tec_genetic_recombinator_plural:0  "Генетические рекомбинаторы"
+	 building_tec_genetic_recombinator_desc:0  "TO DO"
+	 building_tec_genetic_recombinator_desc_genocidal:0  "TO DO"
+ # /
+ # -------- Building&Job
+	# Jobs working her
+	 building_tec_gene_repository_effect:0  "Это £building£ "
+
+	 building_tec_gene_repository_1:0  "Генетический архив"
+	 building_tec_gene_repository_1_desc:0  "ДЕЛАТЬ"
+
+	building_tec_gene_repository_1:0 "Генетическое хранилище"
+	building_tec_gene_repository_1_desc:0 "TO DO"
+
+	 job_tec_genetic_tailor:0  "Джено-портной"
+	 job_tec_genetic_tailor_plural:0  "Гено-портные"
+	 job_tec_genetic_tailor_desc:0  "$job_tec_cyborg_servitor_desc$"
+	 job_tec_genetic_tailor_effect_desc:0  "£job_tec_genetic_tailor£ $job_tec_genetic_tailor_plural$ производить §YРесурсы§! на основе £stability£ §YОбозначение планеты§! и £building£ §YУкрепление зданий§!."
+	 mod_job_tec_genetic_tailor_add:0  "$job_tec_genetic_tailor$ Вакансии"
+	 mod_job_tec_genetic_tailor_per_pop:0  "§G+1§! $job_tec_genetic_tailor$ Работа за $VALUE$ РџРѕСЃРµР»РµРЅРёСЏ"
+	 mod_job_tec_genetic_tailor_per_pop_short:0  " \n§G+1§! £mod_job_tec_genetic_tailor_add£ за $VALUE$ £pop£"
+
+	 job_tec_genetic_tailor_drone:0  "Джено-портной"
+	 job_tec_genetic_tailor_drone_plural:0  "Гено-портные"
+	 job_tec_genetic_tailor_drone_desc:0  "$job_tec_cyborg_servitor_desc$"
+	 job_tec_genetic_tailor_drone_effect_desc:0  "£job_tec_genetic_tailor_drone£ $job_tec_genetic_tailor_drone_plural$ производить §YРесурсы§! на основе £stability£ §YОбозначение планеты§! и £building£ §YУкрепление зданий§!."
+	 mod_job_tec_genetic_tailor_drone_add:0  "$job_tec_genetic_tailor_drone$ Вакансии"
+	 mod_job_tec_genetic_tailor_drone_per_pop:0  "§G+1§! $job_tec_genetic_tailor_drone$ Работа за $VALUE$ РџРѕСЃРµР»РµРЅРёСЏ"
+	 mod_job_tec_genetic_tailor_drone_per_pop_short:0  " \n§G+1§! £mod_job_tec_genetic_tailor_drone_add£ за $VALUE$ £pop£"
+
+	 job_tec_genetic_repository:0  "Генохранилище"
+	 job_tec_genetic_repository_plural:0  "Генохранилище"
+	 job_tec_genetic_repository_desc:0  "$job_tec_cyborg_servitor_desc$"
+	 job_tec_genetic_repository_effect_desc:0  "£job_tec_genetic_repository£ $job_tec_genetic_repository_plural$ производить §YРесурсы§! на основе £stability£ §YОбозначение планеты§! и £building£ §YУкрепление зданий§!."
+	 mod_job_tec_genetic_repository_add:0  "$job_tec_genetic_repository$ Вакансии"
+	 mod_job_tec_genetic_repository_per_pop:0  "§G+1§! $job_tec_genetic_repository$ Работа за $VALUE$ РџРѕСЃРµР»РµРЅРёСЏ"
+	 mod_job_tec_genetic_repository_per_pop_short:0  " \n§G+1§! £mod_job_tec_genetic_repository_add£ за $VALUE$ £pop£"
+ # /
+# /
+
+# ------------------------------------------------- Кибернетическое восхождение
+ # -------- Замена клиники (обычная)
+	 building_tec_cybernetic_hospital_1:0  "Терминал обновления"
+	 building_tec_cybernetic_hospital_1_plural:0  "Обновление терминалов"
+	 building_tec_cybernetic_hospital_1_desc:0  "ДЕЛАТЬ"
+
+	 building_tec_cybernetic_hospital_2:0  "Центр обновления"
+	 building_tec_cybernetic_hospital_2_plural:0  "Центры обновления"
+	 building_tec_cybernetic_hospital_2_desc:0  "ДЕЛАТЬ"
+
+	 building_tec_cybernetic_hospital_3:0  "Тигель обновления"
+	 building_tec_cybernetic_hospital_3_plural:0  "Модернизировать тигли"
+	 building_tec_cybernetic_hospital_3_desc:0  "ДЕЛАТЬ"
+
+	 job_tec_cyborg_ripperdoc:0  "Кибердок"
+	 job_tec_cyborg_ripperdoc_plural:0  "Кибердокументы"
+	 job_tec_cyborg_ripperdoc_desc:0  "Кибернетические имплантаты требуют постоянного обслуживания и заботы, и такова задача кибердоков, также известных как ripperdocs; эксперты как в медицинских, так и в технических аспектах, они применяют, поддерживают и ухаживают как за металлом, так и за плотью, ремонтируя имплантаты, роботов или болезни".
+	 job_tec_cyborg_ripperdoc_effect_desc:0  "£job_tec_cyborg_ripperdoc£ $job_tec_cyborg_ripperdoc_plural$ повернись §Y$tec_loc_consumer_goods$§! в §Y$tec_loc_amenities$§!, §Y$tec_loc_cybernetic_assembly_mult$§! и $mod_planet_jobs_tec_cybernetics_produces_mult$."
+	 mod_job_tec_cyborg_ripperdoc_add:0  "$job_tec_cyborg_ripperdoc$ Вакансии"
+	 mod_job_tec_cyborg_ripperdoc_per_pop:0  "§G+1§! $job_tec_cyborg_ripperdoc$ Работа за $VALUE$ РџРѕСЃРµР»РµРЅРёСЏ"
+	 mod_job_tec_cyborg_ripperdoc_per_pop_short:0  " \n§G+1§! £mod_job_tec_cyborg_ripperdoc_add£ за $VALUE$ £pop£"
+ # /
+
+ # -------- Улучшайте тигли (гештальты)
+	 building_tec_cybernetic_hospital_gestalt_effect:0  "Это £building£ "
+
+	 building_tec_cybernetic_hospital_gestalt_1:0  "Терминал обновления"
+	 building_tec_cybernetic_hospital_gestalt_1_desc:0  "Эти серверы outpost служат точками обслуживания и улучшения кибернетических элементов этого коллектива".
+
+	 building_tec_cybernetic_hospital_gestalt_2:0  "Центр обновления"
+	 building_tec_cybernetic_hospital_gestalt_2_desc:0  "Эти серверы outpost служат точками обслуживания и улучшения кибернетических элементов этого коллектива".
+
+	 building_tec_cybernetic_hospital_gestalt_3:0  "Тигель обновления"
+	 building_tec_cybernetic_hospital_gestalt_3_desc:0  "Эти серверы outpost служат точками обслуживания и улучшения кибернетических элементов этого коллектива".
+
+	 job_tec_cyborg_ripperdoc_drone:0  "Обновить R"SЂrѕrЅ"
+	 job_tec_cyborg_ripperdoc_drone_plural:0  "Обновить R"SЂrѕrЅs"
+	 job_tec_cyborg_ripperdoc_drone_desc:0  "Кибернетические имплантаты требуют постоянного обслуживания и заботы, и такова задача разработчиков апгрейда; искусные как в медицинских, так и в технических элементах, они одинаково применяют, поддерживают и ухаживают как за металлом, так и за плотью, ремонтируя имплантаты, роботов или болезни".
+	 job_tec_cyborg_ripperdoc_drone_effect_desc:0  "£job_tec_cyborg_ripperdoc£ $job_tec_cyborg_ripperdoc_drone_plural$ повернись §Y$tec_loc_consumer_goods$§! в £mod_planet_amenities_no_happiness_add£ §Y$PLANET_AMENITIES_TITLE$§!, §Y$tec_loc_cybernetic_assembly_mult$§! и $mod_planet_jobs_tec_cybernetics_produces_mult$."
+	 mod_job_tec_cyborg_ripperdoc_drone_add:0  "$job_tec_cyborg_ripperdoc_drone$ Вакансии"
+	 mod_job_tec_cyborg_ripperdoc_drone_per_pop:0  "§G+1§! $job_tec_cyborg_ripperdoc_drone$ Работа за $VALUE$ РџРѕСЃРµР»РµРЅРёСЏ"
+	 mod_job_tec_cyborg_ripperdoc_drone_per_pop_short:0  " \n§G+1§! £mod_job_tec_cyborg_ripperdoc_add£ за $VALUE$ £pop£"
+ # /
+
+ # -------- Синхронный терминал
+	# Назначайте задания роботам, которые добывают ресурсы, и повышайте задания киборгам других классов в зависимости от назначения планеты и зданий
+	 building_tec_cyborg_robot_terminal_effect:0  "Это £building£ "
+
+	 building_tec_cyborg_robot_terminal_1:0  "Синхронный терминал"
+	 building_tec_cyborg_robot_terminal_1_desc:0  "ДЕЛАТЬ"
+
+	 building_tec_cyborg_robot_terminal_2:0  "Синхронный процессор"
+	 building_tec_cyborg_robot_terminal_2_desc:0  "ДЕЛАТЬ"
+
+	 job_tec_cyborg_servitor:0  "Кибер-сервитор"
+	 job_tec_cyborg_servitor_plural:0  "Киберсервиторы"
+	 job_tec_cyborg_servitor_desc:0  "Кибернетические сущности, предназначенные для надлежащего развития колонии и всех ее подпроектов, специально предназначенные для гибкой адаптации задач на основе требуемых потребностей".
+	 job_tec_cyborg_servitor_effect_desc:0  "£job_tec_cyborg_servitor£ $job_tec_cyborg_servitor_plural$ производить §YРесурсы§! и увеличивать £job£ §YВывод§! связанных заданий на основе £stability£ §YОбозначение планеты§! и £building£ §YУлучшающие здания§!."
+	 mod_job_tec_cyborg_servitor_add:0  "$job_tec_cyborg_servitor$ Вакансии"
+	 mod_job_tec_cyborg_servitor_per_pop:0  "§G+1§! $job_tec_cyborg_servitor$ Работа за $VALUE$ РџРѕСЃРµР»РµРЅРёСЏ"
+	 mod_job_tec_cyborg_servitor_per_pop_short:0  " \n§G+1§! £mod_job_tec_cyborg_servitor_add£ за $VALUE$ £pop£"
+
+	 job_tec_cyborg_servitor_drone:0  "Кибер-сервитор Р"сЂрѕрЅ"
+	 job_tec_cyborg_servitor_drone_plural:0  "Киберсервиторы Р"СЂрѕрЅ"
+	 job_tec_cyborg_servitor_drone_desc:0  "$job_tec_cyborg_servitor_desc$"
+	 job_tec_cyborg_servitor_drone_effect_desc:0  "£job_tec_cyborg_servitor_drone£ $job_tec_cyborg_servitor_drone_plural$ производить §YРесурсы§! и увеличивать £job£ §YВывод§! связанных заданий на основе £stability£ §YОбозначение планеты§! и £building£ §YУлучшающие здания§!."
+	 mod_job_tec_cyborg_servitor_drone_add:0  "$job_tec_cyborg_servitor_drone$ Вакансии"
+	 mod_job_tec_cyborg_servitor_drone_per_pop:0  "§G+1§! $job_tec_cyborg_servitor_drone$ Работа за $VALUE$ РџРѕСЃРµР»РµРЅРёСЏ"
+	 mod_job_tec_cyborg_servitor_drone_per_pop_short:0  " \n§G+1§! £mod_job_tec_cyborg_servitor_drone_add£ за $VALUE$ £pop£"
+ # /
+
+ # [X] ------- Сборщики мехадендритов
+	 building_tec_mechadendrite_assembler_effect:0  "это £building£, автоматически собирает обе £job_roboticist£ §Yсинтетический§! или £tec_genetics_icon£ §Yорганический§! РџРѕСЃРµР»РµРЅРёСЏ"
+
+	 building_tec_mechadendrite_assembler_1:0  "Ассемблер механодендритов"
+	 building_tec_mechadendrite_assembler_1_desc:0  "Эти автоматизированные установки печатают любой вид биологического или кибернетического тела с беспрецедентно высокой скоростью, используя исходные компоненты для создания микроструктур, превращающихся в новые живые и усовершенствованные материалы и существа".
+
+	 building_tec_mechadendrite_assembler_2:0  "Механодендритная матрица"
+	 building_tec_mechadendrite_assembler_2_desc:0  "Эти высокие автоматизированные установки печатают любой вид биологического или кибернетического тела с беспрецедентно высокой скоростью, используя исходные компоненты для создания микроструктур, превращающихся в новые живые и усовершенствованные материалы и существа".
+
+	 building_tec_mechadendrite_assembler_3:0  "Мехадендритовый тигель"
+	 building_tec_mechadendrite_assembler_3_desc:0  "Эти высокие автоматизированные установки печатают любой вид биологического или кибернетического тела с беспрецедентно высокой скоростью, используя исходные компоненты для создания микроструктур, превращающихся в новые живые и усовершенствованные материалы и существа".
+ # /
+
+ # -------- Лидерские качества
+	 leader_trait_tec_admiral_cyborg_industrial:0  "Киборг"
+	 leader_trait_tec_admiral_cyborg_industrial_desc:0  "Этот лидер оснащен кибернетическими имплантатами военного класса, которые могут напрямую взаимодействовать с системами командования и контроля флота".
+	 leader_trait_tec_general_cyborg_industrial:0  "$leader_trait_admiral_cyborg$"
+	 leader_trait_tec_general_cyborg_industrial_desc:0  "Этот лидер оснащен кибернетическими имплантатами военного класса, которые не только смертельны в бою, но и поставляются с полным комплектом командования и контроля для повышения осведомленности на поле боя".
+	 leader_trait_tec_governor_cyborg_industrial:0  "$leader_trait_admiral_cyborg$"
+	 leader_trait_tec_governor_cyborg_industrial_desc:0  "Этот руководитель оснащен большой коллекцией разнообразных кибернетических имплантатов, которые, помимо прочего, значительно повышают административную эффективность".
+	 leader_trait_tec_scientist_cyborg_industrial:0  "$leader_trait_admiral_cyborg$"
+	 leader_trait_tec_scientist_cyborg_industrial_desc:0  "Этот лидер был значительно дополнен кибернетическими имплантатами, которые, помимо прочего, обеспечивают нейронный доступ в режиме реального времени ко всем основным исследовательским базам данных".
+	 leader_trait_tec_ruler_cyborg_industrial:0  "$leader_trait_admiral_cyborg$"
+	 leader_trait_tec_ruler_cyborg_industrial_desc:0  "Этот лидер был значительно дополнен кибернетическими имплантатами, которые имеют гораздо больший срок службы, чем устаревшие органические части тела, которые они заменили".
+ # /
+# /
+
+# --------------- Psionic
+
+# /
+
+# --------------- Synthetic
+
+# /
+
+# ------------------------------------------------- Tech
+
+
+# ------------------------------------------------- Ethics
+# --------------- A
+
+
+# ------------------------------------------------- Authorities
+# --------------- A

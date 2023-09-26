@@ -1,0 +1,19 @@
+﻿l_russian:
+
+
+ ENSLAVED_DESC:0 "Этот поселенец порабощен. Порабощенное население вызывает несчастье у всего населения $ethic_egalitarian$ на этой планете."
+
+
+
+requires_technology_tech_galactic_administration:0 "$TRIGGER_FAIL$Требуется технология £society£ §Y$tech_galactic_administration$§! ." 
+requires_ascension_perks_4:0 "$TRIGGER_FAIL$Требуется, чтобы сначала были выбраны 4 других навыка вознесения." 
+
+
+# Resources
+ sr_tec_biomass:0 "Биомасса" 
+ sr_tec_biomass_desc:0 "Каждое существующее существо — не что иное, как материал для создания новых активов для нашего коллектива." 
+ ai_unobtainium: "Эволюционировавшая приманка для искусственного интеллекта"
+ ai_unobtainium_desc: "Эволюционировавшая приманка для искусственного интеллекта"
+# COUNTRY_MODIFIER:0 "$EMPIRE_EFFECTS_W_ICON$" 
+# COUNTRY_MODIFIERS:0 "$EMPIRE_EFFECTS_W_ICON$" 
+# EFFECTS: "[scope_icon_and_name]" 

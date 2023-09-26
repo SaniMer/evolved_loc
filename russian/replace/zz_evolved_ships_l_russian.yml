@@ -1,0 +1,212 @@
+﻿l_russian:
+
+# Ships
+ # Arkship
+	 NAME_ARK_Colonizer:0  "Межгалактический ковчег"
+	 NAME_tecark:0  "Межгалактический ковчег"
+	 tec_ark_colonizer:0  "Межгалактический ковчег"
+	 tec_ark_colonizer_plural:0  "Межгалактические ковчеги"
+
+	 DEFAULT_COLONIZATION_SECTION_ARK:0  "Секция колонизации Ковчега"
+
+	 CORVETTE_FISSION_REACTOR_ARK:0  "$CORVETTE_FISSION_REACTOR$"
+	 CORVETTE_FUSION_REACTOR_ARK:0  "$CORVETTE_FUSION_REACTOR$"
+	 CORVETTE_COLD_FUSION_REACTOR_ARK:0  "$CORVETTE_COLD_FUSION_REACTOR$"
+	 CORVETTE_ANTIMATTER_REACTOR_ARK:0  "$CORVETTE_ANTIMATTER_REACTOR$"
+	 CORVETTE_ZERO_POINT_REACTOR_ARK:0  "$CORVETTE_ZERO_POINT_REACTOR$"
+	 CORVETTE_DARK_MATTER_REACTOR_ARK:0  "$CORVETTE_DARK_MATTER_REACTOR$"
+
+	 SHIP_THRUSTER_1_ARK:0  "$SHIP_THRUSTER_1$"
+	 SHIP_THRUSTER_2_ARK:0  "$SHIP_THRUSTER_2$"
+	 SHIP_THRUSTER_3_ARK:0  "$SHIP_THRUSTER_3$"
+	 SHIP_THRUSTER_4_ARK:0  "$SHIP_THRUSTER_4$"
+	 SHIP_THRUSTER_5_ARK:0  "$SHIP_THRUSTER_5$"
+ # /
+
+ # Dreadnought
+	#  Note:  Дредноуты - это одноцелевой 4-секционный узкоспециализированный линкор
+	 TEC_DREADNOUGH:0  "Дредноут"
+	 tec_dreadnough:0  "Дредноут"
+	 tec_dreadnough_plural:0  "Дредноуты"
+	 TECH_UNLOCK_TEC_DREADNOUGH_CONSTRUCTION_TITLE:0  "§HОткрывает тип корабля:§! Дредноут"
+	 TECH_UNLOCK_TEC_DREADNOUGH_CONSTRUCTION_DESC:1  "§HДредноут§! \n Большая высокопроизводительная конструкция корпуса, специально разработанная для обеспечения высокой боевой эффективности за счет мобильности."
+
+	 CORE_TEC_DREADNOUGH_NORMAL_SECTION:0  "Дредноут"
+	 CORE_TEC_DREADNOUGH_TORPEDO_SECTION:0  "Торпедный дредноут"
+	 CORE_TEC_DREADNOUGH_CARRIER_SECTION:0  "Авианосный дредноут"
+	 CORE_TEC_DREADNOUGH_INTERCEPTOR_SECTION:0  "Дредноут-перехватчик"
+	 CORE_TEC_DREADNOUGH_DISRUPTION_SECTION:0  "Разрушительный дредноут"
+
+	 TEC_DREADNOUGH_SHIP_THRUSTER_1:0  "$SHIP_THRUSTER_1$"
+	 TEC_DREADNOUGH_SHIP_THRUSTER_1_DESC:0  "$SHIP_THRUSTER_1_DESC$"
+
+	 TEC_DREADNOUGH_SHIP_THRUSTER_2:0  "$SHIP_THRUSTER_2$"
+	 TEC_DREADNOUGH_SHIP_THRUSTER_2_DESC:0  "$SHIP_THRUSTER_2_DESC$"
+
+	 TEC_DREADNOUGH_SHIP_THRUSTER_3:0  "$SHIP_THRUSTER_3$"
+	 TEC_DREADNOUGH_SHIP_THRUSTER_3_DESC:0  "$SHIP_THRUSTER_3_DESC$"
+
+	 TEC_DREADNOUGH_SHIP_THRUSTER_4:0  "$SHIP_THRUSTER_4$"
+	 TEC_DREADNOUGH_SHIP_THRUSTER_4_DESC:0  "$SHIP_THRUSTER_4_DESC$"
+
+	 TEC_DREADNOUGH_SHIP_THRUSTER_5:0  "$SHIP_THRUSTER_5$"
+	 TEC_DREADNOUGH_SHIP_THRUSTER_5_DESC:0  "$SHIP_THRUSTER_5_DESC$"
+
+	 TEC_DREADNOUGH_FISSION_REACTOR:1  "$FISSION_REACTOR$"
+	 TEC_DREADNOUGH_FUSION_REACTOR:1  "$FUSION_REACTOR$"
+	 TEC_DREADNOUGH_COLD_FUSION_REACTOR:1  "$COLD_FUSION_REACTOR$"
+	 TEC_DREADNOUGH_ANTIMATTER_REACTOR:1  "$ANTIMATTER_REACTOR$"
+	 TEC_DREADNOUGH_ZERO_POINT_REACTOR:1  "$ZERO_POINT_REACTOR$"
+	 TEC_DREADNOUGH_DARK_MATTER_REACTOR:1  "$DARK_MATTER_REACTOR$"
+ # /
+# /
+
+
+# Quantum line
+	# Quantum = high armor, cloaking and kinetic things
+ # Thruster
+	 TEC_SHIP_THRUSTER_QUANTUM:0  "Двигатели темной материи"
+	 TEC_SHIP_THRUSTER_QUANTUM_DESC:1  "Эти корабельные двигатели используют технологию Темной материи для создания тяги способом, который, по-видимому, бросает вызов многочисленным законам физики".
+	 TEC_DESTROYER_SHIP_THRUSTER_5:0  "$SHIP_THRUSTER_5$"
+	 TEC_DESTROYER_SHIP_THRUSTER_5_DESC:0  "$SHIP_THRUSTER_5_DESC$"
+	 TEC_CRUISER_SHIP_THRUSTER_5:0  "$SHIP_THRUSTER_5$"
+	 TEC_CRUISER_SHIP_THRUSTER_5_DESC:0  "$SHIP_THRUSTER_5_DESC$"
+	 TEC_BATTLESHIP_SHIP_THRUSTER_5:0  "$SHIP_THRUSTER_5$"
+	 TEC_BATTLESHIP_SHIP_THRUSTER_5_DESC:0  "$SHIP_THRUSTER_5_DESC$"
+	 TEC_TITAN_SHIP_THRUSTER_5:0  "$SHIP_THRUSTER_5$"
+	 TEC_TITAN_SHIP_THRUSTER_5_DESC:0  "$SHIP_THRUSTER_5_DESC$"
+	 TEC_COLOSSUS_SHIP_THRUSTER_5:0  "$SHIP_THRUSTER_5$"
+	 TEC_COLOSSUS_SHIP_THRUSTER_5_DESC:0  "$SHIP_THRUSTER_5_DESC$"
+ # /
+ # Afterburner
+	 TEC_AFTERBURNER_QUANTUM:0  "Усовершенствованные форсажные камеры"
+	 TEC_AFTERBURNER_QUANTUM_DESC:0  "Эти улучшенные форсажные камеры обеспечивают кораблю еще большую боевую скорость".
+
+	 TEC_SMALL_AFTERBURNER_QUANTUM:0  "Небольшие усовершенствованные форсажные камеры"
+	 TEC_MEDIUM_AFTERBURNER_QUANTUM:0  "Форсажные камеры средней мощности"
+	 TEC_LARGE_AFTERBURNER_QUANTUM:1  "Усовершенствованные форсажные камеры"
+ # /
+ # Броня
+	 TEC_ARMOR_QUANTUM:0  "Квантановая броня"
+	 TEC_ARMOR_QUANTUM_DESC:0  "Этот невероятно плотный и прочный материал может противостоять огневой мощи, которая превратила бы броню из любых других сплавов в шлак".
+ # /
+ # Оружие
+	# Массовый водитель
+		 TEC_MASS_DRIVER_QUANTUM:0  "Квантовый гипердрайвер"
+		 TEC_MASS_DRIVER_QUANTUM_DESC:0  "Эта обновленная версия старой конструкции спирального пистолета еще более разрушительна, чем новейшие конструкции рельсотрона. Он способен запускать снаряды с невероятной точностью и скоростью".
+	# /
+	# Кинетическая артиллерия
+		 TEC_KINETIC_ARTILLERY_QUANTUM:0  "Фазовая артиллерия"
+		 TEC_KINETIC_ARTILLERY_QUANTUM_DESC:0  "Еще более мощная дальнобойная артиллерийская пушка корабельного базирования, оснащенная новым стволом и модернизированным компьютером управления огнем".
+	# /
+		 TEC_MASS_ACCELERATOR_QUANTUM:0  "Гигантская пушка"
+		 TEC_MASS_ACCELERATOR_QUANTUM_DESC:0  "Еще более мощный вариант спинномозговой кинетической артиллерии".
+
+		 TEC_MASS_ACCELERATOR_TURRET_QUANTUM:0  "$MASS_ACCELERATOR_2$ Турель"
+		 TEC_MASS_ACCELERATOR_TURRET_QUANTUM_DESC:0  "Еще более мощный вариант турельной кинетической артиллерии".
+	# /
+		 TEC_QUANTUM_LASER:0  "Гамма-лазер"
+		 TEC_QUANTUM_LASER_DESC:0  "Электромагнитное излучение, испускаемое гамма-лазерами, имеет чрезвычайно высокую частоту. Их разрушительный потенциал не имеет себе равных в области лазерного оружия".
+	# /
+ # /
+
+ # Cloaking
+	# Reduces armor unless quantanium
+	 TEC_CLOAKING_QUANTUM:0  "A"
+	 TEC_CLOAKING_QUANTUM_DESC:0  "A"
+	 TEC_CORVETTE_CLOAKING_QUANTUM:0  "A"
+	 TEC_CORVETTE_CLOAKING_QUANTUM_DESC:0  "A"
+	 TEC_DESTROYER_CLOAKING_QUANTUM:0  "A"
+	 TEC_DESTROYER_CLOAKING_QUANTUM_DESC:0  "A"
+	 TEC_CRUISER_CLOAKING_QUANTUM:0  "A"
+	 TEC_CRUISER_CLOAKING_QUANTUM_DESC:0  "A"
+	 TEC_BATTLESHIP_CLOAKING_QUANTUM:0  "A"
+	 TEC_BATTLESHIP_CLOAKING_QUANTUM_DESC:0  "A"
+	 TEC_SCIENCE_CLOAKING_QUANTUM:0  "A"
+	 TEC_SCIENCE_CLOAKING_QUANTUM_DESC:0  "A"
+	 TEC_CLOAKING_QUANTUM_TOOLTIP:1  "A"
+ # /
+# /
+
+# Entropy Line
+	# High energy things
+ # Computer
+	 TEC_COMBAT_COMPUTER_SWARM_ENTROPY:0  "Вероятностный массив (рой)"
+	 TEC_COMBAT_COMPUTER_PICKET_ENTROPY:0  "Вероятностный массив (пикет)"
+	 TEC_COMBAT_COMPUTER_LINE_ENTROPY:0  "Массив вероятностей (строка)"
+	 TEC_COMBAT_COMPUTER_ARTILLERY_ENTROPY:0  "Вероятностный массив (артиллерия)"
+	 TEC_COMBAT_COMPUTER_CARRIER_ENTROPY:0  "Массив вероятностей (несущая)"
+	 TEC_COMBAT_COMPUTER_TORPEDO_ENTROPY:0  "Массив вероятностей (торпеда)"
+	 TEC_COMBAT_COMPUTER_PLATFORM_ENTROPY:0  "Вероятностный массив (платформа)"
+ # /
+ # Реактор
+	 TEC_ENTROPY_REACTOR:0  "Вероятностный движок"
+	 TEC_ENTROPYREACTOR_DESC:0  "$tech_dark_matter_power_core_desc$"
+ # /
+ # Усилитель
+	 TEC_REACTOR_BOOSTER_ENTROPY:0  "Ускоритель вероятностного реактора"
+	 TEC_REACTOR_BOOSTER_ENTROPY_DESC:0  "Открытие энергии антивещества позволяет создавать высокоразвитые реакторные ускорители, которые могут значительно усилить корабельные реакторы".
+ # /
+ # Щиты
+	 TEC_ENTROPY_SHIELD:0  "Отражатели темной материи"
+	 TEC_ENTROPY_SHIELD_DESC:0  "$tech_dark_matter_deflector_desc$"
+	 TEC_SMALL_ENTROPY_DEFLECTOR:1  "Маленький $DARK_MATTER_DEFLECTOR$"
+	 TEC_MEDIUM_ENTROPY_DEFLECTOR:1  "Средний $DARK_MATTER_DEFLECTOR$"
+	 TEC_LARGE_ENTROPY_DEFLECTOR:1  "Большой $DARK_MATTER_DEFLECTOR$"
+
+	# CORVETTE
+	 TEC_CORVETTE_DARK_MATTER_REACTOR:1  "$TEC_ENTROPY_REACTOR$"
+	# DESTROYER
+	 TEC_DESTROYER_DARK_MATTER_REACTOR:1  "$TEC_ENTROPY_REACTOR$"
+	# CRUISER
+	 TEC_CRUISER_DARK_MATTER_REACTOR:1  "$TEC_ENTROPY_REACTOR$"
+	# BATTLESHIP
+	 TEC_BATTLESHIP_DARK_MATTER_REACTOR:1  "$TEC_ENTROPY_REACTOR$"
+	# TITAN
+	 TEC_TITAN_DARK_MATTER_REACTOR:1  "$TEC_ENTROPY_REACTOR$"
+	# JUGGERNAUT
+	 TEC_JUGGERNAUT_DARK_MATTER_REACTOR:0  "$TEC_ENTROPY_REACTOR$"
+	# COLOSSUS
+	 TEC_COLOSSUS_DARK_MATTER_REACTOR:1  "$TEC_ENTROPY_REACTOR$"
+	# PLATFORM
+	 TEC_PLATFORM_DARK_MATTER_REACTOR:1  "$TEC_ENTROPY_REACTOR$"
+	# ION CANNON
+	 TEC_ION_CANNON_DARK_MATTER_REACTOR:1  "$TEC_ENTROPY_REACTOR$"
+	# STARBASE
+	 TEC_STARBASE_DARK_MATTER_REACTOR:1  "$TEC_ENTROPY_REACTOR$"
+ # /
+ # Weapons
+	# Arc emitter
+		 TEC_ARC_EMITTER_ENTROPY:0  "Энтропийный проектор"
+		 TEC_ARC_EMITTER_ENTROPY_DESC:0  "Эти модернизированные излучатели оснащены улучшенными фокусирующими линзами, что приводит к более мощному выбросу энергии".
+		 TEC_ARC_EMITTER_TURRET_ENTROPY:0  "$TEC_ARC_EMITTER_ENTROPY$ Турель"
+		 TEC_ARC_EMITTER_TURRET_ENTROPY_DESC:0  "$TEC_ARC_EMITTER_ENTROPY_DESC$"
+	# /
+	# Разрушитель
+		 TEC_DISRUPTOR_ENTROPY:0  "Энтропийный вытеснитель"
+		 TEC_DISRUPTOR_ENTROPY_DESC:0  "Чрезвычайно мощные разрушители, которые запускают квантовые энергетические заряды, нанося невероятный урон тем, кому не повезло оказаться у них на пути".
+	# /
+	# Ракеты
+		 TEC_MISSILE_ENTROPY:0  Ракеты "Мародер"
+		 TEC_MISSILE_ENTROPY_DESC:0  "Эти высокоразвитые ракеты оснащены ограниченными бортовыми пилотами с искусственным интеллектом, которые существенно улучшают их характеристики и способность отслеживать цели".
+	# /
+	# Торпеды
+		 TEC_TORPEDO_ENTROPY:0  "Торпеды-опустошители"
+		 TEC_TORPEDO_ENTROPY_DESC:0  "Усовершенствованные торпеды с очень мощными боеголовками. У них более изящный дизайн, более быстрые двигатели и модернизированные модуляторы щита для прохождения энергетических экранов".
+	# /
+	# Точечная защита
+		 TEC_POINT_DEFENCE_ENTROPY:0  "Защита от изменчивости"
+		 TEC_POINT_DEFENCE_ENTROPY_DESC:1  "Более широкий спектр доступных типов боеприпасов значительно повышает эффективность перехвата поступающих угроз".
+	# /
+	# Плазма
+		 TEC_PLASMA_ENTROPY:0  "Плазменная пушка"
+		 TEC_PLASMA_ENTROPY_DESC:0  "Новейшее плазменное оружие, эти пушки являются полностью милитаризованными версиями старых, несколько импровизированных плазменных метателей. Их плазменные снаряды еще смертоноснее."
+	# /
+	# Энергетическое копье
+		 TEC_ENERGY_LANCE_QUANTUM:0  "Энтропийный коллайдер"
+		 TEC_ENERGY_LANCE_QUANTUM_DESC:1  "Более мощная версия копья частиц, это оружие выстреливает тахионным лучом огромной мощности".
+		 TEC_ENERGY_LANCE_TURRET_QUANTUM:0  "$ENERGY_LANCE_2$ Турель"
+		 TEC_ENERGY_LANCE_TURRET_QUANTUM_DESC:0  "$ENERGY_LANCE_2_DESC$"
+	# /
+ # /
+# /

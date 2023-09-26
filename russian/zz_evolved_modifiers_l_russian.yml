@@ -1,0 +1,602 @@
+﻿l_russian:
+
+# ------------------------------------------------------------
+    # SCRIPTED modifiers
+# ------------------------------------------------------------
+	mod_pop_job_naval_mult:0 "£mod_country_naval_cap_add£ $MOD_COUNTRY_NAVAL_CAP_ADD$ от £job£"
+
+# ------------------------------------------------------------
+# Balancing modifiers
+# ------------------------------------------------------------
+ modifier_tec_fallen_empire_might:0 "Древняя мощь"
+ modifier_tec_leviathan_might:0 "Левиафан мог бы"
+ modifier_tec_space_critter_might:0 "Закаленный выживший"
+     
+# ------------------------------------------------------------     
+# ORIGIN Modifiers
+# ------------------------------------------------------------
+ tec_stop_arkfleet:0 "Отсутствие протоколов флота" #NT!
+ tec_stop_arkfleet_desc:0 "Протоколы колонизации этого флота приостановлены до тех пор, пока не будет принято решение." #NT!
+
+
+# EMPIRE MODIFIERS
+# ------------------------------------------------------------
+# Arhivist Modifiers
+# ------------------------------------------------------------
+
+
+ modifier_tec_archivist_0:0 "Протокольное архивирование" #NT!
+ modifier_tec_archivist_0_desc:0 "У нас есть больше времени, чем необходимо, чтобы записать в наши архивы чудеса прошлого. Возможно, нам следует поискать больше информации там." #NT!
+
+ modifier_tec_archivist_1:0 "Стандартное архивирование" #NT!
+ modifier_tec_archivist_1_desc:0 "Первый обмен информацией с иностранной империей сделал наших граждан счастливыми, наших каталогизаторов занятыми, а наши архивы - богатыми!" #NT!
+
+ modifier_tec_archivist_2:0 "Индексированные архивы" #NT!
+ modifier_tec_archivist_2_desc:0 "§EПервые обмены информацией с иностранными империями сделали наших граждан счастливыми, наших каталогизаторов занятыми, а наши архивы — богатыми!§!" #NT!
+
+ modifier_tec_archivist_3:0 "Обильные архивы" #NT!
+ modifier_tec_archivist_3_desc:0 "§EНаши файлы данных полностью заполнены ксенокультурой, технологиями и инновациями, наши каталогизаторы работают весь день, чтобы вся эта информация была систематизирована и доступна для всех.§!" #NT!
+
+ modifier_tec_archivist_4:0 "Переполненные архивы" #NT!
+ modifier_tec_archivist_4_desc:0 "§EИзбыток информации никогда не бывает плохим, если ею бережно управляют и надлежащим образом курируют; Наши Достиженцы работают почти на пределе своих возможностей, и мы собираем почти всю информацию в галактике. Наш вид счастлив иметь доступ к этому огромному разнообразию информации.§!" #NT!
+
+ modifier_tec_archivist_5:0 "Завершенные архивы" #NT!
+ modifier_tec_archivist_5_desc:0 "§EИзбыток информации никогда не бывает плохим, если ею бережно управляют и надлежащим образом курируют; Наш каталогизатор работает на пределе своих возможностей, и мы собираем всю информацию в галактике. Наш вид счастлив иметь доступ к этому огромному разнообразию информации.§!" #NT!
+
+# Machine Pompous
+# ------------------------------------------------------------
+ modifier_tec_machine_pompous:0 "Предложение запроса" #NT!
+ modifier_tec_machine_pompous_desc:0 "§EПожалуйста, подождите...§!" #NT!
+
+# Impersonator machine
+# ------------------------------------------------------------
+
+ modifier_tec_impersonation_neutral:0 "Равновесие личности" #NT!
+ modifier_tec_impersonation_neutral_desc:0 "§EВсе программы машинного интеллекта мирно работают вместе.§!" #NT!
+
+ modifier_tec_impersonation_procurator:0 "Прокурорская предвзятость" #NT!
+ modifier_tec_impersonation_procurator_desc:0 "§EАдминистративная и производственная часть этого Машинного разума взяла на себя управление, значительно способствуя промышленному развитию и производству дронов в обмен на технологический прогресс.§!" #NT!
+
+ modifier_tec_impersonation_offender:0 "Предвзятость правонарушителя" #NT!
+ modifier_tec_impersonation_offender_desc:0 "§EАгрессивная и тактическая часть этого Машинного разума взяла на себя командование, значительно содействуя военно-морским и оборонительным средствам в обмен на производство дронов.§!" #NT!
+
+ modifier_tec_impersonation_inventor:0 "Предвзятость изобретателя" #NT!
+ modifier_tec_impersonation_inventor_desc:0 "§EЛогическая и холодная часть этого Машинного разума взяла на себя управление, значительно способствуя технологическому прогрессу и эффективности в обмен на промышленное производство.§!" #NT!
+
+
+
+# ------------------------------------------------------------
+# Everevolving hive
+# ------------------------------------------------------------
+
+ modifier_tec_everevolving_primal:0 "Изначальное сознание" #NT!
+ modifier_tec_everevolving_primal_desc:0 "§EУправляемый в первую очередь инстинктами, этот гештальт-коллектив движется, пожирает и побеждает как непреодолимая органическая сила.§!" #NT!
+
+ modifier_tec_everevolving_young:0 "Ювенальное сознание" #NT!
+ modifier_tec_everevolving_young_desc:0 "§EНаучившись существовать иначе, чем просто деструктивное и инстинктивное поведение, это гештальт-сознание пытается учиться и развиваться.§!" #NT!
+
+ modifier_tec_everevolving_mature:0 "Зрелое сознание" #NT!
+ modifier_tec_everevolving_mature_desc:0 "§EУстановившееся как правильно развитое сознание, способности и восприятие вселенной в целом у этого коллектива сильно выросли.§!" #NT!
+
+ modifier_tec_everevolving_venerable:0 "Почтенное Сознание" #NT!
+ modifier_tec_everevolving_venerable_desc:0 "§EНет равных мудрости и обширным знаниям этого коллективного сознания, которое после столетий процесса глубокого обучения стало чем-то большим, чем может себе представить любой целеустремленный организм§!." #NT!
+
+# ------------------------------------------------------------
+# Scaling modifiers
+# ------------------------------------------------------------
+
+ modifier_tec_blood_sacrifice:0 "Кровавая жертва" #NT!
+ pm_tec_blood_sacrifice:0 "Кровь для бога крови." #NT!
+
+ test_modifier:0 "Тест" #NT!
+ test_modifier_desc:0 "щекочет" #NT!
+
+ modifier_tec_machine_convergence_reached:0 "Оптимальный выход" #NT!
+ modifier_tec_machine_convergence_reached_desc:0 "§Эконвергенция достигнута§!." #NT!
+ modifier_tec_machine_convergence_meh:0 "Средний выход" #NT!
+ modifier_tec_machine_convergence_meh_desc:0 "§Эконвергенция достигнута§!." #NT!
+ modifier_tec_machine_convergence_neutral:0 "Статистически нейтральный результат" #NT!
+ modifier_tec_machine_convergence_neutral_desc:0 "§Эконвергенция достигнута§!." #NT!
+ modifier_tec_machine_convergence_bad:0 "Плохой результат" #NT!
+ modifier_tec_machine_convergence_bad_desc:0 "§Эконвергенция достигнута§!." #NT!
+
+ modifier_tec_mindflayed_10_pops:0 "Поглощенные разумы" #NT!
+ modifier_tec_mindflayed_10_pops_desc:0 "§EA§!." #NT!
+ modifier_tec_mindflayed_20_pops:0 "Поглощенные разумы" #NT!
+ modifier_tec_mindflayed_20_pops_desc:0 "§EA§!." #NT!
+ modifier_tec_mindflayed_30_pops:0 "Поглощенные разумы" #NT!
+ modifier_tec_mindflayed_30_pops_desc:0 "§EA§!." #NT!
+ modifier_tec_mindflayed_40_pops:0 "Поглощенные разумы" #NT!
+ modifier_tec_mindflayed_40_pops_desc:0 "§EA§!." #NT!
+ modifier_tec_mindflayed_60_pops:0 "Поглощенные разумы" #NT!
+ modifier_tec_mindflayed_60_pops_desc:0 "§EA§!." #NT!
+ modifier_tec_mindflayed_80_pops:0 "Поглощенные разумы" #NT!
+ modifier_tec_mindflayed_80_pops_desc:0 "§EA§!." #NT!
+ modifier_tec_mindflayed_100_pops:0 "Поглощенные разумы" #NT!
+ modifier_tec_mindflayed_100_pops_desc:0 "§EA§!." #NT!
+ modifier_tec_mindflayed_150_pops:0 "Поглощенные разумы" #NT!
+ modifier_tec_mindflayed_150_pops_desc:0 "§EA§!." #NT!
+ modifier_tec_mindflayed_250_pops:0 "Поглощенные разумы" #NT!
+ modifier_tec_mindflayed_250_pops_desc:0 "§EA§!." #NT!
+ modifier_tec_mindflayed_500_pops:0 "Поглощенные разумы" #NT!
+ modifier_tec_mindflayed_500_pops_desc:0 "§EA§!." #NT!
+ modifier_tec_mindflayed_1000_pops:0 "Поглощенные разумы" #NT!
+ modifier_tec_mindflayed_1000_pops_desc:0 "§EA§!." #NT!
+ modifier_tec_mindflayed_2000_pops:0 "Поглощенные разумы" #NT!
+ modifier_tec_mindflayed_2000_pops_desc:0 "§EA§!." #NT!
+ modifier_tec_mindflayed_4000_pops:0 "Поглощенные разумы" #NT!
+ modifier_tec_mindflayed_4000_pops_desc:0 "§EA§!." #NT!
+ modifier_tec_mindflayed_8000_pops:0 "Поглощенные разумы" #NT!
+ modifier_tec_mindflayed_8000_pops_desc:0 "§EA§!." #NT!
+
+ modifier_tec_digicomposed_10_pops:0 "Оцифрованные личности" #NT!
+ modifier_tec_digicomposed_10_pops_desc:0 "§EA§!." #NT!
+ modifier_tec_digicomposed_20_pops:0 "Оцифрованные личности" #NT!
+ modifier_tec_digicomposed_20_pops_desc:0 "§EA§!." #NT!
+ modifier_tec_digicomposed_30_pops:0 "Оцифрованные личности" #NT!
+ modifier_tec_digicomposed_30_pops_desc:0 "§EA§!." #NT!
+ modifier_tec_digicomposed_40_pops:0 "Оцифрованные личности" #NT!
+ modifier_tec_digicomposed_40_pops_desc:0 "§EA§!." #NT!
+ modifier_tec_digicomposed_60_pops:0 "Оцифрованные личности" #NT!
+ modifier_tec_digicomposed_60_pops_desc:0 "§EA§!." #NT!
+ modifier_tec_digicomposed_80_pops:0 "Оцифрованные личности" #NT!
+ modifier_tec_digicomposed_80_pops_desc:0 "§EA§!." #NT!
+ modifier_tec_digicomposed_100_pops:0 "Оцифрованные личности" #NT!
+ modifier_tec_digicomposed_100_pops_desc:0 "§EA§!." #NT!
+ modifier_tec_digicomposed_150_pops:0 "Оцифрованные личности" #NT!
+ modifier_tec_digicomposed_150_pops_desc:0 "§EA§!." #NT!
+ modifier_tec_digicomposed_250_pops:0 "Оцифрованные личности" #NT!
+ modifier_tec_digicomposed_250_pops_desc:0 "§EA§!." #NT!
+ modifier_tec_digicomposed_500_pops:0 "Оцифрованные личности" #NT!
+ modifier_tec_digicomposed_500_pops_desc:0 "§EA§!." #NT!
+ modifier_tec_digicomposed_1000_pops:0 "Оцифрованные личности" #NT!
+ modifier_tec_digicomposed_1000_pops_desc:0 "§EA§!." #NT!
+ modifier_tec_digicomposed_2000_pops:0 "Оцифрованные личности" #NT!
+ modifier_tec_digicomposed_2000_pops_desc:0 "§EA§!." #NT!
+ modifier_tec_digicomposed_4000_pops:0 "Оцифрованные личности" #NT!
+ modifier_tec_digicomposed_4000_pops_desc:0 "§EA§!." #NT!
+ modifier_tec_digicomposed_8000_pops:0 "Оцифрованные личности" #NT!
+ modifier_tec_digicomposed_8000_pops_desc:0 "§EA§!." #NT!
+
+
+ modifier_tec_hidden_organicarch_modifier:0 "Органическая архитектура" #NT!
+ modifier_tec_hidden_organicarch_modifier_desc:0 "§EПища...§!." #NT!
+
+ modifier_tec_hidden_digitalization_modifier:0 "Проекция киберпространства" #NT!
+ modifier_tec_hidden_digitalization_modifier_desc:0 "§EВсе системы номинальные...§!." #NT!
+
+ modifier_tec_percussive_modifier:0 "Сломанная каденция" #NT!
+ modifier_tec_percussive_modifier_desc:0 "§EШепот о нашем падшем роде будет преследовать наших врагов...§!." #NT!
+
+ modifier_tec_percussive_modifier_good:0 "Резонирующая каденция" #NT!
+ modifier_tec_percussive_modifier_good_desc:0 "§EДаже после смерти память о нашем роде проявляется и вдохновляет весь коллектив, укрепляя наши флоты.§!." #NT!
+
+# ------------------------------------------------------------
+# NECROIDS
+# ------------------------------------------------------------
+ tec_delete_this_army:0 "Просроченная армия" #NT!
+ tec_delete_this_army_desc:0 "Эта армия не была предназначена для жизни, или смерти, или чего бы то ни было; она выбыла." #NT!
+
+# ------------------------------------------------------------
+# Traditions
+# ------------------------------------------------------------
+ tec_gotta_go_fast_colonizer:0 "Надо идти быстро" #NT!
+ tec_gotta_go_fast_colonizer_desc:0 "Худшее в том, чтобы быть быстрее света, это то, что вы живете в постоянной темноте." #NT!
+
+ modifier_tec_art_of_war_war:0 "Искусство войны" #NT!
+ modifier_tec_art_of_war_war_desc:0 "Знай врага, знай себя" #NT!
+
+ modifier_tec_art_of_war_unity:0 "Искусство войны" #NT!
+ modifier_tec_art_of_war_unity_desc:0 "Вместе мы стоим" #NT!
+
+ modifier_tec_relativistic_knowledge:0 "Релятивистские знания" #NT!
+ modifier_tec_relativistic_knowledge_desc:0 "Вместе мы стоим" #NT!
+ modifier_tec_relativistic_knowledge_1:0 "Релятивистские знания" #NT!
+ modifier_tec_relativistic_knowledge_1_desc:0 "Из сомнения приходит новшество" #NT!
+ modifier_tec_relativistic_knowledge_2:0 "Релятивистские знания" #NT!
+ modifier_tec_relativistic_knowledge_2_desc:0 "Из сомнения приходит новшество" #NT!
+ modifier_tec_relativistic_knowledge_3:0 "Релятивистские знания" #NT!
+ modifier_tec_relativistic_knowledge_3_desc:0 "Из сомнения приходит новшество" #NT!
+ modifier_tec_relativistic_knowledge_4:0 "Релятивистские знания" #NT!
+ modifier_tec_relativistic_knowledge_4_desc:0 "Из сомнения приходит новшество" #NT!
+ modifier_tec_relativistic_knowledge_5:0 "Релятивистские знания" #NT!
+ modifier_tec_relativistic_knowledge_5_desc:0 "Из сомнения приходит новшество" #NT!
+ modifier_tec_relativistic_knowledge_6:0 "Релятивистские знания" #NT!
+ modifier_tec_relativistic_knowledge_6_desc:0 "Из сомнения приходит новшество" #NT!
+ modifier_tec_relativistic_knowledge_7:0 "Релятивистские знания" #NT!
+ modifier_tec_relativistic_knowledge_7_desc:0 "Из сомнения приходит новшество" #NT!
+ modifier_tec_relativistic_knowledge_8:0 "Релятивистские знания" #NT!
+ modifier_tec_relativistic_knowledge_8_desc:0 "Из сомнения приходит новшество" #NT!
+ modifier_tec_relativistic_knowledge_9:0 "Релятивистские знания" #NT!
+ modifier_tec_relativistic_knowledge_9_desc:0 "Из сомнения приходит новшество" #NT!
+ modifier_tec_relativistic_knowledge_10:0 "Релятивистские знания" #NT!
+ modifier_tec_relativistic_knowledge_10_desc:0 "Из сомнения приходит новшество" #NT!
+ modifier_tec_relativistic_knowledge_11:0 "Релятивистские знания" #NT!
+ modifier_tec_relativistic_knowledge_11_desc:0 "Из сомнения приходит новшество" #NT!
+ modifier_tec_relativistic_knowledge_12:0 "Релятивистские знания" #NT!
+ modifier_tec_relativistic_knowledge_12_desc:0 "Из сомнения приходит новшество" #NT!
+ modifier_tec_relativistic_knowledge_13:0 "Релятивистские знания" #NT!
+ modifier_tec_relativistic_knowledge_13_desc:0 "Из сомнения приходит новшество" #NT!
+ modifier_tec_relativistic_knowledge_14:0 "Релятивистские знания" #NT!
+ modifier_tec_relativistic_knowledge_14_desc:0 "Из сомнения приходит новшество" #NT!
+ modifier_tec_relativistic_knowledge_15:0 "Релятивистские знания" #NT!
+ modifier_tec_relativistic_knowledge_15_desc:0 "Из сомнения приходит новшество" #NT!
+
+# Genetic Ascension
+ pm_tec_gene_bad_planet:0 "Высвобожденный вирус" #NT!
+ pm_tec_gene_bad_planet_desc:0 "§EПросто небольшой кашель...§!." #NT!
+
+ pm_tec_gene_good_planet:0 "Жизнеспособная нить" #NT!
+ pm_tec_gene_good_planet_desc:0 "§EЖизнеспособная вирусная нить распространяется по планете, увеличивая численность населения. §!." #NT!
+
+ tec_gene_bad_pop:0 "Вирусные проблемы" #NT!
+ tec_gene_bad_pop_desc:0 "§EПросто небольшой кашель...§!." #NT!
+
+ tec_gene_good_pop:0 "Генетические дары" #NT!
+ tec_gene_good_pop_desc:0 "§EВременно усилен!§!." #NT!
+
+# Psionic ascension
+ pm_tec_psionic_ascension_cooldown:0 "Перезарядка Ритуала Вознесения" #NT!
+ pm_tec_psionic_ascension_cooldown_desc:0 "§EРитуал, поскольку он опасен и требует большой псионической концентрации, требует времени для реорганизации.§!." #NT!
+
+# Cyber ascension
+ modifier_tec_cybernetic_gating:0 "Кибернетические исследования" #NT!
+ modifier_tec_cybernetic_gating_desc:0 "§ЕВ настоящее время проводится несколько кибернетических испытаний для создания чертежей кибернетических характеристик.§!." #NT!
+
+ pm_tec_cyb_bad_planet:0 "Неудачная кибернетика" #NT!
+ pm_tec_cyb_bad_planet_desc:0 "§EДаже при перезапуске некоторые кибернетические аугментации просто отказываются работать§!." #NT!
+
+ pm_tec_cyb_good_planet:0 "Усиленная кибернетика" #NT!
+ pm_tec_cyb_good_planet_desc:0 "§Эффективность 110%.§!." #NT!
+
+ pm_tec_cyb_crime_planet:0 "Кибернетический терроризм" #NT!
+ pm_tec_cyb_crime_planet_desc:0 "§EХакеры, мусорщики и похитители дополнений пытаются саботировать планету.§!." #NT!
+
+ pm_tec_cyb_rebel_planet:0 "Цифровое диссидентство" #NT!
+ pm_tec_cyb_rebel_planet_desc:0 "§EВоюя против властей, небольшая фракция киборгов-девиантов пытается саботировать дела планеты.§!." #NT!
+
+
+ tec_cyb_bad_pop:0 "Ошибка 482. Зацикливание запроса" #NT!
+ tec_cyb_bad_pop_desc:0 "§EСнижение эффективности из-за слишком эффективных контрмер.§!." #NT!
+
+ tec_cyb_good_pop:0 "Улучшенная кибернетика" #NT!
+ tec_cyb_good_pop_desc:0 "§EПовышение эффективности за счет слишком эффективных контрмер.§!." #NT!
+
+ tec_dimensional_rage_1:0 "Пространственная ярость" #NT!
+ tec_dimensional_rage_1_desc:0 "Худшее в том, чтобы быть быстрее света, это то, что вы живете в постоянной темноте." #NT!
+ tec_dimensional_rage_2:0 "Пространственная ярость" #NT!
+ tec_dimensional_rage_2_desc:0 "Худшее в том, чтобы быть быстрее света, это то, что вы живете в постоянной темноте." #NT!
+ tec_dimensional_rage_3:0 "Пространственная ярость" #NT!
+ tec_dimensional_rage_2_desc:0 "Худшее в том, чтобы быть быстрее света, это то, что вы живете в постоянной темноте." #NT!
+ tec_dimensional_rage_4:0 "Пространственная ярость" #NT!
+ tec_dimensional_rage_2_desc:0 "Худшее в том, чтобы быть быстрее света, это то, что вы живете в постоянной темноте." #NT!
+ tec_dimensional_rage_5:0 "Пространственная ярость" #NT!
+ tec_dimensional_rage_2_desc:0 "Худшее в том, чтобы быть быстрее света, это то, что вы живете в постоянной темноте." #NT!
+ tec_dimensional_rage_10:0 "Пространственная ярость" #NT!
+ tec_dimensional_rage_2_desc:0 "Худшее в том, чтобы быть быстрее света, это то, что вы живете в постоянной темноте." #NT!
+
+# Outreach temporally bonus
+ pm_tec_outreach_colony_bonus:0 "Предварительно напечатанные модули" #NT!
+ pm_tec_outreach_colony_bonus_desc:0 "Несколько предварительно напечатанных модулей готовы к развертыванию, чтобы помочь развитию колонии." #NT!
+
+
+
+
+ tec_debug_cheat:0 "Чит Двигатель" #NT!
+ tec_debug_cheat_desc:0 "Бип-буп" #NT!
+
+ modifier_tec_debug_building:0 "Чит Планета" #NT!
+ modifier_tec_debug_building_desc:0 "Бип-буп" #NT!
+
+ tec_supertestbuilding:0 "Чит здание" #NT!
+ tec_supertestbuilding_desc:0 "Подавляющая сила" #NT!
+
+ opinion_tec_debug:0 "Evolved действительно хорош, поверь мне" #NT!
+
+#PLANET MODIFIERS
+
+# = = = = = = = = = = = = = = = = = = = = = = = =
+#MACHINERF
+# = = = = = = = = = = = = = = = = = = = = = = = =
+ pm_tec_unoptimized_80_modifier:0 "Сниженная эффективность" #NT!
+ pm_tec_unoptimized_80_modifier_desc:0 "У нас все еще есть недостатки дизайна, унаследованные от наших первоначальных создателей. Эффективность серьезно снижается, пока мы не сможем преодолеть этот недостаток.\n\nНаши интерфейсы работают с эффективностью §R80%§." #NT!
+ 
+ pm_tec_unoptimized_90_modifier:0 "Сниженная эффективность" #NT!
+ pm_tec_unoptimized_90_modifier_desc:0 "Наши интерфейсы теперь частично адаптированы к новым кодам и оптимизации, но должны быть реализованы новые подпрограммы.\n\nНаши интерфейсы работают с эффективностью §Y85%§." #NT!
+  
+ pm_tec_unoptimized_95_modifier:0 "Почти оптимальная эффективность" #NT!
+ pm_tec_unoptimized_95_modifier_desc:0 "С некоторыми корректировками интерфейсы теперь лучше реагируют на новое кодирование, мы близки к полной перестройке системы.\n\nНаши интерфейсы работают с эффективностью §G95%§." #NT!
+  
+ pm_tec_unoptimized_100_modifier:0 "Полная эффективность" #NT!
+ pm_tec_unoptimized_100_modifier_desc:0 "Все блоки в рабочем состоянии.\nnВсе интерфейсы машины работают с эффективностью §B100%§." #NT!
+ 
+# - Free modification -
+ modifier_tec_free_modification:0 "Принятие изменений" #NT!
+ modifier_tec_free_modification_desc:0 "§EИзменения требуют жертв, но приложенные усилия требуют быстрых и эффективных действий для обеспечения нашего будущего.§!" #NT!
+  
+# = = = = = = = = = = = = = = = = = = = = = = = =
+#TERRAFORM
+# = = = = = = = = = = = = = = = = = = = = = = = =
+ pm_tec_protoworld_modifier:0 "Протомир" #NT!
+ pm_tec_protoworld_modifier_desc:0 "Атмосферные и литосферные изменения в этом мире вызывают ускоренный процесс терраформации." #NT!
+  
+ pm_tec_terra_proto_random:0 "Изменение протомира" #NT!
+ pm_tec_terra_proto_random_desc:0 "Атмосферные и литосферные изменения в этом мире вызывают ускоренный процесс терраформации." #NT!
+  
+ pm_tec_terra_proto_halted:0 "Запертый протомир" #NT!
+ pm_tec_terra_proto_halted_desc:0 "Атмосферные и литосферные изменения в этом мире принудительно стабилизируются, избегая любого естественного процесса терраформирования." #NT!
+ 
+ 
+ pm_tec_terraform_madness_barren:0 "В условиях радикального терраформирования" #NT!
+ pm_tec_terraform_madness_barren_desc:0 "Серия ядерных реакций, передовые процессы и нанороботы полностью преобразуют эту планету." #NT!
+  
+ pm_tec_terraform_madness_barren_hive:0 "В условиях радикального терраформирования" #NT!
+ pm_tec_terraform_madness_barren_hive_desc:0 "Постоянно растущая мерзость полностью реформирует эту планету." #NT!
+ 
+ 
+ 
+ pm_tec_terraform_madness_toxic:0 "Атмосферная очистка" #NT!
+ pm_tec_terraform_madness_toxic_desc:0 "Поверхность планеты постепенно очищается от ядовитых веществ, а воздух фильтруется специальными организмами." #NT!
+ 
+ pm_tec_terraform_madness_molten:0 "Охлаждающая поверхность" #NT!
+ pm_tec_terraform_madness_molten_desc:0 "Поверхность планеты постепенно охлаждается и стабилизируется." #NT!
+ 
+ pm_tec_terraform_madness_frozen:0 "Горячая зона" #NT!
+ pm_tec_terraform_madness_frozen_desc:0 "Поверхность планеты постепенно тает." #NT!
+ 
+# = = = = = = = = = = = = = = = = = = = = = = = =
+#ECOENGINEERS
+# = = = = = = = = = = = = = = = = = = = = = = = =
+ pm_tec_peaceful_wildlife:0 "Симбиотическая дикая природа" #NT!
+ pm_tec_peaceful_wildlife_desc:0 "Животный мир этой планеты раньше был агрессивным, но теперь он находится в внутренне уравновешенном состоянии с другими частями экосистемы." #NT!
+
+ pm_tec_peaceful_weather:0 "Спокойная погода" #NT!
+ pm_tec_peaceful_weather_desc:0 "Раньше полные опасностей, теперь спокойная и безопасная погода, где может развиваться большинство видов." #NT!
+
+ pm_tec_stable_tectonics:0 "Стабильная тектоника" #NT!
+ pm_tec_stable_tectonics_desc:0 "Тектонические плиты этой планеты, хотя и внезапные, а иногда и резкие, стабилизировались и могут иметь предсказуемое, но естественное развитие." #NT!
+
+ pm_tec_engineered_weather:0 "Спроектированная погода" #NT!
+ pm_tec_engineered_weather_desc:0 "Полностью переработанная погода с очень чистой атмосферой, изобилием климатических благ и стабильным циклом дня и ночи; Приятная среда для жизни." #NT!
+
+
+ pm_tec_engineered_habitat:0 "Реконструированная среда обитания" #NT!
+ pm_tec_engineered_habitat_desc:0 "Эта среда обитания была переосмыслена, чтобы соответствовать лучшим жизненно важным системам и более практичному использованию пространства." #NT!
+
+# ------------------------------------------------------------
+# Industrialcorp
+# ------------------------------------------------------------
+
+ pm_tec_industrialized_planet:0 "Гипериндустриальный" #NT!
+ pm_tec_industrialized_planet_desc:0 "Некоторые говорят, что у заводов, охватывающих весь мир, есть недостатки. Но согласитесь, светящаяся жижа красива!" #NT!
+ pm_tec_industrialized_arcology:0 "Гипериндустриальный" #NT!
+ pm_tec_industrialized_arcology_desc:0 "Да, производственные аркологии делают население больным и несчастным. Но они делают акционеров счастливыми." #NT!
+
+
+
+# ------------------------------------------------------------
+# Desiccators
+# ------------------------------------------------------------
+ pm_tec_desiccation_1:0 "Повышенная засушливость" #NT!
+ pm_tec_desiccation_1_desc:0 "Эта планета страдает от интенсивной волны засушливости и высыхания, что приводит к дестабилизации ее пригодной для жизни атмосферы." #NT!
+
+ pm_tec_desiccation_2:0 "Продолжительная засушливость" #NT!
+ pm_tec_desiccation_2_desc:0 "Эта планета страдает от сильной волны засушливости и высыхания, что приводит к огромной дестабилизации ее пригодной для жизни атмосферы." #NT!
+
+ pm_tec_desiccation_3:0 "Терминальная засушливость" #NT!
+ pm_tec_desiccation_3_desc:0 "Эта планета страдает от сильной волны засушливости и высыхания, что привело к полному разрушению ее пригодной для жизни атмосферы." #NT!
+
+# ------------------------------------------------------------
+ # Unemployment fix
+# ------------------------------------------------------------
+ modifier_tec_unemployment_fix:0 "Новые начинания" #NT!
+ modifier_tec_unemployment_fix_desc:0 "Начальное состояние империи заслуживает скромного начала и заботы." #NT!
+
+# ------------------------------------------------------------
+ # PROTOWORLD POWERCREEP FIX
+# ------------------------------------------------------------
+ modifier_tec_protoworld_cost:0 "Увеличение усилий по терраформированию" #NT!
+ modifier_tec_protoworld_cost_desc:0 "Новые миры требуют новой администрации и избегания эксплуататорских элементов." #NT!
+
+
+# ------------------------------------------------------------
+ # HABITAT POWERCREEP FIX
+# ------------------------------------------------------------
+
+ modifier_tec_voidborne_habitat_5:0 "Расширение пустоты" #NT!
+ modifier_tec_voidborne_habitat_5_desc:0 "§Поскольку космос теперь является нашим домом, мы должны создать себе новые пространства для проживания и развития. \n\nДополнительные скидки на строительство среды обитания будут доступны после строительства следующей среды обитания, но стоимость будет постепенно увеличиваться.§!" #NT!
+
+ modifier_tec_voidborne_habitat_4:0 "Расширение пустоты" #NT!
+ modifier_tec_voidborne_habitat_4_desc:0 "§Поскольку космос теперь является нашим домом, мы должны создать себе новые пространства для проживания и развития. \n\nДополнительные скидки на строительство среды обитания будут доступны после строительства следующей среды обитания, но стоимость будет постепенно увеличиваться.§!" #NT!
+
+ modifier_tec_voidborne_habitat_3:0 "Расширение пустоты" #NT!
+ modifier_tec_voidborne_habitat_3_desc:0 "§Поскольку космос теперь является нашим домом, мы должны создать себе новые пространства для проживания и развития. \n\nДополнительные скидки на строительство среды обитания будут доступны после строительства следующей среды обитания, но стоимость будет постепенно увеличиваться.§!" #NT!
+
+ modifier_tec_voidborne_habitat_2:0 "Расширение пустоты" #NT!
+ modifier_tec_voidborne_habitat_2_desc:0 "§Поскольку космос теперь является нашим домом, мы должны создать себе новые пространства для проживания и развития. \n\nЕщё одна скидка на строительство среды обитания будет доступна после постройки следующей среды обитания, но стоимость будет постепенно увеличиваться.§!" #NT!
+
+ modifier_tec_voidborne_habitat_1:0 "Расширение пустоты" #NT!
+ modifier_tec_voidborne_habitat_1_desc:0 "§Поскольку космос теперь является нашим домом, мы должны создать себе новые пространства для проживания и развития. \n\nСкидка на сборку последней среды обитания. После того, как этот бонус исчезнет и будет построено следующее жилище, империя будет страдать от обычных имперских штрафов за жилище. §!" #NT!
+
+
+
+ modifier_tec_habitat_nerf_modifier_1:0 "Чрезмерное управление орбиталью" #NT!
+ modifier_tec_habitat_nerf_modifier_1_desc:0 "§EХотя наше космическое жилище благоприятно для империи, чем дальше мы расширяемся, тем выше логистические затраты на создание новых обитаемых активов. \n\nДальнейшее строительство орбиталей будет стоить допольнительное влияние £influence£.§!" #NT!
+
+ modifier_tec_habitat_nerf_modifier_2:0 "Чрезмерное управление орбиталью" #NT!
+ modifier_tec_habitat_nerf_modifier_2_desc:0 "§EХотя наше космическое жилище благоприятно для империи, чем дальше мы расширяемся, тем выше логистические затраты на создание новых обитаемых активов. \n\nДальнейшее строительство орбиталей будет стоить допольнительное влияние £influence£.§!" #NT!
+
+
+ modifier_tec_habitat_nerf_modifier_3:0 "Чрезмерное управление орбиталью" #NT!
+ modifier_tec_habitat_nerf_modifier_3_desc:0 "§EХотя наше космическое жилище благоприятно для империи, чем дальше мы расширяемся, тем выше логистические затраты на создание новых обитаемых активов. \n\nДальнейшее строительство орбиталей будет стоить допольнительное влияние £influence£.§!" #NT!
+
+
+ modifier_tec_habitat_nerf_modifier_4:0 "Чрезмерное управление орбиталью" #NT!
+ modifier_tec_habitat_nerf_modifier_4_desc:0 "§EХотя наше космическое жилище благоприятно для империи, чем дальше мы расширяемся, тем выше логистические затраты на создание новых обитаемых активов. \n\nДальнейшее строительство орбиталей будет стоить допольнительное влияние £influence£.§!" #NT!
+
+
+ modifier_tec_habitat_nerf_modifier_5:0 "Чрезмерное управление орбиталью" #NT!
+ modifier_tec_habitat_nerf_modifier_5_desc:0 "§EХотя наше космическое жилище благоприятно для империи, чем дальше мы расширяемся, тем выше логистические затраты на создание новых обитаемых активов. \n\nДальнейшее строительство орбиталей будет стоить допольнительное влияние £influence£.§!" #NT!
+
+
+ modifier_tec_habitat_nerf_modifier_6:0 "Чрезмерное управление орбиталью" #NT!
+ modifier_tec_habitat_nerf_modifier_6_desc:0 "§EХотя наше космическое жилище благоприятно для империи, чем дальше мы расширяемся, тем выше логистические затраты на создание новых обитаемых активов. \n\nОрбиталь £influence£ Достигнут предел влияния.§!" #NT!
+
+
+# ------------------------------------------------------------
+ # HIDDEN MODIFIERS
+# ------------------------------------------------------------
+ # Pop modifiers
+	tec_converged_pop:0 "Сошлись" #NT!
+	tec_converged_pop_desc:0 "Специальный псионический ритуал объединил другого псионического поселенца с этим поселенцем." #NT!
+
+	pop_modifier_tec_shroud_touched:0 "Благословение Покрова" #NT!
+	pop_modifier_tec_shroud_touched_desc:0 "Возвышен псионическими благословениями, данными призывами молитвы Покрова." #NT!
+
+	tec_demote_me_senpai:0 "Модификатор понижения в должности" #NT!
+	tec_demote_me_senpai_desc:0 "Сделано так, что поселенец быстро понижается в должности" #NT!
+    # /
+
+ # Country Modifiers
+	country_modifier_tec_dirdem_bonus:0 "§HДемократическая экспертиза§!"
+	country_modifier_tec_dirdem_bonus_desc:0 "§LТе, кого любит народ, достойны управлять страной.§!"
+	mod_councilor_ruler_auth_tec_direct_democratic_exp_gain:0 "Прирост опыта правителя"
+
+	country_modifier_tec_dem_bonus:0 "§HДемократическое мастерство§!"
+	country_modifier_tec_dem_bonus_desc:0 "§LПереизбранные кандидаты адаптировали свои бюро для большей демократической эффективности§!"
+	mod_councilor_ruler_democratic_exp_gain:0 "Прирост опыта правителя"
+ # /
+ 
+ tec_technoascendancy_base:0 "Технологическое господство" #NT!
+ tec_technoascendancy_base_desc:0 "§EБудущее ждет§!" #NT!
+ tec_technoascendancy_1:0 "Технологическое господство" #NT!
+ tec_technoascendancy_1_desc:0 "§EБудущее ждет§!" #NT!
+ tec_technoascendancy_2:0 "Технологическое господство" #NT!
+ tec_technoascendancy_2_desc:0 "§EБудущее ждет§!" #NT!
+ tec_technoascendancy_3:0 "Технологическое господство" #NT!
+ tec_technoascendancy_3_desc:0 "§EБудущее ждет§!" #NT!
+ tec_technoascendancy_4:0 "Технологическое господство" #NT!
+ tec_technoascendancy_4_desc:0 "§EБудущее ждет§!" #NT!
+ tec_technoascendancy_5:0 "Технологическое господство" #NT!
+ tec_technoascendancy_5_desc:0 "§EБудущее ждет§!" #NT!
+ 
+ tec_onevision_base:0 "Одно видение" #NT!
+ tec_onevision_base_desc:0 "§EОдна цель§!" #NT!
+ tec_onevision_1:0 "Одно видение" #NT!
+ tec_onevision_1_desc:0 "§EОдна цель§!" #NT!
+ tec_onevision_2:0 "Одно видение" #NT!
+ tec_onevision_2_desc:0 "§EОдна цель§!" #NT!
+ tec_onevision_3:0 "Одно видение" #NT!
+ tec_onevision_3_desc:0 "§EОдна цель§!" #NT!
+ tec_onevision_4:0 "Одно видение" #NT!
+ tec_onevision_4_desc:0 "§EОдна цель§!" #NT!
+ tec_onevision_5:0 "Одно видение" #NT!
+ tec_onevision_5_desc:0 "§EОдна цель§!" #NT!
+ 
+ tec_onemind_base:0 "Один разум" #NT!
+ tec_onemind_base_desc:0 "§EОдна цель§!" #NT!
+ tec_onemind_1:0 "Один разум" #NT!
+ tec_onemind_1_desc:0 "§EОдна цель§!" #NT!
+ tec_onemind_2:0 "Один разум" #NT!
+ tec_onemind_2_desc:0 "§EОдна цель§!" #NT!
+ tec_onemind_3:0 "Один разум" #NT!
+ tec_onemind_3_desc:0 "§EОдна цель§!" #NT!
+ tec_onemind_4:0 "Один разум" #NT!
+ tec_onemind_4_desc:0 "§EОдна цель§!" #NT!
+ tec_onemind_5:0 "Один разум" #NT!
+ tec_onemind_5_desc:0 "§EОдна цель§!" #NT!
+ 
+ tec_influential_base:0 "Влиятельные знания" #NT!
+ tec_influential_base_desc:0 "§Праведное и ясное влияние§!" #NT!
+ tec_influential_1:0 "Влиятельные знания" #NT!
+ tec_influential_1_desc:0 "§Праведное и ясное влияние§!" #NT!
+ tec_influential_2:0 "Влиятельные знания" #NT!
+ tec_influential_2_desc:0 "§Праведное и ясное влияние§!" #NT!
+ tec_influential_3:0 "Влиятельные знания" #NT!
+ tec_influential_3_desc:0 "§Праведное и ясное влияние§!" #NT!
+ tec_influential_4:0 "Влиятельные знания" #NT!
+ tec_influential_4_desc:0 "§Праведное и ясное влияние§!" #NT!
+ tec_influential_5:0 "Влиятельные знания" #NT!
+ tec_influential_5_desc:0 "§Праведное и ясное влияние§!" #NT!
+ 
+ 
+ 
+# ------------------------------------------------------------
+ # OPINION MODIFIERS
+# ------------------------------------------------------------
+
+ opinion_cyborgs_tec_machinecult:0 "Один с машиной" #NT!
+ triggered_opinion_cyborgs_tec_machinecult:0 "$opinion_cyborgs_tec_machinecult$" #NT!
+
+ opinion_synthetics_tec_machinecult:0 "Благословенные потомки" #NT!
+ triggered_opinion_synthetics_tec_machinecult:0 "$opinion_synthetics_tec_machinecult$" #NT!
+
+ opinion_machine_tec_machinecult:0 "Славные машины" #NT!
+ triggered_opinion_machine_tec_machinecult:0 "$opinion_machine_tec_machinecult$" #NT!
+
+
+ machinecult_opinion_of_machine_empires:0 "Славные машины" #NT!
+ triggered_machinecult_opinion_of_machine_empires:0 "$opinion_machine_tec_machinecult$" #NT!
+
+# Altered event
+
+
+
+
+
+
+
+# Assimilation opinions
+ opinion_tec_genespliced_pop:0 "Генное-объединенние органики" #NT!
+ opinion_tec_genespliced_our_species:0 "Генное-объединенние нашего вида" #NT!
+
+ opinion_tec_encased_pop:0 "Киберпреобразование в органическое" #NT!
+ opinion_tec_encased_our_species:0 "Кибер-преобразованный наш вид" #NT!
+ opinion_tec_encased_pop_spiritualist:0 "Киберпреобразование в органическое" #NT!
+ opinion_tec_encased_our_species_spiritualist:0 "Кибер-преобразованный наш вид" #NT!
+
+ opinion_tec_assimilated_pop:0 "Ассимилированные особи" #NT!
+ opinion_tec_assimilated_our_species:0 "Ассимилированные наши собственные" #NT!
+
+
+
+
+ opinion_tec_composed_pop:0 "Оцифровано органическое" #NT!
+ opinion_tec_composed_our_species:0 "Оцифровали наш вид" #NT!
+ opinion_tec_composed_pop_spiritualist:0 "Оцифровано органическое" #NT!
+ opinion_tec_composed_our_species_spiritualist:0 "Оцифровали наш вид" #NT!
+
+
+
+ resolution_galcom_socialism_ethic_modifier_tier_1: "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_socialism_ethic_modifier_tier_2: "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_socialism_ethic_modifier_tier_3: "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_capitalism_ethic_modifier_tier_1: "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_capitalism_ethic_modifier_tier_2: "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_capitalism_ethic_modifier_tier_3: "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_green_ethic_modifier_tier_1: "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_green_ethic_modifier_tier_2: "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_green_ethic_modifier_tier_3: "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_industrial_ethic_modifier_tier_1: "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_industrial_ethic_modifier_tier_2: "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_industrial_ethic_modifier_tier_3: "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_pluralist_ethic_modifier_tier_1: "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_pluralist_ethic_modifier_tier_2: "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_pluralist_ethic_modifier_tier_3: "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_elitist_ethic_modifier_tier_1: "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_elitist_ethic_modifier_tier_2: "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_elitist_ethic_modifier_tier_3: "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_spiritualist_ethic_modifier: "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_materialist_ethic_modifier: "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_authoritarian_ethic_modifier: "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_egalitarian_ethic_modifier: "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_xenophile_ethic_modifier: "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_xenophobe_ethic_modifier: "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_militarist_ethic_modifier: "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_pacifist_ethic_modifier: "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_socialism_ethic_modifier: "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_capitalism_ethic_modifier: "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_green_ethic_modifier: "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_industrial_ethic_modifier: "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_elitist_ethic_modifier: "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_pluralist_ethic_modifier: "$resolution_galcom_ethic_modifier$"

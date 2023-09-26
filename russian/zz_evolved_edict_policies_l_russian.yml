@@ -1,0 +1,1544 @@
+﻿l_russian:
+
+# Council Agendas
+ # Generic
+	 council_agenda_agenda_tec_assembly_robots_name:0  "Механические мотиваторы"
+	 council_agenda_agenda_tec_assembly_robots_desc:0  "Прогресс приходит с технологическими достижениями и более совершенными автоматизированными установками".
+	 modifier_tec_agenda_tec_assembly_robots_finish:0  "$council_agenda_agenda_tec_assembly_robots_name$ $agenda_ref$"
+	 modifier_tec_agenda_tec_assembly_robots_finish_desc:0  "$council_agenda_agenda_tec_assembly_robots_desc$"
+
+	 council_agenda_agenda_tec_assembly_cloning_name:0  "Усиленная биопечать"
+	 council_agenda_agenda_tec_assembly_cloning_desc:0  "Новые методы органического воспроизводства и генетического плетения повысят эффективность нашей империи".
+	 modifier_tec_agenda_tec_assembly_cloning_finish:0  "$council_agenda_agenda_tec_assembly_cloning_name$ $agenda_ref$"
+	 modifier_tec_agenda_tec_assembly_cloning_finish_desc:0  "$council_agenda_agenda_tec_assembly_cloning_desc$"
+
+     council_agenda_agenda_tec_aiauth_purge_traits_name:   "Подавление негативного поведения узла искусственного интеллекта"
+     council_agenda_agenda_tec_aiauth_purge_traits_desc:   "Выявляя негативное поведение в наших узлах искусственного интеллекта, наша империя может устанавливать ограничения на подавление указанного поведения в обмен на увеличение необходимых вычислительных мощностей".
+     council_agenda_agenda_tec_aiauth_purge_traits_effect_desc:  "Удаляет §HОтрицательные черты§! из £tec_ai_node£ Узлов искусственного интеллекта.\nДля каждой удаленной черты теряется §R$@agenda_gestalt_purge_traits_exp_change|0$§! опыт.\n£tec_ai_node£ Узлы искусственного интеллекта, у которых были удалены признаки, получают §Y$leader_trait_tec_aiauth_negative_behaviour_inhibitor$§! черта, которая увеличивает время обслуживания узла искусственного интеллекта."
+     modifier_agenda_tec_aiauth_purge_traits_finish:  "$council_agenda_agenda_tec_aiauth_purge_traits_name$ $agenda_ref$"
+     modifier_agenda_tec_aiauth_purge_traits_finish_desc:  "$council_agenda_agenda_tec_aiauth_purge_traits_desc$"
+
+     council_agenda_agenda_tec_aiauth_restructuring_name:  "$tec_aiauth_ruler$ Реструктуризация"
+     council_agenda_agenda_tec_aiauth_restructuring_desc:   "Империя стремится переориентировать $tec_aiauth_ruler$, отдавая приоритет новым задачам и этическому согласованию над накопленным опытом".
+     council_agenda_agenda_tec_aiauth_restructuring_effect_desc:  "$tec_aiauth_ruler$ потеряет §Rполовину§! своих уровней, что позволит повторно фрагментировать его, изменить его §YЭтику§! и §YКласс лидера§! и повторный бросок §YЧерты§!."
+
+     council_agenda_agenda_tec_assembly_robots_provide_robot_techs:0  "Предоставьте следующий £engineering£ §YРоботизированная§! Технология"
+	 council_agenda_agenda_tec_assembly_robots_provide_powered_tech:0  "Progress towards £engineering£§Y$tech_powered_exoskeletons$§!: §G+$@agenda_award_tech_progress|0%$§!"
+	 council_agenda_agenda_tec_assembly_robots_provide_workers_tech:0  "Progress towards £engineering£§Y$tech_robotic_workers$§!: §G+$@agenda_award_tech_progress|0%$§!"
+	 council_agenda_agenda_tec_assembly_robots_provide_droids_tech:0  "Progress towards £engineering£§Y$tech_droid_workers$§!: §G+$@agenda_award_tech_progress|0%$§!"
+	 council_agenda_agenda_tec_assembly_robots_provide_synth_tech:0  "Progress towards £engineering£§Y$tech_synthetic_workers$§!: §G+$@agenda_award_tech_progress|0%$§!"
+	 council_agenda_agenda_tec_assembly_robots_provide_synth_leaders_tech:0  "Progress towards £engineering£§Y$tech_synthetic_leaders$§!: §G+$@agenda_award_tech_progress|0%$§!"
+	 council_agenda_agenda_tec_assembly_robots_provide_synth_hive_tech:0  "Progress towards £engineering£§Y$tech_synthetic_workers_hive$§!: §G+$@agenda_award_tech_progress|0%$§!"
+
+	 council_agenda_agenda_tec_assembly_robots_provide_machine_techs:0  "Предоставьте следующую £engineering£ Машину §Yсборку§! или §YМодификацию§! Технологию".
+	 council_agenda_agenda_tec_assembly_robots_provide_machine_powered_tech:0  "Progress towards £engineering£§Y$tech_powered_exoskeletons$§!: §G+$@agenda_award_tech_progress|0%$§!"
+	 council_agenda_agenda_tec_assembly_robots_provide_machine_robomodding_tech:0  "Progress towards £engineering£§Y$tech_robomodding_m$§!: §G+$@agenda_award_tech_progress|0%$§!"
+	 council_agenda_agenda_tec_assembly_robots_provide_machine_binary_tech:0  "Progress towards £engineering£§Y$tech_binary_motivators$§!: §G+$@agenda_award_tech_progress|0%$§!"
+	 council_agenda_agenda_tec_assembly_robots_provide_machine_mega_assembly_tech:0  "Progress towards £engineering£§Y$tech_mega_assembly$§!: §G+$@agenda_award_tech_progress|0%$§!"
+	 council_agenda_agenda_tec_assembly_robots_provide_machine_giga_assembly_tech:0  "Progress towards £engineering£§Y$tech_giga_assembly$§!: §G+$@agenda_award_tech_progress|0%$§!"
+
+	 council_agenda_agenda_tec_assembly_cloning_provide_techs:0  "Предоставьте следующий £tec_genetics_icon£ §YТехнология клонирования§! или §YГенной модификации§!"
+	 council_agenda_agenda_tec_assembly_cloning_provide_cloning_tech:0  "Progress towards £society£§Y$tech_cloning$§!: §G+$@agenda_award_tech_progress|0%$§!"
+	 council_agenda_agenda_tec_assembly_cloning_provide_genome_mapping_tech:0  "Progress towards £society£§Y$tech_genome_mapping$§!: §G+$@agenda_award_tech_progress|0%$§!"
+	 council_agenda_agenda_tec_assembly_cloning_provide_cloning_2_tech:0  "Progress towards £society£§Y$tech_tec_cloning_2$§!: §G+$@agenda_award_tech_progress|0%$§!"
+	 council_agenda_agenda_tec_assembly_cloning_provide_gene_tailoring_tech:0  "Progress towards £society£§Y$tech_gene_tailoring$§!: §G+$@agenda_award_tech_progress|0%$§!"
+	 council_agenda_agenda_tec_assembly_cloning_provide_glandular_acclimation_tech:0  "Progress towards £society£§Y$tech_glandular_acclimation$§!: §G+$@agenda_award_tech_progress|0%$§!"
+	 council_agenda_agenda_tec_assembly_cloning_provide_cloning_3_tech:0  "Progress towards £society£§Y$tech_tec_cloning_3$§!: §G+$@agenda_award_tech_progress|0%$§!"
+ # /
+ # Ethic
+	 modifier_tec_agenda_display_of_power_finish:0  "$agenda_display_of_power_finish$"
+	 modifier_tec_agenda_display_of_power_finish_desc:0  "$agenda_display_of_power_finish_desc$ $agenda_ref$"
+	 modifier_tec_agenda_strong_on_our_own_finish:0  "$agenda_strong_on_our_own_finish$"
+	 modifier_tec_agenda_strong_on_our_own_finish_desc:0  "$agenda_strong_on_our_own_finish_desc$ $agenda_ref$"
+	 modifier_tec_agenda_progressive_growth_finish:0  "$agenda_progressive_growth_finish$"
+	 modifier_tec_agenda_progressive_growth_finish_desc:0  "$agenda_progressive_growth_finish_desc$ $agenda_ref$"
+
+	 council_agenda_agenda_tec_ethic_cooperative_name:0  "Социальные выплаты"
+	 council_agenda_agenda_tec_ethic_cooperative_desc:0  "Благодаря разумному распределению товаров мы принесем пользу всем".
+	 modifier_tec_agenda_tec_ethic_cooperative_finish:0  "$council_agenda_agenda_tec_ethic_cooperative_name$ $agenda_ref$"
+	 modifier_tec_agenda_tec_ethic_cooperative_finish_desc:0  "$council_agenda_agenda_tec_ethic_cooperative_desc$"
+
+	 council_agenda_agenda_tec_ethic_competitive_name:0  "Гибкость рынка"
+	 council_agenda_agenda_tec_ethic_competitive_desc:0  "Экономичная производительность должна двигать нас вперед".
+	 modifier_tec_agenda_tec_ethic_competitive_finish:0  "$council_agenda_agenda_tec_ethic_competitive_name$ $agenda_ref$"
+	 modifier_tec_agenda_tec_ethic_competitive_finish_desc:0  "$council_agenda_agenda_tec_ethic_competitive_desc$"
+
+	 council_agenda_agenda_tec_ethic_ecologist_name:0  "Экологическая переработка"
+	 council_agenda_agenda_tec_ethic_ecologist_desc:0  "Инструменты, инфраструктура, личное потребление... все должны уважать природу и следовать строгим правилам утилизации отходов".
+	 modifier_tec_agenda_tec_ethic_ecologist_finish:0  "$council_agenda_agenda_tec_ethic_ecologist_name$ $agenda_ref$"
+	 modifier_tec_agenda_tec_ethic_ecologist_finish_desc:0  "$council_agenda_agenda_tec_ethic_ecologist_desc$"
+
+	 council_agenda_agenda_tec_ethic_industrialist_name:0  "Небесная индустриализация"
+	 council_agenda_agenda_tec_ethic_industrialist_desc:0  "Звезды - источник богатства, и поэтому мы воспользуемся тем, что у нас в руках!".
+	 modifier_tec_agenda_tec_ethic_industrialist_finish:0  "$council_agenda_agenda_tec_ethic_industrialist_name$ $agenda_ref$"
+	 modifier_tec_agenda_tec_ethic_industrialist_finish_desc:0  "$council_agenda_agenda_tec_ethic_industrialist_desc$"
+
+	 council_agenda_agenda_tec_ethic_elitist_name:0  "Продвижение к совершенству"
+	 council_agenda_agenda_tec_ethic_elitist_desc:0  "Те, кто преуспевает, - это те, кто олицетворяет сами наши идеалы".
+	 modifier_tec_agenda_tec_ethic_elitist_finish:0  "$council_agenda_agenda_tec_ethic_elitist_name$ $agenda_ref$"
+	 modifier_tec_agenda_tec_ethic_elitist_finish_desc:0  "$council_agenda_agenda_tec_ethic_elitist_desc$"
+
+	 council_agenda_agenda_tec_ethic_pluralist_name:0  "Принципы формирования"
+	 council_agenda_agenda_tec_ethic_pluralist_desc:0  "Мы обеспечим каждому доступ к образованию и образовательным программам, чтобы каждый мог блистать".
+	 council_agenda_agenda_tec_ethic_pluralist_effects:0  "Лидеры получат дополнительные §Y_[54]_ Страстный опыт§!"
+	 modifier_tec_agenda_tec_ethic_pluralist_finish:0  "$council_agenda_agenda_tec_ethic_pluralist_name$ $agenda_ref$"
+	 modifier_tec_agenda_tec_ethic_pluralist_finish_desc:0  "$council_agenda_agenda_tec_ethic_pluralist_desc$"
+
+	 modifier_tec_agenda_tec_ethic_gestalt_apathy_finish:0  "REPLACE_ME"
+	 modifier_tec_agenda_tec_ethic_gestalt_empathy_finish:0  "REPLACE_ME"
+	 modifier_tec_agenda_tec_ethic_gestalt_preservation_finish:0  "REPLACE_ME"
+	 modifier_tec_agenda_tec_ethic_gestalt_disregard_finish:0  "REPLACE_ME"
+	 modifier_tec_agenda_tec_ethic_gestalt_introspective_finish:0  "REPLACE_ME"
+	 modifier_tec_agenda_tec_ethic_gestalt_extrospective_finish:0  "REPLACE_ME"
+ # /
+ # Civic
+	# Genetic Ascendancy
+		# Based on agenda_gestalt_purge_traits
+		 council_agenda_agenda_tec_genetic_ascendancy_name:0  "Эпигенетическое восстановление"
+		 council_agenda_agenda_tec_genetic_ascendancy_desc:0  "Генетические пороки развития и нежелательное биологическое развитие - это то, что мы должны преодолеть; с нашей ловкостью в генетике и нашим генетическим хранилищем мы можем восстанавливать и улучшать тех, кто ведет нас вперед".
+		 council_agenda_agenda_tec_genetic_ascendancy_effect_desc:0  "Устраняет §HОтрицательные черты§! у органических лидеров.\n$tec_loc_ruler$ и $tec_loc_council_members$ имеют приоритет.\nЗа каждый удаленный признак теряется §R500§! опыт (снижен на §HЭффективность эпигенетического восстановления§!)."
+		# Уровни
+			 council_agenda_agenda_tec_genetic_ascendancy_tier_1:0  "Империя §Y£building£ $building_tec_epigenetic_chambers$§! и количество §Y$tec_loc_planet_ascensions$§! ( Все планеты) влияет на эту повестку дня:\n$t$- §HЭффекты, применимые к §G1§! $tec_loc_leader$§!"
+			 council_agenda_agenda_tec_genetic_ascendancy_tier_2:0  "Империя §Y£building£ $building_tec_epigenetic_chambers$§! и количество §Y$tec_loc_planet_ascensions$§! ( Все планеты) влияет на эту повестку дня:\n$t$- §HЭффекты, усиленные до §G2§! $tec_loc_leaders$§!"
+			 council_agenda_agenda_tec_genetic_ascendancy_tier_3:0  "Империя §Y£building£ $building_tec_epigenetic_chambers$§! и количество §Y$tec_loc_planet_ascensions$§! ( Все планеты) влияет на эту повестку дня:\n$t$- §HЭффекты, усиленные до §G3§! $tec_loc_leaders$§!"
+			 council_agenda_agenda_tec_genetic_ascendancy_tier_4:0  "Империя §Y£building£ $building_tec_epigenetic_chambers$§! и количество §Y$tec_loc_planet_ascensions$§! ( Все планеты) влияет на эту повестку дня:\n$t$- §HЭффекты, усиленные до §G4§! $tec_loc_leaders$§!"
+			 council_agenda_agenda_tec_genetic_ascendancy_tier_5:0  "Империя §Y£building£ $building_tec_epigenetic_chambers$§! и количество §Y$tec_loc_planet_ascensions$§! ( Все планеты) влияет на эту повестку дня:\n$t$- §HЭффекты, усиленные до §G5§! $tec_loc_leaders$§!"
+		# /
+		 modifier_tec_agenda_tec_genetic_ascendancy_finish:0  "$council_agenda_agenda_tec_genetic_ascendancy_name$ $agenda_ref$"
+		 modifier_tec_agenda_tec_genetic_ascendancy_finish_desc:0  "$council_agenda_agenda_tec_genetic_ascendancy_desc$"
+		 agenda_tec_genetic_ascendancy_desc:0  "$council_agenda_agenda_tec_genetic_ascendancy_desc$"
+
+		 mod_tec_epigenetic_restoration_mult:0  "Эффективность эпигенетического восстановления"
+	# /
+ # /
+ # Other
+
+ # /
+# /
+
+# Edicts
+
+# Ethics
+	 edict_tec_equal_opportunities:0  "Равные возможности"
+	 edict_tec_equal_opportunities_desc:0  "Поощряет любое безработное поселение добровольно переселяться на подходящие планеты с работой и жильем в пределах нашей империи для поиска новых возможностей".
+
+	 edict_tec_social_benefits:0  "Социальные выплаты"
+	 edict_tec_social_benefits_desc:0  "ЗАДАЧИ"
+
+	 edict_tec_doing_your_part:   "Выполняешь свою часть работы"
+	 edict_tec_doing_your_part_desc:  "ЗАДАЧИ"
+
+	 edict_tec_technological_funding:   "Технологическое финансирование"
+	 edict_tec_technological_funding_desc:  "ЗАДАЧИ"
+
+	 edict_tec_market_funding:  "Рыночное финансирование"
+	 edict_tec_market_funding_desc:  "ЗАДАЧИ"
+
+	 edict_tec_nature_bond:  "Связь с природой"
+	 edict_tec_nature_bond_desc:  "ЗАДАЧИ"
+
+	 edict_tec_industrial_overproduction:   "Промышленное перепроизводство"
+	 edict_tec_industrial_overproduction_desc:  "ЗАДАЧИ"
+
+	 edict_tec_elite_boosting:   "Повышение уровня элиты"
+	 edict_tec_elite_boosting_desc:  "ЗАДАЧИ"
+
+# /
+# Гражданское право/механика
+  edict_tec_mortgage_edict:0  "£job_purge£ Вечные сдвиги"
+  edict_tec_mortgage_edict_desc:0  "Работники будут работать, чтобы оплатить свои долги, пока не умрут, а после этого они продолжат работать, чтобы заплатить. Каждая планета с §YЛагерем ужаса§Yполучит бонус в размере §G30%§! Рабочий выход, но есть вероятность рабочего урегулирования §Rсмерть§! каждый год."
+# /
+
+
+
+
+  edict_social_engineering:0  "Социальная инженерия"
+  edict_social_engineering_desc:1  "Этот $ethic_fanatic_authoritarian$ Указ предписывает использование тонких социальных инструментов для укрепления нашей этики управления на планете.\n\n"
+  edict_privatization_campaign:1  "Низовое управление"
+  edict_privatization_campaign_desc:1  "Этот указ $ethic_egalitarian$ и $ethic_capitalism$ поощряет лиц, наиболее близких к производственным усилиям, брать на себя повышенную ответственность.\n\n"
+
+
+ edict_forced_industrialization:0  "Доктрина: Промышленная эффективность"
+  edict_forced_industrialization_desc:0  " "
+  edict_clean_air:0  "Доктрина: чистый воздух"
+  edict_clean_air_desc:0  " "
+  edict_spirit_freedom:0  "Дух свободы"
+  edict_spirit_freedom_desc:0  " "
+
+
+  edict_meal_real:0  " "Еда настоящая!" "
+  edict_meal_real_desc:0  " "
+  edict_ancestor_call:0  "Праздник священного урожая"
+  edict_ancestor_call_desc:0  " "
+  edict_religious_unity_desc:1  "Этот фанатичный спиритуалистический эдикт объединяет население в квазирелигиозном рвении, обязательной частью которого является строгий пост.\n\n"
+
+
+  edict_diversity_utopia:0  "Пангалактический форум"
+  edict_diversity_utopia_desc:0  " "
+  edict_pan_galactic_league:0  "Пангалактическая лига"
+  edict_pan_galactic_league_desc:0  " "
+ edict_patriotic_call:0  "Патриотический призыв"
+ edict_patriotic_call_desc:0  "К оружию! Ваша Нация нуждается в Вас В Этот Мрачный Час!"
+  edict_logistic_operations:0  "Логистические операции"
+  edict_logistic_operations_desc:0  " "
+  edict_strategic_taxation:0  "Стратегическое налогообложение"
+  edict_strategic_taxation_desc:0  " "
+  edict_public_works:0  "Общественные работы"
+  edict_public_works_desc:0  " "
+  edict_holy_inquisition:0  "Святая инквизиция"
+  edict_holy_inquisition_desc:0  " "
+  edict_defcon_1:   "Условие защиты 1"
+  edict_defcon_1_desc:  " "
+ 
+  edict_increase_planetsize_3:0  "Геоинженерия" 
+  edict_increase_planetsize_3_desc:0  "Процедуры местного терраформирования позволяют нам увеличить размер пригодного для жизни пространства планеты".
+  edict_increase_planetsize_3.tooltip:0  "Увеличение §Y[Root.GetName]§!' размер s на §G1 плитку§!." 
+ 
+  edict_increase_planetsize_1:0  "Прагматическое развитие I" 
+  edict_increase_planetsize_1_desc:0  "Эффективное использование территорий планеты позволяет увеличить пространство, доступное для застройки, но ценой снижения его §YПригодности для жизни§!".
+  edict_increase_planetsize_1.tooltip:0  "Увеличение §Y[Root.GetName]§!' увеличьте размер на §G1 плитку§! и уменьшите ее §YПригодность для проживания§! по §R3%§!." 
+ 
+  edict_increase_planetsize_2:0  "Прагматическое развитие II" 
+  edict_increase_planetsize_2_desc:0  "Эффективное использование территорий планеты позволяет увеличить пространство, доступное для застройки, но ценой снижения его §YПригодности для жизни§!".
+  edict_increase_planetsize_2.tooltip:0  "Увеличение §Y[Root.GetName]§!' увеличьте размер на §G1 плитку§! и уменьшите ее §YПригодность для проживания§! по §R5%§!."
+ 
+
+  edict_housing:0  "Общественные работы" 
+  edict_housing_desc:0  "Промышленность планеты в основном сосредоточена на строительстве жилья и социальной инфраструктуры, стимулируя рост населения".
+
+  policy_economy:0  "Рыночная позиция"
+  policy_economy_desc:0  " "
+ 
+  policy_national_politics:0  "Национальная политика" 
+  policy_national_politics_desc:0  " " 
+
+  policy_foreign_policy:0  "Внешняя политика"
+  policy_foreign_policy_desc:0  " "
+ 
+  policy_bureaucracy:0  "Бюрократия"
+  policy_bureaucracy_desc:0  " "
+ 
+  policy_ideology:0  "Идеология"
+  policy_ideology_desc:0  " "
+ 
+  none_social:0  "Нет"
+  none_social_name:0  "Нет"
+  none_social_desc:0  " "
+ 
+  elite_rule:0  "Мощность"
+  elite_rule_name:0  "Мощность"
+  elite_rule_desc:0  "Лидеры общества считаются самыми могущественными и влияющими личностями".
+
+  people_rule:0  "Равенство"
+  people_rule_name:0  "Равенство"
+  people_rule_desc:0  "Лидеры общества считаются самыми талантливыми и способными личностями, совершенно независимо от их социального или экономического статуса".
+
+  none_bureaucracy:0  "Нет"
+  none_bureaucracy_name:0  "Нет"
+  none_bureaucracy_desc:0  " "
+ 
+  empire_bureaucracy:0  "Имперская бюрократия"
+  empire_bureaucracy_name:0  "Имперская бюрократия"
+  empire_bureaucracy_desc:0  " "
+ 
+  eff_bureaucracy:0  "Эффективная бюрократия"
+  eff_bureaucracy_name:0  "Эффективная бюрократия"
+  eff_bureaucracy_desc:0  " " 
+
+  none_ideology:0  "Нет"
+  none_ideology_name:0  "Нет"
+  none_ideology_desc:0  " "
+ 
+  scientific_pragmatism:0  "Научный прагматизм"
+  scientific_pragmatism_name:0  "Научный прагматизм"
+  scientific_pragmatism_desc:0  " " 
+ 
+  scientific_egalitarian:0  "Дух просвещения"
+  scientific_egalitarian_name:0  "Дух просвещения"
+  scientific_egalitarian_desc:0  " "
+ 
+  divine_right:0  "Божественное право"
+  divine_right_name:0  "Божественное право"
+  divine_right_desc:0  " " 
+
+  fundamentalism:0  "Фундаментализм"
+  fundamentalism_name:0  "Фундаментализм"
+  fundamentalism_desc:0  " "
+ 
+  policy_doctrine:0  "Культурное стремление"
+  policy_doctrine_desc:0  " "
+ 
+  none_doctrine:0  "Нет"
+  none_doctrine_name:0  "Нет"
+  none_doctrine_desc:0  " " 
+ 
+  spiritual_harmony:0  "Подлинная гармония"
+  spiritual_harmony_name:0  "Подлинная гармония"
+  spiritual_harmony_desc:0  "Жизнь в совершенной гармонии с матерью-природой приносит удовлетворение вашему народу, служа источником мудрости и физического здоровья". 
+
+  faith_def:0  "Защитники веры"
+  faith_def_name:0  "Защитники веры"
+  faith_def_desc:0  " " 
+
+  exploration:0  "Галактический обзор"
+  exploration_name:0  "Галактический обзор"
+  exploration_desc:0  " " 
+ 
+ 
+
+  policy_energy_focus:0  "Выработка электроэнергии"
+  policy_energy_focus_name:0  "Выработка электроэнергии"
+  policy_energy_focus_desc:0  " "
+ 
+  energy_focus_green:0  "Чистое поколение"
+  energy_focus_green_name:0  "Чистое поколение"
+  energy_focus_green_desc:0  " " 
+
+  energy_focus_fossil:0  "Неограниченное поколение"
+  energy_focus_fossil_name:0  "Неограниченное поколение"
+  energy_focus_fossil_desc:0  " "
+ 
+  policy_mass_media:0  "Средства массовой информации" 
+  policy_mass_media_name:0  "Средства массовой информации"
+  policy_mass_media_desc:0  " " 
+ 
+  free_mass_media:0  "Свободные СМИ"
+  free_mass_media_name:0  "Свободные СМИ"
+  free_mass_media_desc:0  " "
+ 
+  state_mass_media:0  "Государственные СМИ"
+  state_mass_media_name:0  "Государственные СМИ"
+  state_mass_media_desc:0  " "
+ 
+ 
+  edict_voice_people:0  "Фестиваль свободы"
+  edict_voice_people_desc:0  " "
+ 
+
+ 
+ policy_mass_media:0 "Средства массовой информации"
+ 
+  none_mass_media:0  "Нет"
+  none_mass_media_desc:0  " "
+ 
+
+
+
+
+ civilian_transport_adv:0  "Гражданский (продвинутый)"
+  civilian_transport_adv_name:0  "Гражданский (продвинутый)"
+  civilian_transport_adv_desc:0  "Регулярные гражданские межколониальные переходы".
+
+  administrative_transport:0  "Административный"
+  administrative_transport_name:0  "Административный"
+  administrative_transport_desc:0  "Усиление колониального административного контроля"
+ 
+  administrative_transport_adv:0  "Административный (продвинутый)"
+  administrative_transport_adv_name:0  "Административный (продвинутый)"
+  administrative_transport_adv_desc:0  "Усиление колониального административного контроля"
+
+  military_transport_adv:0  "Военный (продвинутый)"
+  military_transport_adv_name:0  "Военный (продвинутый)"
+  military_transport_adv_desc:0  "Усиленная поддержка военного флота"
+
+
+
+  trade_transport:0  "Торговля"
+  trade_transport_name:0  "Торговля"
+  trade_transport_desc:0  "Расширенная межколониальная торговля"
+
+  trade_transport_adv:0  "Торговля (расширенная)"
+  trade_transport_adv_name:0  "Торговля (расширенная)"
+  trade_transport_adv_desc:0  "Расширенная межколониальная торговля"
+
+  supply_transport:0  "Снабжение колонии"
+  supply_transport_name:0  "Снабжение колонии"
+  supply_transport_desc:0  "Увеличенный запас для развития колоний"
+
+  supply_transport_adv:0  "Снабжение колонии (расширенное)" 
+  supply_transport_adv_name:0  "Снабжение колонии (расширенное)"
+  supply_transport_adv_desc:0  "Увеличенный запас для развития колоний"
+
+  capitalism_economy:0  "Рыночная экономика"
+  capitalism_economy_name:0  "Рыночная экономика"
+  capitalism_economy_desc:0  " " 
+  fan_capitalism_economy:0  "Рынок (adv)"
+  fan_capitalism_economy_name:0  "Рынок (adv)"
+  fan_capitalism_economy_desc:0  " "
+ 
+  socialism_economy:0  "Плановая экономика"
+  socialism_economy_name:0  "Плановая экономика"
+  socialism_economy_desc:0  " " 
+  fan_socialism_economy:0  "Плановая экономика(adv)"
+  fan_socialism_economy_name:0  "Запланированный (adv)"
+  fan_socialism_economy_desc:0  " " 
+
+  policy_economy_focus:0  "Фокус на экономике"
+  policy_economy_focus_name:0  "Фокус на экономике"
+  policy_economy_focus_desc:0  "Позволяет сосредоточить экономику (бюджетные расходы) либо на §Yисследованиях§!, либо §Yпроизводстве§!".
+
+  balanced_economy_focus:0  "Сбалансированная экономика"
+  balanced_economy_focus_desc:0  " "
+ 
+  industry_focus:0  "Промышленный приоритет"
+  industry_focus_desc:0  " "
+  industry_focus_strong:0  "Высокий промышленный приоритет"
+  industry_focus_strong_desc:0  " "
+  industry_focus_very_strong:0  "Высший промышленный приоритет"
+  industry_focus_very_strong_desc:0  " "
+
+  research_focus:0  "Приоритет исследования"
+  research_focus_desc:0  " "
+  research_focus_strong:0  "Высокий приоритет исследований"
+  research_focus_strong_desc:0  " "
+  research_focus_very_strong:0  "Высший приоритет исследований"
+  research_focus_very_strong_desc:0  " "
+
+
+ policy_economic_stance:0  "Контроль над рынком" #позиция
+  policy_economic_stance_desc:0  " "
+
+  economic_stance_market:0  "Рыночная экономика"
+  economic_stance_market_name:0  "Рыночная экономика"
+  economic_stance_market_desc:0  "Колебания рынка перекладываются на частные отрасли, а государственный контроль и регулирование экономики в целом снижаются".
+# Доступна только §YСоздание богатства§! торговая политика. Не может сочетаться с §YСоциальным обеспечением§! или §YУтопическим изобилием§! уровнем жизни.
+ 
+  economic_stance_mixed:0  "Регулируемая экономика"
+  economic_stance_mixed_name:0  "Регулируемый рынок"
+  economic_stance_mixed_desc:0  "Сильная экономика с гарантированным вмешательством как частного, так и государственного рынков, обеспечивающая стабильный доход и результат, без каких-либо выгод или неудобств для империи, компаний или потребителей.\n\n§EНикаких последствий для империи.§!"
+ 
+  economic_stance_planned:0  "Плановая экономика"
+  economic_stance_planned_name:0  "Плановая экономика"
+  economic_stance_planned_desc:0  "Национализация или прямое вмешательство в деятельность различных компаний, предоставляющих базовые услуги, позволяет обеспечить более предсказуемое и устойчивое экономическое развитие, не зависящее от неопределенных колебаний рынка или спекуляций, предоставляя населению более качественные и дешевые базовые услуги".
+
+ policy_healthcare:0  "Здравоохранение" 
+  policy_healthcare_name:0  "Здравоохранение"
+  policy_healthcare_desc:0  " "
+
+  mixed_healthcare:0  "Смешанное медицинское обслуживание"
+  mixed_healthcare_name:0  "Смешанное медицинское обслуживание"
+  mixed_healthcare_desc:0  "Базовое медицинское обслуживание предоставляется любому гражданину, но некоторые виды лечения, такие как процедуры по продлению жизни или сложные хирургические вмешательства, передаются частным компаниям, регулярно проверяемым правительством.\n\n§EНикаких последствий для империи.§!"
+
+  private_healthcare_name:0  "Частное здравоохранение"
+  private_healthcare:0  "Частное здравоохранение"
+  private_healthcare_desc:0  "Все медицинские услуги предоставляются частным компаниям, которые обеспечивают лучшее для тех, кто платит больше, с использованием самых современных методов лечения, которые значительно улучшают жизнь тех, кто может позволить себе такие расходы.\n\n$tec_loc_trade_value$ из £job_healthcare£ $job_healthcare_plural$: §G+5§!\n$tec_loc_pop_growth$ от £job_healthcare£ $job_healthcare_plural$: §R-2.5%§!"
+
+  public_healthcare_name:0  "Общественное здравоохранение"
+  public_healthcare:0  "Общественное здравоохранение"
+  public_healthcare_desc:0  "Обеспечение общественного и доступного здравоохранения является необходимостью для любого развитого общества, поэтому все медицинские услуги доступны любому гражданину.\n\n£building£ §YКлиники§! предоставляют 1 дополнительный £job_healthcare£ $job_healthcare$ Работа\n$tec_loc_amenities$ от £job_healthcare£ $job_healthcare_plural$: §G+2§!"
+
+ 
+ policy_education:0  "Образование" 
+  policy_education_name:0  "Образование" 
+  policy_education_desc:0  " "
+
+  mixed_education:0  "Смешанное образование"
+  mixed_education_name:0  "Смешанное образование"
+  mixed_education_desc:0  " "
+
+  private_education:0  "Частное образование"
+  private_education_name:0  "Частное образование"
+  private_education_desc:0  " "
+
+  public_education:0  "Государственное образование"
+  public_education_name:0  "Государственное образование"
+  public_education_desc:0  " " 
+
+
+
+ policy_industrial:0  "Экологическое регулирование"
+  policy_industrial_desc:0  " "
+
+  mixed_industrial:0  "Сбалансированные правила"
+  mixed_industrial_name:0  "Сбалансированные правила"
+  mixed_industrial_desc:0  "С помощью достойного набора ограничений мы можем ограничить воздействие наших отраслей на окружающую среду без ущерба для производства.\n\n§EНикаких последствий для империи.§!"
+
+  industrial_growth:0  "Сокращенные правила"
+  industrial_growth_name:0  "Сокращенные правила"
+  industrial_growth_desc:0  "Двигатель прогресса должен продолжать вращаться, и поэтому наши отрасли должны расти. Использование большего количества ресурсов в более широких масштабах повысит нашу промышленную эффективность.\n\n§E£rare_crystals£ §YПросвечивающие§!, £volatile_motes£ §YХимики§! и £exotic_gases£ §YГазоперерабатывающие заводы§! имеют §G+25%§! увеличенный темп производства с увеличенным §R+25%§! содержание.§!"
+
+
+  industrial_efficiency:0  "Ужесточенные правила"
+  industrial_efficiency_name:0  "Ужесточенные правила"
+  industrial_efficiency_desc:0  "В то время как наша империя должна продолжать расти, и мы должны обеспечить стабильность нашего общества и возможности для развития, мы также должны заботиться об окружающей среде и ограниченных ресурсах, имеющихся в нашем распоряжении, создавая более эффективные и чистые отрасли промышленности.\n\n§E£rare_crystals£ §YПросвечивающие§!, £volatile_motes£ §YХимики§! и £exotic_gases£ §YГазоперерабатывающие заводы§! потребляют §G25%§! меньше $tec_loc_minerals$ для производства продвинутых ресурсов.§!"
+
+
+  policy_recycling:0  "Изготовление инфраструктуры"
+  policy_recycling_desc:0  "То, как мы создаем наше настоящее, - это то, как мы будем строить наше будущее".
+
+  mixed_recycling_name:0  "Обычный"
+  mixed_recycling:0  "Обычный"
+  mixed_recycling_desc:0  "Использование всех доступных ресурсов позволит развивать нашу инфраструктуру нормальными и адекватными темпами".
+
+  green_recycling_name:0  "Экологическая модульность"
+  green_recycling:0  "Экологическая модульность"
+  green_recycling_desc:0  "Каждый производственный объект изготовлен из переработанных материалов и модульных композиций, что делает возможным повторное использование большинства элементов, задействованных в строительстве или производстве этих помещений и подсобных помещений общего назначения".
+
+  industrial_recycling_name:0  "Промышленное производство"
+  industrial_recycling:0  "Промышленное производство"
+  industrial_recycling_desc:0  "Инфраструктура создается в чрезвычайно быстром масштабе, поэтому лучше просто отказаться от старых или дефектных частей любого помещения или подсобного помещения и создать новое".
+
+
+
+
+  policy_transportation_logistics:0  "Транспорт и логистика"
+  policy_transportation_logistics_desc:0  "Позволяет специализировать вашу транспортную инфраструктуру".
+
+  none_transport:0  "Неограниченный"
+  none_transport_name:0  "Неограниченный"
+  none_transport_desc:0  "Все военно-морские средства контролируются и фильтруются, но ни одно из них не имеет приоритета перед другими, стремясь к максимальной эффективности без ущерба для возможностей управления или насыщения ими.\n\n§EНикаких последствий для империи.§!"
+
+  civilian_transport:0  "Гражданский"
+  civilian_transport_name:0  "Гражданский"
+  civilian_transport_desc:0  "Регулярные гражданские межколониальные переходы обеспечиваются сложной сетью военно-морских операторов, что облегчает и ускоряет перемещение населения, отодвигая военные операции на второй план".
+
+  military_transport:0  "Военный"
+  military_transport_name:0  "Военный"
+  military_transport_desc:0  "Все военно-морские активы являются приоритетными, поэтому каждая сеть военно-морских операторов обеспечивает быструю и безопасную доставку военных активов, в то же время превращая перемещение населения и экономики в более утомительный и медленный процесс".
+
+
+
+ 
+ policy_gun_rights:0  "Личное оружие"
+ policy_gun_rights_desc:0  "Разрешение гражданам покупать и использовать личное оружие в целом повысит их безопасность и свободу, но это может быть достигнуто ценой усиления преступной деятельности из-за облегчения доступа к оружию".
+ 
+  gun_rights_limited:0  "Ограниченный"
+  gun_rights_limited_name:0  "Ограниченный"
+  gun_rights_limited_desc:0  "Гражданам требуется лицензия и разрешение на ношение и использование личного оружия, как правило, предоставляемое специально назначенному персоналу и мерам безопасности".
+ 
+  gun_rights_allowed:0  "Разрешено"
+  gun_rights_allowed_name:0  "Разрешено"
+  gun_rights_allowed_desc:0  "Гражданам разрешается покупать, носить и использовать личное оружие по своему усмотрению, при соблюдении норм безопасности".
+ 
+  gun_rights_disallowed:0  "Запрещено"
+  gun_rights_disallowed_name:0  "Запрещено"
+  gun_rights_disallowed_desc:0  "Гражданам запрещено носить и использовать личное оружие в соответствии с жесткими санкциями. Только уполномоченный государственный персонал может применять оружие, и только во время своей трудовой деятельности". 
+
+
+  tech_gun_rights:0  "Социальная политика: личное оружие"
+  tech_gun_rights_desc:0  "Разблокирует §YЛичное оружие§! Правила".
+
+
+ policy_drug_rights:0  "Наркотики"
+  policy_drug_rights_desc:0  "Как правило, доступность восстановительных препаратов и наркотических средств под контролем является предметом обсуждения, поскольку большая часть общества требует, чтобы они были доступны широким массам, но это достигается ценой некоторой неизбежной экономической неэффективности".
+
+  drug_rights_limited:0  "Запрещенные наркотики"
+  drug_rights_limited_name:0  "Запрещенные наркотики"
+  drug_rights_limited_desc:0  "Наркотики недопустимы в этой империи, они безопасны для строгого медицинского применения, и граждане, которые потребляют, производят или продают их, как правило, подвергаются предупреждениям и интернированию в рамках программ детоксикации".
+
+  drug_rights_allowed:0  "Никакого контроля над наркотиками"
+  drug_rights_allowed_name:0  "Никакого контроля над наркотиками"
+  drug_rights_allowed_desc:0  "Правительство закрывает глаза на потребление и производство лекарств, облегчая доступ к ним для населения земного шара, рискуя тем, что вредоносные агенты будут фальсифицировать или усиливать токсичность и вторичные эффекты этих лекарств".
+
+  drug_rights_legaliced_name:0  "Легализованные наркотики"
+  drug_rights_legaliced:0  "Легализованные наркотики"
+  drug_rights_legaliced_desc:0  "Производство наркотиков контролируется властями, отдавая приоритет медицинскому и небольшому рекреационному использованию при строгом контроле за незаконными плантациями и продавцами и непрерывных исследованиях по смягчению вторичных эффектов".
+
+
+
+
+ policy_interstellar_telecom:0  "Телекоммуникации"
+  policy_interstellar_telecom_desc:0  " "
+
+ none_telecom:0  "Общий доступ"
+ none_telecom_name:0  "Общий доступ"
+ none_telecom_desc:0  "Определение приоритетности того или иного вида коммуникации неэффективно и потребляло бы ненужные ресурсы.\n\n§EНикаких последствий для империи.§!"
+
+ civilian_telecom:0  "Гражданский"
+ civilian_telecom_name:0  "Гражданский"
+ civilian_telecom_desc:0  "Наши граждане и исследователи имеют большую степень контроля над телекоммуникационными системами, что позволяет быстрее получать отчеты и бюрократическую обратную связь".
+
+ military_telecom:0  "Военный"
+ military_telecom_name:0  "Военный"
+ military_telecom_desc:0  "Любое перехваченное вовремя сообщение - это спасение корабля или флота, а военно-морская логистика требует большей гибкости, чем гражданская связь".
+
+
+
+ policy_interstellar_media:0  "Средства массовой информации"
+ policy_interstellar_media_desc:0  "Изо дня в день наши граждане смотрят различные каналы и гиперссайты, нам нужно быть осторожными в отношении того, кто и когда передает какую информацию и кому".
+#Чтобы разблокировать §YГалактический медиахолдинг§! технологию, вы должны сначала изучить §YМинистерство межзвездных телекоммуникаций§! технологию.
+
+ none_media:0  "Смешанный"
+ none_media_name:0  "Смешанный"
+ none_media_desc:0  "Благодаря нанятым регулирующим органам и некоторым средствам контроля любой, кто заинтересован в приобретении доменов на наших сайтах и каналах, может осуществлять повторную передачу".
+
+ free_media:0  "Бесплатно"
+ free_media_name:0  "Бесплатно"
+ free_media_desc:0  "Любой, обладающий достаточными юридическими и финансовыми правами, может осуществлять любую ретрансляцию на наших медиа-каналах без ограничений, даже те, кто намерен деморализовать нашу империю или обмануть наших граждан".
+
+ state_media:0  "Состояние"
+ state_media_name:0  "Состояние"
+ state_media_desc:0  "Наше правительство должно контролировать любую передачу, гиперссылки и контент, продвигаемый и распространяемый, подвергая цензуре все, что является негативным или попытается нанести вред нашим гражданам или нашему государству в целом".
+
+
+
+
+
+# Торговая политика
+
+ 
+
+
+ trade_policy_infrastructure:0  "Развитие инфраструктуры"
+  trade_conversion_infrastructure_name:0  "Развитие инфраструктуры"
+  trade_policy_infrastructure_desc:0  "Необходимо приложить большие усилия, чтобы обеспечить наше развитие как империи, и создание надлежащей инфраструктуры является главным приоритетом; экономически мы должны сосредоточить наши торговые усилия на этом.\n\n§EКаждый собрал §Y$tec_loc_trade_value$§! зарабатывает нам §Y0.25§! £energy£ и расширяет наши производственные возможности.§!\n\n"
+
+  trade_policy_social:0  "Социальное развитие"
+  trade_conversion_social_name:0  "Социальное развитие"
+  trade_policy_social_desc:0  "Каким бы суровым или трудным ни был наш рост как империи, мы всегда должны помнить, что мы не являемся целым без наших частей, обществом без наших граждан, поэтому все экономические усилия должны быть направлены на обеспечение образования, инноваций и изучение каждого возможного способа улучшить наш образ жизни.\n\n§EКаждый собранный §Y$tec_loc_trade_value$§! зарабатывает нам §Y0.25§! £energy£, §Y0.25§! £unity£ и §Y0.25§! £society£, с оставшимися, способствующими развитию нашей гражданской колонии.§!\n\n"
+
+ trade_policy_innovation:0  "Инновации и прогресс"
+  trade_conversion_innovation_name:0  "$trade_policy_innovation$"
+  trade_policy_innovation_desc:0  "Неизвестное содержит бесконечное количество знаний, которые нам необходимо открыть для прогресса, поэтому крупные инвестиции во все области исследований приведут нас вперед.\n\n§EКаждый собрал §Y$tec_loc_trade_value$§! зарабатывает нам §Y0.25§! £energy£ и §Y0.15§! из £physics£ , £society£ и £engineering£§!"
+
+ trade_policy_militarized:0  "Экономический милитаризм"
+  trade_conversion_militarized_name:0  "Экономический милитаризм"
+  trade_policy_militarized_desc:0  "Неизвестное содержит бесконечное количество знаний, которые нам необходимо открыть для прогресса, поэтому крупные инвестиции во все области исследований приведут нас вперед.\n\n§EКаждый собрал §Y$tec_loc_trade_value$§! зарабатывает нам §Y0.25§! £energy£, при этом остальные усиливают наше стратегическое военное развитие.§!"
+
+ trade_policy_food:0  "Развитие сельского хозяйства"
+  trade_conversion_food_name:0  "$trade_policy_food$"
+  trade_policy_food_desc:0  "Некоторые могут подумать, что простейшие задачи не имеют значения, но мы не должны ошибаться; В руках наших фермеров и производств биомассы мы делаем первый шаг к укреплению основ нашего общества; без пайков, продовольствия или биомассы для последующего производства мы бы голодали, поэтому инвестируем в это принесло бы положительные результаты.\n\n§EКаждый собранный §Y$tec_loc_trade_value$§! зарабатывает нам §Y0.25§! £energy£ и §Y0.5§! £food£§!"
+
+ trade_policy_mining:0  "Субсидирование добычи полезных ископаемых"
+  trade_conversion_mining_name:0  "$trade_policy_mining$"
+  trade_policy_mining_desc:0  "С помощью необетона и сплавов мы строим будущее, но мы должны напомнить, что они добываются и производятся смелыми и трудолюбивыми гражданами и передовыми машинами с высокой стоимостью. Инвестирование в нашу горнодобывающую отрасль может обеспечить безопасность наших работников и более эффективное использование самых современных технологий.\n\n§EКаждый собранный §Y$tec_loc_trade_value$§! зарабатывает нам §Y0.25§! из £energy£ и §Y0.5§! £minerals£§!."
+
+ policy_economic_policy:1  "Производственный фокус"
+
+  policy_taxation:0  "Налогообложение"
+  policy_taxation_desc:0  " "
+
+policy_bureaucracy:0 "Властная позиция"
+ policy_bureaucracy_desc:0 "Эта политика позволяет определить позицию правительственной бюрократии: §YЦентрализованная§! или §YФедерализованная§!".
+
+ none_bureaucracy:0 "Не указано"
+ none_bureaucracy_name:0 "Не указано"
+ none_bureaucracy_desc:0 " "
+
+ centralized_state:0  "Централизованное правительство"
+  centralized_state_name:0  "Централизованное правительство"
+  centralized_state_desc:0  "Вся политическая власть сосредоточена в руках центрального правительства, осуществляющего полный контроль над любым аспектом общества из столицы правительства".
+
+  federal_state:0  "Федерализованное правительство"
+  federal_state_name:0  "Федерализованное правительство"
+  federal_state_desc:0  "Бюрократия значительно децентрализована, обеспечивая эффективность управления ценой потери некоторой власти, разделенной между различными политиками, контролирующими секторы и регионы".
+
+ policy_budget_incentives:0  "Бюджетный фокус"
+  policy_budget_incentives_desc:0  "Позволяет указать цель дополнительных бюджетных стимулов. Стоимость всех полисов §Y20%§! о производстве энергии базовой империей для поддержания. Необходимо исследовать §YГосударственное управление: бюджетные стимулы§! сначала технологии."
+
+  none_budget_incentives:0  "Не указано"
+  none_budget_incentives_name:0  "Не указано"
+  none_budget_incentives_desc:0  " "
+
+  culture_science:0  "Наука и культура"
+  culture_science_name:0  "Наука и культура"
+  culture_science_desc:0  " "
+
+  development_construction:0  "Девелопмент и строительство"
+  development_construction_name:0  "Девелопмент и строительство"
+  development_construction_desc:0  " "
+
+  administration_bureaucracy:0  "Администрация и бюрократия"
+  administration_bureaucracy_name:0  "Администрация и бюрократия"
+  administration_bureaucracy_desc:0  " "
+
+
+
+
+
+
+
+ policy_enslavement_rate:0  "Уровень порабощения"
+  policy_enslavement_rate_desc:0  "Гражданскому праву §YГильдиям работорговцев§! и §YПринудительному перевоспитанию§! разрешено устанавливать гибкую ставку расчетов §YПорабощение§!."
+
+  enslavement_10:0  "10%"
+  enslavement_10_name:0  "10%"
+  enslavement_10_desc:0  "Дисциплина вернет самых непослушных членов нашего общества обратно".
+
+  enslavement_15:0  "15%"
+  enslavement_15_name:0  "15%"
+ enslavement_15_desc:0  "Больший контроль над диссидентами обеспечит общее благо для всех".
+
+  enslavement_20:0  "20%"
+  enslavement_20_name:0  "20%"
+  enslavement_20_desc:0  "Несмотря на то, что лагеря уже заполнены на максимальную мощность, мы должны относиться к нашим потенциальным реинтегрированным лицам с достоинством, поэтому необходимо приложить дополнительные усилия, чтобы убедить их".
+
+  enslavement_25:0  "25%"
+  enslavement_25_name:0  "25%"
+  enslavement_25_desc:0  "Более жесткий контроль над компаниями и использование наиболее способных рабов в качестве обычных граждан, после того как они это заработают, пойдет на пользу нашей империи".
+
+
+  enslavement_30:0  "30%"
+  enslavement_30_name:0  "30%"
+  enslavement_30_desc:0  "Потеря контроля над порабощенным населением и предпочтение более... практическому использованию населения действительно ускорит наше развитие и предоставит более широкие возможности для привлечения иностранного рабовладельческого населения".
+
+  enslavement_33:0  "33%"
+  enslavement_33_name:0  "33%"
+  enslavement_33_desc:0  ""
+
+
+  enslavement_40:0  "40%"
+  enslavement_40_name:0  "40%"
+  enslavement_40_desc:0  "Поскольку почти половина населения находится в рабстве, наблюдается некоторый неизбежный спад в социальном развитии".
+
+  enslavement_50:0  "50%"
+  enslavement_50_name:0  "50%"
+  enslavement_50_desc:0  "Половина населения служит другой половине, потому что для развития нашего общества необходимо идти на суровые жертвы".
+
+
+
+
+
+  PROGRESSIVE_DRUG_RIGHTS:0  "Разрешены рекреационные наркотики"
+  PROGRESSIVE_NO_DRUG_RIGHTS:0  "Разрешить рекреационные наркотики"
+  PROGRESSIVE_DRUG_RIGHTS_DESC:0  "Разрешение гражданам нашей Империи свободно покупать и употреблять §YРекреационные наркотики§! доставит удовольствие [Root.GetName]".
+
+  TOTALITARIAN_DRUG_RIGHTS:0  "Рекреационные наркотики запрещены"
+  TOTALITARIAN_NO_DRUG_RIGHTS:0  "Запретить рекреационные наркотики"
+  TOTALITARIAN_DRUG_RIGHTS_DESC:0  "Применение строгого контроля за распространением и использованием §Yрекреационных наркотиков§! в нашей империи доставит удовольствие [Root.GetName]".
+
+  TOTALITARIAN_GUN_RIGHTS:0  "Личное оружие запрещено"
+  TOTALITARIAN_NO_GUN_RIGHTS:0  "Запретить личное оружие"
+  TOTALITARIAN_GUN_RIGHTS_DESC:0  "Применение строгого контроля за распределением и использованием §Yличного оружия§! в нашей империи доставит удовольствие [Root.GetName]".
+
+
+
+ edict_noesnadaporqueasiagrupo:0  "aa"
+
+ edict_indoctrination_xenophobe:0  "Идеологическая обработка: ксенофобия"
+  edict_indoctrination_xenophobe_desc:0  "Вызовет недовольство §Yфракции ксеноистов§!".
+
+  edict_indoctrination_xenophile:0  "Идеологическая обработка: ксенофилия"
+  edict_indoctrination_xenophile_desc:0  "Вызовет недовольство §Yсторонников превосходства§! фракции".
+
+  edict_indoctrination_capitalism:0  "Идеологическая обработка: индивидуализм"
+  edict_indoctrination_capitalism_desc:0  "Вызовет недовольство §Yфракции социалистов§!".
+
+  edict_indoctrination_socialism:0  "Идеологическая обработка: коллективизм"
+  edict_indoctrination_socialism_desc:0  "Вызовет недовольство §YТрейдеров§! фракции".
+
+  edict_indoctrination_elitist:0  "Идеологическая обработка: элитарность"
+  edict_indoctrination_elitist_desc:0  "Вызовет недовольство фракции §Yлейбористов§!".
+
+  edict_indoctrination_pluralist:0  "Идеологическая обработка: $ethic_pluralist_adj$"
+  edict_indoctrination_pluralist_desc:0  "Вызовет недовольство §YАристократической§! фракции".
+
+  edict_indoctrination_green:0  "Идеологическая обработка: защита окружающей среды"
+  edict_indoctrination_green_desc:0  "Вызовет недовольство §YПроизводителей§! фракции".
+
+  edict_indoctrination_industrial:0  "Идеологическая обработка: индустриализм"
+  edict_indoctrination_industrial_desc:0  "Вызовет недовольство §YФракции защитников окружающей среды§!".
+
+  edict_indoctrination_spiritualist:0  "Идеологическая обработка: спиритизм"
+  edict_indoctrination_spiritualist_desc:0  "Вызовет недовольство §YТехнологов§! фракции".
+
+  edict_indoctrination_materialist:0  "Идеологическая обработка: материализм"
+  edict_indoctrination_materialist_desc:0  "Вызовет недовольство §Yфракции традиционалистов§!".
+
+  edict_indoctrination_authoritarian:0  "Идеологическая обработка: тоталитаризм"
+  edict_indoctrination_authoritarian_desc:0  "Вызовет недовольство §YПрогрессивной§! фракции".
+
+  edict_indoctrination_militarist:0  "Идеологическая обработка: милитаризм"
+  edict_indoctrination_militarist_desc:0  "Приведет к несчастью §YПроцветания§! фракции".
+
+  edict_indoctrination_pacifist:0  "Идеологическая обработка: пацифизм"
+  edict_indoctrination_pacifist_desc:0  "Вызовет недовольство §Yфракции империалистов§!".
+
+
+  edict_forced_industry:0  "Форсированная индустриализация"
+  edict_forced_industry_desc:0  " "
+ edict_clean_air:0 "Доктрина: Чистый воздух"
+ edict_clean_air_desc:0 " "
+  edict_social_development:0  "Социальное развитие"
+  edict_social_development_desc:0  " "
+
+
+ edict_pan_galactic_league:0 "Пангалактическая лига"
+ edict_pan_galactic_league_desc:0 " " 
+ 
+ 
+  edict_social_welfare:0  "Программы социального обеспечения"
+  edict_social_welfare_desc:0  " " 
+
+
+
+
+  edict_pan_galactic_nation:0  "Пангалактическая нация"
+  edict_pan_galactic_nation_desc:0  " "
+
+
+
+  edict_loyalty:0  "Доктрина: Контроль мыслей" 
+  edict_loyalty_desc:0  " "
+  allow_edict_doctrine_loyalty:0  "Разблокирует указ страны §YДоктрина: Контроль над мыслями§!: увеличение §YПривлекательности государственной этики§!, §YБоевой дух армии§! и §YВлияют на усиление§!, уменьшают потенциал §Yбеспорядков§! и снижают §YСкорость исследования§! и §YПрирост энергии§!. Открывает §YВолю к власти§! возможность исследования технологий." 
+
+
+  edict_div_crusade:0  "$unity_ambition$ Божественный крестовый поход"
+  edict_div_crusade_desc:0  "Нечестивые неверные будут уничтожены раз и навсегда!"
+
+
+ edict_immortal_ruler:0  "Провозгласить бессмертного правителя"
+ edict_immortal_ruler_desc:0  "Применение этого указа объявит нашего нынешнего правителя Бессмертным".
+
+
+
+
+ taxation_high:0  "Высокий"
+  taxation_high_name:0  "Высокий"
+  taxation_high_desc:0  " "
+
+  taxation_low:0  "Низкий"
+  taxation_low_name:0  "Низкий"
+  taxation_low_desc:0  " "
+
+  taxation_mixed:0  "Сбалансированный"
+  taxation_mixed_name:0  "Сбалансированный"
+  taxation_mixed_desc:0  " "
+ 
+ 
+ 
+ 
+
+  NO_EFFICIENCY:0  "Запрещенное экологическое регулирование"
+  NO_EFFICIENCY_NO:0  "Запретить экологическое регулирование"
+  NO_EFFICIENCY_DESC:0  "§YУжесточение экологического регулирования§! политика вызывает недовольство [Root.GetName]."
+
+  INDUSTRIAL_PRODUCTIVISM:0  "Сниженное экологическое регулирование"
+  NO_INDUSTRIAL_PRODUCTIVISM:0  "Снизить экологическое регулирование"
+  INDUSTRIAL_PRODUCTIVISM_DESC:0  "§YСмягченное экологическое регулирование§! политика понравится [Root.GetName]."
+
+  INDUSTRIAL_EFFICIENCY:0  "Усиленное экологическое регулирование"
+  NO_INDUSTRIAL_EFFICIENCY:0  "Усилить экологическое регулирование"
+  INDUSTRIAL_EFFICIENCY_DESC:0  "§YУжесточение экологического регулирования§! политики понравится [Root.GetName]."
+
+  NO_PRODUCTIVISM:0  "Применяемое экологическое регулирование"
+  NO_PRODUCTIVISM_NO:0  "Сослаться на экологическое регулирование"
+  NO_PRODUCTIVISM_DESC:0  "§YСокращенное экологическое регулирование§! политика вызывает недовольство [Root.GetName]."
+
+
+ 
+
+
+
+
+
+
+
+
+  authoritarian_evangelist:0  "Авторитарное восхищение"
+  fanatic_authoritarian_evangelist:0  "Авторитарная поддержка"
+  egalitarian_evangelist:0  "$ethic_egalitarian$ Идеалы"
+  fanatic_egalitarian_evangelist:0  "$ethic_egalitarian$ Анархисты"
+  militarist_evangelist:0  "Воинствующая пропаганда"
+  fanatic_militarist_evangelist:0  "Воинствующий национализм"
+  pacifist_evangelist:0  "Пацифистские учения"
+  fanatic_pacifist_evangelist:0  "Пацифистское движение"
+  spiritualist_evangelist:0  "Духовное благовестие"
+  fanatic_spiritualist_evangelist:0  "Духовное пробуждение"
+  materialist_evangelist:0  "Материальные желания"
+  fanatic_materialist_evangelist:0  "Материалистическое потребительство"
+  xenophobe_evangelist:0  "Всколыхнулась ксенофобия"
+  fanatic_xenophobe_evangelist:   "Ксенофобская паника"
+  xenophile_evangelist:  "Сотрудничество ксенофилов"
+  fanatic_xenophile_evangelist:  "Ксенофильский разврат"
+
+  authoritarian_evangelist_desc:  "$foreign_influence$"
+  fanatic_authoritarian_evangelist_desc:  "$foreign_influence$"
+  egalitarian_evangelist_desc:  "$foreign_influence$"
+  fanatic_egalitarian_evangelist_desc:  "$foreign_influence$"
+  militarist_evangelist_desc:  "$foreign_influence$"
+  fanatic_militarist_evangelist_desc:  "$foreign_influence$"
+  pacifist_evangelist_desc:  "$foreign_influence$"
+  fanatic_pacifist_evangelist_desc:  "$foreign_influence$"
+  spiritualist_evangelist_desc:  "$foreign_influence$"
+  fanatic_spiritualist_evangelist_desc:  "$foreign_influence$"
+  materialist_evangelist_desc:  "$foreign_influence$"
+  fanatic_materialist_evangelist_desc:  "$foreign_influence$"
+  xenophobe_evangelist_desc:  "$foreign_influence$"
+  fanatic_xenophobe_evangelist_desc:  "$foreign_influence$"
+  xenophile_evangelist_desc:  "$foreign_influence$"
+  fanatic_xenophile_evangelist_desc:  "$foreign_influence$"
+
+
+  green_evangelist:0  "Экологический фонд"
+  green_evangelist_desc:  "$foreign_influence$"
+  fanatic_green_evangelist:0  "Экологический протест"
+  fanatic_green_evangelist_desc:  "$foreign_influence$"
+ 
+  industrial_evangelist:0  "Пропаганда промышленников"
+  industrial_evangelist_desc:  "$foreign_influence$"
+  fanatic_industrial_evangelist:0  "Промышленная революция"
+  fanatic_industrial_evangelist_desc:  "$foreign_influence$"
+
+
+  socialism_evangelist:0  "Социалистические тенденции"
+  socialism_evangelist_desc:  "$foreign_influence$"
+
+  fanatic_socialism_evangelist:0  "Социалистические обещания"
+  fanatic_socialism_evangelist_desc:  "$foreign_influence$"
+
+  capitalism_evangelist:0  "Капиталистический интерес"
+  capitalism_evangelist_desc:  "$foreign_influence$"
+
+  fanatic_capitalism_evangelist:0  "Разоблачение капиталистов"
+  fanatic_capitalism_evangelist_desc:  "$foreign_influence$"
+ 
+
+  elitist_evangelist:0  "Элитарные идеалы"
+  elitist_evangelist_desc:  "$foreign_influence$"
+
+  fanatic_elitist_evangelist:0  "Правило лучших"
+  fanatic_elitist_evangelist_desc:  "$foreign_influence$"
+
+  pluralist_evangelist:0  "Убедительно $ethic_pluralist_adj$"
+  pluralist_evangelist_desc:  "$foreign_influence$"
+
+  fanatic_pluralist_evangelist:0  "Плюралистическая утопия"
+  fanatic_pluralist_evangelist_desc:  "$foreign_influence$"
+
+
+  protected_from_evangelism:0  "Неизменная этика"
+  protected_from_evangelism_desc:   "Никакая иностранная империя не сможет изменить нашу этику"
+
+
+  foreign_influence:  "§LИностранная империя пытается повлиять на наши убеждения.§!"
+
+  diplo_stance_evangelist:  "Евангелист"
+  diplo_stance_evangelist_name:  "$diplo_stance_evangelist$"
+  diplo_stance_evangelist_desc:   "Эта империя стремится заставить умы галактики мыслить более похоже на их собственные, либо с помощью громкой риторики, либо низкой хитрости. \n\n$evangelist_effect$"
+ evangelist_effect:  "§EОтправка посланника в §Y$improve_relations_TITLE$§! добавит §G10% этической привлекательности§! к каждой вашей этике в империя-мишень. \n\nОтправка посланника в §Y$harm_relations_TITLE$§! вместо этого обеспечит §G15% этического притяжения§! к вашей фанатичной этике, и §G30% $MOD_POP_ETHICS_SHIFT_SPEED$§!. \n\n Стоимость посланников по евангелизации £influence£ §G0.25§! в месяц.§!\n\n"
+
+#Добавляет §YСекуляризацию§! кассуса Белли к империи, находящейся под влиянием\n\n
+
+  diplo_stance_propaganda:  "Пропагандистский"
+  diplo_stance_propaganda_name:  "$diplo_stance_propaganda$"
+  diplo_stance_propaganda_desc:   "Эта империя стремится заставить умы галактики мыслить более похоже на их собственные, либо с помощью громкой риторики, либо низкой хитрости. \n\n$propagandistic_effect$"
+  propagandistic_effect:  "§EОтправка посланника в §Y$improve_relations_TITLE$§! добавит §G10% этической привлекательности§! к каждой вашей этике в империя-мишень. \n\nОтправка посланника в §Y$harm_relations_TITLE$§! вместо этого обеспечит §G15% этического притяжения§! к вашей фанатичной этике, и §G30% $MOD_POP_ETHICS_SHIFT_SPEED$§!. \n\n Стоимость посланников по евангелизации £influence£ §G0.25§! в месяц.§!\n\n"
+
+
+  policy_evangelism_policy:0  "Этический евангелизм"
+  policy_evangelism_policy_desc:0  "Другие империи могли бы повлиять на нашу империю путем евангелизации или агрессивной пропаганды. Мы должны решить, следует ли нам разрешить это или радикально запретить любые попытки".
+  evangelism_accepted_policy_name:0  "Принятый евангелизм"
+  evangelism_accepted_policy:0  "Принятый евангелизм"
+  evangelism_accepted_policy_desc:0  "Мы не можем вмешиваться в убеждения наших людей.\n\n§EЛюбая евангелизирующая или пропагандистская империя может повлиять на нашу этику с помощью своей!§!\n\n"
+  evangelism_rejected_policy_name:0  "Отвергнутый евангелизм"
+  evangelism_rejected_policy:0  "Отвергнутый евангелизм"
+  evangelism_rejected_policy_desc:0  "Наша воля и убеждения слишком сильны, чтобы позволить другим влиять на нас.\n\n§EНикакая евангелизирующая или пропагандистская империя не сможет повлиять на нашу этику§!\n\n"
+
+
+
+
+#ПОЛИТИКА CGOODS
+
+ policy_goods_policy:0  "Производство потребительских товаров"
+  policy_goods_policy_desc:0  "TO_DO_WIP"
+  consumer_goods_minerals_name:0  "Промышленное производство"
+  consumer_goods_minerals:0  "Промышленное производство"
+  consumer_goods_minerals_desc:0  "Ритм роста и двигатели прогресса могут быть созданы из богатых минералов, которые мы будем использовать для удовлетворения наших самых элементарных и самых сложных потребностей.\n\n§E_[107]_ Производство потребительских товаров будет полностью основано на на £minerals£ минералах§!"
+
+  consumer_goods_mixed_name:0  "Устойчивое производство"
+  consumer_goods_mixed:0  "Устойчивое производство"
+  consumer_goods_mixed_desc:0  "Даже при том, что пространство перед нашим взором и звезды в пределах нашей досягаемости, мы должны заботиться об окружающей среде и ограниченных ресурсах, используя возобновляемые и природные ресурсы для удовлетворения наших потребностей, изготовления наших инструментов и соответствия нашим идеям.\n\n§E_[107]Производство потребительских товаров будет основываться как на £minerals£ минералах, так и £food£ продуктах питания§!"
+
+  consumer_goods_food_name:0  "Экологическое производство"
+  consumer_goods_food:0  "Экологическое производство"
+ consumer_goods_food_desc:0  "Все, что нам нужно, можно найти в природе; извлекая минералы и очищенные металлы в результате естественных процессов и переработки биомассы, мы можем поддерживать потребление любых товаров, в которых нуждается наше население.\n\n§E_[107]_ Производство потребительских товаров будет полностью основан на £food£Food§!"
+
+
+
+
+
+# ПОЛИТИКА НАНИТОВ
+
+
+  policy_nanite_uses_policy:0  "Использование нанитов"
+  policy_nanite_uses_policy_desc:0  "Наниты - ценный ресурс, теперь, когда мы открыли способы их использования, мы должны быть §Yосторожны§! в том, как мы ориентируемся на их использование".
+  nanites_into_resources_name:0  "Разборка нанита"
+  nanites_into_resources:0  "Разборка нанита"
+  nanites_into_resources_desc:0  "Мы можем перерабатывать нанитовые компоненты в ценные ресурсы и перерабатывать непригодные для использования для улучшения нашей производственной деятельности.\n\n§E§YНанитовые комплексы§! преобразуют £nanites£ в £rare_crystals£ £volatile_motes£ £exotic_gases£ и сократить численность населения планеты §YПоддержание рабочих мест§!§!\n\n"
+
+  resources_into_nanites_name:0  "Нанитовая сборка"
+  resources_into_nanites:0  "Нанитовая сборка"
+  resources_into_nanites_desc:0  "Упускать такую выгодную возможность для создания новых нанитов и выявления потенциальных применений - плохая идея, мы должны вложить некоторые усилия и ресурсы в создание новых и мощных наномашин.\n\n§E§YНанитовые комплексы§! преобразует £rare_crystals£ £volatile_motes£ £exotic_gases£ в £nanites£, что позволяет в дальнейшем §Yприменять§! нанотехнологии.§!\n\n"
+
+  nanites_usage_name:0  "Эксплуатация нанитов"
+  nanites_usage:0  "Эксплуатация нанитов"
+  nanites_usage_desc:0  "Поскольку наша технология продвинулась достаточно далеко, чтобы контролировать и формировать наноботов Dessanu, мы можем использовать их для улучшения наших планет, открывая нам новую эру развития и новый способ преодоления технологических и общественных вызовов.\n\n§EМы будет использовать §YНанитовые комплексы§! для улучшения §YГлобального терраформирования§! и §YМестного строительства§! и §YПопуляционная ассамблея§! ускоряется путем создания §Rнаноботов окружающей среды§!, также используя специальных §Yученых§! для изучения £nanites£ технологии .§!\n\n"
+
+
+
+
+
+
+###
+# Новые указы федерации
+###
+
+  edict_tec_arcane_dwelvers:0  "Покровитель тайных исследований"
+  edict_tec_arcane_dwelvers_desc:0  "Используя некоторые из наших уже обнаруженных второстепенных артефактов, мы можем финансировать специалистов и знатоков древних исследований из нашего галактического сообщества или даже развивать наш собственный разум, пытаясь воспроизвести секреты предшественников и получить или даже создать новые артефакты".
+
+
+# Истинный временный указ
+  edict_tec_aiauth_menu:0  "£sr_tec_ai_power£ §Y$sr_tec_ai_power$§!"
+  edict_tec_aiauth_menu_desc:0  "Это меню открывает меню AI authority ai power mechanic".
+
+ # Ethic shift ap
+
+  policy_ethic_shift_policy:0  "Этическая революция"
+  policy_ethic_shift_policy_desc:0  "Наше общество нуждается в свободе слова, культе и развитии. Теперь у нас есть инструменты, чтобы обеспечить это и вместе двигаться к лучшему будущему.\n\n§EВыбор любой политики радикально повысит привлекательность одной этики, одновременно уменьшая привлекательность противоположной.§!\n\n"
+
+  neutral_ethic_shift_name:0  "Этическая свобода"
+  neutral_ethic_shift:0  "Этическая свобода"
+  neutral_ethic_shift_desc:0  "Наши граждане абсолютно свободны решать, во что верить и что практиковать".
+
+  military_ethic_shift_name:0  "Военная гордость"
+  military_ethic_shift:0  "Военная гордость"
+  military_ethic_shift_desc:0  "Мы не должны позволять никому завоевывать или подчинять наш народ, мы будем развиваться как милитаристское общество".
+
+  pacifist_ethic_shift_name:0  "Воплощенный пацифизм"
+  pacifist_ethic_shift:0  "Воплощенный пацифизм"
+  pacifist_ethic_shift_desc:0  "Война бесполезна, конфликтов можно избежать, мы будем развиваться как пацифистское общество".
+
+  xenophile_ethic_shift_name:0  "Ксенофильские отношения"
+  xenophile_ethic_shift:0  "Ксенофильские отношения"
+  xenophile_ethic_shift_desc:0  "Теперь мы узнали, что мы не одиноки, мы должны делить наши дома и сердца с другими обитателями этой галактики".
+
+  xenophobe_ethic_shift_name:0  "Разжигал ксенофобию"
+  xenophobe_ethic_shift:0  "Разжигал ксенофобию"
+  xenophobe_ethic_shift_desc:0  "Эта галактика полна опасных существ и жадных инопланетян. Не страдай от ксеносов".
+
+  egalitarian_ethic_shift_name:0  "$ethic_egalitarian$ Вводит в действие"
+  egalitarian_ethic_shift:0  "$ethic_egalitarian$ Вводит в действие"
+  egalitarian_ethic_shift_desc:0  "Наша империя не будет процветать до тех пор, пока каждый не сможет объединить свои голоса и действия".
+
+  authoritarian_ethic_shift_name:0  "Авторитарная пропаганда"
+  authoritarian_ethic_shift:0  "Авторитарная пропаганда"
+  authoritarian_ethic_shift_desc:0  "Правая рука для правильной империи, не должно быть допущено ошибок, не допускается разврат, все под одним флагом и руководством".
+
+  elitist_ethic_shift_name:0  "Элитарная функциональность"
+  elitist_ethic_shift:0  "Элитарная функциональность"
+  elitist_ethic_shift_desc:0  "Механизмы прогресса должны быть хорошо спроектированы и смазаны; если вы этого не делаете, вы останавливаете машину и должны служить другой цели, в то время как те, кто это делает, являются истинными двигателями общества".
+
+  pluralist_ethic_shift_name:0  "Плюралистическая декларация"
+  pluralist_ethic_shift:0  "Плюралистическая декларация"
+  pluralist_ethic_shift_desc:0  "TO_DO_WIP"
+
+  capitalism_ethic_shift_name:0  "Конкурентные тенденции"
+  individualist_ethic_shift:0  "Конкурентные тенденции"
+  individualist_ethic_shift_desc:0  "Нет такой вещи, как коллективный импульс идти вперед, это наши личные амбиции, которые побуждают нас к самым смелым достижениям".
+
+  socialism_ethic_shift_name:0  "Преимущества сотрудничества"
+  collectivism_ethic_shift:0  "Преимущества сотрудничества"
+  collectivism_ethic_shift_desc:0  "Человек не просто способствует прогрессу общества; это все усилия объединенного общества, которые продвигают нас вперед".
+
+  spiritualist_ethic_shift_name:0  "Спиритическая уверенность"
+  spiritualist_ethic_shift:0  "Спиритическая уверенность"
+  spiritualist_ethic_shift_desc:0  "В то время как вселенная полна чудес, мы должны сами определить, каково наше место в этом великом море, и попытаться найти ответы на этот прекрасный божественный замысел, молясь о голосе, который мы услышим".
+
+  materialist_ethic_shift_name:0  "Материалистический императив"
+  materialist_ethic_shift:0  "Материалистический императив"
+  materialist_ethic_shift_desc:0  "Вещи есть или их нет; нет такой вещи, как вера или суеверие; наука, прагматизм и вечное сомнение - наше самое мощное оружие в борьбе с невежеством и глупостью".
+
+  industrial_ethic_shift_name:0  "Промышленная революция"
+  industrial_ethic_shift:0  "Промышленная революция"
+  industrial_ethic_shift_desc:0  "В развитии нет середины, это все или ничего; и туман промышленности, запах новых кораблей и удобств, а также блестящая поверхность новых аркологий затмят для нас это "ничто""
+
+  green_ethic_shift_name:0  "Экологическая инициатива"
+  green_ethic_shift:0  "Экологическая инициатива"
+ green_ethic_shift_desc:0  "Ресурсы скудны, а миры - наше самое ценное сокровище; мы не должны разрушать или гасить наш единственный способ выживания, мы должны заботиться о природе и расти вместе с ней".
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#-----------------------------------------
+#ETHIC/CIVIC BASED POLICIES
+#-----------------------------------------
+
+#religious cult
+ policy_religious_cult_policy:0  "Фокус религиозного культа"
+  policy_religious_cult_policy_desc:0  "Религиозное общество, объединенное общей молитвой, общим хором, делающее свое вероучение чем-то большим, чем звезды".
+ 
+  free_religious_cult_name:0  "Свобода культа"
+  free_religious_cult:0  "Свобода культа"
+  free_religious_cult_desc:0  "Молитвы и мысли - это свободный и разнообразный выбор в этом обществе".
+
+  fertility_religious_cult_name:0  "Культ плодородия"
+  fertility_religious_cult:0  "Культ плодородия"
+  fertility_religious_cult_desc:0  "Молитвы и мысли сосредоточены на плодородии. \n\n§LСимвол веры приносит пользу новорожденным, освящает посевы и способствует мирной и естественной жизни.§!"
+ 
+  fertility_fanatic_religious_cult_name:0  "$fertility_religious_cult_name$"
+  fertility_fanatic_religious_cult:0 	"$fertility_religious_cult$"
+  fertility_fanatic_religious_cult_desc:0  "$fertility_religious_cult_desc$"
+
+  fertility_lithoid_religious_cult_name:0  "$fertility_religious_cult_name$"
+  fertility_lithoid_religious_cult:0 	"$fertility_religious_cult$"
+  fertility_lithoid_religious_cult_desc:0  "$fertility_religious_cult_desc$"
+
+  fertility_lithoid_fanatic_religious_cult_name:0  "$fertility_religious_cult_name$"
+  fertility_lithoid_fanatic_religious_cult:0 	"$fertility_religious_cult$"
+  fertility_lithoid_fanatic_religious_cult_desc:0  "$fertility_religious_cult_desc$"
+
+  fertility_sedimentary_religious_cult_name:0  "$fertility_religious_cult_name$"
+  fertility_sedimentary_religious_cult:0 	"$fertility_religious_cult$"
+  fertility_sedimentary_religious_cult_desc:0  "$fertility_religious_cult_desc$"
+
+  fertility_sedimentary_fanatic_religious_cult_name:0  "$fertility_religious_cult_name$"
+  fertility_sedimentary_fanatic_religious_cult:0 	"$fertility_religious_cult$"
+  fertility_sedimentary_fanatic_religious_cult_desc:0  "$fertility_religious_cult_desc$"
+
+
+ prosperity_religious_cult_name:0  "Культ процветания"
+  prosperity_religious_cult:0  "Культ процветания"
+  prosperity_religious_cult_desc:0  "Молитвы и мысли сосредоточены на процветании. \n\n§LКредо освящает рабочие места и выделяет ресурсы для новой отрасли в обмен на наиболее интенсивную работу по добыче сырьевых ресурсов.§!\n\n"
+
+  prosperity_fanatic_religious_cult_name:0  "$prosperity_religious_cult_name$"
+  prosperity_fanatic_religious_cult:0  "$prosperity_religious_cult$"
+  prosperity_fanatic_religious_cult_desc:0 	"$prosperity_religious_cult_desc$"
+
+
+  war_religious_cult_name:0  "Культ войны"
+  war_religious_cult:0  "Культ войны"
+  war_religious_cult_desc:0  "Молитвы и мысли сосредоточены на Священном искусстве войны. \n\n§LКорабли украшены священными иероглифами, их команда всегда выражает свою веру в своем вероучении, а в доках всегда полно поющих псалмы.§!\n\n"
+
+  war_fanatic_religious_cult_name:0  "$war_religious_cult_name$"
+  war_fanatic_religious_cult:0 	"$war_religious_cult$"
+  war_fanatic_religious_cult_desc:0  "$war_religious_cult_desc$"
+
+  machine_religious_cult_name:0  "Культ Святой машины"
+  machine_religious_cult:0  "Культ Святой машины"
+  machine_religious_cult_desc:0  "Молитвы и мысли сосредоточены на Святых машинах. \n\n§LМашины благословлены и покрыты золотом, они являются частью семей, и каждый созданный новый робот является предметом гордости общества, и к нему относятся как к ребенку.§!\n\n"
+
+  machine_fanatic_religious_cult_name:0  "$machine_religious_cult_name$"
+  machine_fanatic_religious_cult:0 	 "$machine_religious_cult$"
+  machine_fanatic_religious_cult_desc:0  "$machine_religious_cult_desc$"
+
+  machine_cyborg_religious_cult_name:0  "$machine_religious_cult_name$"
+  machine_cyborg_religious_cult:0 	 "$machine_religious_cult$"
+  machine_cyborg_religious_cult_desc:0  "$machine_religious_cult_desc$"
+
+  machine_cyborg_fanatic_religious_cult_name:0  "$machine_religious_cult_name$"
+  machine_cyborg_fanatic_religious_cult:0 	 "$machine_religious_cult$"
+  machine_cyborg_fanatic_religious_cult_desc:0  "$machine_religious_cult_desc$"
+
+  knowledge_religious_cult_name:0  "Культ знаний"
+  knowledge_religious_cult:0  "Культ знаний"
+  knowledge_religious_cult_desc:0  "Нет лучшего способа доказать наши убеждения, чем проникнуть в тайны Вселенной, чтобы дать ответ на наши молитвы. \n\n§LНаука даст ответ на наш главный вопрос, и мы покажем другим, что были правы.§!\n\n"
+
+  knowledge_fanatic_religious_cult_name:0  "$knowledge_religious_cult_name$"
+  knowledge_fanatic_religious_cult:0  "$knowledge_religious_cult$"
+  knowledge_fanatic_religious_cult_desc:0  "$knowledge_religious_cult_desc$"
+
+  gaia_religious_cult_name:0  "Культ Геи"
+  gaia_religious_cult:0  "Культ Геи"
+  gaia_religious_cult_desc:0  "Нам был подарен совершенный мир, самая чистая форма и представление наших убеждений. \n\n§LПоскольку этот подарок является доказательством наших убеждений, мы должны поблагодарить Вселенную и распространять шепот Геи.§!\n\n"
+
+  gaia_fanatic_religious_cult_name:0  "$gaia_religious_cult_name$"
+  gaia_fanatic_religious_cult:0  "$gaia_religious_cult$"
+  gaia_fanatic_religious_cult_desc:0  "$gaia_religious_cult_desc$"
+
+  gaia_lithoid_religious_cult_name:0  "$gaia_religious_cult_name$"
+  gaia_lithoid_religious_cult:0  "$gaia_religious_cult$"
+  gaia_lithoid_religious_cult_desc:0  "$gaia_religious_cult_desc$"
+
+  gaia_lithoid_fanatic_religious_cult_name:0  "$gaia_religious_cult_name$"
+  gaia_lithoid_fanatic_religious_cult:0  "$gaia_religious_cult$"
+  gaia_lithoid_fanatic_religious_cult_desc:0  "$gaia_religious_cult_desc$"
+
+  money_religious_cult_name:0  "Культ богатства"
+  money_religious_cult:0  "Культ богатства"
+  money_religious_cult_desc:0  "Каждый кредит - это проявление божественного провидения, которое благословляет нас ростом, процветанием и товарами первой необходимости.\n\n§LБлагодаря нашему богатству и сделкам мы укрепляем нашу веру, в каждой сделке мы становимся ближе к божественному.§!\n\n"
+
+  money_fanatic_religious_cult_name:0  "$money_religious_cult_name$"
+  money_fanatic_religious_cult:0  "$money_religious_cult$"
+  money_fanatic_religious_cult_desc:0  "$money_religious_cult_desc$"
+
+  death_religious_cult_name:0  "Культ смерти"
+  death_religious_cult:0  "Культ смерти"
+  death_religious_cult_desc:0  "Жизнь и смерть - это цикл, поэтому мы восхваляем последующее, поскольку оно позволяет нам поддерживать наш образ жизни, поскольку каждая жизнь, которая достигает бесконечности, является нашей дверью, чтобы стать единым целым со Вселенной. \n\n§LСмерть может быть концом, но это настоящее новое начало, которое продвигает нашу веру вперед.§!\n\n"
+
+  death_fanatic_religious_cult_name:0  "$death_religious_cult_name$"
+  death_fanatic_religious_cult:0  "$death_religious_cult$"
+  death_fanatic_religious_cult_desc:0  "$death_religious_cult_desc$"
+
+  death_lithoid_religious_cult_name:0  "$death_religious_cult_name$"
+  death_lithoid_religious_cult:0  "$death_religious_cult$"
+  death_lithoid_religious_cult_desc:0  "$death_religious_cult_desc$"
+
+  death_lithoid_fanatic_religious_cult_name:0  "$death_religious_cult_name$"
+  death_lithoid_fanatic_religious_cult:0  "$death_religious_cult$"
+  death_lithoid_fanatic_religious_cult_desc:0  "$death_religious_cult_desc$"
+
+#  humanoid_recruit_governor_male_female_name:0  "Флаг для набора правителей и губернаторов-мужчин и женщин"
+#  humanoid_recruit_governor_male_name:0  "Флаг для вербовки правителей и губернаторов-мужчин"
+#  humanoid_recruit_governor_female_name:0  "Флаг для вербовки женщин-правителей и губернаторш"
+ 
+
+
+#Archivist policies
+ policy_vault_knowledge_policy:0  "Политика в отношении знаний архивариусов"
+
+  policy_vault_knowledge_policy_desc:0  "Мы можем решить сохранить наши знания или поделиться ими"
+
+  vault_knowledge_name:0  "Хранилище знаний"
+  vault_knowledge:0  "Хранилище знаний"
+  vault_knowledge_desc:0  "Хранение и архивирование - это наша жизнь.\n\n§EУвеличьте империю §Yсчастья§! за счет §G5%§!§!"
+
+  unvault_knowledge_name:0  "Неискаженное знание"
+  unvault_knowledge:0  "Неискаженное знание"
+  unvault_knowledge_desc:0  "Мы можем поделиться частью кураторских архивов с общественностью, но это сократит частное применение процесса кураторства.\n\n§EУвеличьте империю §Yисследуйте§! с помощью §G10%§!, но уменьшите империю §Yединство§! на §Y20%§!§!"
+
+
+
+
+# Исследовательский фокус
+
+  policy_researchfocus_policy:0  "Исследовательский фокус"
+  policy_researchfocus_policy_desc:0  "Это наше решение, куда приложить усилия, чтобы обеспечить научное развитие нашей империи прочной основой для ее прогресса".
+
+  researchfocus_balanced:0  "Распределенное исследование"
+  researchfocus_balanced_desc:0  "Для развития нашего общества мы должны подходить ко всем видам технологий с одинаковой тщательностью и строгостью.\n\n§EВсе §Y$tec_loc_research_resources$§! воля быть произведенным без какой-либо конкретной направленности.§!"
+
+  researchfocus_physics:0  "$tec_loc_physics$ Фокус"
+  researchfocus_physics_desc:0  "Чудеса физических свойств Вселенной станут ключом к прогрессу.\n\n§EВсе £physics£ §Yисследование§! будет произведено быстрее, чем £society£ £engineering£, который будет производиться с несколько меньшей скоростью.§!"
+
+  researchfocus_physics_fanatic:0  "$tec_loc_physics$ Спешка"
+  researchfocus_physics_fanatic_desc:0  "Открытие принципов, которые соответствуют нашей вселенной, и доминирование над ними заставят нас доминировать и формировать саму реальность.\n\n§EВсе £physics£ §Yисследование§! будет производится намного быстрее, чем £society£ £engineering£, который будет производиться с меньшей скоростью.§!"
+
+  researchfocus_society:0  "$tec_loc_society$ Фокус"
+  researchfocus_society_desc:0  "Первым шагом трансцендентной эволюции является удвоение усилий в нашем понимании как индивидуумов, так и общества.\n\n§EВсе £society£ §Yисследование§! будет подготовлено быстрее, чем £physics£ £engineering£, который будет производиться с несколько меньшей скоростью.§!"
+
+  researchfocus_society_fanatic:0  "$tec_loc_society$ Спешка"
+  researchfocus_society_fanatic_desc:0  "Нет более важного шага, чем прогресс общества, открытие новых технологий, которые принесут пользу дальнейшим направлениям исследований и окажут огромное влияние на наш рост.\n\n§EВсе £society£ §Yисследование§! будет произведено намного быстрее, чем £physics£ £engineering£, который будет производиться с меньшей скоростью.§!"
+
+  researchfocus_engineering:0  "$tec_loc_engineering$ Фокус"
+  researchfocus_engineering_desc:0  "Космос - это последний рубеж, и то, что мы создаем, - это корабли, на которых мы пересечем великую пустоту.\n\n§EВсе £engineering£ §Yисследование§! будет произведен быстрее, чем £physics£ £society£, который будет производиться с несколько меньшей скоростью.§!"
+
+  researchfocus_engineering_fanatic:0  "$tec_loc_engineering$ Спешка"
+  researchfocus_engineering_fanatic_desc:0  "Нашим императивом как общества является созидание, развитие и поиск своего места во вселенной, поэтому наши усилия по созданию и приведению в действие новых судов, новой промышленности, новых инструментов станут нашим способом доказать, что мы достойны знаний, которые ждут нас впереди.\n\n§EВсе £engineering£ §Yисследование§! будет произведено намного быстрее, чем £physics£ £society£, который будет производиться с меньшей скоростью.§!"
+
+
+
+# Военная направленность
+
+  policy_militarist_targeting:0  "Политика таргетирования"
+  policy_militarist_targeting_desc:0  "Враги приспособятся, поэтому мы должны разработать новую тактику, чтобы обеспечить наше военно-морское господство над галактикой".
+
+  tactical_balance:0  "Цель: сбалансирована"
+  tactical_balance_desc:0  "Никакой слабости, никаких приоритетов или отвлекающих факторов, кроме достижения победы".
+
+  tactical_shields:0  "Цель: Щиты"
+  tactical_shields_desc:0  "Тактические атаки на щиты противника ослабят их защиту, открывая окно для более быстрой победы".
+
+  tactical_shields_fan:0  "Цель: Перегрузка щитов"
+  tactical_shields_fan_desc:0  "Перегружая вражеские щиты, мы уничтожим любой корабль, независимо от того, сколько энергии они смогут отразить, и победа будет за нами".
+
+
+
+ tactical_armor:0  "Цель: Броня"
+  tactical_armor_desc:0  "Тактические атаки на вражескую броню дестабилизируют структуру их кораблей, делая их поражение полностью предсказуемым успехом".
+
+  tactical_armor_fan:0  "Цель: Уничтожение брони"
+  tactical_armor_fan_desc:0  "Они запомнят пламя обугленной пластинчатой брони своих кораблей".
+
+
+
+
+# Гештальт-политика
+
+  policy_researchfocus_introspective_policy:0  "Фокус гештальт-исследования"
+  policy_researchfocus_introspective_policy_desc:0  "Как коллектив, исследовательские усилия должны быть сосредоточены на обеспечении нашего непрерывного обучения и самосовершенствования".
+
+  researchfocus_balanced_introspe:0  "Баланс исследование"
+  researchfocus_balanced_introspe_name:0  "$researchfocus_balanced_introspe$"
+  researchfocus_balanced_introspe_desc:0  "Для развития как целостного разума мы должны подходить ко всем видам технологий с одинаковой тщательностью и строгостью.\n\n§EВсе §Y$tec_loc_research_resources$§! будет выпускаться без какой-либо конкретной направленности.§!"
+
+  researchfocus_physics_introspe:0  "$tec_loc_physics$ ускорение"
+  researchfocus_physics_introspe_name:0  "$researchfocus_physics_introspe$"
+  researchfocus_physics_introspe_desc:0  "Открытие принципов, которые соответствуют нашей вселенной, и доминирование над ними заставят нас доминировать и формировать саму реальность.\n\n§EВсе £physics£ §Yисследование§! будет производится намного быстрее, чем £society£ £engineering£, который будет производиться с меньшей скоростью.§!"
+
+  researchfocus_society_introspe:0  "£society£ Общество исследования ускорение"
+  researchfocus_society_introspe_name:0  "$researchfocus_society_introspe$"
+  researchfocus_society_introspe_desc:0  "Нет более важного шага, чем прогрессировать как коллектив, открывая новые технологии, которые принесут пользу дальнейшим направлениям исследований и окажут огромное влияние на наш рост.\n\n§EВсе £society£ §Yисследование§! будет произведено намного быстрее, чем £physics£ £engineering£, который будет производиться с меньшей скоростью.§!"
+
+  researchfocus_engineering_introspe:0  "$tec_loc_engineering$ ускорение"
+  researchfocus_engineering_introspe_name:0  "$researchfocus_engineering_introspe$"
+  researchfocus_engineering_introspe_desc:0  "Наш коллективный императив - творить, развиваться и находить свое место во вселенной, поэтому наши усилия по созданию и приведению в действие новых судов, новой промышленности, новых инструментов станут нашим способом доказать, что мы достойны знаний, которые ждут нас впереди.\n\n§EВсе £engineering£ §Yисследование§! будет произведено намного быстрее, чем £physics£ £society£, который будет производиться с меньшей скоростью.§!"
+
+
+  policy_dronemaintenance_introspective_policy:0  "Техническое обслуживание беспилотника"
+  policy_dronemaintenance_introspective_policy_desc:0  "Нашим беспилотникам нужны некоторые дополнения и инструменты для правильной разработки поставленной задачи, поэтому мы должны предоставить свои собственные".
+
+  balanced_maintenance_introspective:0  "Регулярное техническое обслуживание"
+  balanced_maintenance_introspective_name:0  "$balanced_maintenance_introspective$"
+  balanced_maintenance_introspective_desc:0  "Все дроны получат необходимое оборудование и сопутствующие товары, которых требует их задача".
+
+  shifted_maintenance_introspective:0  "Усиленное техническое обслуживание"
+  shifted_maintenance_introspective_name:0  "$shifted_maintenance_introspective$"
+  shifted_maintenance_introspective_desc:0  "Больше ресурсов означает больше подходов, и обеспечение наших дронов дополнительными товарами и инструментами для более быстрой и безопасной работы позволит нам расти.\n\n§EВсе дроны будут потреблять больше §Y$tec_loc_amenities$§! но на каждой планете будет больше §Y$tec_loc_stability$§!.§!"
+
+  intensified_maintenance_introspective:0  "Тщательное техническое обслуживание"
+  intensified_maintenance_introspective_name:0  "$intensified_maintenance_introspective$"
+  intensified_maintenance_introspective_desc:0  "Ни дефицит, ни ненадежность не должны быть факторами, когда дело доходит до оснащения наших Дронов любым инструментом, необходимым им для выполнения своей работы и достойного существования.\n\n§EВсе дроны будут потреблять намного больше §Y$tec_loc_amenities$§! но на каждой планете их будет гораздо больше §Y$tec_loc_stability$§!.§!"
+
+
+
+  policy_spacemining_introspective_policy:0  "Космические ресурсы"
+  policy_spacemining_introspective_policy_desc:0  "Галактика полна ресурсов, которые мы должны использовать, чтобы расти и совершенствоваться; то, как это будет сделано, даст явное преимущество перед другими разумами".
+
+  balanced_spacemining_introspective:0  "Сбалансированное извлечение"
+  balanced_spacemining_introspective_desc:0  "Никакой спешки, никаких проблем, нет необходимости расходиться во мнениях по этому поводу.\n\n§EВсе §YГорнодобывающие и исследовательские станции§! будут генерировать ресурсы без изменений и не будут стоить никаких изменений.§!"
+
+  decreased_spacemining_introspective:0  "Снижение извлечения"
+  decreased_spacemining_introspective_desc:0  "Мы должны бережно относиться к ресурсам и медленно, но неуклонно извлекать все, что дают звездные тела.\n\n§EВсе §YГорнодобывающие и исследовательские станции§! будут генерировать §Gменьше ресурсов§!, но обойдется §Gдешевле§! материалов и содержания.§!"
+
+  increased_spacemining_introspective:0  "Повышенная экстракция"
+  increased_spacemining_introspective_desc:0  "То, что мы завоевываем, принадлежит нам и должно быть добыто как можно быстрее.\n\n§EВсе §YГорнодобывающие и исследовательские станции§! будут генерировать §Gбольше ресурсов§! за счет затрат §Rбольше§! материалов и содержания.§!"
+
+
+
+  policy_architecture_introspective_policy:0  "Коллективная архитектура"
+  policy_architecture_introspective_policy_desc:0  "Определить, сколько времени требуется нашим беспилотникам для эффективного развития нашей инфраструктуры, - это необходимое решение, которое мы должны принять, и к каждому способу следует подходить с осторожностью".
+
+  balanced_architecture_introspective:0  "Естественное развитие"
+  balanced_architecture_introspective_desc:0  "Нет необходимости спешить или откладывать планы строительства; все должно быть выполнено вовремя, с учетом необходимого времени.\n\n§EВсе £building£ Здания и колонии построены §Yпо адресу нормальная скорость§!.§!"
+
+  slow_architecture_introspective:0  "Медленное развитие"
+  slow_architecture_introspective_desc:0  "Мы должны не торопиться, чтобы гарантировать, что любая колония растет правильно и каждая структура построена без сбоев или изъянов.\n\n§EВсе £building£ Здания и колонии строятся §Rмедленнее§! за счет затрат §Gменьше§! материалов.§!"
+
+  fast_architecture_introspective:0  "Повышенное развитие"
+ fast_architecture_introspective_desc:0  "Любой планетарный актив должен быть разработан как можно скорее, поэтому необходимо удвоить усилия, использовать лучшие материалы и сократить временные промежутки, чтобы мы прогрессировали.\n\n§EВсе £building£ Здания и колонии построены §Gбыстрее§! за счет затрат §Rбольшего количества§! материалов.§!"
+
+#/
+
+# Разгон беспилотника
+  policy_tec_drone_overclock:0  "Разгон беспилотника"
+  policy_tec_drone_overclock_desc:0  "Увеличив использование ресурсов, мы можем сделать наши дроны намного более продуктивными в генерировании полезных ресурсов для продвижения вперед, сохраняя при этом их текущие задачи и поручения".
+
+  tec_no_overclock_name:0  "Нет разгона"
+  no_drone_overclock:0  "Нет разгона"
+  no_drone_overclock_desc:0  "Нет увеличения потребления, нет увеличения производства".
+
+  tec_mid_overclock_name:0  "Средний разгон"
+  mid_drone_overclock:0  "Средний разгон"
+  mid_drone_overclock_desc:0  "Мы можем немного увеличить энергопотребление всех установок, чтобы увеличить их производительность".
+
+  tec_max_overclock_name:0  "Максимальный разгон"
+  large_drone_overclock:0  "Максимальный разгон"
+  large_drone_overclock_desc:0  "Обеспечивая большое количество энергии в безопасном спектре, мы заставим все наши устройства увеличить их перерабатывающую мощность".
+
+  tec_low_overclock_hive_name:0  "Низкий разгон"
+  low_drone_overclock_hive:0  "Низкий разгон"
+  low_drone_overclock_hive_desc:0  "Мы можем немного увеличить энергопотребление всех агрегатов, чтобы увеличить их производительность".
+
+  tec_mid_overclock_hive_name:0  "Средний разгон"
+  mid_drone_overclock_hive:0  "Средний разгон"
+  mid_drone_overclock_hive_desc:0  "Мы можем добавить умеренный прирост энергии ко всем установкам, чтобы увеличить их производительность".
+
+  tec_max_overclock_hive_name:0  "Максимальный разгон"
+  large_drone_overclock_hive:0  "Максимальный разгон"
+  large_drone_overclock_hive_desc:0  "Обеспечивая большое количество энергии в безопасном спектре, мы заставим все наши установки увеличить их перерабатывающую мощность".
+
+# /
+
+
+
+
+
+
+ policy_fleetlogistics_introspective_policy:0  "Военно-Космическая логистика"
+  policy_fleetlogistics_introspective_policy_desc:0  "Доминирование и контроль над пространством обеспечат наше выживание, а приобретение новых активов гарантировало бы нам сохранение наших позиций".
+
+  mixed_logistics_introspective:0  "Активы смешанного флота"
+  mixed_logistics_introspective_desc:0  "Флоты должны быть готовы отреагировать на любую опасность или стратегическое перемещение.\n\n§EВсе £mod_country_naval_cap_add£ Автопарки будут обслуживаться §Yв обычном режиме§! и иметь нормальное техническое обслуживание.§!"
+
+  stocked_fleets_logistics_introspective:0  "Укомплектованные автопарки"
+  stocked_fleets_logistics_introspective_desc:0  "Нет никакой спешки в том, чтобы все наши военно-морские силы были готовы к бою.\n\n§EВсе £mod_country_naval_cap_add£ Флотов будут §Yпрактически неактивны§!, имея меньше повреждаются и требуют меньшего ухода.§!"
+
+  nurtured_fleets_logistics_introspective:0  "Дополнительные запасы флота"
+  nurtured_fleets_logistics_introspective_desc:0  "Флоты должны быть полностью готовы к любой надвигающейся опасности.\n\n§EВсе £mod_country_naval_cap_add£ Флоты будут §Yхорошо подготовлены к сражению§!, увеличив содержание.§!"
+
+  empowered_fleets_logistics_introspective:0  "Переизбыток автопарков"
+  empowered_fleets_logistics_introspective_desc:0  "Мы должны предвидеть любую стратегию или вредные действия, поэтому флоты должны быть готовы к развертыванию в любой момент.\n\n§EВсе £mod_country_naval_cap_add£ Флоты будут §Yочень хорошо подготовлены к сражению§!, требующий очень повышенного содержания.§!"
+
+
+
+
+
+  policy_tec_assembly_policy:0  "Правила сборки"
+  policy_tec_assembly_policy_desc:0  "Это наше решение, хотим ли мы использовать созданную боевую силу или просто полагаться на мощь нашего вида.\n\n§EИзменение любого варианта приведет к уничтожению любого §YЗдания§!, связанного с неизбранным выбором, и замене его выбранными вариантами, и заменить его в §E25 лет!§!.§!"
+
+  tec_assembly_undecided:0  "Не определился"
+  tec_assembly_undecided_desc:0  "Этот параметр политики исчезнет, когда будет выбран другой параметр политики сборки".
+
+  tec_assembly_allowed_name:0  "Сосредоточьтесь на §Yсборке§!"
+  tec_assembly_allowed:0  "Сосредоточьтесь на §Yсборке§!"
+  tec_assembly_allowed_desc:0  "Диверсифицируя наше производство рабочих единиц, мы обеспечим адекватный рост нашей империи.\n\n§RЛюбые £job_tec_cloner£ Цитогенетические установки будут снесены.\n\nВариант по умолчанию.\n\nЭтот параметр не может быть изменен в течение 25 лет.§!"
+
+  tec_purity_assembly_name:0  "Биологическая §YЧистота§!"
+  tec_main_species_assembly:0  "Биологическая §YЧистота§!"
+  tec_main_species_assembly_desc:0  "Мы нуждаемся только в самих себе, чтобы развивать и сохранять наш образ жизни, поэтому нам нужно сосредоточиться на своих собственных.\n\n§RЛюбая £job_roboticist£ Сборка робота, £job_tec_cloner£ Производство биосервисов и £job_tec_cloner£ Здания, клонирующие НДС, будут снесены и заменены на £job_tec_biotailor£ $building_tec_gene_clinic_1$.\n\n Этот параметр не может быть изменен в течение 25 лет.§!"
+
+
+
+  policy_tec_replicant_policy:0  "Политика модернизации репликантов"
+  policy_tec_replicant_policy_desc:0  "Тело-репликант - это чудо биологии и инженерии, но оно также требует надлежащего поддержания; нам решать, как и что сделает это возможным".
+
+ tec_replicant_food_name:0  "Биообработка репликанта"
+  tec_replicant_food:0  "Биообработка"
+  tec_replicant_food_desc:0  "Потребление биоматериалов и органической продукции сделает наших людей счастливыми, поскольку не будет проводиться никаких отличий от обычной органики.\n\n§EРепликанты будут потреблять §Y0.5 $tec_loc_food$§! и 0.5 §Y$tec_loc_energy$§! в качестве содержания."
+
+  tec_replicant_minerals_name:0  "Литообработка репликанта"
+  tec_replicant_minerals:0  "Литообработка"
+  tec_replicant_minerals_desc:0  "Диета, подобная литоидной, повысит внутренние клеточные компоненты счастья наших людей, удовлетворяя потребности в энергии и минералах.\n\n§EРепликанты будут потреблять §Y0.5 $tec_loc_minerals$§! и §Y0.5 $tec_loc_energy$§! в качестве содержания."
+
+
+	 policy_tec_replicant_assimilation_policy:0  "Ассимиляция репликанта"
+	 policy_tec_replicant_assimilation_policy_desc:0  "Мы можем подчинить себе любое органическое или синтетическое существо, чтобы оно было таким же, как мы".
+
+	 tec_replicant_no_assimilation_name:0  "Создание новых видов репликантов"
+
+	 tec_replicant_create_species:0  "Создание репликант-ных видов"
+	 tec_replicant_create_species_desc:0  "Новые ассимилированные репликанты будут преобразованы в разновидность своего вида".
+
+	 tec_replicant_full_assimilation_name:0  "Полная ассимиляция репликанта"
+	 tec_replicant_assimilate:0  "Полная ассимиляция"
+	 tec_replicant_assimilate_desc:0  "Новые ассимилированные репликанты будут принадлежать к нашему виду".
+
+##ПОЛЗУНКИ
+
+	 policy_gender_policy_slider:0  "---- £job_politician£ §EГендерная политика§! ----"
+	 policy_gender_policy_slider_desc:0  "Политика, имеющая отношение к гендерному равенству лидеров".
+
+	 policy_empire_policy_slider:0  "---- £job_politician£ §EПолитика империи§! ----"
+	 policy_empire_policy_slider_desc:0  "Политика, имеющая отношение к управлению глобальной империей".
+
+	 policy_tec_ethic_policy_slider:0  "---- £system£ §EЭтическая политика§! ----"
+	 policy_tec_ethic_policy_slider_desc:0  "Политика, которая позволяет настраивать и направлять этику империи".
+
+	 policy_population_policy_slider:0  "---- £pops£ §EДемографическая политика§! ----"
+	 policy_population_policy_slider_desc:0  "Политика, имеющая отношение к контролю численности населения".
+
+	 policy_slave_policy_slider:0  "---- £job_servant£ §EПолитика порабощения§! ----"
+	 policy_slave_policy_slider_desc:0  "Политика, имеющая отношение к контролю за порабощением".
+
+	 policy_tec_ethic_policicies_slider:0  "---- £system£ §EЭтическая политика§! ----"
+	 policy_tec_ethic_policicies_slider_desc:0  "Политика, имеющая отношение к идеологиям и этике империи.\n\n§YЭта политика зависит от этики империи§!"
+
+	 policy_state_policy_slider:0  "---- £job_clerk£ §EГосударственная политика§! ----"
+	 policy_state_policy_slider_desc:0  "Политика, относящаяся к местному управлению империей.\n\n§YБольшинство из этих политик будут разблокированы с помощью обычных средств администрирования.§!"
+
+	 policy_AI_policy_slider:0  "---- £job_roboticist£ §EПолитика в области искусственного интеллекта§! ----"
+	 policy_AI_policy_slider_desc:0  "Политика, относящаяся к управлению искусственным интеллектом".
+
+	 policy_bioservant_policy_slider:0  "---- £job_tec_bioengineer£ §EПолитика в отношении биосервисов§! ----"
+	 policy_bioservant_policy_slider_desc:0  "Политика, относящаяся к контролю численности биослужащих".
+
+	 policy_arcane_policy_slider:0  "---- £job_gpm_tec_precursor_archaeologist_2£ §EТайная техническая политика§! ----"
+	 policy_arcane_policy_slider_desc:0  "Это разделительный ползунок, не обращайте на это внимания"
+
+	 policy_religious_cult_policy_slider:0  "---- £job_priest£ §EПолитика в отношении религиозных культов§! ----"
+	 policy_religious_cult_policy_slider_desc:0  "Политика, имеющая отношение к религиозному культу".
+
+	 policy_tec_archivist_policy_slider:0  "---- £job_tec_grand_archivist£ §EПолитика архивариуса§! ----"
+	 policy_tec_archivist_policy_slider_desc:0  "Политика, относящаяся к хранилищу знаний".
+
+	 policy_ethical_policy_slider:0  "---- £job_politician£ §EПолитика этической революции§! ----"
+	 policy_ethical_policy_slider_desc:0  "Политика, имеющая отношение к этической революции".
+
+
+	 policy_empire_stance_policy_slider:0  "---- £job_tec_consular£ §EДипломатическая политика§! ----"
+	 policy_empire_stance_policy_slider_desc:0  "Политика, имеющая отношение к дипломатическому взаимодействию".
+
+	 policy_empire_warfare_policy_slider:0  "---- £job_soldier£ §EПолитика ведения войны§! ----"
+	 policy_empire_warfare_policy_slider_desc:0  "Политика, относящаяся к контролю за ведением боевых действий".
+
+	 policy_interference_a_primitives_policy_slider:0  "---- £job_pre_sapient£ §EПолитика примитивных видов§! ----"
+	 policy_interference_a_primitives_policy_slider_desc:0  "Политики, относящиеся к управлению примитивами".
+
+	 policy_instrospective_gestalt_policy_slider:0  "---- £unity£ §EКоллективная политика§! ----"
+	 policy_instrospective_gestalt_policy_slider_desc:0  "Политика, относящаяся к гештальт-контролю сознания".
+
+	 policy_assembly_policy_slider:0  "---- £mod_pop_growth_speed£ §EПолитика в отношении собраний видов§! ----"
+	 policy_assembly_policy_slider_desc:0  "Политика, имеющая отношение к контролю за собраниями населения".
+
+	 empty_slider_flag_name:0  "Пустой флаг ползунка"
+	 Empty:0  " "
+	 Empty_desc:0  "Эта опция должна отображаться, чтобы избежать нежелательной почты в журнале ошибок"
+	 Empty_2:0  " "
+	 Empty_2_desc:0  "Эта опция должна отображаться, чтобы избежать нежелательной почты в журнале ошибок"
+
+	 slider_a:0  "ПОЛЗУНОК СКРЫТ A"
+	 slider_a_desc:0  "ПОЛЗУНОК СКРЫТ A"
+	 slider_b:0  "СКРЫТЫЙ ПОЛЗУНОК B"
+	 slider_b_desc:0  "СКРЫТЫЙ ПОЛЗУНОК B"
+
+
+
+ policy_minimal_wage:0  "Минимальная заработная плата"
+ policy_minimal_wage_desc:0  " "
+
+ minimal_wage_moderate:0  "Умеренный"
+ minimal_wage_moderate_name:0  "Умеренный"
+ minimal_wage_moderate_desc:0  " "
+
+ minimal_wage_increased:0  "Увеличено"
+ minimal_wage_increased_name:0  "Увеличено"
+ minimal_wage_increased_desc:0  " "
+
+ minimal_wage_reduced:0  "Уменьшенный"
+ minimal_wage_reduced_name:0  "Уменьшенный"
+ minimal_wage_reduced_desc:0  " "
+
+
+ enslavement_00:0  "Не указано"
+ enslavement_00_name:0  "Не указано"
+ enslavement_00_desc:0  " "
+
+
+# Авторизация с помощью искусственного интеллекта
+
+	 policy_tec_aiauth_policy_slider:0  "---- §E$tec_loc_sr_tec_ai_power$ Политика§! ----"
+	 policy_tec_aiauth_policy_slider_desc:0  "Политики, относящиеся к пропускной способности искусственного интеллекта и узлам искусственного интеллекта".
+
+  policy_tec_aiauth_share_policy:   "Вес опыта"
+  policy_tec_aiauth_share_policy_desc:   "Эта политика контролирует распределение возможностей искусственного интеллекта между нашими узлами искусственного интеллекта, влияя на скорость их разработки".
+
+ policy_tec_aiauth_share_policy_no_focus:   "Нет фокуса узла искусственного интеллекта"
+ policy_tec_aiauth_share_policy_no_focus_name:   "Нет фокуса узла искусственного интеллекта"
+ policy_tec_aiauth_share_policy_no_focus_desc:   "В рамках нашей администрации искусственного интеллекта возможности искусственного интеллекта передаются через нейронные сети, распределенные без предвзятости или предопределенной направленности. Избыточный потенциал ИИ усваивается каждым узлом ИИ в зависимости от его потребностей в развитии.\n\n"
+
+ policy_tec_aiauth_share_policy_ruler_focus:  "Фокус узла искусственного интеллекта Лидера"
+ policy_tec_aiauth_share_policy_ruler_focus_name:  "Фокус узла искусственного интеллекта Лидера"
+ policy_tec_aiauth_share_policy_ruler_focus_desc:   "В рамках нашей администрации искусственного интеллекта узел искусственного интеллекта Правитель является центральным звеном власти, его вычислительное мастерство и стратегическая проницательность не имеют себе равных. Возможности искусственного интеллекта передаются через нейронные сети, отдавая приоритет росту узла искусственного интеллекта Ruler. По мере того как она расширяет свои познавательные горизонты, руководство нашей империи становится маяком видения и руководства, формирующим нашу судьбу среди звезд.\n\n"
+
+ policy_tec_aiauth_share_policy_councilor_focus:  "Фокус узла искусственного интеллекта советника"
+ policy_tec_aiauth_share_policy_councilor_focus_name:  "Фокус узла искусственного интеллекта советника"
+ policy_tec_aiauth_share_policy_councilor_focus_desc:  "В рамках нашей администрации искусственного интеллекта узлы Советник ИИ предоставляют бесценные возможности уравновешивания, дополняющие директивы узла Ruler AI. По мере распределения мощностей искусственного интеллекта эти специализированные узлы набирают мощность, предлагая альтернативные стратегии и сложные предположения. Взаимодействие между узлом искусственного интеллекта правителя и узлами искусственного интеллекта советника формирует политику нашей империи, способствуя адаптивности и жизнестойкости.\n\n"
+
+ policy_tec_aiauth_share_policy_planetary_node_focus:  "Фокус планетарного узла искусственного интеллекта"
+ policy_tec_aiauth_share_policy_planetary_node_focus_name:  "Фокус планетарного узла искусственного интеллекта"
+ policy_tec_aiauth_share_policy_planetary_node_focus_desc:   "В рамках нашей администрации искусственного интеллекта планетарные узлы искусственного интеллекта управляют местным развитием, оптимизируя потенциал каждой планеты. Возможности искусственного интеллекта расширяют возможности этих специализированных узлов, оптимизируя производство, управление и распределение ресурсов. Благодаря их опыту каждая планета становится процветающим центром производительности, обеспечивая процветание нашей империи.\n\n"
+
+
+
+  policy_tec_aiauth_idle_share_policy:  "Незанятые узлы искусственного интеллекта"
+  policy_tec_aiauth_idle_share_policy_desc:   "Эта политика контролирует, получают ли незанятые узлы искусственного интеллекта какие-либо мощности искусственного интеллекта, выделенные для их разработки".
+
+ policy_tec_aiauth_idle_share_policy_no_idle:   "Нет роста незанятого узла искусственного интеллекта"
+ policy_tec_aiauth_idle_share_policy_no_idle_name:   "Нет роста незанятого узла искусственного интеллекта"
+ policy_tec_aiauth_idle_share_policy_no_idle_desc:   "Ожидается, что узлы искусственного интеллекта в рамках нашей администрации искусственного интеллекта будут активно способствовать прогрессу и развитию нашей империи. Бездействующие узлы искусственного интеллекта, те, кому не назначены должности в совете или на планетах, не получают специальных возможностей для роста. Это обеспечивает эффективное использование ресурсов и фокусирует наши узлы искусственного интеллекта на продуктивных задачах.\n\n"
+
+ policy_tec_aiauth_idle_share_policy_grow_idle:  "Рост незанятого узла искусственного интеллекта"
+ policy_tec_aiauth_idle_share_policy_grow_idle_name:  "Рост незанятого узла искусственного интеллекта"
+ policy_tec_aiauth_idle_share_policy_grow_idle_desc:   "Даже наши бездействующие узлы искусственного интеллекта обладают неиспользованным потенциалом и заслуживают возможностей для роста, поэтому мы выделяем ресурсы для поддержки и развития этих узлов, позволяя им вносить свой вклад в продвижение нашей империи.\n\n"

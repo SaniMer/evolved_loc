@@ -1,0 +1,1700 @@
+﻿l_russian:
+
+  tradition_tec_selectpoints:0  "Финальные традиции этого пути традиций - мощный бонус, выбираемый между 3 традициями, являющийся постоянным решением.\n\nЗавершение этой группы традиций разблокирует уникальную Особенность. "
+  tec_tradition_swap_warning:0  "§R$trigger_tec_warning$Выбор этой традиции отключает другие возможности.§!"
+  tec_tradition_swap_disabled:0  "§R$TRIGGER_FAIL$Выбор этой традиции отключен, так как был сделан другой выбор.§!"
+ 
+  tec_tradition_has_tiers:0  "§Y$trigger_tec_warning$Эта традиция имеет до III возможных уровней, каждый из которых дает больший бонус, но ограничивает выбор других традиций дерева.§!"
+
+# Реквизиты
+  tec_requires_expansion_traditions_finished:0  "$TRIGGER_FAIL$ Требуется завершить дерево традиций §YРасширения§!."
+  tec_requires_domination_or_subterfuge_traditions_finished:0  "$TRIGGER_FAIL$ Требуется завершить дерево традиций §YДоминирование§! или §YУловки§!."
+  tec_requires_prosperity_or_mercantile_traditions_finished:0  "$TRIGGER_FAIL$ Требуется завершить дерево традиций §YПроцветания§! или §YМеркантильности§!."
+  tec_requires_harmony_or_synchronicity_traditions_finished:0  "$TRIGGER_FAIL$ Требуется завершить §YДерево традиций Гармония§! или §YСинхронность§!."
+  tec_requires_supremacy_or_unyielding_traditions_finished:0  "$TRIGGER_FAIL$ Требуется закончить §YДерево традиции "Превосходство§! или §YНепоколебимость§!."
+  tec_requires_diplomacy_versatility_adaptability_traditions_finished:0  "$TRIGGER_FAIL$ Требуется закончить §YДипломатию§!, §YУниверсальность§! или §YПриспособляемость§! дерева традиций."
+  tec_requires_discovery_traditions_finished:0  "$TRIGGER_FAIL$ Требуется завершить дерево традиций §YОткрытия§!."
+
+# --------------------------- TIER 1 --------------------------------
+
+# --------------------------- TIER 2 --------------------------------
+# Outreach (расширение 2) 1-2+3-4-5
+# ------------------------------------------------------------
+  tradition_tec_outreach:0  "Пропаганда"
+  tradition_tec_outreach_desc:0  "Границ больше нет, а пределы - это идеализированные идеалы, поэтому наша хватка, наши мысли должны быть направлены на то, что находится за пределами."
+
+  tr_tec_outreach_adopt:0  "Традиции аутрич"
+ tr_tec_outreach_adopt_tooltip:7 "Разблокирует £building£ §Y$building_tec_outreach_platform$§! зданий.\n\n$building_tec_outreach_platform_plural$ обеспечивает £mod_planet_building_build_speed_mult£ §Y$MOD_PLANET_BUILDING_BUILD_SPEED_MULT$§! и £unity£ §Y$MOD_PLANET_DECISION_ENACT_SPEED_MULT$§! на основе строительных кораблей, вращающихся вокруг планеты, и £job£ §Yбонус производства§! на основе обозначения планеты.\n"
+
+  tr_tec_outreach_finish:0  "Информационно-пропагандистские традиции завершены"
+ tr_tec_outreach_finish_tooltip:4 "Unlocks §YProtoworld Terraformation§!.\n\n§H''Protoworld Terraformation позволяет превращать бесплодные миры в обычные, затрачивая на это большое количество ресурсов и времени''.§!\n"
+ tr_tec_outreach_finish_effect:4 "
+
+  tr_tec_outreach_finish_terravore:0  "Традиции аутрич завершены"
+ tr_tec_outreach_finish_terravore_tooltip:4 "Когда обитаемая планета будет §Yполностью поглощена§!, на §Yстолице§! будет создано до §G5§! поселений основного вида.\n\n"
+ tr_tec_outreach_finish_terravore_effect:4 "
+
+  tr_tec_outreach_1:0  "Пионеры нового дома"
+  tr_tec_outreach_1_tooltip:0  "£job_colonist£ §YКолонисты§! производят дополнительные £trigger_tec_basic_resources£ §Yдополнительные ресурсы§! на основе §Hтипа планеты§!.\n£building£ §Y$building_tec_outreach_platform$§! обеспечивает дополнительные £job_tec_planner£ §Yрабочие места планировщика§!, если капитальное здание _£building£ модернизировано §H.\n£job_tec_planner£ рабочие места планировщика преобразуют £consumer_goods£ потребительские товары в £unity£ единство и £trigger_tec_basic_resources£ §Y дополнительные ресурсы§! на основе §H типа планеты§!."
+  tr_tec_outreach_1_delayed:0  "Мы посетим бесчисленное множество новых мест, которые мы назовем своим домом, поэтому наши первоначальные усилия должны быть удвоены, а оборудование и удобства наших первопроходцев и первооткрывателей полностью обеспечены и усилены."
+
+  tr_tec_outreach_1_gestalt:0  "$tr_tec_outreach_1$"
+  tr_tec_outreach_1_gestalt_tooltip:0  "£building£ §Y$building_tec_outreach_platform$§! обеспечить £job_tec_planner_drone£ §Yпланировщика Р "СЂРѕРЅ§! рабочими местами, а второе - после £building£ капитального строительства §H модернизированного§!.\n£job_tec_planner£Планировщик Р "СЂРѕРЅ преобразует £trigger_tec_basic_resources£ Базовые ресурсы в £unity£ Единство и £trigger_tec_basic_resources£ §Y Дополнительные ресурсы§! на основе §H типа планеты§!."
+  tr_tec_outreach_1_gestalt_delayed:0  "Мы посетим бесчисленное множество новых мест, где будет расти наш коллектив, поэтому наши первоначальные усилия должны быть удвоены, а необходимое оборудование и удобства будут перенаправлены и контролироваться нашими агентами-планировщиками."
+ #"Новые пространства, которые мы создаем, должны быть сделаны быстро и готовы принять наше население как можно скорее, поэтому перемещение постоянных флотилий к местам строительства поможет этому процессу."
+
+  tr_tec_outreach_2:0  "До бесконечности"
+  tr_tec_outreach_2_tooltip:0  "£colony_ship£ Корабль §YСкорость движения§! увеличена на §G15%§!. \nКорабль-колонизатор и строительный корабль §YСкорость движения§! увеличена на §G50%§!."
+  tr_tec_outreach_2_delayed:0  "Границы больше нет, бесконечность ждет наш вид, и мы готовы к визиту и процветанию там, где никто не делал этого раньше."
+
+  tr_tec_outreach_3:0  "Экспериментальные гиперматериалы"
+  tr_tec_outreach_3_tooltip:0  "£building£ Колониальные столицы дают §G-15%§! §Yстоимости районов и зданий§!.\n£building£ Развитые столицы обеспечивают §G-5%§! §Yстоимости района и здания§! и §G-5%§! §Yстоимости района и здания§!."
+  tr_tec_outreach_3_delayed:0  "Бесконечные потенциальные возможности означают и бесконечные потенциальные проблемы, поэтому все усилия должны быть направлены на то, чтобы сделать наши новые дома максимально прочными и развитыми в кратчайшие сроки."
+
+  tr_tec_outreach_4:0  "Атмосферное скульптурирование"
+  tr_tec_outreach_4_tooltip:0  "£building£ §YОрбитальное кольцо§! здания уменьшают §Yстоимость терраформирования планеты§!, увеличивают §Y$tec_loc_habitability$§! и £trigger_tec_basic_resources£ основные ресурсы районов и производство планеты."
+  tr_tec_outreach_4_delayed:0  "Где бы мы ни захотели обосноваться, это будет наше и будет приспособлено к нашим нуждам."
+
+	 tr_tec_outreach_final_1:0  "Предварительно распечатанные модули"
+	 tr_tec_outreach_final_1_text:0  "Новые колонии начинают со свободного §Yрайона обитания§!, имеют §Y25%§! дополнительной §Y скорости строительства§! и §G-25%§! §Y содержания района§! в течение 5 лет.\nЭффект недоступен для продвинутых мегаструктур."
+	 tr_tec_outreach_final_1_tooltip:0  "$tec_tradition_swap_warning$\n\n$tr_tec_outreach_final_1_text$"
+	 tr_tec_outreach_final_1_delayed:0  "Развертываемые структуры и жилые модули принесут большую пользу нашему развитию, поэтому каждый колонизатор будет оснащен специальными модулями, напечатанными до или во время путешествия, чтобы обеспечить более быстрый рост колонии."
+
+	 tr_tec_outreach_final_1_disabled:0  "$tr_tec_outreach_final_1$"
+	 tr_tec_outreach_final_1_disabled_tooltip:0  "$tec_tradition_swap_disabled$\n\n$tr_tec_outreach_final_1_text$"
+	 tr_tec_outreach_final_1_disabled_delayed:0  "$tr_tec_outreach_final_1_delayed$"
+
+	 tr_tec_outreach_final_2:0  "Собранные шаблоны"
+	 tr_tec_outreach_final_2_text:0  "Новые колонии автоматически получают £building£ §Y$building_tec_outreach_platform$§!. \nДополнительно это здание будет предоставлять §G+1§! £building£ слот здания, пока не будет модернизировано £building£ капитальное здание планеты."
+	 tr_tec_outreach_final_2_tooltip:0  "$tec_tradition_swap_warning$\n\n$tr_tec_outreach_final_2_text$"
+	 tr_tec_outreach_final_2_delayed:0  "Интеграция системы шаблонов строительства на наших колонизаторах позволит интегрировать и впоследствии реконструировать автоматизированные системы развития колоний."
+	#"Глубокий анализ местности и возможностей позволяет лучше понять и спланировать, как будут развиваться колонии."
+
+	 tr_tec_outreach_final_2_disabled:0  "$tr_tec_outreach_final_2$"
+	 tr_tec_outreach_final_2_disabled_tooltip:0  "$tec_tradition_swap_disabled$\n\n$tr_tec_outreach_final_2_text$"
+	 tr_tec_outreach_final_2_disabled_delayed:0  "$tr_tec_outreach_final_2_delayed$"
+
+ tr_tec_outreach_final_3:0  "Инициатива Следопыта"
+	 tr_tec_outreach_final_3_text:0  "Стандартные корабли-колонии стоят только $tec_loc_alloys$, или снижена стоимость как §Yсплавов, так и основных ресурсов§! для некоторых империй. \nСкорость постройки колонизаторов: §G+75%§!"
+	 tr_tec_outreach_final_3_tooltip:0  "$tec_tradition_swap_warning$\n\n$tr_tec_outreach_final_3_text$"
+	 tr_tec_outreach_final_3_delayed:0  "Мы должны не только усилить колониальный охват, но и ввести в прямую диспозицию и покрыть любую потребность, которую предполагают усилия, так что внешние инвестиции и резервы будут сохранены для резкого увеличения скорости сборки как кораблей, так и команд, для новых колоний и открытий."
+
+ tr_tec_outreach_final_3_disabled:0  "Инициатива Следопыта"
+	 tr_tec_outreach_final_3_disabled_tooltip:0  "$tec_tradition_swap_disabled$\n\n$tr_tec_outreach_final_3_text$"
+	 tr_tec_outreach_final_3_disabled_delayed:0  "$tr_tec_outreach_final_3_delayed$"
+
+ tr_tec_outreach_final_3_vd:0  "Инициатива Следопыта"
+	 tr_tec_outreach_final_3_vd_text:0  "У кораблей-колоний дополнительные £influence£ §YВлияние§! и £alloys£ §YСплав§! уменьшены вдвое§!."
+	 tr_tec_outreach_final_3_vd_tooltip:0  "$tec_tradition_swap_warning$\n\n$tr_tec_outreach_final_3_vd_text$"
+	 tr_tec_outreach_final_3_vd_delayed:0  "Наш колониальный охват больше не должен ограничиваться орбитальными аркологиями; любой мир в пределах нашей досягаемости должен быть колонизирован, развит и использован для нашего роста."
+
+	 tr_tec_outreach_final_3_vd_disabled:0  " Следопытская инициатива"
+	 tr_tec_outreach_final_3_vd_disabled_tooltip:0  "$tec_tradition_swap_disabled$\n\n$tr_tec_outreach_final_3_vd_text$"
+	 tr_tec_outreach_final_3_vd_disabled_delayed:0  "$tr_tec_outreach_final_3_vd_delayed$."
+
+# Control (Domination 2) 1+2/4--3
+# ------------------------------------------------------------
+  tradition_tec_control:0  "Контроль"
+  tradition_tec_control_desc:0  "Для процветания прогресса должны быть обеспечены сплоченность и безопасность, поэтому мы должны контролировать и следить за тем, чтобы наше развитие, наш род и наши идеи шли правильным путем."
+
+  tr_tec_control_adopt:0  "Традиции контроля"
+ tr_tec_control_adopt_tooltip:7 "Ставка налога субъекта §Y§! увеличена на §G15%§!."
+
+  tr_tec_control_finish:0  "Традиции управления завершены"
+ tr_tec_control_finish_tooltip:4 "£trigger_tec_warning_red£ (не готов)\nРазблокирует новые возможности для §Yконтрмер§!.\n\n§H''Контрмеры заставляют некоторые попытки шпионажа, саботажа или укрывательства автоматически проваливаться и давать обратный эффект''.§!\n"
+ tr_tec_control_finish_effect:4 "
+
+  tr_tec_control_1:0  "Твердая цель"
+ tr_tec_control_1_tooltip:0  "Правители и губернаторы никогда не приобретут черту §RАрестованного развития§!."
+  tr_tec_control_1_delayed:0  "Тот, кто управляет целыми отраслями, должен быть выше естественного порядка и ограничений, управляться только своей волей и потенциальными возможностями, поэтому существование самосовершенствования и обучения откроет путь к лучшей административной работе."
+
+  tr_tec_control_2:0  "Государственная тайна"
+  tr_tec_control_2_tooltip:0  "§YСтоимость выборов§! снижена на §G25%§!.\nГосударственная этика §YПривлекательность§! увеличена на §G10%§!."
+  tr_tec_control_2_delayed:0  "За кулисами политики спекулируют привилегированной информацией и секретами, но эти секреты могут быть использованы для борьбы с другими политиками или для изменения общественных идеалов в сторону общих интересов."
+
+  tr_tec_control_2_noelection:0  "Правило одного"
+ tr_tec_control_2_noelection_tooltip:0  "§YПравитель§! предельный уровень увеличен на §G4§!."
+  tr_tec_control_2_noelection_delayed:0  "Служить диктату правителя - обязанность, слушать его требования - благо; тот, кто осмелится усомниться, должен будет оправдаться или заплатить за свою дерзость."
+
+  tr_tec_control_2_gestalt:0  "Обширное сознание"
+ tr_tec_control_2_gestalt_tooltip:0  "§YПравитель§! увеличен на §G4§! уровня."
+  tr_tec_control_2_gestalt_delayed:0  "Объединенные одним сознанием, наши возможности неостановимы и не перестают расти."
+
+  tr_tec_control_3:0  "Коммуникаторы глубокого космоса"
+  tr_tec_control_3_tooltip:0  "§YСкорость корабля дружественной территории§! увеличена на §G10%§!\n§YДальность действия планетарных сенсоров§! увеличена на §G2§!"
+  tr_tec_control_3_delayed:0  "Массивы связи и информации должны быть всегда на самом современном уровне, для координации и для нашего же блага."
+
+  tr_tec_control_4:0  "Всевидящее око"
+  tr_tec_control_4_tooltip:0  "Империя §YРасшифровка§! увеличена §G+2§!"
+  tr_tec_control_4_delayed:0  "Мы должны предвидеть любое вторжение или нападение, поэтому информация и контроль над другими - ключ к нашей безопасности."
+
+	 tr_tec_control_final_1:0  "Инсайдерские отчеты"
+	 tr_tec_control_final_1_text:0  "
+	 tr_tec_control_final_1_tooltip:0  "$tec_tradition_swap_warning$\n\n$tr_tec_control_final_1_text$"
+	 tr_tec_control_final_1_delayed:0  "Тот, кто осмелится вмешаться в дела нашего рода, встретит большое сопротивление, поскольку мы держимся вместе, под одной идеей, и любые попытки саботировать или подмять под себя наш образ жизни будут бесплодны."
+
+	 tr_tec_control_final_1_disabled:0  "Инсайдерские отчеты"
+	 tr_tec_control_final_1_disabled_tooltip:0  "$tec_tradition_swap_disabled$\n\n$tr_tec_control_final_1_text$"
+	 tr_tec_control_final_1_disabled_delayed:0  "$tr_tec_control_final_1_delayed$"
+
+	 tr_tec_control_final_2:0  "Преданная защита"
+	 tr_tec_control_final_2_text:0  "£job£ §YРабота по борьбе с преступностью§! обеспечивает §G+1§! §Y$tec_loc_stability$§!"
+	 tr_tec_control_final_2_tooltip:0  "$tec_tradition_swap_warning$\n\n$tr_tec_control_final_2_text$"
+	 tr_tec_control_final_2_delayed:0  "Те, кто нас защищает, не только обеспечивают безопасность и защиту, они являются примером правоты и долга, контроля и стабильности, а потому должны быть оценены по достоинству."
+
+	 tr_tec_control_final_2_disabled:0  "Преданная защита"
+	 tr_tec_control_final_2_disabled_tooltip:0  "$tec_tradition_swap_disabled$\n\n$tr_tec_control_final_2_text$"
+	 tr_tec_control_final_2_disabled_delayed:0  "$tr_tec_control_final_2_delayed$"
+
+	 tr_tec_control_final_3:0  "Догматическая сплоченность"
+	 tr_tec_control_final_3_text:0  "§Y$MOD_POP_GOVERNMENT_ETHIC_ATTRACTION$§! увеличено на §G+50%§!.\n§Y$mod_pop_factions_unity_produces_mult$§! увеличилось на §G+20%§!."
+	 tr_tec_control_final_3_tooltip:0  "$tec_tradition_swap_warning$\n\n$tr_tec_control_final_3_text$"
+	 tr_tec_control_final_3_delayed:0  "Нельзя мириться с беспорядком и волнениями, так как любой мятеж должен быть предотвращен и подавлен еще до его начала; мы должны держаться вместе, чтобы прогрессировать и процветать."
+
+	 tr_tec_control_final_3_disabled:0  "Догматическая сплоченность"
+	 tr_tec_control_final_3_disabled_tooltip:0  "$tec_tradition_swap_disabled$\n\n$tr_tec_control_final_3_text$"
+	 tr_tec_control_final_3_disabled_delayed:0  "$tr_tec_control_final_3_delayed$"
+
+	 tr_tec_control_final_3_gestalt:0  "Успокоительный императив"
+	 tr_tec_control_final_3_gestalt_text:0  "Девиантность снижена на §G25%§!.\nразблокирует решение "Успокаивать" дронов, избегая негативных событий девиантности, ценой увеличения коэффициента девиантности."
+	 tr_tec_control_final_3_gestalt_tooltip:0  "$tec_tradition_swap_warning$\n\n$tr_tec_control_final_3_gestalt_text$"
+	 tr_tec_control_final_3_gestalt_delayed:0  "Наша воля должна быть уникальной и вечной; к любому диссонансу нужно относиться осторожно, а девиантных дронов нужно принимать обратно в коллектив, даже если мы должны позволить им взять больше времени, чтобы пересмотреть свой неверный путь."
+
+	 tr_tec_control_final_3_gestalt_disabled:0  "Успокаивающий императив"
+	 tr_tec_control_final_3_gestalt_disabled_tooltip:0  "$tec_tradition_swap_disabled$\n\n$tr_tec_control_final_3_gestalt_text$"
+	 tr_tec_control_final_3_gestalt_disabled_delayed:0  "$tr_tec_control_final_3_gestalt_delayed$"
+
+# Artifice (Prosperity 2)
+# ------------------------------------------------------------
+ tradition_tec_artifice:0  "Искусство"
+  tradition_tec_artifice_desc:0  "Вся Вселенная узнает наш след, наше воображение и нашу силу в том, что мы создадим, в тех чудесах, которые мы создали, и в тех планетах, которые мы спроектировали."
+
+ tr_tec_artifice_adopt:0  "Традиции искусства"
+ tr_tec_artifice_adopt_tooltip:7 "£building£ Скорость строительства планет §Yувеличена на §G10%§!."
+
+ tr_tec_artifice_finish:0  "Традиции искусства" завершены"
+ tr_tec_artifice_finish_tooltip:4 "Разблокирует §YКольца Элизиума§! как доступные Мегаструктуры.\n\n§H''Кольца Элизиума - это передовые планетарные мегаструктуры, которые служат средней точкой между аркологиями и кольцевыми мирами''.§!\n"
+ tr_tec_artifice_finish_effect:4 "
+
+ tr_tec_artifice_finish_terravore:0  "Традиции Артифиции завершены"
+ tr_tec_artifice_finish_terravore_tooltip:4 "Когда пригодная для жизни планета будет §Yполностью поглощена§!, будет создана свободная §Yсреда обитания§!.\n§R Этот эффект отменяется, если вокруг планеты уже существует мегаструктура.§!\n\n"
+ tr_tec_artifice_finish_terravore_effect:4 "
+
+  tr_tec_artifice_1:0  "Твердые основания"
+  tr_tec_artifice_1_tooltip:0  "Доступно £building£ §Yзданий§! слотов §G+1§!"
+  tr_tec_artifice_1_delayed:0  "Основа прогресса зиждется на самых прочных материалах, и таким же будет всё, что мы создадим."
+
+  tr_tec_artifice_2:0  "Деликатные решетки"
+  tr_tec_artifice_2_tooltip:0  "£district£ §YЖилые районы§! предоставляют дополнительные §G2§! §Y$tec_loc_amenities$§!."
+  tr_tec_artifice_2_delayed:0  "Величие может быть архиважным только при самом большом внимании к деталям."
+ 
+  tr_tec_artifice_2_gestalt:0  "Многоцелевые структуры"
+  tr_tec_artifice_2_gestalt_tooltip:0  "£district£ §Yжилые районы§! обеспечивают дополнительные £amenities_no_happiness£ §Yудобства§!."
+  tr_tec_artifice_2_gestalt_delayed:0  "Разумное использование жилых и складских помещений для дронов, а также для выполнения других рутинных и обслуживающих задач расширит наши возможности по использованию пространства."
+
+ tr_tec_artifice_3:0  "Формование Галактики"
+  tr_tec_artifice_3_tooltip:0  "Ресурсные §Yпостройки звездных баз§! имеют §G-25%§! содержания и §G10%§! дополнительной производительности"
+  tr_tec_artifice_3_delayed:0  "Все может быть использовано в наших великих конструкциях, даже сила самих звезд, поэтому все должно быть извлечено и использовано эффективно."
+
+  tr_tec_artifice_4:0  "Взаимозаменяемые модули"
+  tr_tec_artifice_4_tooltip:0  "§Yпроизводственные здания звездных баз§! увеличивают производительность §Gдобывающих§! и §Yисследовательских§! станций в системе на §G50%§!."
+  tr_tec_artifice_4_delayed:0  "Двойное использование автоматизированных систем и флотилии обслуживания, добычи и переработки создаст хорошую производственную синергию."
+
+	 tr_tec_artifice_final_1:0  "Гиперэффективная инфраструктура"
+	 tr_tec_artifice_final_1_text:0  "Каждые 3 £district£ §Yпромышленных района§!, построенные, обеспечат §G+1§! £building£ §Yстроительный слот§!.\nИмперии, уже пользующиеся аналогичным эффектом, получат §G+2§! £amenities£ на соответствующий район."
+	 tr_tec_artifice_final_1_tooltip:0  "$tec_tradition_swap_warning$\n\n$tr_tec_artifice_final_1_text$"
+	 tr_tec_artifice_final_1_delayed:0  "Более рациональная организация промышленных и производственных пространств позволит более гибко сочетать задачи и усилия."
+
+	 tr_tec_artifice_final_1_disabled:0  "Гиперэффективная инфраструктура"
+	 tr_tec_artifice_final_1_disabled_tooltip:0  "$tec_tradition_swap_disabled$\n\n$tr_tec_artifice_final_1_text$"
+	 tr_tec_artifice_final_1_disabled_delayed:0  "$tr_tec_artifice_final_1_delayed$"
+
+	 tr_tec_artifice_final_2:0  "Строительство без границ"
+ tr_tec_artifice_final_2_text:0  "Планетарные решения, такие как §YАркологический проект§! или §YЭкомирский проект§!, имеют стоимость £trigger_tec_basic_resources£ основных ресурсов, уменьшенную на §G50%§!."
+	 tr_tec_artifice_final_2_tooltip:0  "$tec_tradition_swap_warning$"
+	 tr_tec_artifice_final_2_delayed:0  "Расход материалов может быть радикально снижен, если вместо того, чтобы накапливать огромные количества для великих аркологических проектов, мы будем более разумно их использовать и заранее планировать."
+
+	 tr_tec_artifice_final_2_disabled:0  "Строительство без границ"
+	 tr_tec_artifice_final_2_disabled_tooltip:0  "$tec_tradition_swap_disabled$"
+	 tr_tec_artifice_final_2_disabled_delayed:0  "$tr_tec_artifice_final_2_delayed$"
+
+	 tr_tec_artifice_final_3:0  "Орбитальная координация"
+	 tr_tec_artifice_final_3_text:0  "
+	 tr_tec_artifice_final_3_tooltip:0  "$tec_tradition_swap_warning$\n\n$tr_tec_artifice_final_3_text$"
+	 tr_tec_artifice_final_3_delayed:0  "Орбитальные звездные базы должны быть скоординированы и идеально синхронизированы, чтобы обеспечить более быстрое и качественное обслуживание нашей империи."
+
+	 tr_tec_artifice_final_3_disabled:0  "Оправданная мегаломания"
+	 tr_tec_artifice_final_3_disabled_tooltip:0  "$tec_tradition_swap_disabled$\n\n$tr_tec_artifice_final_3_text$"
+	 tr_tec_artifice_final_3_disabled_delayed:0  "$tr_tec_artifice_final_3_delayed$"
+
+# Balance/Evolution (Harmony 2)
+# ------------------------------------------------------------
+  tradition_tec_balance:0  "Баланс"
+  tradition_tec_balance_desc:0  "Мы не продвинемся вперед, если оставим своих сородичей позади, все должны сотрудничать ради будущего."
+
+  tr_tec_balance_adopt:0  "Традиции равновесия"
+  tr_tec_balance_adopt_gestalt_tooltip:0  "$tr_tec_balance_adopt_effect$"
+tr_tec_balance_adopt_effect:7 "£job_clerk£ Работа §YУход§! уменьшен на §G10%§!."
+
+  tr_tec_balance_finish:0  "Баланс традиций завершен"
+ tr_tec_balance_finish_tooltip:4 "§RНЕ ГОТОВО§!\nПозволяет альтернативно набирать и настраивать лидеров с помощью §YАкадемии Империи§! (доступной как планетарное решение на столице).\n"
+  tr_tec_balance_finish_hive:0  "Баланс традиций завершен"
+ tr_tec_balance_finish_hive_tooltip:4 "§RНЕ ГОТОВ§!\nРазрешить альтернативный набор и настройку лидеров с помощью §YПалаты Эволюции§! (доступно как планетарное решение на столице).\n"
+  tr_tec_balance_finish_machine:0  "Баланс традиций завершен"
+ tr_tec_balance_finish_machine_tooltip:4 "§RНЕ ГОТОВ§!\nПозволяет альтернативно набирать и настраивать лидеров с помощью §YАссамблеи Личности§! (доступно как планетарное решение на столице).\n"
+
+ tr_tec_balance_finish_hive_effect:4 "
+ tr_tec_balance_finish_machine_effect:4 "
+ tr_tec_balance_finish_effect:4 "
+
+  tr_tec_balance_1:0  "Цель службы"
+  tr_tec_balance_1_tooltip:0  "Лидеры имеют §Y25%§! шанса получить §Hдополнительную положительную черту§! при выравнивании."
+  tr_tec_balance_1_delayed:0  "Способное руководство обеспечит процветание, поэтому обучение и развитие принесет пользу как отдельным людям, так и всему обществу в целом по мере выполнения ими соответствующих задач."
+
+  tr_tec_balance_2:0  "Объединение наших"
+  tr_tec_balance_2_tooltip:0  "£job_clerk£ §Yклерков§! рабочих мест создает §G+1§! дополнительных §Y$tec_loc_unity$§!."
+  tr_tec_balance_2_delayed:0  "Каждый член нашего общества важен для нашего роста, даже те, которые просто служат для выполнения самых простых работ."
+
+  tr_tec_balance_2_gestalt:0  "Резонирующая гармония"
+  tr_tec_balance_2_gestalt_tooltip:0  "£job_maintenance_drone£ §YОбслуживание Р "СЂРѕРЅs§! генерирует §G+1§! дополнительный §Y$tec_loc_unity$§!."
+  tr_tec_balance_2_gestalt_delayed:0  "Каждый член коллектива - это большая часть целого, и те, кто поддерживает остальных, специально резонируют с ясностью нашей воли."
+
+  tr_tec_balance_3:0  "В поисках нового дома"
+  tr_tec_balance_3_tooltip:0  "Шанс автоматической миграции безработных поселенцев увеличен на §Y50%§!."
+  tr_tec_balance_3_delayed:0  "Облегчение транзита и перемещения для нашего вида улучшит наше развитие."
+
+ tr_tec_balance_4:0  "Формирование пути"
+  tr_tec_balance_4_tooltip:0  "Все лидеры будут получать §Yнебольшое§! количество §Yопыта§! каждый год. Количество варьируется в зависимости от типа и черт лидера."
+  tr_tec_balance_4_delayed:0  "Даже находясь на пике своей эффективности, любое существо нуждается в постоянном обучении и совершенствовании для того, чтобы развиваться и процветать."
+
+	 tr_tec_balance_final_1:0  "Универсальное знание"
+	 tr_tec_balance_final_1_text:0  "Новые §Yлидеры§!, набранные с бонусом финишера баланса, получают доступ к §G1§! дополнительному £trait£ _ §Y очку признаков§!."
+	 tr_tec_balance_final_1_tooltip:0  "$tec_tradition_swap_warning$\n\n$tr_tec_balance_final_1_text$"
+	 tr_tec_balance_final_1_delayed:0  "Постоянные изменения и эволюция - это то, что привело нас сюда, и это то, что приведет нас вперед."
+
+	 tr_tec_balance_final_1_disabled:0  "Универсальное знание"
+	 tr_tec_balance_final_1_disabled_tooltip:0  "$tec_tradition_swap_disabled$\n\n$tr_tec_balance_final_1_text$"
+	 tr_tec_balance_final_1_disabled_delayed:0  "$tr_tec_balance_final_1_delayed$"
+
+	 tr_tec_balance_final_2:0  "Совместное будущее"
+	 tr_tec_balance_final_2_text:0  "
+	 tr_tec_balance_final_2_tooltip:0  "$tec_tradition_swap_warning$\n\n$tr_tec_balance_final_2_text$"
+	 tr_tec_balance_final_2_delayed:0  "То, кем мы являемся и как мы живем, определит, куда мы идем."
+
+	 tr_tec_balance_final_2_disabled:0  "Будущее вместе"
+	 tr_tec_balance_final_2_disabled_tooltip:0  "$tec_tradition_swap_disabled$\n\n$tr_tec_balance_final_2_text$"
+	 tr_tec_balance_final_2_disabled_delayed:0  "$tr_tec_balance_final_2_delayed$"
+
+	 tr_tec_balance_final_2_gestalt:0  "Сплоченное будущее"
+	 tr_tec_balance_final_2_gestalt_text:0  "Империя §Y$tec_loc_unity$§! увеличилась на §G10%§!."
+	 tr_tec_balance_final_2_gestalt_tooltip:0  "$tec_tradition_swap_warning$\n\n$tr_tec_balance_final_2_gestalt_text$"
+	 tr_tec_balance_final_2_gestalt_delayed:0  "Мы растем, мы развиваемся, и мы объединимся еще больше."
+
+	 tr_tec_balance_final_2_gestalt_disabled:0  "Сплоченное будущее"
+	 tr_tec_balance_final_2_gestalt_disabled_tooltip:0  "$tec_tradition_swap_disabled$\n\n$tr_tec_balance_final_2_gestalt_text$"
+	 tr_tec_balance_final_2_gestalt_disabled_delayed:0  "$tr_tec_balance_final_2_gestalt_delayed$"
+
+	 tr_tec_balance_final_3:0  "Жить настоящим"
+	 tr_tec_balance_final_3_text:0  "
+	 tr_tec_balance_final_3_tooltip:0  "$tec_tradition_swap_warning$\n\n$tr_tec_balance_final_3_text$"
+	 tr_tec_balance_final_3_delayed:0  "То, что нас ждет в будущем, начнется с того, как мы живем сегодня."
+
+	 tr_tec_balance_final_3_disabled:0  "Жить настоящим"
+	 tr_tec_balance_final_3_disabled_tooltip:0  "$tec_tradition_swap_disabled$\n\n$tr_tec_balance_final_3_text$"
+	 tr_tec_balance_final_3_disabled_delayed:0  "$tr_tec_balance_final_3_delayed$"
+
+	 tr_tec_balance_final_3_gestalt:0  "Адаптироваться к трудностям"
+	 tr_tec_balance_final_3_gestalt_text:0  "
+	 tr_tec_balance_final_3_gestalt_tooltip:0  "$tec_tradition_swap_warning$\n\n$tr_tec_balance_final_3_gestalt_text$"
+	 tr_tec_balance_final_3_gestalt_delayed:0  "Мы должны быть готовы ко всему, что принесет будущее нашему коллективу"
+
+	 tr_tec_balance_final_3_gestalt_disabled:0  "Адаптироваться к трудностям"
+	 tr_tec_balance_final_3_gestalt_disabled_tooltip:0  "$tec_tradition_swap_disabled$\n\n$tr_tec_balance_final_3_gestalt_text$"
+	 tr_tec_balance_final_3_gestalt_disabled_delayed:0  "$tr_tec_balance_final_3_gestalt_delayed$"
+
+# Might (Supremacy 2)
+# ------------------------------------------------------------
+  tradition_tec_might:0  "Могущество"
+  tradition_tec_might_desc:0  "Сила ничего не значит без умения ее использовать, и мы будем это делать, чтобы обеспечить наше выживание и процветание."
+
+  tr_tec_might_adopt:0  "Традиции Могущества"
+  tr_tec_might_adopt_tooltip:0  "$tr_tec_might_adopt_effect$"
+ tr_tec_might_adopt_effect:7 "£mod_country_naval_cap_add£ §YСкорость постройки кораблей§! увеличена на §G10%§!."
+
+ tr_tec_might_finish:0  "Традиции могущества" завершены"
+ tr_tec_might_finish_tooltip:4 "Разблокирует следующую §Yтехнологию проектирования§!корабля, доступную в качестве §Yварианта исследования§!, минуя возможные предыдущие реквизиты. Если все технологии кораблей уже разблокированы, предоставляется §G2§! случайные повторяемые военно-морские технологии.\n"
+ tr_tec_might_finish_effect:4 "
+
+  tr_tec_might_1:0  "Спящие гиганты"
+  tr_tec_might_1_tooltip:0  "Каюты для экипажа уменьшают дополнительно §G-5%§! дополнительного §Y содержания корабля в доке§! и обеспечивают §G+10%§! скорости постройки §Y кораблей звездной базы§!."
+  tr_tec_might_1_delayed:0  "Военно-морское господство никогда не будет достигнуто без подготовки, поэтому сухие доки будут всегда готовы принять, произвести и модернизировать наши корабли."
+  tr_tec_might_1_OLDdesc:0  "Каюты для экипажа обеспечивают §G+1§! звездную базу §Yвместимостью§! верфи."
+  tr_tec_might_1_hive:0  "Спящие гиганты"
+  tr_tec_might_1_hive_delayed:0  "$tr_tec_might_1_delayed$"
+ tr_tec_might_1_hive_tooltip:0  "Камеры рождения экипажа" обеспечивают §G+1§! звездную базу §Yвместимость верфи§!."
+  tr_tec_might_1_machine:0  "Спящие гиганты"
+  tr_tec_might_1_machine_delayed:0  "$tr_tec_might_1_delayed$"
+ tr_tec_might_1_machine_tooltip:0  "Сервис Умбиликалис" обеспечивает §G+1§! звездную базу §Yвместимостью§! верфи."
+
+  tr_tec_might_2:0  "Непробиваемая оборона"
+  tr_tec_might_2_tooltip:0  "§Y$mod_shipclass_starbase_hull_mult$§! увеличена на §G+25%§! и §Y$MOD_ARMY_DEFENSE_HEALTH_MULT$§! увеличена на §G+25%§!."
+  tr_tec_might_2_delayed:0  "Каждое новое завоевание и завоеванную территорию нужно защищать с железной волей и хваткой."
+
+	 #tr_tec_might_3:0  "Никогда не сдавайся"
+	 #tr_tec_might_3_tooltip:0  "Империя §YВоенное истощение§! усиление снижено на §G10%§!."
+	 #tr_tec_might_3_delayed:0  "Какой бы тяжелой ни была борьба, какие бы сложные задачи ни приходилось решать, мы никогда не сдадимся #adversity."
+
+ tr_tec_might_3:0  "Адамантовое наступление" # fallback
+  tr_tec_might_3_tooltip:0  "§Y$MOD_COUNTRY_CLAIM_INFLUENCE_COST_MULT$§! уменьшено на §G10%§!" #.\nКаждая планета получит §G5§! §Yармий обороны§!.
+  tr_tec_might_3_delayed:0  "Мы должны смотреть вперед, не пренебрегая нашим арьергардом. Сильным и уверенным наступлением мы обозначим свой путь в галактике, сильным и уверенным наступлением тот, кто осмелится бросить вызов нашей империи, вскоре пожалеет об этом."
+
+  tr_tec_might_3B:0  "Первозданная воля"
+  tr_tec_might_3B_tooltip:0  "§YСтоимость влияния вражеских претензий§! увеличена на §G20%§!" #.\nКаждая планета получит §G10§! §Yармий обороны§!.
+  tr_tec_might_3B_delayed:0  "Защищать и вмешиваться, обороняться и выживать; никто не сломит волю нашей империи, не пройдет сквозь нашу оборону, и дерзкая попытка враждебного отношения к нам будет дерзкой и бесполезной, поскольку наша воля девственна и несокрушима."
+
+  tr_tec_might_3C:0  "Беспощадное наступление"
+  tr_tec_might_3C_tooltip:0  "Скорострельность корабля: §G+5%§! \nСкорость движения корабля: §G+5%§!" #.\nКаждая планета получит §G10§! §Yармий обороны§!.
+  tr_tec_might_3C_delayed:0  "Независимо от обороны противника, независимо от физических барьеров, наша воля девственна, а могущество неоспоримо."
+
+  tr_tec_might_4:0  "Сила непреодолима"
+  tr_tec_might_4_tooltip:0  "Победа над вражеским флотом даст небольшое количество £influence£ §YВлияния§!."
+  tr_tec_might_4_delayed:0  "Хотя мы не должны просто доказывать свое превосходство, обугленных и разрушенных останков всего, что попытается бросить нам вызов, будет достаточно."
+
+	 tr_tec_might_final_1:0  "Инженерия галактической войны"
+	 tr_tec_might_final_1_text:0  "Каждый построенный военный корабль предоставляет небольшое переменное количество £engineering£ §Yинженерных исследований§!.\nКоличество предоставляемых услуг зависит от типа корабля."
+	 tr_tec_might_final_1_tooltip:0  "$tec_tradition_swap_warning$\n\n$tr_tec_might_final_1_text$"
+	 tr_tec_might_final_1_delayed:0  "Следует сосредоточить усилия на исследованиях, чтобы избежать застоя и повысить нашу квалификацию и военно-морскую эффективность."
+
+	 tr_tec_might_final_1_disabled:0  "Галактическая военная техника"
+	 tr_tec_might_final_1_disabled_tooltip:0  "$tec_tradition_swap_disabled$\n\n$tr_tec_might_final_1_text$"
+	 tr_tec_might_final_1_disabled_delayed:0  "$tr_tec_might_final_1_delayed$"
+
+	 tr_tec_might_final_2:0  "Искусство войны"
+	 tr_tec_might_final_2_text:0  "В военное время §Y£job£§!, населения §Y производство§! увеличивается на §G5%§!; в мирное время, §Y$tec_loc_unity$ производство§! увеличивается на §G5%§!."
+	 tr_tec_might_final_2_tooltip:0  "$tec_tradition_swap_warning$\n\n$tr_tec_might_final_2_text$"
+	 tr_tec_might_final_2_delayed:0  "Самое главное, помимо знания своего врага, - это знание самого себя."
+
+	 tr_tec_might_final_2_disabled:0  "Искусство войны"
+	 tr_tec_might_final_2_disabled_tooltip:0  "$tec_tradition_swap_disabled$\n\n$tr_tec_might_final_2_text$"
+	 tr_tec_might_final_2_disabled_delayed:0  "$tr_tec_might_final_2_delayed$"
+
+	 tr_tec_might_final_3:0  "Принцип готовности"
+	 tr_tec_might_final_3_text:0  "Рабочие места в ВМФ обеспечивают §G+1§! §Yоборону армии§!, рабочие места в армии обеспечивают §G+1§! дополнительный §Yпотенциал ВМФ§!."
+	 tr_tec_might_final_3_tooltip:0  "$tec_tradition_swap_warning$\n\n$tr_tec_might_final_3_text$"
+	 tr_tec_might_final_3_delayed:0  "Мы должны быть готовы ко всему, что придет, так как ни милосердие, ни доброта не являются глобальными принципами во Вселенной."
+
+	 tr_tec_might_final_3_disabled:0  "Принцип готовности"
+	 tr_tec_might_final_3_disabled_tooltip:0  "$tec_tradition_swap_disabled$\n\n$tr_tec_might_final_3_text$"
+	 tr_tec_might_final_3_disabled_delayed:0  "$tr_tec_might_final_3_delayed$"
+
+# Statecraft
+# ------------------------------------------------------------
+ tradition_tec_statecraft:0  "Государственное управление"
+  tradition_tec_statecraft_desc:0  "Истинная основа нашего общества лежит в отношениях и нашем росте, и поэтому мы должны опираться на правильную работу и совершенную сплоченность нашего государства."
+
+ tradition_tec_statecraft_self:0  " Автократия"
+  tradition_tec_statecraft_self_desc:0  "Вселенная полна проблем, которые можно игнорировать, решать или прямо искоренять, но наше внимание всегда должно быть сосредоточено на нашем роде, и не более того."
+
+  tradition_tec_statecraft_hive:0  "Связность"
+  tradition_tec_statecraft_hive_desc:0  "Меньшие или отдельные умы никогда не поймут нашего внутреннего мастерства и величия, но они поймут нашу волю и действия."
+
+  tradition_tec_statecraft_machine:0  "Решительность"
+  tradition_tec_statecraft_machine_desc:0  "Наша физическая холодность и твердость должна проявляться и внутри, в жестком коде, твердом программировании и холодно-эффективных действиях."
+
+  tradition_tec_statecraft_biohive:0  "Эволюция"
+  tradition_tec_statecraft_biohive_desc:0  "ДЕЛАТЬ. " # REDACT LORE
+
+ tr_tec_statecraft_adopt:0  " Традиции государственного управления"
+tr_tec_statecraft_adopt_tooltip:7 "£unity£ §YОбновление эдикта§! уменьшено на §G10%§!."
+
+ tr_tec_statecraft_finish:0  "Традиции искусства" завершены"
+tr_tec_statecraft_finish_tooltip:4 " Разблокирует §Yобозначения обода/ядра мира§!.\n\n§H'''Обозначения ядра мира - это специальные обозначения колоний для ограниченного количества миров внутри ядра сектора, которые значительно повышают производительность этих планет'''.\n"Обод-миры" - специальные обозначения колоний для миров за пределами сектора ядра, облегчающие бюрократическую нагрузку на эти миры в обмен на производство и рост преступности."§!\n"
+
+ tr_tec_statecraft_finish_autarchy:0  "Традиции Автократии завершены"
+ tr_tec_statecraft_finish_autarchy_tooltip:4 "$tr_tec_statecraft_finish_tooltip$"
+
+  tr_tec_statecraft_finish_hive:0  "Традиции связности завершены"
+ tr_tec_statecraft_finish_hive_tooltip:4 "$tr_tec_statecraft_finish_tooltip$"
+
+  tr_tec_statecraft_finish_machine:0  "Традиции решительности завершены"
+ tr_tec_statecraft_finish_machine_tooltip:4 "$tr_tec_statecraft_finish_tooltip$"
+
+ tr_tec_statecraft_finish_effect:4 "
+ tr_tec_statecraft_finish_autarchy_effect:4 "
+ tr_tec_statecraft_finish_machine_effect:4 "
+ tr_tec_statecraft_finish_hive_effect:4 "
+
+  tr_tec_statecraft_1:0 "Бесспорное принятие решений"
+  tr_tec_statecraft_1_tooltip:0  "§YФракции§! выход: §G+10%§!."
+  tr_tec_statecraft_1_delayed:0  "Нужно не просто принимать решения, а принимать правильные решения."
+
+  tr_tec_statecraft_1_gestalt:0  "Конфликтные решения"
+  tr_tec_statecraft_1_gestalt_tooltip:0  "£unity£ §YУказ§! о поддержании: §G-10%§!."
+  tr_tec_statecraft_1_gestalt_delayed:0  "Как единый разум, решения обсуждаются бесконечным количеством голосов и процессов, поэтому только правильные из них должны быть отфильтрованы эхом."
+
+  tr_tec_statecraft_2:0  "Правящая элита"
+  tr_tec_statecraft_2_tooltip:0  "£pop_cat_ruler£ §YПравители§! производят §G+2§! дополнительных §Y$tec_loc_unity$§!."
+  tr_tec_statecraft_2_delayed:0  "Те, кто локально управляет нашими мирами, должны брать на себя ответственность и быть лучшими из лучших."
+
+  tr_tec_statecraft_2_gestalt:0  "Многоуровневая сложность"
+  tr_tec_statecraft_2_gestalt_tooltip:0  "£pop_cat_complex_drone£ §Yсложных дронов§! производительность увеличилась на §G5%§!."
+  tr_tec_statecraft_2_gestalt_delayed:0  "Замысловатые слои различной сложности и возможностей беспилотников обеспечивают наше выживание в целом."
+
+  tr_tec_statecraft_3:0  "Большая игра"
+  tr_tec_statecraft_3_tooltip:0  "§Yдипломатический вес§! увеличился на §G10%§!."
+  tr_tec_statecraft_3_delayed:0  "В галактическом танце цивилизаций от того, как мы передвинем наши фигуры, зависит наше процветание или гибель."
+
+  tr_tec_statecraft_3_autarchy:0  "Внутренняя игра"
+  tr_tec_statecraft_3_autarchy_tooltip:0  "Производительность рабочих мест §Yувеличилась на §G5%§!, но содержание рабочих мест §Yтакже увеличилось на §R5%§! ."
+  tr_tec_statecraft_3_autarchy_delayed:0  "Балансировка экономики приведет к контролю над каждым ее аспектом."
+
+  tr_tec_statecraft_4:0  "Принятие перемен"
+  tr_tec_statecraft_4_tooltip:0  "Стоимость планетарного вознесения: §G-15%§!."
+  tr_tec_statecraft_4_delayed:0  "Постоянные изменения и эволюция - это то, что привело нас сюда, и это то, что приведет нас вперед."
+
+	 tr_tec_statecraft_final_1:0  "Гибкий статус"
+	 tr_tec_statecraft_final_1_text:0  "£unity£ §YАдминистраторы§! производят §G+2§! дополнительных §Y$tec_loc_amenities$§!."
+	 tr_tec_statecraft_final_1_tooltip:0  "$tec_tradition_swap_warning$\n\n$tr_tec_statecraft_final_1_text$"
+	 tr_tec_statecraft_final_1_delayed:0  "Координация работы целой империи требует большой гибкости и эффективной полезности."
+
+	 tr_tec_statecraft_final_1_disabled:0  "$tr_tec_statecraft_final_1$"
+	 tr_tec_statecraft_final_1_disabled_tooltip:0  "$tec_tradition_swap_disabled$\n\n$tr_tec_statecraft_final_1_text$"
+	 tr_tec_statecraft_final_1_disabled_delayed:0  "$tr_tec_statecraft_final_1_delayed$"
+
+	 tr_tec_statecraft_final_2:0  "Точка перегиба"
+	 tr_tec_statecraft_final_2_text:0  "Столичные здания дают до 2 дополнительных §YИмперских арбитров§!, дополнительные эффективные задания Правителей.\n\nИмперские Арбитры генерируют §Y$tec_loc_amenities$§!_, а также §Yдополнительные бонусы§!, основанные на вашей имперской §Y власти и этике§!."
+	 tr_tec_statecraft_final_2_tooltip:0  "$tec_tradition_swap_warning$\n\n$tr_tec_statecraft_final_2_text$"
+	 tr_tec_statecraft_final_2_delayed:0  "Самые сильные и хитрые представители нашего рода - это те, кто должен защищать наш образ жизни и вести наш род к лучшему будущему."
+
+	 tr_tec_statecraft_final_2_disabled:0  "Точка перегиба"
+	 tr_tec_statecraft_final_2_disabled_tooltip:0  "$tec_tradition_swap_disabled$\n\n$tr_tec_statecraft_final_2_text$"
+	 tr_tec_statecraft_final_2_disabled_delayed:0  "$tr_tec_statecraft_final_2_delayed$"
+
+	 tr_tec_statecraft_final_2_hive:0  "Точка перегиба"
+	 tr_tec_statecraft_final_2_hive_text:0  "Капитальные здания предоставляют до 2 дополнительных §Yповеденческих регуляторов§!, сверхэффективный комплекс Р "СЂРѕРЅs. \n\nРегуляторы поведения генерируют £amenities_no_happiness£ §Yудобства§!, а §Yдополнительные бонусы§! основаны на этике и гражданственности§! вашей империи."
+	 tr_tec_statecraft_final_2_hive_tooltip:0  "$tec_tradition_swap_warning$\n\n$tr_tec_statecraft_final_2_hive_text$"
+	 tr_tec_statecraft_final_2_hive_delayed:0  "Самые сильные и хитрые представители нашего рода - это те, кто должен защищать наш образ жизни и вести наш род к лучшему будущему."
+
+	 tr_tec_statecraft_final_2_hive_disabled:0  "Точка перегиба"
+	 tr_tec_statecraft_final_2_hive_disabled_tooltip:0  "$tec_tradition_swap_disabled$\n\n$tr_tec_statecraft_final_2_hive_text$"
+	 tr_tec_statecraft_final_2_hive_disabled_delayed:0  "$tr_tec_statecraft_final_2_hive_delayed$"
+
+	 tr_tec_statecraft_final_2_machine:0  "Точка перегиба"
+	 tr_tec_statecraft_final_2_machine_text:0  "Капитальные здания обеспечивают до 2 дополнительных §Yкомандных ретрансляторов§!, сверхэффективный комплекс Р "СЂРѕРЅs. \n\nКомандные ретрансляторы генерируют £amenities_no_happiness£ §Yудобства§!, а §Yдополнительные бонусы§!, основанные на этике и гражданственности вашей империи §Y."
+	 tr_tec_statecraft_final_2_machine_tooltip:0  "$tec_tradition_swap_warning$\n\n$tr_tec_statecraft_final_2_machine_text$"
+	 tr_tec_statecraft_final_2_machine_delayed:0  "Самые сильные и хитрые представители нашего рода - это те, кто должен защищать наш образ жизни и вести наш род к лучшему будущему."
+
+	 tr_tec_statecraft_final_2_machine_disabled:0  "Точка перегиба"
+	 tr_tec_statecraft_final_2_machine_disabled_tooltip:0  "$tec_tradition_swap_disabled$\n\n$tr_tec_statecraft_final_2_machine_tooltip$"
+	 tr_tec_statecraft_final_2_machine_disabled_delayed:0  "$tr_tec_statecraft_final_2_machine_delayed$"
+
+	 tr_tec_statecraft_final_3:0  "Повышение уровня самоконтроля"
+	 tr_tec_statecraft_final_3_text:0  ""
+	 tr_tec_statecraft_final_3_tooltip:0  "$tec_tradition_swap_warning$\n\n$tr_tec_statecraft_final_3_text$"
+	 tr_tec_statecraft_final_3_delayed:0  "Снятие административной нагрузки с наших поселений и колоний значительно снизит общую административную нагрузку."
+
+	 tr_tec_statecraft_final_3_disabled:0  "Повышение уровня самоуправления"
+	 tr_tec_statecraft_final_3_disabled_tooltip:0  "$tec_tradition_swap_disabled$\n\n$tr_tec_statecraft_final_3_text$"
+	 tr_tec_statecraft_final_3_disabled_delayed:0  "$tr_tec_statecraft_final_3_delayed$"
+
+ #tr_tec_statecraft_final_3_autarchy:0  "Танец позиции"
+	 #tr_tec_statecraft_final_3_autarchy_tooltip:0  "£mod_country_admin_cap_add£ §YДипломатические позиции§! предоставляют повышенные бонусы для #империи."
+	 #tr_tec_statecraft_final_3_autarchy_delayed:0  "В галактике, где малейшая деталь может перевернуть ход любого конфликта или #отношений, нам предстоит решить, как с этим справиться."
+
+	 #tr_tec_statecraft_final_3:0  "Дипломатический иммунитет"
+	 #tr_tec_statecraft_final_3_tooltip:0  "£building£ §Yздания посольства§! не требуют §Gсодержания§! и предоставляют §G1§! дополнительного §Yпосланника§!."
+	 #tr_tec_statecraft_final_3_delayed:0  "В галактике, где дипломатия может переломить ход любого конфликта, наличие адекватной и хорошо поддерживаемой корпорации посланников и специалистов является реальным преимуществом."
+
+# Изобретение (Discovery 2)
+# ------------------------------------------------------------
+  tradition_tec_invention:0  "Изобретение"
+  tradition_tec_invention_desc:0  "Наш интеллект будет двигать наш вид к открытию секретов того, что лежит за пределами, чтобы осветить блестящие пути в бесконечной и таинственной темноте, ожидающей нас."
+
+  tr_tec_invention_adopt:0  "Традиции изобретательства"
+ tr_tec_invention_adopt_tooltip:7 "£job_researcher£ §YСкорость исследований§! увеличена на §G5%§!."
+
+  tr_tec_invention_finish:0  "Традиции изобретений завершены"
+ tr_tec_invention_finish_tooltip:4 "Разблокирует §Yпрорыв§! в качестве исследуемой технологии.\n\n§H''Прорывы - это особые и редкие технологии, которые являются эксклюзивными для нашей империи в течение определенного периода времени, либо передаются через естественное дипломатическое взаимодействие''.§!\n\n"
+
+ tr_tec_invention_1:0  "В неизвестность"
+  tr_tec_invention_1_tooltip:0  "§YШанс обнаружения аномалий§! увеличен на §G15%§!"
+  tr_tec_invention_1_delayed:0  "То, что остается в тайне, будет раскрыто."
+
+  tr_tec_invention_2:0  "Глаза в темноте"
+  tr_tec_invention_2_tooltip:0  "§YДальность действия корабельных сенсоров§! увеличена на §G1§!.\n§YДальность гиперполяны корабля§! увеличена на §G1§!"
+  tr_tec_invention_2_delayed:0  "Неважно, что мы откроем в глубоких, необъятных просторах космоса, это очень поможет прогрессу."
+
+ # aka the lootbox
+ tr_tec_invention_3:0  "Открывая возможности"
+  tr_tec_invention_3_tooltip:0  "Исследовав новую технологию, империя случайным образом получит §G20%§! от месячного дохода случайного £trigger_tec_basic_resources£ §Yбазового ресурса§!."
+  tr_tec_invention_3_delayed:0  "Что мы найдем, пытаясь открыть новые знания, совершенно неизвестно, но мы уверены, что впереди нас ждут новые богатства."
+
+  tr_tec_invention_4:0  "Ядерная гениальность"
+  tr_tec_invention_4_tooltip:0  "Вновь набранные ученые имеют §Yмалый§! шанс дополнительно получить §Yманиакальную§! или §Gискру гениальности§!."
+  tr_tec_invention_4_delayed:0  "Параллельное мышление и безудержное творчество ведут к лучшим открытиям, прорывам и научному прогрессу."
+
+	 tr_tec_invention_final_1:0  "Межзвездные инновации"
+	 tr_tec_invention_final_1_text:0  "£building£ научно-исследовательские институты обеспечивают §G+5%§! дополнительной §Y$tec_loc_research_resources$§! продукции."
+	 tr_tec_invention_final_1_tooltip:0  "$tec_tradition_swap_warning$\n\n$tr_tec_invention_final_1_text$"
+	 tr_tec_invention_final_1_delayed:0  "Скоординированные усилия между нашими колониями позволят создать централизованные исследовательские звенья, которые улучшат наши технологические возможности."
+
+	 tr_tec_invention_final_1_disabled:0  "Межзвездные инновации"
+	 tr_tec_invention_final_1_disabled_tooltip:0  "$tec_tradition_swap_disabled$\n\n$tr_tec_invention_final_1_text$"
+	 tr_tec_invention_final_1_disabled_delayed:0  "$tr_tec_invention_final_1_delayed$"
+
+	 tr_tec_invention_final_1_gestalt:0  "Межзвездные инновации"
+	 tr_tec_invention_final_1_gestalt_tooltip:0  "£building£ Планетарные суперкомпьютеры обеспечивают §G+5%§! дополнительной §Y$tec_loc_research_resources$§! производительности.\n\n$tec_tradition_swap_warning$"
+	 tr_tec_invention_final_1_gestalt_delayed:0  "$tr_tec_invention_final_1_delayed$"
+
+	 tr_tec_invention_final_2:0  "Цепная реакция"
+	 tr_tec_invention_final_2_text:0  "Каждая новая §Yисследованная технология§! обеспечит переменное количество §Yслучайного ресурса исследования§!."
+	 tr_tec_invention_final_2_tooltip:0  "$tec_tradition_swap_warning$\n\n$tr_tec_invention_final_2_text$"
+	 tr_tec_invention_final_2_delayed:0  "Из творения рождается вдохновение, из вдохновения - идеи, а из идей - творение."
+
+	 tr_tec_invention_final_2_disabled:0  "Цепная реакция"
+	 tr_tec_invention_final_2_disabled_tooltip:0  "$tec_tradition_swap_disabled$\n\n$tr_tec_invention_final_2_text$"
+	 tr_tec_invention_final_2_disabled_delayed:0  "$tr_tec_invention_final_2_delayed$"
+
+	 tr_tec_invention_final_3:0  "Relativistic Knowledge"
+	 tr_tec_invention_final_3_tooltip:0  "$tec_tradition_swap_warning$ \n\nКаждая новая §Yисследованная технология§! обеспечит §G+5%§! ежемесячно §Y$tec_loc_unity$§!, суммируясь до 4 раз. \nПосле достижения максимального количества стак уменьшается до достижения минимального."
+	 tr_tec_invention_final_3_delayed:0  "То, что мы узнаем, подтолкнет нас к новым знаниям и улучшит нашу империю в целом."
+
+	 tr_tec_invention_final_3_disabled:0  "Релятивистское знание"
+	 tr_tec_invention_final_3_disabled_tooltip:0  "$tec_tradition_swap_disabled$\n\nКаждая новая §Yисследованная технология§! обеспечит §G+1%§! ежемесячно §Y$tec_loc_unity$§!, суммируясь до 15 раз. \nПосле достижения этого бонуса он сбрасывается и отсчитывается заново."
+	 tr_tec_invention_final_3_disabled_delayed:0  "То, что мы узнаем, подтолкнет нас к новым знаниям и улучшит нашу империю в целом."
+
+# Megalomania
+# ------------------------------------------------------------
+  tradition_tec_megalomania:0  "Мегаломания"
+  tradition_tec_megalomania_desc:0  "Базовые структуры и материалы сегодняшнего дня станут славным, ярким и вечным наследием завтрашнего."
+
+  tr_tec_megalomania_adopt:0  "Мегаломания"
+ tr_tec_megalomania_adopt_tooltip:7 "Эффект TO DO"
+
+  tr_tec_megalomania_finish:0  "Традиции Мегаломании завершены"
+tr_tec_megalomania_finish_tooltip:4 " Перки вознесения  Разблокирован:  §G+1§!\n\nОткрывает §Yщиты-миры§!.\n\n§H''Щитовые миры - это полностью искусственные миры, созданные на микродизонной сфере вокруг искусственной звезды, расположенной вне гравитационного колодца системы''.§!\n"
+ tr_tec_megalomania_finish_effect:4 "
+
+  tr_tec_megalomania_1:0  "to do"
+  tr_tec_megalomania_1_tooltip:0  "to do"
+  tr_tec_megalomania_1_delayed:0  "to do"
+
+  tr_tec_megalomania_2:0  "to do"
+  tr_tec_megalomania_2_tooltip:0  "to do"
+  tr_tec_megalomania_2_delayed:0  "to do"
+
+  tr_tec_megalomania_3:0  "to do"
+  tr_tec_megalomania_3_tooltip:0  "to do"
+  tr_tec_megalomania_3_delayed:0  "to do"
+
+  tr_tec_megalomania_4:0  "to do"
+  tr_tec_megalomania_4_tooltip:0  "to do"
+  tr_tec_megalomania_4_delayed:0  "to do"
+
+  tr_tec_megalomania_5:0  "to do"
+  tr_tec_megalomania_5_tooltip:0  "to do"
+  tr_tec_megalomania_5_delayed:0  "to do"
+
+	 tr_tec_megalomania_final_1:0  "Межзвездные инновации"
+	 tr_tec_megalomania_final_1_tooltip:0  "£building£ исследовательские институты обеспечивают §G+5%§! дополнительной §Y$tec_loc_research_resources$§! производительности.\n\n$tec_tradition_swap_warning$"
+	 tr_tec_megalomania_final_1_delayed:0  "Координация усилий между нашими колониями позволит создать централизованные исследовательские связи, которые улучшат наши технологические возможности."
+
+	 tr_tec_megalomania_final_1_disabled:0  "Межзвездные инновации"
+	 tr_tec_megalomania_final_1_disabled_tooltip:0  "$tec_tradition_swap_disabled$\n\n$tr_tec_megalomania_final_1_tooltip$"
+	 tr_tec_megalomania_final_1_disabled_delayed:0  "Скоординированные усилия между нашими колониями создадут централизованные исследовательские связи, которые улучшат наши технологические возможности."
+
+	# реструктуризация
+  tr_tec_reestructure_4:0  "Колоссальные устремления"
+  tr_tec_reestructure_4_tooltip:0  "§YМегаструктура§! скорость строительства §G+10%§!"
+  tr_tec_reestructure_4_delayed:0  "По мере того, как мы делаем немыслимое, появляются новые проблемы, которые мы преодолеем."
+
+	 tr_tec_reestructure_final_3:0  "Оправданная мегаломания"
+	 tr_tec_reestructure_final_3_text:0  "
+	 tr_tec_reestructure_final_3_tooltip:0  "$tec_tradition_swap_warning$\n\n$tr_tec_artifice_final_3_text$"
+	 tr_tec_reestructure_final_3_delayed:0  "Никакие рамки не должны быть нормой для нашего творчества, никакие ограничения не должны мешать развитию мегаструктур и новых аркологий, а если таковые существуют, то мы докажем их несостоятельность и устарелость."
+
+
+	 tr_tec_reestructure_final_3:0  "Оправданная мегаломания"
+	 tr_tec_reestructure_final_3_text:0  "
+	 tr_tec_reestructure_final_3_tooltip:0  "$tec_tradition_swap_warning$\n\n$tr_tec_artifice_final_3_text$"
+	 tr_tec_reestructure_final_3_delayed:0  "Никакие рамки не должны быть нормой для нашего творчества, никакие ограничения не должны мешать развитию мегаструктур и новых аркологий, а если таковые существуют, то мы докажем их несостоятельность и устарелость."
+
+	 tr_tec_reestructure_final_3_disabled:0  "Оправданная мегаломания"
+	 tr_tec_reestructure_final_3_disabled_tooltip:0  "$tec_tradition_swap_disabled$\n\n$tr_tec_artifice_final_3_text$"
+	 tr_tec_reestructure_final_3_disabled_delayed:0  "$tr_tec_artifice_final_3_delayed$"
+
+
+# Ecology
+# ------------------------------------------------------------
+ tradition_tec_ecology:0  "устойчивость"
+  tradition_tec_ecology_desc:0  "TO DO."
+
+	# to do
+  tr_tec_ecology_adopt:0  "$tradition_tec_ecology$ Традиции"
+ tr_tec_ecology_adopt_tooltip:7 "TO DO.\n"
+
+	# Разблокирует здание терраформера
+  tr_tec_ecology_finish:0  "$tradition_tec_ecology$ Традиции завершены"
+ tr_tec_ecology_finish_tooltip:4 "TO DO\n"
+ tr_tec_ecology_finish_effect:4 "
+
+	# Городские районы дают 1 задание по сельскому хозяйству/добыче
+  tr_tec_ecology_1:0  "Привычное садоводство"
+  tr_tec_ecology_1_tooltip:0  "ДЕЛАТЬ"
+  tr_tec_ecology_1_delayed:0  "ДЕЛАТЬ"
+
+  tr_tec_ecology_1_lithoid:0  "Привычная геодификация"
+  tr_tec_ecology_1_lithoid_tooltip:0  "TO DO"
+  tr_tec_ecology_1_lithoid_delayed:0  "TO DO."
+
+	# Здания по переработке ресурсов увеличивают количество доступных районов и дополнительный выход рабочих мест
+  tr_tec_ecology_2:0  "Экологическая переработка"
+  tr_tec_ecology_2_tooltip:0  "TO DO"
+  tr_tec_ecology_2_delayed:0  "£building£ §YЗдания по переработке ресурсов§! (такие как £building£ Завод по очистке минералов или £building£ Пищевой комбинат) увеличивают количество доступных £district£ §Yрайонов§! соответствующего £trigger_tec_basic_resources£ ресурса на §G3§! на §Hнормальных§! пригодных для жизни мирах.\nНа §Hискусственных§!, §Hаркологических§! или §Hнезахваченных§! мирах они обеспечивают §G+10%§! производства соответствующего ресурса."
+
+  tr_tec_ecology_3:0  "TO DO"
+  tr_tec_ecology_3_tooltip:0  "TO DO."
+  tr_tec_ecology_3_delayed:0  "TO DO"
+
+  tr_tec_ecology_4:0  "TO DO"
+  tr_tec_ecology_4_tooltip:0  "TO DO"
+  tr_tec_ecology_4_delayed:0  "TO DO"
+
+  tr_tec_ecology_5:0  "TO DO"
+  tr_tec_ecology_5_tooltip:0  "TO DO"
+  tr_tec_ecology_5_delayed:0  "TO DO"
+
+ tr_tec_ecology_6_a:0  "TO DO имя"
+ tr_tec_ecology_6_a_tooltip:0  "TO DO эффект"
+	 tr_tec_ecology_6_a_delayed:0  "- Это описание является заполнителем, так как наследует ванильное описание -"
+
+ tr_tec_ecology_6_b:0  "TO DO имя"
+ tr_tec_ecology_6_b_tooltip:0  "TO DO эффект"
+	 tr_tec_ecology_6_b_delayed:0  "- Это описание является заполнителем, так как наследует ванильное описание -"
+
+ tr_tec_ecology_6_c:0  "TO DO имя"
+ tr_tec_ecology_6_c_tooltip:0  "TO DO эффект"
+	 tr_tec_ecology_6_c_delayed:0  "- Это описание является заполнителем, так как наследует ванильное описание -"
+
+
+# Industry
+# ------------------------------------------------------------
+ tradition_tec_industry:0  "Производство"
+  tradition_tec_industry_desc:0  "ДЕЛАТЬ."
+
+	# Разблокирует здание, в котором есть удобства и увеличивается производство
+  tr_tec_industry_adopt:0  "$tradition_tec_industry$ Традиции"
+ tr_tec_industry_adopt_tooltip:7 "TO DO.\n"
+
+	# Разблокирует планетарный крекинг
+  tr_tec_industry_finish:0  "$tradition_tec_industry$ Традиции завершены"
+ tr_tec_industry_finish_tooltip:4 "TO DO\n"
+ tr_tec_industry_finish_effect:4 "
+
+  tr_tec_industry_1:0  "TO DO"
+  tr_tec_industry_1_tooltip:0  "TO DO"
+  tr_tec_industry_1_delayed:0  "TO DO"
+
+  tr_tec_industry_2:0  "Неостановимый прогресс"
+  tr_tec_industry_2_tooltip:0  "TO DO"
+  tr_tec_industry_2_delayed:0  "TO DO"
+
+  tr_tec_industry_3:0  "TO DO"
+  tr_tec_industry_3_tooltip:0  "TO DO"
+  tr_tec_industry_3_delayed:0  "TO DO"
+
+  tr_tec_industry_4:0  "TO DO"
+  tr_tec_industry_4_tooltip:0  "TO DO"
+  tr_tec_industry_4_delayed:0  "TO DO"
+
+  tr_tec_industry_5:0  "TO DO"
+  tr_tec_industry_5_tooltip:0  "TO DO"
+  tr_tec_industry_5_delayed:0  "TO DO"
+
+ tr_tec_industry_6_a:0  "TO DO имя"
+ tr_tec_industry_6_a_tooltip:0  "TO DO эффект"
+	 tr_tec_industry_6_a_delayed:0  "- Данное описание является заполнителем, так как наследует ванильное описание -"
+
+ tr_tec_industry_6_b:0  "TO DO имя"
+ tr_tec_industry_6_b_tooltip:0  "TO DO эффект"
+	 tr_tec_industry_6_b_delayed:0  "- Это описание является заполнителем, так как наследует ванильное описание -"
+
+ tr_tec_industry_6_c:0  "TO DO имя"
+ tr_tec_industry_6_c_tooltip:0  "TO DO эффект"
+	 tr_tec_industry_6_c_delayed:0  "- Данное описание является заполнителем, так как наследует ванильное описание -"
+
+
+# --------------------------- ASCENSION T1 --------------------------------
+# Biological Mutation (B)
+# ------------------------------------------------------------
+ tradition_tec_biological:0  "Эволюция"
+  tradition_tec_biological_desc:0  "Мы превзошли пределы, которые естественная биология наложила на наши тела, и теперь каждая клетка нашего тела - это инструмент для построения нашего будущего."
+
+  tr_tec_biological_adopt:0  "$tradition_tec_biological$ Традиции"
+  tr_tec_biological_adopt_tooltip:0  "Позволяет построить £building£ §Hксенотрансплантационных камер§!.\nРазблокирует тип очистки £job_purge£ §HКсеноэкстракции§!. \nБиологические виды могут быть собраны для $tec_loc_xenocytes$ и £society£ Общества с помощью камер ксенотрансплантации или типа очистки "Ксеноэкстракция."\n$tec_loc_xenocytes$ может быть использован для §Yизменения§! и §Yулучшения§! мутагенных признаков."
+
+  tr_tec_biological_finish:0  "$tradition_tec_biological$ Традиции завершены"
+ tr_tec_biological_finish_tooltip:4 "TO DO.\n$TRADITIONS_FINISH_AP$"
+
+  tr_tec_biological_1:0  "Стемический овердрайв"
+  tr_tec_biological_1_delayed:0  "to do"
+  tr_tec_biological_1_tooltip:0  "Биологическое §Y$MOD_LEADER_AGE$§! увеличивается на §G15§! лет за §Hпункт органической модификации§!.\n£mod_pop_environment_tolerance£ §Y$MOD_HABITABILITY_FLOOR$§! увеличилось на §G5%§! за §Hточку органической модификации§!."	
+
+  tr_tec_biological_2:0  "Манипуляция клетками"
+  tr_tec_biological_2_delayed:0  "to do"
+  tr_tec_biological_2_tooltip:0  "Может §Yдобавлять§!негативные черты к органическим видам. \nМожет §Yудалять§!положительные черты у органических видов. \nМожет §Yизменять§!поселение §Yвнешний вид§!с помощью модификации вида."
+
+  tr_tec_biological_3:0  "Направленные мутации"
+  tr_tec_biological_3_delayed:0  "Изменения могут быть направлены в нашу пользу, если мы заставляем проявляться адекватные мутации, впоследствии вычищая нежелательные черты или преобразуя их в желательные."
+  tr_tec_biological_3_tooltip:0  "Разблокировка мутагенных признаков. \nМутагенные черты - черты, доступные биологическим видам, которые адаптируются к основному мутагенному геному империи и могут быть улучшены с помощью $tec_loc_xenocytes$."
+
+  tr_tec_biological_4:0  "Рекультивация биоматерии"
+  tr_tec_biological_4_delayed:0  "сделать"
+  tr_tec_biological_4_tooltip:0  "Поселения, подвергающиеся ксенотрансплантации или ксеноэкстракции, также производят дополнительные £mod_pop_growth_speed£ §Y$MOD_PLANET_POP_ASSEMBLY_ORGANIC_ADD$§! и §Y$tec_loc_unity$§!."
+
+  tr_tec_biological_5:0  "TO DO"
+  tr_tec_biological_5_delayed:0  "to do"
+  tr_tec_biological_5_tooltip:0  "Собранная ДНК левиафанов и ксеноцитов, полученных из разных архетипов, может быть рекомбинирована с мутагенными признаками, что заставляет их проявлять дополнительные бонусы при полном апгрейде."
+
+# --------------------------- ASCENSION T3 --------------------------------
+# Генетическое совершенство (A)
+# ------------------------------------------------------------
+	# Требуется завершение ситуации "Принудительная эволюция"
+	# Требуется завершить ситуацию "Генетическое совершенство"
+  tradition_tec_evolved_genetics:0  "Совершенство"
+  tradition_tec_evolved_genetics_desc:0  "делать"
+
+  tr_tec_evolved_genetics_adopt:0  "$tradition_tec_evolved_genetics$"
+ tr_tec_evolved_genetics_adopt_tooltip:7 "Разблокирует §Hсовершенные черты§! для органических видов, которые являются усиленными §Yсовершенными чертами§!. \nСовершенные черты дают дополнительные черты лидерам в зависимости от черты и типа лидера, всегда влияя как минимум на два типа лидеров."
+
+  tr_tec_evolved_genetics_finish:0  "$tradition_tec_evolved_genetics$ Традиции завершены"
+ tr_tec_evolved_genetics_finish_tooltip:4 "
+ tr_tec_evolved_genetics_finish_effect:4 "
+
+  tr_tec_evolved_genetics_1:0  "Воплощенная эволюция"
+  tr_tec_evolved_genetics_1_tooltip:0  "Эффект TO DO"
+ tr_tec_evolved_genetics_1_delayed:0  "- Это описание - заполнитель, так как унаследует ванильное описание -"
+
+  tr_tec_evolved_genetics_2:0  "Универсальное сращивание"
+  tr_tec_evolved_genetics_2_tooltip:0  "Позволяет §Yассимилировать§! органические поселения в империю §Hосновных видов§!. Каждый раз, когда органическое поселение ассимилируется, империя получает умеренную сумму §Y$tec_loc_unity$§! и £society£ §Yисследование общества§!."
+  tr_tec_evolved_genetics_2_delayed:0  "- Данное описание является условным обозначением, так как наследует ванильное описание -"
+
+ # Scaling
+	 tr_tec_evolved_genetics_3:0  "Перезарядка рибосомы"
+	 tr_tec_evolved_genetics_3_tooltip:0  "Выбор признаков биологического вида: §G+1§!\n\n$tec_tradition_has_tiers$"
+	 tr_tec_evolved_genetics_3_delayed:0  "- Данное описание является заполнителем, так как унаследует ванильное описание -"
+
+ tr_tec_evolved_genetics_3_t2:0  "Рибосомная перезарядка II"
+ tr_tec_evolved_genetics_3_t2_tooltip:0  "Выбор признаков биологического вида: §G+2§!\n\n$tec_tradition_has_tiers$"
+	 tr_tec_evolved_genetics_3_t2_delayed:0  "- Данное описание является заполнителем, так как унаследует ванильное описание -"
+
+ tr_tec_evolved_genetics_3_t3:0  "Рибосомная перезарядка III"
+ tr_tec_evolved_genetics_3_t3_tooltip:0  "Выбор признаков биологического вида: §G+4§!"
+	 tr_tec_evolved_genetics_3_t3_delayed:0  "- Данное описание является заполнителем, так как наследует ванильное описание -"
+
+ tr_tec_evolved_genetics_4:0  "Предельное секвенирование"
+	 tr_tec_evolved_genetics_4_tooltip:0  "Очки модификации биологических видов: §G+2§!\n\n$tec_tradition_has_tiers$"
+	 tr_tec_evolved_genetics_4_delayed:0  "- Данное описание является заполнителем, так как унаследует ванильное описание -"
+
+ tr_tec_evolved_genetics_4_t2:0  " Предельное секвенирование II"
+	 tr_tec_evolved_genetics_4_t2_tooltip:0  "Очки модификации биологических видов: §G+4§!\n\n$tec_tradition_has_tiers$"
+	 tr_tec_evolved_genetics_4_t2_delayed:0  "- Данное описание является условным обозначением, так как наследует ванильное описание -"
+
+	 tr_tec_evolved_genetics_4_t3:0  "Предельное секвенирование III"
+	 tr_tec_evolved_genetics_4_t3_tooltip:0  "Очки модификации биологических видов: §G+6§!"
+	 tr_tec_evolved_genetics_4_t3_delayed:0  "- Это описание является заполнителем, так как наследует ванильное описание -"
+
+ tr_tec_evolved_genetics_5:0  "Формирование биосферы"
+ tr_tec_evolved_genetics_5_tooltip:0  "Позволяет модернизировать §Yпланет Регулярного§! или §Yпланет Гайи§! в §YСовершенные§! миры посредством планетарного решения. Совершенные миры предоставляют неограниченное количество меновых районов и выбираемые биосферные бонусы."
+  tr_tec_evolved_genetics_5_delayed:0  "- Данное описание является условным, так как наследует ванильное описание -"
+
+ # Финишеры
+ tr_tec_evolved_genetics_6_a:0  "Эволюционный апекс"
+	 tr_tec_evolved_genetics_6_a_tooltip:0  "Генетически совершенные виды получат дополнительно §G1%§! производительности труда и содержания за §Hсовершенный признак§!."
+	 tr_tec_evolved_genetics_6_a_delayed:0  "- Данное описание является условным, так как наследуется ванильное описание -"
+
+ tr_tec_evolved_genetics_6_b:0  "Переработка поколений"
+	 tr_tec_evolved_genetics_6_b_tooltip:0  "Каждый раз, когда вы модифицируете вид, §Y$MOD_COUNTRY_MODIFY_SPECIES_COST_MULT$§! будет уменьшен на §G10%§! вплоть до §G100%§!. Этот эффект имеет год простоя после предыдущей модификации вида."
+	 tr_tec_evolved_genetics_6_b_delayed:0  "- Данное описание является условным, так как наследует ванильное описание -"
+
+	 tr_tec_evolved_genetics_6_c:0  "Хранилище генных семян"
+	 tr_tec_evolved_genetics_6_c_tooltip:0  "Эффект TO DO."
+	 tr_tec_evolved_genetics_6_c_delayed:0  "- Данное описание является условным обозначением, так как наследует ванильное описание -"
+
+# Creation Engineers (B)
+# ------------------------------------------------------------
+	# Требуется завершение ситуации "Принудительная эволюция"
+	# Требуется завершить ситуацию "Создатели жизни"
+
+# Psionic Ascendance (A)
+# ------------------------------------------------------------
+	# Требуется завершить ситуацию "Пробуждение"
+	# Требуется завершить ситуацию "Псионная гармонизация"
+  tradition_tec_evolved_ascendance:0  "Ascendance"
+  tradition_tec_evolved_ascendance_desc:0  "делать"
+
+  tr_tec_evolved_ascendance_adopt:0  "$tradition_tec_evolved_ascendance$"
+ tr_tec_evolved_ascendance_adopt_tooltip: 7 "to do - Позволяет использовать §Y$decision_tec_psionic_ascension$§! решение на любой принадлежащей планете, которое вознесет часть £mod_planet_psionic_jobs_produces_mult£ §Yпсионических§! поселений на планете к Плащанице, увеличивая производительность оставшихся £mod_planet_psionic_jobs_produces_mult£ §Yпоселений псиоников§! навсегда и пассивно предоставляя £sr_zro£ §YZro§!. "
+
+  tr_tec_evolved_ascendance_finish:0  "$tradition_tec_evolved_ascendance$ Традиции закончены"
+ tr_tec_evolved_ascendance_finish_tooltip:4 "
+
+ tr_tec_evolved_ascendance_1:0  "Неестественные контакты"
+  tr_tec_evolved_ascendance_1_tooltip:0  "Уменьшает §Yвремя ожидания§! контакта с §MПлащаницей§! на §G50%§!. Этот эффект не суммируется с другими подобными эффектами; если присутствует эффект уменьшения таймера контакта с Плащаницей, империя получает 5% §Y$tec_loc_unity$§! производства, когда контакт с Плащаницей находится в состоянии простоя."
+  tr_tec_evolved_ascendance_1_delayed:0  "- Данное описание является условным, так как наследует ванильное описание -"
+
+ tr_tec_evolved_ascendance_2:0  "Проникновенные ингаляции"
+  tr_tec_evolved_ascendance_2_tooltip:0  "Разблокирует эдикт, заставляющий ваши поселения потреблять зро и усиливать псионические свойства."
+  tr_tec_evolved_ascendance_2_delayed:0  "- Данное описание является условным, так как наследует ванильное описание -"
+
+ # Масштабирование
+ tr_tec_evolved_ascendance_3:0  "Экзистенциальное изменение I"
+	 tr_tec_evolved_ascendance_3_tooltip:0  "Увеличивает максимальное количество £mod_planet_psionic_jobs_produces_mult£ §Yпсионических признаков§!, которые вы можете получить, на §Y1§!.\n\n$tec_tradition_has_tiers$"
+	 tr_tec_evolved_ascendance_3_delayed:0  "- Данное описание является условным обозначением, так как наследует ванильное описание -"
+
+ tr_tec_evolved_ascendance_3_t2:0  "Экзистенциальное изменение II"
+	 tr_tec_evolved_ascendance_3_t2_tooltip:0  "Увеличивает максимальное количество £mod_planet_psionic_jobs_produces_mult£ §Yпсионических признаков§!, которые вы можете получить, на §Y2§!.\n\n$tec_tradition_has_tiers$"
+	 tr_tec_evolved_ascendance_3_t2_delayed:0  "- Данное описание является условным обозначением, так как наследует ванильное описание -"
+
+ tr_tec_evolved_ascendance_3_t3:0  "Экзистенциальное изменение III"
+	 tr_tec_evolved_ascendance_3_t3_tooltip:0  "Увеличивает максимальное количество £mod_planet_psionic_jobs_produces_mult£ §Yпсионических признаков§!, которые вы можете получить, на §Y4§!."
+	 tr_tec_evolved_ascendance_3_t3_delayed:0  "- Данное описание является условным, так как наследует ванильное описание -"
+
+ tr_tec_evolved_ascendance_4:0  "Странники Покрова" I"
+	 tr_tec_evolved_ascendance_4_tooltip:0  "За каждый раз, когда вы обращаетесь к Плащанице, ваши псионические поселения будут постоянно производить на §G0,26%§! больше, вплоть до §Y5%§! больше.\n\n$tec_tradition_has_tiers$"
+ tr_tec_evolved_ascendance_4_delayed:0  "- Это описание - заполнитель, так как унаследует ванильное описание -"
+
+ tr_tec_evolved_ascendance_4_t2:0  "Странники Покрова" II"
+	 tr_tec_evolved_ascendance_4_t2_tooltip:0  "За каждый раз, когда вы обращаетесь к Плащанице, ваши псионические поселения будут постоянно производить на §G0,5%§! больше, вплоть до §Y10%§! больше.\n\n$tec_tradition_has_tiers$"
+ tr_tec_evolved_ascendance_4_t2_delayed:0  "- Это описание - заполнитель, так как унаследует ванильное описание -"
+
+ tr_tec_evolved_ascendance_4_t3:0  "Странники Покрова" III"
+	 tr_tec_evolved_ascendance_4_t3_tooltip:0  "За каждый раз, когда вы обращаетесь к Плащанице, ваши псионические поселения будут постоянно производить на §G1%§! больше, вплоть до §Y20%§! больше."
+	 tr_tec_evolved_ascendance_4_t3_delayed:0  "- Данное описание является условным, так как наследует ванильное описание -"
+
+ tr_tec_evolved_ascendance_5:0  "Сосредоточенные обряды"
+  tr_tec_evolved_ascendance_5_tooltip:0  "Уменьшает время действия решения §Y$decision_tec_psionic_ascension$§! на 50%."
+  tr_tec_evolved_ascendance_5_delayed:0  "- Данное описание является условным, так как наследует ванильное описание -"
+
+ # Finishers
+	 tr_tec_evolved_ascendance_6_a:0  "Напоминающие эссенции"
+	 tr_tec_evolved_ascendance_6_a_tooltip:0  "Каждая §Y$d_tec_psionic_ascension_zone_1$§! дает §Gна 10%§! больше бонусов и £sr_zro£ ресурсов."
+	 tr_tec_evolved_ascendance_6_a_delayed:0  "- Данное описание является условным обозначением, так как наследует ванильное описание -"
+
+ tr_tec_evolved_ascendance_6_b:0  "Обряды просветления"
+	 tr_tec_evolved_ascendance_6_b_tooltip:0  "Поселения, затронутые §Y$decision_tec_psionic_ascension$§!, имеют 25% шанс не быть §Yвознесенными в саван§!, а вместо этого становятся §YОсвещенными§!, оставаясь физическим поселением и получая §G10%§! дополнительного производства поселений навсегда, также производя §Y$d_tec_psionic_ascension_zone_1$§!. "
+	 tr_tec_evolved_ascendance_6_b_delayed:0  "- Данное описание является условным, так как унаследует ванильное описание -"
+
+ tr_tec_evolved_ascendance_6_c:0  "За завесой"
+	 tr_tec_evolved_ascendance_6_c_tooltip:0  "Позволяет модернизировать §Yобычные§! планеты, достигшие §Y50 $d_tec_psionic_ascension_zone_1$§!, в §Yзавуалированные§! миры посредством планетарного решения. Завуалированные миры предоставляют экстремальные бонусы псионическим поселениям и имеют специальные районы."
+	 tr_tec_evolved_ascendance_6_c_delayed_delayed:0  "- Данное описание является условным, так как наследует ванильное описание -"
+
+# Ethereal Transcendence (B)
+# ------------------------------------------------------------
+	# Требуется завершение ситуации "Пробуждение"
+	# Требуется завершить ситуацию "Трансценденция"
+  tradition_tec_evolved_transcendence:0  "Трансценденция"
+  tradition_tec_evolved_transcendence_desc:0  "Свободные от ограничений плоти и благословленные мощью наших психических сил, наши умы теперь могут расширяться больше, быть больше, становиться больше..."
+
+  tr_tec_evolved_transcendence_adopt:0  "$tradition_tec_evolved_transcendence$ Традиции"
+ tr_tec_evolved_transcendence_adopt_tooltip:7 "Делать."
+
+  tr_tec_evolved_transcendence_finish:0  "$tradition_tec_evolved_transcendence$ Традиции закончены"
+ tr_tec_evolved_transcendence_finish_tooltip:4 "£engineering£ Robotic Species Trait Picks: §G+1§!\n£building£ Капиталы обеспечивают §G+1§! дополнительную £job_roboticist£ пассивную сборку."
+
+ tr_tec_evolved_transcendence_1:0  "Метафизическое приведение"
+ tr_tec_evolved_transcendence_1_tooltip:0  "Позволяет модифицировать ваш вид этериалов с чертами Призрака, что позволяет активировать рост поселений, органическую или роботизированную сборку, в дополнение к нескольким побочным бонусам."
+  tr_tec_evolved_transcendence_1_delayed:0  "Хотя постоянное отсутствие материального тела предполагает неописуемые преимущества, использование внешнего физического тела в качестве носителя, безусловно, удобно... хочет ли этого инструмент или нет."
+
+  tr_tec_evolved_transcendence_2:0  "Энтропийные объятия"
+  tr_tec_evolved_transcendence_2_tooltip:0  "To do effect"
+  tr_tec_evolved_transcendence_2_delayed:0  "To do desc"
+
+ tr_tec_evolved_transcendence_3:0  "Эфирное воплощение"
+  tr_tec_evolved_transcendence_3_tooltip:0  "Позволяет ассимилировать разумную органику в новых этериалов. Шанс на успех сильно снижается для непсионических видов."
+  tr_tec_evolved_transcendence_3_delayed:0  "Таким образом, мы должны освобождать других из их смертной тюрьмы, делая их такими же, как мы, делая их чистой и свободной энергией"
+
+  tr_tec_evolved_transcendence_4:0  "Смещение реальности"
+  tr_tec_evolved_transcendence_4_tooltip:0  "Делать эффект"
+  tr_tec_evolved_transcendence_4_delayed:0  "Делать нисхождение"
+
+ tr_tec_evolved_transcendence_5:0  "Захват извне"
+  tr_tec_evolved_transcendence_5_tooltip:0  "
+  tr_tec_evolved_transcendence_5_delayed:0  "- Данное описание является заполнителем, так как наследует ванильное описание -"
+
+# Cybernetic Revolution (A)
+# ------------------------------------------------------------
+	# Requires having finished the "Accelerated Augmentation" situation
+	# Requires having finished the "Cybernetic Revolution" situation
+ tradition_tec_evolved_cybernetics_t2:0  "революция"
+  tradition_tec_evolved_cybernetics_t2_desc:0  "делать"
+
+  tr_tec_evolved_cybernetics_t2_adopt:0  "$tradition_tec_evolved_cybernetics$"
+ tr_tec_evolved_cybernetics_t2_adopt_tooltip:7 "делать - эффект\n\nПозволяет §Yассимилировать§! органических существ, кибернетических или нет, в §Bпродвинутых киборгов§!."
+
+  tr_tec_evolved_cybernetics_t2_finish:0  "$tradition_tec_evolved_cybernetics$ Традиции завершены."
+ tr_tec_evolved_cybernetics_t2_finish_tooltip:4 "сделать - "
+ tr_tec_evolved_cybernetics_t2_finish_effect:4 "
+
+  tr_tec_evolved_cybernetics_t2_1:0  "
+  tr_tec_evolved_cybernetics_t2_1_tooltip:0  "Эффект TO DO"
+  tr_tec_evolved_cybernetics_t2_1_delayed:0  "- Данное описание является заполнителем, так как наследует ванильное описание -"
+
+ tr_tec_evolved_cybernetics_t2_2:0  "Окончательные чертежи"
+  tr_tec_evolved_cybernetics_t2_2_tooltip:0  "TO DO effect"
+  tr_tec_evolved_cybernetics_t2_2_delayed:0  "- Данное описание является условным обозначением, так как наследует ванильное описание -"
+
+ # Масштабирование
+ tr_tec_evolved_cybernetics_t2_3:0  "Соединительная броня I"
+	 tr_tec_evolved_cybernetics_t2_3_tooltip:0  "§YКибернетические экзоскелеты§! повышают базовый бонус основного эффекта §Yкибернетических признаков§! на дополнительные §G10%§!.\n\n$tec_tradition_has_tiers$"
+	 tr_tec_evolved_cybernetics_t2_3_delayed:0  "- Данное описание является условным, так как наследует ванильное описание -"
+
+ tr_tec_evolved_cybernetics_t2_3_t2:0  "Соединительная броня II"
+	 tr_tec_evolved_cybernetics_t2_3_t2_tooltip:0  "§YКибернетические экзоскелеты§! повышают базовый бонус основного эффекта §Yкибернетических признаков§! на дополнительные §G20%§!.\n\n$tec_tradition_has_tiers$"
+	 tr_tec_evolved_cybernetics_t2_3_t2_delayed:0  "- Данное описание является условным, так как наследует ванильное описание -"
+
+ tr_tec_evolved_cybernetics_t2_3_t3:0  "Соединительная броня III"
+	 tr_tec_evolved_cybernetics_t2_3_t3_tooltip:0  "§YКибернетические экзоскелеты§! повышают базовый бонус основного эффекта §Yкибернетических признаков§! на дополнительные §G50%§!."
+	 tr_tec_evolved_cybernetics_t2_3_t3_delayed:0  "- Данное описание является условным, так как наследует ванильное описание -"
+
+	 tr_tec_evolved_cybernetics_t2_4:0  "Синергетические импланты I"
+	 tr_tec_evolved_cybernetics_t2_4_tooltip:0  "Кибернетические виды получают §G1%§! производительности за §Yкибернетический признак§!.\n\n$tec_tradition_has_tiers$"
+	 tr_tec_evolved_cybernetics_t2_4_delayed:0  "- Данное описание является условным, так как наследует ванильное описание -"
+
+ tr_tec_evolved_cybernetics_t2_4_t2:0  "Синергетические имплантаты II"
+	 tr_tec_evolved_cybernetics_t2_4_t2_tooltip:0  "Кибернетические виды получают §G2%§! производительности за §Yкибернетический признак§!.\n\n$tec_tradition_has_tiers$"
+	 tr_tec_evolved_cybernetics_t2_4_t2_delayed:0  "- Данное описание является условным, так как наследует ванильное описание -"
+
+	 tr_tec_evolved_cybernetics_t2_4_t3:0  "Синергетические имплантаты III"
+	 tr_tec_evolved_cybernetics_t2_4_t3_tooltip:0  "Кибернетические виды получают §G3%§! производительности за §Yкибернетический признак§!."
+	 tr_tec_evolved_cybernetics_t2_4_t3_delayed:0  "- Данное описание является условным, так как наследует ванильное описание -"
+
+ tr_tec_evolved_cybernetics_t2_5:0  "Построен по-другому"
+  tr_tec_evolved_cybernetics_t2_5_tooltip:0  "Разблокирует второй кибернетический основной модуль"
+  tr_tec_evolved_cybernetics_t2_5_delayed:0  "- Данное описание является условным, так как наследует ванильное описание -"
+
+ # Финишеры
+	 tr_tec_evolved_cybernetics_t2_6_a:0  "Плоть моя"
+	 tr_tec_evolved_cybernetics_t2_6_a_tooltip:0  "Позволяет ассимилировать разумную органику либо в основной кибернетический вид, либо в новых роботов, если это возможно, управляемых через политику.\nЭтот тип ассимиляции имеет высокий (§R50%§!) риск неудачи"
+	 tr_tec_evolved_cybernetics_t2_6_a_delayed:0  "Мы можем лепить плоть, металл, органы и схемы как единое целое, независимо от основы мы можем определить результат."
+
+	 tr_tec_evolved_cybernetics_t2_6_b:0  "Синтетическая интеграция"
+	 tr_tec_evolved_cybernetics_t2_6_b_tooltip:0  "Разблокирует центры модернизации.\nС помощью центров модернизации роботизированные блоки могут быть непосредственно имплантированы в кибернетические модули, что значительно повышает их эффективность и усиливает действие кибернетических модулей."
+	 tr_tec_evolved_cybernetics_t2_6_b_delayed:0  "- Данное описание является условным, так как унаследует ванильное описание -"
+
+	 tr_tec_evolved_cybernetics_t2_6_c:0  "TO DO name"
+	 tr_tec_evolved_cybernetics_t2_6_c_tooltip:0  "Эффект TO DO"
+	 tr_tec_evolved_cybernetics_t2_6_c_delayed:0  "- Это описание является условным обозначением, так как наследует ванильное описание -"
+
+# Conscious Singularity (B)
+# ------------------------------------------------------------
+	# Требуется завершение ситуации "Синтетическая эволюция"
+	# Требуется завершение ситуации "Сознательная сингулярность"
+
+
+# Синтез (Биоробот)
+# ------------------------------------------------------------
+	# Требуется завершить ситуацию "Синтетическая эволюция" ИЛИ "Ускоренная аугментация"
+	# Требуется завершение ситуации "Синтез"
+  tradition_tec_evolved_replicant:0  "Синтез"
+  tradition_tec_evolved_replicant_desc:0  "делать"
+
+  tr_tec_evolved_replicant_adopt:0  "$tradition_tec_evolved_replicant$"
+ tr_tec_evolved_replicant_adopt_tooltip:7 "делать - "
+
+  tr_tec_evolved_replicant_finish:0  "$tradition_tec_evolved_replicant$ Традиции завершены"
+ tr_tec_evolved_replicant_finish_tooltip:4 "to do - "
+ tr_tec_evolved_replicant_finish_effect:4 "
+
+  tr_tec_evolved_replicant_1:0  "TO DO name"
+  tr_tec_evolved_replicant_1_tooltip:0  "TO DO effect"
+  tr_tec_evolved_replicant_1_delayed:0  "- Это описание является заполнителем, так как наследует ванильное описание -"
+
+ tr_tec_evolved_replicant_1_cybt1:0  "Нанопробивное преобразование"
+  tr_tec_evolved_replicant_1_cybt1_tooltip:0  "Может §Yдобавлять§!негативные черты органическим видам. \nМожет §Yудалять§!положительные черты у органических видов. Позволяет ассимилировать §Yорганические и роботизированные поселения в империю §Hосновных видов§!."
+  tr_tec_evolved_replicant_1_cybt1_delayed:0  "- Данное описание является условным, так как наследует ванильное описание -"
+
+  tr_tec_evolved_replicant_2:0  "TO DO name"
+  tr_tec_evolved_replicant_2_tooltip:0  "TO DO effect"
+  tr_tec_evolved_replicant_2_delayed:0  "- Данное описание является заполнителем, так как наследует ванильное описание -"
+
+ # Scaling
+	 tr_tec_evolved_replicant_3:0  "TO DO name"
+	 tr_tec_evolved_replicant_3_tooltip:0  "TO DO effect\n\n$tec_tradition_has_tiers$"
+	 tr_tec_evolved_replicant_3_delayed:0  "- Это описание является заполнителем, так как будет наследоваться ванильное описание -"
+
+	 tr_tec_evolved_replicant_3_t2:0  "TO DO name"
+	 tr_tec_evolved_replicant_3_t2_tooltip:0  "TO DO effect\n\n$tec_tradition_has_tiers$"
+	 tr_tec_evolved_replicant_3_t2_delayed:0  "- Это описание является заполнителем, так как унаследует ванильное описание -"
+
+	 tr_tec_evolved_replicant_3_t3:0  "TO DO name"
+	 tr_tec_evolved_replicant_3_t3_tooltip:0  "TO DO effect"
+	 tr_tec_evolved_replicant_3_t3_delayed:0  "- Это описание является заполнителем, так как наследует ванильное описание -"
+
+	 tr_tec_evolved_replicant_4:0  "TO DO name"
+	 tr_tec_evolved_replicant_4_tooltip:0  "TO DO effect\n\n$tec_tradition_has_tiers$"
+	 tr_tec_evolved_replicant_4_delayed:0  "- Это описание является заполнителем, так как унаследует ванильное описание -"
+
+	 tr_tec_evolved_replicant_4_t2:0  "TO DO name"
+	 tr_tec_evolved_replicant_4_t2_tooltip:0  "TO DO effect\n\n$tec_tradition_has_tiers$"
+	 tr_tec_evolved_replicant_4_t2_delayed:0  "- Это описание является заполнителем, так как унаследует ванильное описание -"
+
+	 tr_tec_evolved_replicant_4_t3:0  "TO DO name"
+	 tr_tec_evolved_replicant_4_t3_tooltip:0  "TO DO effect"
+	 tr_tec_evolved_replicant_4_t3_delayed:0  "- Это описание является заполнителем, так как наследует ванильное описание -"
+
+  tr_tec_evolved_replicant_5:0  "TO DO name"
+  tr_tec_evolved_replicant_5_tooltip:0  "TO DO effect"
+  tr_tec_evolved_replicant_5_delayed:0  "- Это описание является заполнителем, так как наследует ванильное описание -"
+
+ # Finishers
+	 tr_tec_evolved_replicant_6_a:0  "TO DO name"
+	 tr_tec_evolved_replicant_6_a_tooltip:0  "TO DO effect"
+	 tr_tec_evolved_replicant_6_a_delayed:0  "- This description is a placeholder, as will inherit the vanilla description -"
+
+	 tr_tec_evolved_replicant_6_b:0  "TO DO name"
+	 tr_tec_evolved_replicant_6_b_tooltip:0  "TO DO effect"
+	 tr_tec_evolved_replicant_6_b_delayed:0  "- Это описание является заполнителем, так как наследует ванильное описание -"
+
+	 tr_tec_evolved_replicant_6_c:0  "TO DO name"
+	 tr_tec_evolved_replicant_6_c_tooltip:0  "TO DO effect"
+	 tr_tec_evolved_replicant_6_c_delayed:0  "- Данное описание является условным обозначением, так как наследует ванильное описание -"
+
+# Purity of Form (Bio-Psionic)
+# ------------------------------------------------------------
+	# Требуется завершение ситуации "Принудительная эволюция" ИЛИ "Пробуждение"
+	# Требуется завершить ситуацию "Чистота формы"
+  tradition_tec_evolved_biopsionic:0  "Чистота"
+  tradition_tec_evolved_biopsionic_desc:0  "делать"
+
+  tr_tec_evolved_biopsionic_adopt:0  "$tradition_tec_evolved_biopsionic$"
+ tr_tec_evolved_biopsionic_adopt_tooltip:7 "сделать - "
+
+  tr_tec_evolved_biopsionic_finish:0  "$tradition_tec_evolved_biopsionic$ Традиции завершены"
+ tr_tec_evolved_biopsionic_finish_tooltip:4 "to do - "
+ tr_tec_evolved_biopsionic_finish_effect:4 "
+
+  tr_tec_evolved_biopsionic_1:0  "TO DO name"
+  tr_tec_evolved_biopsionic_1_tooltip:0  "TO DO effect"
+  tr_tec_evolved_biopsionic_1_delayed:0  "- Это описание является заполнителем, так как будет наследовать ванильное описание -"
+
+  tr_tec_evolved_biopsionic_1_cybt1:0  "TO DO name"
+  tr_tec_evolved_biopsionic_1_cybt1_tooltip:0  "TO DO effect"
+  tr_tec_evolved_biopsionic_1_cybt1_delayed:0  "- Это описание является заполнителем, так как наследует ванильное описание -"
+
+  tr_tec_evolved_biopsionic_2:0  "TO DO name"
+  tr_tec_evolved_biopsionic_2_tooltip:0  "TO DO effect"
+  tr_tec_evolved_biopsionic_2_delayed:0  "- Это описание является заполнителем, так как наследует ванильное описание -"
+
+ # Scaling
+	 tr_tec_evolved_biopsionic_3:0  "TO DO name"
+	 tr_tec_evolved_biopsionic_3_tooltip:0  "TO DO effect"
+	 tr_tec_evolved_biopsionic_3_delayed:0  "- This description is a placeholder, as will inherit the vanilla description -"
+
+	 tr_tec_evolved_biopsionic_3_t2:0  "TO DO name"
+	 tr_tec_evolved_biopsionic_3_t2_tooltip:0  "TO DO effect"
+	 tr_tec_evolved_biopsionic_3_t2_delayed:0  "- This description is a placeholder, as will inherit the vanilla description -"
+
+	 tr_tec_evolved_biopsionic_3_t3:0  "TO DO name"
+	 tr_tec_evolved_biopsionic_3_t3_tooltip:0  "TO DO effect"
+	 tr_tec_evolved_biopsionic_3_t3_delayed:0  "- This description is a placeholder, as will inherit the vanilla description -"
+
+	 tr_tec_evolved_biopsionic_4:0  "TO DO name"
+	 tr_tec_evolved_biopsionic_4_tooltip:0  "TO DO effect"
+	 tr_tec_evolved_biopsionic_4_delayed:0  "- This description is a placeholder, as will inherit the vanilla description -"
+
+	 tr_tec_evolved_biopsionic_4_t2:0  "TO DO name"
+	 tr_tec_evolved_biopsionic_4_t2_tooltip:0  "TO DO effect"
+	 tr_tec_evolved_biopsionic_4_t2_delayed:0  "- This description is a placeholder, as will inherit the vanilla description -"
+
+	 tr_tec_evolved_biopsionic_4_t3:0  "TO DO name"
+	 tr_tec_evolved_biopsionic_4_t3_tooltip:0  "TO DO effect"
+	 tr_tec_evolved_biopsionic_4_t3_delayed:0  "- This description is a placeholder, as will inherit the vanilla description -"
+
+  tr_tec_evolved_biopsionic_5:0  "TO DO name"
+  tr_tec_evolved_biopsionic_5_tooltip:0  "TO DO effect"
+  tr_tec_evolved_biopsionic_5_delayed:0  "- This description is a placeholder, as will inherit the vanilla description -"
+
+ # Finishers
+	 tr_tec_evolved_biopsionic_6_a:0  "TO DO name"
+	 tr_tec_evolved_biopsionic_6_a_tooltip:0  "TO DO effect"
+	 tr_tec_evolved_biopsionic_6_a_delayed:0  "- This description is a placeholder, as will inherit the vanilla description -"
+
+	 tr_tec_evolved_biopsionic_6_b:0  "TO DO name"
+	 tr_tec_evolved_biopsionic_6_b_tooltip:0  "TO DO effect"
+	 tr_tec_evolved_biopsionic_6_b_delayed:0  "- This description is a placeholder, as will inherit the vanilla description -"
+
+	 tr_tec_evolved_biopsionic_6_c:0  "TO DO name"
+	 tr_tec_evolved_biopsionic_6_c_tooltip:0  "TO DO effect"
+	 tr_tec_evolved_biopsionic_6_c_delayed:0  "- This description is a placeholder, as will inherit the vanilla description -"
+
+# Cyber-Phasic Enhancements (Cyber-Psionic)
+# ------------------------------------------------------------
+	# Requires having finished the "Accelerated Augmentation" OR "An Awakening" situation
+	# Requires having finished the "Soul and Iron" situation
+  tradition_tec_evolved_cyberpsionic:0  "Infusion"
+  tradition_tec_evolved_cyberpsionic_desc:0  "to do."
+
+  tr_tec_evolved_cyberpsionic_adopt:0  "$tradition_tec_evolved_cyberpsionic$"
+ tr_tec_evolved_cyberpsionic_adopt_tooltip:7 "to do - "
+
+  tr_tec_evolved_cyberpsionic_finish:0  "$tradition_tec_evolved_cyberpsionic$ Traditions Finished"
+ tr_tec_evolved_cyberpsionic_finish_tooltip:4 "to do - "
+ tr_tec_evolved_cyberpsionic_finish_effect:4 "
+
+  tr_tec_evolved_cyberpsionic_1:0  "TO DO name"
+  tr_tec_evolved_cyberpsionic_1_tooltip:0  "TO DO effect"
+  tr_tec_evolved_cyberpsionic_1_delayed:0  "- This description is a placeholder, as will inherit the vanilla description -"
+
+  tr_tec_evolved_cyberpsionic_1_cybt1:0  "TO DO name"
+  tr_tec_evolved_cyberpsionic_1_cybt1_tooltip:0  "TO DO effect"
+  tr_tec_evolved_cyberpsionic_1_cybt1_delayed:0  "- This description is a placeholder, as will inherit the vanilla description -"
+
+  tr_tec_evolved_cyberpsionic_2:0  "TO DO name"
+  tr_tec_evolved_cyberpsionic_2_tooltip:0  "TO DO effect"
+  tr_tec_evolved_cyberpsionic_2_delayed:0  "- This description is a placeholder, as will inherit the vanilla description -"
+
+ # Scaling
+	 tr_tec_evolved_cyberpsionic_3:0  "TO DO name"
+	 tr_tec_evolved_cyberpsionic_3_tooltip:0  "TO DO effect"
+	 tr_tec_evolved_cyberpsionic_3_delayed:0  "- This description is a placeholder, as will inherit the vanilla description -"
+
+	 tr_tec_evolved_cyberpsionic_3_t2:0  "TO DO name"
+	 tr_tec_evolved_cyberpsionic_3_t2_tooltip:0  "TO DO effect"
+	 tr_tec_evolved_cyberpsionic_3_t2_delayed:0  "- This description is a placeholder, as will inherit the vanilla description -"
+
+	 tr_tec_evolved_cyberpsionic_3_t3:0  "TO DO name"
+	 tr_tec_evolved_cyberpsionic_3_t3_tooltip:0  "TO DO effect"
+	 tr_tec_evolved_cyberpsionic_3_t3_delayed:0  "- This description is a placeholder, as will inherit the vanilla description -"
+
+	 tr_tec_evolved_cyberpsionic_4:0  "TO DO name"
+	 tr_tec_evolved_cyberpsionic_4_tooltip:0  "TO DO effect\n\n$tec_tradition_has_tiers$"
+	 tr_tec_evolved_cyberpsionic_4_delayed:0  "- This description is a placeholder, as will inherit the vanilla description -"
+
+	 tr_tec_evolved_cyberpsionic_4_t2:0  "TO DO name"
+	 tr_tec_evolved_cyberpsionic_4_t2_tooltip:0  "TO DO effect\n\n$tec_tradition_has_tiers$"
+	 tr_tec_evolved_cyberpsionic_4_t2_delayed:0  "- This description is a placeholder, as will inherit the vanilla description -"
+
+	 tr_tec_evolved_cyberpsionic_4_t3:0  "TO DO name"
+	 tr_tec_evolved_cyberpsionic_4_t3_tooltip:0  "TO DO effect"
+	 tr_tec_evolved_cyberpsionic_4_t3_delayed:0  "- This description is a placeholder, as will inherit the vanilla description -"
+
+  tr_tec_evolved_cyberpsionic_5:0  "TO DO name"
+  tr_tec_evolved_cyberpsionic_5_tooltip:0  "TO DO effect"
+  tr_tec_evolved_cyberpsionic_5_delayed:0  "- This description is a placeholder, as will inherit the vanilla description -"
+
+ # Finishers
+	 tr_tec_evolved_cyberpsionic_6_a:0  "TO DO name"
+	 tr_tec_evolved_cyberpsionic_6_a_tooltip:0  "TO DO effect"
+	 tr_tec_evolved_cyberpsionic_6_a_delayed:0  "- This description is a placeholder, as will inherit the vanilla description -"
+
+	 tr_tec_evolved_cyberpsionic_6_b:0  "TO DO name"
+	 tr_tec_evolved_cyberpsionic_6_b_tooltip:0  "TO DO effect"
+	 tr_tec_evolved_cyberpsionic_6_b_delayed:0  "- This description is a placeholder, as will inherit the vanilla description -"
+
+	 tr_tec_evolved_cyberpsionic_6_c:0  "TO DO name"
+	 tr_tec_evolved_cyberpsionic_6_c_tooltip:0  "TO DO effect"
+	 tr_tec_evolved_cyberpsionic_6_c_delayed:0  "- This description is a placeholder, as will inherit the vanilla description -"
+
+# Purity of Essence (Bio-Psionic hive)
+# ------------------------------------------------------------
+	# Requires having finished the "Forced Evolution" OR "Psychic Resonance" situation
+	# Requires having finished the "Purity of Essence" situation
+
+# Synths
+# ------------------------------------------------------------
+ tradition_tec_evolved_singularity:0  "Сингулярность"
+  tradition_tec_evolved_singularity_desc:0  "делать."
+
+# Ascendants
+# ------------------------------------------------------------
+	# ?
+  tradition_tec_evolved_coalescence:0  "Слияние"
+  tradition_tec_evolved_coalescence_desc:0  "делать."
+
+	# ?
+  tradition_tec_evolved_exaltation:0  "Возвышение"
+  tradition_tec_evolved_exaltation_desc:0  "делать."
+
+
+# Шаблон
+# ------------------------------------------------------------
+  tradition_tec_template:0  "Гармонизация"
+  tradition_tec_template_desc:0  "делать."
+
+  tr_tec_template_adopt:0  "$tradition_tec_template$"
+ tr_tec_template_adopt_tooltip:7 "to do - "
+
+  tr_tec_template_finish:0  "$tradition_tec_template$ Traditions Finished"
+ tr_tec_template_finish_tooltip:4 "to do - "
+
+  tr_tec_template_1:0  "TO DO name"
+  tr_tec_template_1_tooltip:0  "TO DO effect"
+  tr_tec_template_1_delayed:0  "- This description is a placeholder, as will inherit the vanilla description -"
+
+  tr_tec_template_1_cybt1:0  "TO DO name"
+  tr_tec_template_1_cybt1_tooltip:0  "TO DO effect"
+  tr_tec_template_1_cybt1_delayed:0  "- This description is a placeholder, as will inherit the vanilla description -"
+
+  tr_tec_template_2:0  "TO DO name"
+  tr_tec_template_2_tooltip:0  "TO DO effect"
+  tr_tec_template_2_delayed:0  "- This description is a placeholder, as will inherit the vanilla description -"
+
+ # Scaling
+	 tr_tec_template_3:0  "TO DO name"
+	 tr_tec_template_3_tooltip:0  "TO DO effect"
+	 tr_tec_template_3_delayed:0  "- This description is a placeholder, as will inherit the vanilla description -"
+
+	 tr_tec_template_3_t2:0  "TO DO name"
+	 tr_tec_template_3_t2_tooltip:0  "TO DO effect"
+	 tr_tec_template_3_t2_delayed:0  "- This description is a placeholder, as will inherit the vanilla description -"
+
+	 tr_tec_template_3_t3:0  "TO DO name"
+	 tr_tec_template_3_t3_tooltip:0  "TO DO effect"
+	 tr_tec_template_3_t3_delayed:0  "- This description is a placeholder, as will inherit the vanilla description -"
+
+	 tr_tec_template_4:0  "TO DO name"
+	 tr_tec_template_4_tooltip:0  "TO DO effect\n\n$tec_tradition_has_tiers$"
+	 tr_tec_template_4_delayed:0  "- This description is a placeholder, as will inherit the vanilla description -"
+
+	 tr_tec_template_4_t2:0  "TO DO name"
+	 tr_tec_template_4_t2_tooltip:0  "TO DO effect\n\n$tec_tradition_has_tiers$"
+	 tr_tec_template_4_t2_delayed:0  "- This description is a placeholder, as will inherit the vanilla description -"
+
+	 tr_tec_template_4_t3:0  "TO DO name"
+	 tr_tec_template_4_t3_tooltip:0  "TO DO effect"
+	 tr_tec_template_4_t3_delayed:0  "- This description is a placeholder, as will inherit the vanilla description -"
+
+  tr_tec_template_5:0  "TO DO name"
+  tr_tec_template_5_tooltip:0  "TO DO effect"
+  tr_tec_template_5_delayed:0  "- This description is a placeholder, as will inherit the vanilla description -"
+
+ # Finishers
+	 tr_tec_template_6_a:0  "TO DO name"
+	 tr_tec_template_6_a_tooltip:0  "TO DO effect"
+	 tr_tec_template_6_a_delayed:0  "- This description is a placeholder, as will inherit the vanilla description -"
+
+	 tr_tec_template_6_b:0  "TO DO name"
+	 tr_tec_template_6_b_tooltip:0  "TO DO effect"
+	 tr_tec_template_6_b_delayed:0  "- This description is a placeholder, as will inherit the vanilla description -"
+
+	 tr_tec_template_6_c:0  "TO DO name"
+	 tr_tec_template_6_c_tooltip:0  "TO DO effect"
+	 tr_tec_template_6_c_delayed:0  "- This description is a placeholder, as will inherit the vanilla description -"
+# / 
+
+
+
+# Identity : WOAH potential new tradition tree that is so time consuming i will never fully implement before initial release, but would be so damn cool to!! - For origins or ascension paths but im not very decided about it
+# For origins or ascension path, not decided yet
+  tradition_tec_identity:0  "Идентичность"
+# ------------------------------------------------------------
+  tradition_tec_identity_desc:0  "Наше происхождение было первым шагом в неизвестность, но то, что ждет нас в будущем, зависит от нашего выбора и возможностей."
+
+  tr_tec_identity_adopt:0  "Традиции идентичности"
+  tr_tec_identity_adopt_tooltip:0  "$tradition_tec_identity_desc$\n\n$tr_tec_identity_adopt_effect$\n\n$tr_tec_identity_finish_effect$"
+ tr_tec_identity_adopt_effect:7 "§E $TRADITIONS_ADOPT$: §!\nИмперия §Y$tec_loc_unity$§! увеличена на §G10%§!."
+
+  tr_tec_identity_finish:0  "Традиции идентичности завершены"
+ tr_tec_identity_finish_effect:4 "??"
+
+# Fallback
+  tr_tec_identity_1_:0  "identity Tr 1"
+  tr_tec_identity_1_tooltip:0  "§RНе готов§!"
+  tr_tec_identity_1_delayed:0  "To Do."
+
+  tr_tec_identity_2:0  "identity Tr 2"
+  tr_tec_identity_2_tooltip:0  "§RНе готов§!"
+  tr_tec_identity_2_delayed:0  "To Do."
+
+  tr_tec_identity_3:0  "identity Tr 3"
+  tr_tec_identity_3_tooltip:0  "§RНе готов§!"
+  tr_tec_identity_3_delayed:0  "To Do."
+
+  tr_tec_identity_4:0  "identity Tr 4"
+  tr_tec_identity_4_tooltip:0  "§RНе готов§!"
+  tr_tec_identity_4_delayed:0  "To Do."
+
+  tr_tec_identity_5_:0  "identity Tr 5"
+  tr_tec_identity_5_tooltip:0  "§RНе готов§!"
+  tr_tec_identity_5_delayed:0  "To Do."
+
+
+  tr_tec_identity_6_:0  "identity Tr 6"
+  tr_tec_identity_6_tooltip:0  "§RНе готов§!"
+  tr_tec_identity_6_delayed:0  "To Do."
+
+# Процветающее объединение
+  tr_tec_identity_1_pu:0  "identity Tr 1"
+  tr_tec_identity_1_pu_tooltip:0  "§RНе готов§!"
+  tr_tec_identity_1_pu_delayed:0  "To Do."
+
+  tr_tec_identity_2_pu:0  "identity Tr 2"
+  tr_tec_identity_2_pu_tooltip:0  "§RНе готов§!"
+  tr_tec_identity_2_pu_delayed:0  "To Do."
+
+  tr_tec_identity_3_pu:0  "identity Tr 3"
+  tr_tec_identity_3_pu_tooltip:0  "§RНе готов§!"
+  tr_tec_identity_3_pu_delayed:0  "To Do."
+
+  tr_tec_identity_4_pu:0  "identity Tr 4"
+  tr_tec_identity_4_pu_tooltip:0  "§RНе готов§!"
+  tr_tec_identity_4_pu_delayed:0  "To Do."
+
+  tr_tec_identity_5_pu:0  "identity Tr 5"
+  tr_tec_identity_5_pu_tooltip:0  "§RНе готов§!"
+  tr_tec_identity_5_pu_delayed:0  "To Do."
+
+  tr_tec_identity_6_pu:0  "identity Tr 6"
+  tr_tec_identity_6_pu_tooltip:0  "§RНе готов§!"
+  tr_tec_identity_6_pu_delayed:0  "To Do."
+
+# VD
+  tr_tec_identity_1_vd:0  "identity Tr 1"
+  tr_tec_identity_1_vd_tooltip:0  "§RНе готов§!"
+  tr_tec_identity_1_vd_delayed:0  "To Do."
+
+  tr_tec_identity_2_vd:0  "identity Tr 2"
+  tr_tec_identity_2_vd_tooltip:0  "§RНе готов§!"
+  tr_tec_identity_2_vd_delayed:0  "To Do."
+
+  tr_tec_identity_3_vd:0  "identity Tr 3"
+  tr_tec_identity_3_vd_tooltip:0  "§RНе готов§!"
+  tr_tec_identity_3_vd_delayed:0  "To Do."
+
+  tr_tec_identity_4_vd:0  "identity Tr 4"
+  tr_tec_identity_4_vd_tooltip:0  "§RНе готов§!"
+  tr_tec_identity_4_vd_delayed:0  "To Do"
+
+  tr_tec_identity_5_vd:0  "identity Tr 5"
+  tr_tec_identity_5_vd_tooltip:0  "§RНе готов§!"
+  tr_tec_identity_5_vd_delayed:0  "To Do."
+
+  tr_tec_identity_6_vd:0  "identity Tr 6"
+  tr_tec_identity_6_vd_tooltip:0  "§RНе готов§!"
+  tr_tec_identity_6_vd_delayed:0  "To Do."
+
+
+# Ringworld
+  tr_tec_identity_1_rw:0  "identity Tr 1"
+  tr_tec_identity_1_rw_tooltip:0  "§RNot ready§!"
+  tr_tec_identity_1_rw_delayed:0  "To Do."
+
+  tr_tec_identity_2_rw:0  "identity Tr 2"
+  tr_tec_identity_2_rw_tooltip:0  "§RNot ready§!"
+  tr_tec_identity_2_rw_delayed:0  "To Do."
+
+  tr_tec_identity_3_rw:0  "identity Tr 3"
+  tr_tec_identity_3_rw_tooltip:0  "§RNot ready§!"
+  tr_tec_identity_3_rw_delayed:0  "To Do."
+
+  tr_tec_identity_4_rw:0  "identity Tr 4"
+  tr_tec_identity_4_rw_tooltip:0  "§RNot ready§!"
+  tr_tec_identity_4_rw_delayed:0  "To Do."
+
+  tr_tec_identity_5_rw:0  "identity Tr 5"
+  tr_tec_identity_5_rw_tooltip:0  "§RNot ready§!"
+  tr_tec_identity_5_rw_delayed:0  "To Do."
+
+  tr_tec_identity_6_rw:0  "identity Tr 6"
+  tr_tec_identity_6_rw_tooltip:0  "§RNot ready§!"
+  tr_tec_identity_6_rw_delayed:0  "To Do."
+
+# Roboticists
+  tr_tec_identity_1_robo:0  "identity Tr 1"
+  tr_tec_identity_1_robo_tooltip:0  "§RNot ready§!"
+  tr_tec_identity_1_robo_delayed:0  "To Do."
+
+  tr_tec_identity_2_robo:0  "identity Tr 2"
+  tr_tec_identity_2_robo_tooltip:0  "§RNot ready§!"
+  tr_tec_identity_2_robo_delayed:0  "To Do."
+
+  tr_tec_identity_3_robo:0  "identity Tr 3"
+  tr_tec_identity_3_robo_tooltip:0  "§RNot ready§!"
+  tr_tec_identity_3_robo_delayed:0  "To Do."
+
+  tr_tec_identity_4_robo:0  "identity Tr 4"
+  tr_tec_identity_4_robo_tooltip:0  "§RNot ready§!"
+  tr_tec_identity_4_robo_delayed:0  "To Do."
+
+  tr_tec_identity_5_robo:0  "identity Tr 5"
+  tr_tec_identity_5_robo_tooltip:0  "§RNot ready§!"
+  tr_tec_identity_5_robo_delayed:0  "To Do."
+
+  tr_tec_identity_6_robo:0  "identity Tr 6"
+  tr_tec_identity_6_robo_tooltip:0  "§RNot ready§!"
+  tr_tec_identity_6_robo_delayed:0  "To Do."
+
+# Lifeseeded/Worldtree
+  tr_tec_identity_1_ls:0  "identity Tr 1"
+  tr_tec_identity_1_ls_tooltip:0  "§RNot ready§!"
+  tr_tec_identity_1_ls_delayed:0  "To Do."
+
+  tr_tec_identity_2_ls:0  "identity Tr 2"
+  tr_tec_identity_2_ls_tooltip:0  "§RNot ready§!"
+  tr_tec_identity_2_ls_delayed:0  "To Do."
+
+  tr_tec_identity_3_ls:0  "identity Tr 3"
+  tr_tec_identity_3_ls_tooltip:0  "§RNot ready§!"
+  tr_tec_identity_3_ls_delayed:0  "To Do."
+
+  tr_tec_identity_4_ls:0  "identity Tr 4"
+  tr_tec_identity_4_ls_tooltip:0  "§RNot ready§!"
+  tr_tec_identity_4_ls_delayed:0  "To Do."
+
+  tr_tec_identity_5_ls:0  "identity Tr 5"
+  tr_tec_identity_5_ls_tooltip:0  "§RNot ready§!"
+  tr_tec_identity_5_ls_delayed:0  "To Do."
+
+  tr_tec_identity_6_ls:0  "identity Tr 6"
+  tr_tec_identity_6_ls_tooltip:0  "§RNot ready§!"
+  tr_tec_identity_6_ls_delayed:0  "To Do."
+
+# Remnants
+  tr_tec_identity_1_rem:0  "identity Tr 1"
+  tr_tec_identity_1_rem_tooltip:0  "§RNot ready§!"
+  tr_tec_identity_1_rem_delayed:0  "To Do."
+
+  tr_tec_identity_2_rem:0  "identity Tr 2"
+  tr_tec_identity_2_rem_tooltip:0  "§RNot ready§!"
+  tr_tec_identity_2_rem_delayed:0  "To Do."
+
+  tr_tec_identity_3_rem:0  "identity Tr 3"
+  tr_tec_identity_3_rem_tooltip:0  "§RNot ready§!"
+  tr_tec_identity_3_rem_delayed:0  "To Do."
+
+  tr_tec_identity_4_rem:0  "identity Tr 4"
+  tr_tec_identity_4_rem_tooltip:0  "§RNot ready§!"
+  tr_tec_identity_4_rem_delayed:0  "To Do."
+
+  tr_tec_identity_5_rem:0  "identity Tr 5"
+  tr_tec_identity_5_rem_tooltip:0  "§RNot ready§!"
+  tr_tec_identity_5_rem_delayed:0  "To Do."
+
+  tr_tec_identity_6_rem:0  "identity Tr 6"
+  tr_tec_identity_6_rem_tooltip:0  "§RNot ready§!"
+  tr_tec_identity_6_rem_delayed:0  "To Do."
+
+# Postapoc
+  tr_tec_identity_1_apo:0  "identity Tr 1"
+  tr_tec_identity_1_apo_tooltip:0  "§RNot ready§!"
+  tr_tec_identity_1_apo_delayed:0  "To Do."
+
+  tr_tec_identity_2_apo:0  "identity Tr 2"
+  tr_tec_identity_2_apo_tooltip:0  "§RNot ready§!"
+  tr_tec_identity_2_apo_delayed:0  "To Do."
+
+  tr_tec_identity_3_apo:0  "identity Tr 3"
+  tr_tec_identity_3_apo_tooltip:0  "§RNot ready§!"
+  tr_tec_identity_3_apo_delayed:0  "To Do."
+
+  tr_tec_identity_4_apo:0  "identity Tr 4"
+  tr_tec_identity_4_apo_tooltip:0  "§RNot ready§!"
+  tr_tec_identity_4_apo_delayed:0  "To Do."
+
+  tr_tec_identity_5_apo:0  "identity Tr 5"
+  tr_tec_identity_5_apo_tooltip:0  "§RNot ready§!"
+  tr_tec_identity_5_apo_delayed:0  "To Do."
+
+  tr_tec_identity_6_apo:0  "identity Tr 6"
+  tr_tec_identity_6_apo_tooltip:0  "§RNot ready§!"
+  tr_tec_identity_6_apo_delayed:0  "To Do."
+
+# Lore¿? Galdoorstep, OTSOG
+  tr_tec_identity_1_lore:0  "identity Tr 1"
+  tr_tec_identity_1_lore_tooltip:0  "§RNot ready§!"
+  tr_tec_identity_1_lore_delayed:0  "To Do."
+
+  tr_tec_identity_2_lore:0  "identity Tr 2"
+  tr_tec_identity_2_lore_tooltip:0  "§RNot ready§!"
+  tr_tec_identity_2_lore_delayed:0  "To Do."
+
+  tr_tec_identity_3_lore:0  "identity Tr 3"
+  tr_tec_identity_3_lore_tooltip:0  "§RNot ready§!"
+  tr_tec_identity_3_lore_delayed:0  "To Do."
+
+  tr_tec_identity_4_lore:0  "identity Tr 4"
+  tr_tec_identity_4_lore_tooltip:0  "§RNot ready§!"
+  tr_tec_identity_4_lore_delayed:0  "To Do."
+
+  tr_tec_identity_5_lore:0  "identity Tr 5"
+  tr_tec_identity_5_lore_tooltip:0  "§RNot ready§!"
+  tr_tec_identity_5_lore_delayed:0  "To Do."
+
+  tr_tec_identity_6_lore:0  "identity Tr 6"
+  tr_tec_identity_6_lore_tooltip:0  "§RNot ready§!"
+  tr_tec_identity_6_lore_delayed:0  "To Do."
+
+# Exocolonists
+  tr_tec_identity_1_exo:0  "identity Tr 1"
+  tr_tec_identity_1_exo_tooltip:0  "§RNot ready§!"
+  tr_tec_identity_1_exo_delayed:0  "To Do."
+
+  tr_tec_identity_2_exo:0  "identity Tr 2"
+  tr_tec_identity_2_exo_tooltip:0  "§RNot ready§!"
+  tr_tec_identity_2_exo_delayed:0  "To Do."
+
+  tr_tec_identity_3_exo:0  "identity Tr 3"
+  tr_tec_identity_3_exo_tooltip:0  "§RNot ready§!"
+  tr_tec_identity_3_exo_delayed:0  "To Do."
+
+  tr_tec_identity_4_exo:0  "identity Tr 4"
+  tr_tec_identity_4_exo_tooltip:0  "§RNot ready§!"
+  tr_tec_identity_4_exo_delayed:0  "To Do."
+
+  tr_tec_identity_5_exo:0  "identity Tr 5"
+  tr_tec_identity_5_exo_tooltip:0  "§RNot ready§!"
+  tr_tec_identity_5_exo_delayed:0  "To Do."
+
+  tr_tec_identity_6_exo:0  "identity Tr 6"
+  tr_tec_identity_6_exo_tooltip:0  "§RNot ready§!"
+  tr_tec_identity_6_exo_delayed:0  "To Do."
+
+# Slave to the system
+  tr_tec_identity_1_sys:0  "identity Tr 1"
+  tr_tec_identity_1_sys_tooltip:0  "§RNot ready§!"
+  tr_tec_identity_1_sys_delayed:0  "To Do."
+
+  tr_tec_identity_2_sys:0  "identity Tr 2"
+  tr_tec_identity_2_sys_tooltip:0  "§RNot ready§!"
+  tr_tec_identity_2_sys_delayed:0  "To Do."
+
+  tr_tec_identity_3_sys:0  "identity Tr 3"
+  tr_tec_identity_3_sys_tooltip:0  "§RNot ready§!"
+  tr_tec_identity_3_sys_delayed:0  "To Do."
+
+  tr_tec_identity_4_sys:0  "identity Tr 4"
+  tr_tec_identity_4_sys_tooltip:0  "§RNot ready§!"
+  tr_tec_identity_4_sys_delayed:0  "To Do."
+
+  tr_tec_identity_5_sys:0  "identity Tr 5"
+  tr_tec_identity_5_sys_tooltip:0  "§RNot ready§!"
+  tr_tec_identity_5_sys_delayed:0  "To Do."
+
+  tr_tec_identity_6_sys:0  "identity Tr 6"
+  tr_tec_identity_6_sys_tooltip:0  "§RNot ready§!"
+  tr_tec_identity_6_sys_delayed:0  "To Do."
+
+
+
+
+# ASCENSION PATH TRADITIONS
+# 1(4,5) - 2(6,7) - 3(8,9)
+
+# Genetic path tradition
+# Perfection
+# Main - 
+ tradition_tec_genetics_A:0  "Совершенство"
+  tradition_tec_genetics_A_desc:0  "ОПИСАНИЕ ЗДЕСЬ"
+
+  tr_tec_genetics_A_adopt:0  "Традиции совершенства"
+  tr_tec_genetics_A_adopt_tooltip:0  "+§G1§! £tec_genetics_icon£ §Yочков модификации генов§!."
+
+  tr_tec_genetics_A_finish:0  "Совершенствование Традиций завершено"
+tr_tec_genetics_A_finish_tooltip:4 " Разблокированы перки вознесения: §G+1§!\n\nОткрываются особые §Yпродвинутые уникальные черты§!, естественные улучшения некоторых базовых черт, адаптированные к текущему пути вознесения.\n"
+
+  tr_tec_genetics_A_1:0  "A"
+  tr_tec_genetics_A_1_tooltip:0  "EFFECT."
+  tr_tec_genetics_A_1_delayed:0  "DESC."
+
+	 tr_tec_genetics_A_final_1_A:0  "A"
+	 tr_tec_genetics_A_final_1_A_tooltip:0  "ЭФФЕКТ.\n\n§R$trigger_tec_warning$Выбор этой традиции отключает противоположную традицию этого ряда.§!"
+	 tr_tec_genetics_A_final_1_A_delayed:0  "A."
+
+	 tr_tec_genetics_A_final_1_B:0  "A"
+	 tr_tec_genetics_A_final_1_B_tooltip:0  "ЭФФЕКТ.\n\n§R$trigger_tec_warning$Выбор этой традиции отключает противоположную традицию этого ряда.§!"
+	 tr_tec_genetics_A_final_1_B_delayed:0  "A."
+
+  tr_tec_genetics_A_2:0  "A"
+  tr_tec_genetics_A_2_tooltip:0  "ЭФФЕКТ"
+  tr_tec_genetics_A_2_delayed:0  "DESC."
+
+	 tr_tec_genetics_A_final_2_A:0  "A"
+	 tr_tec_genetics_A_final_2_A_tooltip:0  "ЭФФЕКТ.\n\n§R$trigger_tec_warning$Выбор этой традиции отключает противоположную традицию этого ряда.§!"
+	 tr_tec_genetics_A_final_2_A_delayed:0  "A."
+
+	 tr_tec_genetics_A_final_2_B:0  "A"
+	 tr_tec_genetics_A_final_2_B_tooltip:0  "ЭФФЕКТ.\n\n§R$trigger_tec_warning$Выбор этой традиции отключает противоположную традицию этого ряда.§!"
+	 tr_tec_genetics_A_final_2_B_delayed:0  "A."
+
+#  tr_tec_genetics_A_final_2_B_delayed:0  "Эволюция
+  tradition_tec_genetics_B:0  "Эволюция"
+  tradition_tec_genetics_B_desc:0  "A."
+
+  tr_tec_genetics_B_adopt:0  "Традиции совершенства"
+  tr_tec_genetics_B_adopt_tooltip:0  "+§G1§! £tec_genetics_icon£ §Yочков модификации генов§!."
+
+  tr_tec_genetics_B_finish:0  "Совершенствование Традиций завершено"
+tr_tec_genetics_B_finish_tooltip:4 " Разблокированы перки вознесения: §G+1§!\n\nОткрываются специальные §Yулучшенные уникальные черты§!, естественные улучшения некоторых базовых черт.\n"
+
+  tr_tec_genetics_B_1:0  "A"
+  tr_tec_genetics_B_1_tooltip:0  "EFFECT."
+  tr_tec_genetics_B_1_delayed:0  "DESC."
+
+	 tr_tec_genetics_B_final_1_A:0  "A"
+	 tr_tec_genetics_B_final_1_A_tooltip:0  "ЭФФЕКТ.\n\n§R$trigger_tec_warning$Выбор этой традиции отключает противоположную традицию этого ряда.§!"
+	 tr_tec_genetics_B_final_1_A_delayed:0  "A."
+
+	 tr_tec_genetics_B_final_1_B:0  "A"
+	 tr_tec_genetics_B_final_1_B_tooltip:0  "ЭФФЕКТ.\n\n§R$trigger_tec_warning$Выбор этой традиции отключает противоположную традицию этого ряда.§!"
+	 tr_tec_genetics_B_final_1_B_delayed:0  "A."
+
+  tr_tec_genetics_B_2:0  "A"
+  tr_tec_genetics_B_2_tooltip:0  "СЛЕД."
+  tr_tec_genetics_B_2_delayed:0  "DESC."
+
+	 tr_tec_genetics_B_final_2_A:0  "A"
+	 tr_tec_genetics_B_final_2_A_tooltip:0  "ЭФФЕКТ.\n\n§R$trigger_tec_warning$Выбор этой традиции отключает противоположную традицию этого ряда.§!"
+	 tr_tec_genetics_B_final_2_A_delayed:0  "A."
+
+	 tr_tec_genetics_B_final_2_B:0  "A"
+	 tr_tec_genetics_B_final_2_B_tooltip:0  "ЭФФЕКТ.\n\n§R$trigger_tec_warning$Выбор этой традиции отключает противоположную традицию этого ряда.§!"
+	 tr_tec_genetics_B_final_2_B_delayed:0  "A."
+
+
+
+# Robotic path
+# Cybernetics
+  tradition_tec_cybernetics_A:0  "Совершенство"
+  tradition_tec_cybernetics_A_desc:0  "A."
+
+  tr_tec_cybernetics_A_adopt:0  "Традиции совершенства"
+  tr_tec_cybernetics_A_adopt_tooltip:0  "
+
+  tr_tec_cybernetics_A_finish:0  "Традиции совершенства завершены"
+tr_tec_cybernetics_A_finish_tooltip:4 " Разблокированы перки вознесения: §G+1§!\n\nОткрываются специальные §Yулучшенные уникальные черты§!, естественные улучшения некоторых базовых черт.\n"
+
+  tr_tec_cybernetics_A_1:0  "A"
+  tr_tec_cybernetics_A_1_tooltip:0  "EFFECT."
+  tr_tec_cybernetics_A_1_delayed:0  "DESC."
+
+	 tr_tec_cybernetics_A_final_1_A:0  "A"
+	 tr_tec_cybernetics_A_final_1_A_tooltip:0  "ЭФФЕКТ.\n\n§R$trigger_tec_warning$Выбор этой традиции отключает противоположную традицию этого ряда.§!"
+	 tr_tec_cybernetics_A_final_1_A_delayed:0  "A."
+
+	 tr_tec_cybernetics_A_final_1_B:0  "A"
+	 tr_tec_cybernetics_A_final_1_B_tooltip:0  "ЭФФЕКТ.\n\n§R$trigger_tec_warning$Выбор этой традиции отключает противоположную традицию этого ряда.§!"
+	 tr_tec_cybernetics_A_final_1_B_delayed:0  "A."
+
+#  tr_tec_cybernetics_A_final_1_B_delayed:0  "Робототехника
+  tradition_tec_cybernetics_B:0  "Совершенство"
+  tradition_tec_cybernetics_B_desc:0  "A."
+
+  tr_tec_cybernetics_B_adopt:0  "Традиции совершенства"
+  tr_tec_cybernetics_B_adopt_tooltip:0  "
+
+  tr_tec_cybernetics_B_finish:0  "Традиции совершенства завершены"
+tr_tec_cybernetics_B_finish_tooltip:4 " Разблокированы перки вознесения: §G+1§!\n\nОткрываются специальные §Yулучшенные уникальные черты§!, естественные улучшения некоторых базовых черт.\n"
+
+ tr_tec_cybernetics_B_1:0  "A"
+  tr_tec_cybernetics_B_1_tooltip:0  "ЭФФЕКТ"
+  tr_tec_cybernetics_B_1_delayed:0  "DESC."
+
+	 tr_tec_cybernetics_B_final_1_A:0  "A"
+	 tr_tec_cybernetics_B_final_1_A_tooltip:0  "ЭФФЕКТ.\n\n§R$trigger_tec_warning$Выбор этой традиции отключает противоположную традицию этого ряда.§!"
+	 tr_tec_cybernetics_B_final_1_A_delayed:0  "A."
+
+	 tr_tec_cybernetics_B_final_1_B:0  "A"
+	 tr_tec_cybernetics_B_final_1_B_tooltip:0  "ЭФФЕКТ.\n\n§R$trigger_tec_warning$Выбор этой традиции отключает противоположную традицию этого ряда.§!"
+	# Разблокирует следующую §Yтехнологию проектирования корабля§!, доступную в качестве §Yварианта исследования§!, без предыдущих реквизитов.\nЕсли все технологии кораблей уже разблокированы, предоставляет случайную повторяемую военно-морскую технологию.
+	 tr_tec_cybernetics_B_final_1_B_delayed:0  "A."

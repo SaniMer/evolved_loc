@@ -1,0 +1,159 @@
+﻿l_russian:
+
+ SEPARATOR:0 "---"
+
+ # = = = = = = = = = = = = =
+ # Compact Policies
+ # = = = = = = = = = = = = =
+ # Gender policy for Governors and rulers
+ policy_humanoid_govern_recruitment_gender_policy:0 "Гендерная политика - Правительство" 
+ policy_humanoid_govern_recruitment_gender_policy_desc:0 "Политика назначения губернаторов. (мужской/женский/оба)" 
+
+ humanoid_governor_recruitment_gender_policy_option_both_name:0	"Равные виды" 
+ humanoid_governor_recruitment_gender_policy_option_both:0 "Равные виды" 
+ humanoid_governor_recruitment_gender_policy_option_both_desc:0 "Могут быть как мужчины, так и женщины-правители и губернаторы. \n\n§LЭтот вид добился почти равных гендерных возможностей для руководства своим обществом.§!" 
+
+ humanoid_governor_recruitment_gender_policy_option_male_name:0	"Патриархальные виды" 
+ humanoid_governor_recruitment_gender_policy_option_male:0 "Патриархальные виды" 
+ humanoid_governor_recruitment_gender_policy_option_male_desc:0	"Могут быть только мужчины Правители и Губернаторы. \n\n§LТрадиционно этим видом управляли мужчины-члены своего общества, отводя женщинам другие второстепенные или параллельные роли.§!" 
+
+ humanoid_governor_recruitment_gender_policy_option_female_name:0 "Матриархальные виды" 
+ humanoid_governor_recruitment_gender_policy_option_female:0 "Матриархальные виды" 
+ humanoid_governor_recruitment_gender_policy_option_female_desc:0 "Могут быть только женщины Правители и Губернаторы. \n\n§LТрадиционно этим видом управляли женщины-члены своего общества, отводя мужчинам другие второстепенные или параллельные роли.§!" 
+
+ humanoid_recruit_governor_male_female_name:0 "Флаг для набора Правителей и Губернаторов как мужчин, так и женщин" 
+ humanoid_recruit_governor_male_name:0 "Флаг для набора мужчин-правителей и губернаторов" 
+ humanoid_recruit_governor_female_name:0 "Флаг для набора женщин-правителей и губернаторов" 
+
+ # Gender policy for researchers, military and army leaders
+ policy_humanoid_specialist_recruitment_gender_policy:0 "Гендерная политика - Специалист" 
+ policy_humanoid_specialist_recruitment_gender_policy_desc:0 "Политика назначения специалистов. (мужской/женский/оба)" 
+
+ humanoid_specialist_recruitment_gender_policy_option_both_name:0 "Гендерное равенство" 
+ humanoid_specialist_recruitment_gender_policy_option_both:0 "Гендерное равенство" 
+ humanoid_specialist_recruitment_gender_policy_option_both_desc:0	"Могут быть как мужчины, так и женщины-правители и губернаторы. \n\n§LЭтот вид добился почти равных гендерных возможностей для специалистов и более важных ролей в своем обществе.§!" 
+
+ humanoid_specialist_recruitment_gender_policy_option_male_name:0 "Патриархальное общество" 
+ humanoid_specialist_recruitment_gender_policy_option_male:0 "Патриархальное общество" 
+ humanoid_specialist_recruitment_gender_policy_option_male_desc:0 "Могут быть только мужчины-исследователи и военачальники. \n\n§LМужчины-члены этого общества играют ведущую роль в исследованиях и военной промышленности, отводя женщинам менее заметные, но не менее важные роли.§!" 
+
+ humanoid_specialist_recruitment_gender_policy_option_female_name:0 "Матриархальное общество" 
+ humanoid_specialist_recruitment_gender_policy_option_female:0 "Матриархальное общество" 
+ humanoid_specialist_recruitment_gender_policy_option_female_desc:0 "Могут быть только женщины-исследователи и военачальники. \n\n§LЖенщины-члены этого общества играют ведущую роль в исследованиях и военной промышленности, отводя мужчинам менее заметные, но не менее важные роли.§!" 
+
+ humanoid_recruit_specialist_male_female_name:0 "Флаг для набора Исследователей и Военачальников как мужчин, так и женщин." 
+ humanoid_recruit_specialist_male_name:0 "Флаг для набора мужчин-исследователей и военных лидеров." 
+ humanoid_recruit_specialist_female_name:0 "Флаг для набора женщин-исследователей и военных лидеров." 
+
+ # = = = = = = = = = = = = =
+ # Policies
+ # = = = = = = = = = = = = =
+
+ # Gender policy for Army Leaders
+ # ------------------------------- start -------------------------------------
+ policy_humanoid_army_leader_recruitment_gender_policy:0 "Гендерная политика - Армия" 
+ policy_humanoid_army_leader_recruitment_gender_policy_desc:0 "Политика призыва в армию. (мужской/женский/оба)" 
+
+ humanoid_army_leader_recruitment_gender_policy_option_both_name:0 "Генералы мужского и женского пола" 
+ humanoid_army_leader_recruitment_gender_policy_option_both:0 "Генералы мужского и женского пола" 
+ humanoid_army_leader_recruitment_gender_policy_option_both_desc:0 "Можно набирать генералов как мужчин, так и женщин." 
+
+ humanoid_army_leader_recruitment_gender_policy_option_male_name:0 "Генералы-мужчины" 
+ humanoid_army_leader_recruitment_gender_policy_option_male:0 "Генералы-мужчины" 
+ humanoid_army_leader_recruitment_gender_policy_option_male_desc:0 "Набирать только мужчин-генералов." 
+
+ humanoid_army_leader_recruitment_gender_policy_option_female_name:0 "Женщины-генералы" 
+ humanoid_army_leader_recruitment_gender_policy_option_female:0 "Женщины-генералы" 
+ humanoid_army_leader_recruitment_gender_policy_option_female_desc:0 "Набирать только женщин-генералов." 
+
+ humanoid_recruit_generals_male_female_name:0 "Флаг для набора как мужчин, так и женщин-генералов" 
+ humanoid_recruit_generals_male_name:0 "Флаг для набора генералов-мужчин" 
+ humanoid_recruit_generals_female_name:0 "Флаг для набора женщин-генералов" 
+ # ------------------------------- end -------------------------------------
+
+ # Gender policy for Fleet Leaders
+ # ------------------------------- start -------------------------------------
+ policy_humanoid_fleet_leader_recruitment_gender_policy:0 "Гендерная политика - Флот" 
+ policy_humanoid_fleet_leader_recruitment_gender_policy_desc:0 "Политика впечатления флота. (мужской/женский/оба)" 
+
+ humanoid_fleet_leader_recruitment_gender_policy_option_both_name:0 "Мужчины и женщины-адмиралы" 
+ humanoid_fleet_leader_recruitment_gender_policy_option_both:0 "Мужчины и женщины-адмиралы" 
+ humanoid_fleet_leader_recruitment_gender_policy_option_both_desc:0 ""Можно набирать адмиралов как мужчин, так и женщин." 
+
+ humanoid_fleet_leader_recruitment_gender_policy_option_male_name:0 "Адмиралы-мужчины" 
+ humanoid_fleet_leader_recruitment_gender_policy_option_male:0 "Адмиралы-мужчины" 
+ humanoid_fleet_leader_recruitment_gender_policy_option_male_desc:0 "Набирать только адмиралов-мужчин." 
+
+ humanoid_fleet_leader_recruitment_gender_policy_option_female_name:0 "Женщины-адмиралы" 
+ humanoid_fleet_leader_recruitment_gender_policy_option_female:0 "Женщины-адмиралы" 
+ humanoid_fleet_leader_recruitment_gender_policy_option_female_desc:0 "Набирать только женщин-адмиралов." 
+
+ humanoid_recruit_admirals_male_female_name:0 "Флаг для набора как мужчин, так и женщин-адмиралов" 
+ humanoid_recruit_admirals_male_name:0 "Флаг для набора адмиралов-мужчин" 
+ humanoid_recruit_admirals_female_name:0 "Флаг для набора женщин-адмиралов" 
+ # ------------------------------- end -------------------------------------
+
+ # Gender policy for Science Leaders
+ # ------------------------------- start -------------------------------------
+ policy_humanoid_science_leader_recruitment_gender_policy:0 "Гендерная политика - Наука" 
+ policy_humanoid_science_leader_recruitment_gender_policy_desc:0 "Политика стипендий ученых. (мужской/женский/оба)" 
+
+ humanoid_science_leader_recruitment_gender_policy_option_both_name:0 "Мужчины и женщины-ученые" 
+ humanoid_science_leader_recruitment_gender_policy_option_both:0 "Мужчины и женщины-ученые" 
+ humanoid_science_leader_recruitment_gender_policy_option_both_desc:0 "Можно набирать как мужчин, так и женщин-ученых." 
+
+ humanoid_science_leader_recruitment_gender_policy_option_male_name:0 "Ученые-мужчины" 
+ humanoid_science_leader_recruitment_gender_policy_option_male:0 "Ученые-мужчины" 
+ humanoid_science_leader_recruitment_gender_policy_option_male_desc:0 "Набирать только мужчин-ученых." 
+
+ humanoid_science_leader_recruitment_gender_policy_option_female_name:0 "Женщины-ученые" 
+ humanoid_science_leader_recruitment_gender_policy_option_female:0 "Женщины-ученые" 
+ humanoid_science_leader_recruitment_gender_policy_option_female_desc:0 "Набирать только женщин-ученых." 
+
+ humanoid_recruit_scientists_male_female_name:0 "Флаг для набора как мужчин, так и женщин-ученых" 
+ humanoid_recruit_scientists_male_name:0 "Флаг для набора мужчин-ученых" 
+ humanoid_recruit_scientists_female_name:0 "Флаг для набора женщин-ученых" 
+ # ------------------------------- end -------------------------------------
+
+ # Gender policy for Governors
+ # ------------------------------- start -------------------------------------
+ policy_humanoid_governor_recruitment_gender_policy:0 "Гендерная политика - Губернаторы" 
+ policy_humanoid_governor_recruitment_gender_policy_desc:0 "Политика назначения губернаторов. (мужской/женский/оба)" 
+
+ humanoid_governor_recruitment_gender_policy_option_both_name:0	"Мужчины и женщины-губернаторы" 
+ humanoid_governor_recruitment_gender_policy_option_both:0 "Мужчины и женщины-губернаторы" 
+ humanoid_governor_recruitment_gender_policy_option_both_desc:0 "Можно набирать губернаторов как мужчин, так и женщин." 
+
+ humanoid_governor_recruitment_gender_policy_option_male_name:0 "Губернаторы-мужчины" 
+ humanoid_governor_recruitment_gender_policy_option_male:0 "Губернаторы-мужчины" 
+ humanoid_governor_recruitment_gender_policy_option_male_desc:0 "Набирать только губернаторов-мужчин." 
+
+ humanoid_governor_recruitment_gender_policy_option_female_name:0 "Женщины-губернаторы" 
+ humanoid_governor_recruitment_gender_policy_option_female:0 "Женщины-губернаторы" 
+ humanoid_governor_recruitment_gender_policy_option_female_desc:0 "Набирать только женщин-губернаторов." 
+
+ humanoid_recruit_governors_male_female_name:0 "Флаг для найма губернаторов как мужчин, так и женщин" 
+ humanoid_recruit_governors_male_name:0 "Флаг для найма мужчин-губернаторов" 
+ humanoid_recruit_governors_female_name:0 "Флаг для найма женщин-губернаторов" 
+ # ------------------------------- end -------------------------------------
+
+ # Gender policy for Rulers
+ # ------------------------------- start -------------------------------------
+ policy_humanoid_ruler_recruitment_gender_policy:0 "Гендерная политика - Правители" 
+ policy_humanoid_ruler_recruitment_gender_policy_desc:0 "Политика наследования правителей. (Мужской/Женский/Оба)\n\n§RПримечание. Только для монархии. Не влияет на выборы.!§!\n" 
+ humanoid_ruler_recruitment_gender_policy_option_both_name:0 "Мужчины и женщины-правители" 
+ humanoid_ruler_recruitment_gender_policy_option_both:0 "Мужчины и женщины-правители" 
+ humanoid_ruler_recruitment_gender_policy_option_both_desc:0 "Наследниками могут быть как мужчины, так и женщины." 
+
+ humanoid_ruler_recruitment_gender_policy_option_male_name:0 "Мужчины-правители" 
+ humanoid_ruler_recruitment_gender_policy_option_male:0 "Мужчины-правители" 
+ humanoid_ruler_recruitment_gender_policy_option_male_desc:0 "Только наследники мужского пола." 
+
+ humanoid_ruler_recruitment_gender_policy_option_female_name:0 "Женщины-правители" 
+ humanoid_ruler_recruitment_gender_policy_option_female:0 "Женщины-правители" 
+ humanoid_ruler_recruitment_gender_policy_option_female_desc:0 "Только наследники женского пола." 
+
+ humanoid_recruit_rulers_male_female_name:0 "Флаг для найма как мужчин, так и женщин-правителей" 
+ humanoid_recruit_rulers_male_name:0 "Флаг для найма мужчин-правителей" 
+ humanoid_recruit_rulers_female_name:0 "Флаг для найма женщин-правителей" 
+ # ------------------------------- end -------------------------------------

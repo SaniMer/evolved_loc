@@ -1,0 +1,427 @@
+﻿l_russian:
+
+
+# ---------------------------------------------------------------------------------------
+# COLOSSUS WEAPONS
+# ---------------------------------------------------------------------------------------
+# ------------------------------------------------------------------------
+# Opinions
+ opinion_tec_bioray_a_world:0 "Мутагенизация мира" #NT!
+ opinion_tec_bioray_my_world:0 Мутагенизация нашего мира" #NT!
+ opinion_tec_bioray_a_primitive_world:0 "Мутагенизация примитивного мира" #NT!
+ opinion_tec_bioray_a_primitive_world_phile:0 "$opinion_cracked_a_primitive_world_phile$" #NT!
+
+ opinion_tec_replicantray_a_world:0 "Воспроизведение мира" #NT!
+ opinion_tec_replicantray_my_world:0 "Воспроизведение нашего мира" #NT!
+ opinion_tec_replicantray_a_primitive_world:0 "Воспроизведение примитивного мира" #NT!
+ opinion_tec_replicantray_a_primitive_world_phile:0 "$opinion_cracked_a_primitive_world_phile$" #NT!
+
+# ------------------------------------------------------------------------
+# COMPONENTS
+
+ PLANET_KILLER_TEC_DEVOLVERAY:0 "Луч деволюции" #NT!
+ PLANET_KILLER_TEC_DEVOLVERAY_ACTION:0 "Деволюция" #NT!
+ PLANET_KILLER_TEC_DEVOLVERAY_DESC:0 "Специально направленные био- и техноинженерные вещества, выброшенные на поверхность планеты, отменяют тысячи лет эволюции и культурного развития, низводя население планеты до первобытной эволюционной стадии, разрушая всю инфраструктуру, технологии и архитектуру в процессе. Некоторые могут понять это как жестокость, поскольку, даже если вид выживет, его культура и идентичность исчезнут навсегда, но мы понимаем это как чистый и справедливый акт милосердия по сравнению с потенциальной нейтрализацией или прямым истреблением." #NT!
+ FLEETORDER_DESTROY_PLANET_WITH_PLANET_KILLER_TEC_DEVOLVERAY:0 "Подготовка к деволюции $PLANET|Y$" #NT!
+ MESSAGE_DESC_FOR_PLANET_KILLER_TEC_DEVOLVERAY:0 "была деволюцианирована" #NT!
+ tec_cannot_devolve_primitives:0 "§R$TRIGGER_FAIL$Примитивы уже едва ли разумны, §Yдеволюция§! была бы пустой тратой времени.§!" #NT!
+
+ PLANET_KILLER_TEC_NUKERAY:0 "Ядерный Луч" #NT!
+ PLANET_KILLER_TEC_NUKERAY_ACTION:0 "Облучить" #NT!
+ PLANET_KILLER_TEC_NUKERAY_DESC:0 "Высокопрогнозируемые ядерные реакции охватят поверхность планеты, омывая ее радиацией и тепловыми волнами, серьезно изменяя и реформируя ее и ее обитателей; все, что появится в результате апокалипсиса, пригодится нам." #NT!
+ FLEETORDER_DESTROY_PLANET_WITH_PLANET_KILLER_TEC_NUKERAY:0 "Подготовка к облучению $PLANET|Y$" #NT!
+ MESSAGE_DESC_FOR_PLANET_KILLER_TEC_NUKERAY:0 "была облучена" #NT!
+ tec_cannot_devolve_primitives:0 "§R$TRIGGER_FAIL$Примитивы уже едва ли разумны, §Yдеволюция§! была бы пустой тратой времени.§!" #NT!
+
+ PLANET_KILLER_TEC_BIORAY:0 "Луч Ре-Генезиса" #NT!
+ PLANET_KILLER_TEC_BIORAY_ACTION:0 "Ре-Генезис" #NT!
+ PLANET_KILLER_TEC_BIORAY_DESC:0 "Рассеянные биореагенты покроют всю поверхность планеты, радикально изменяя любую разумную органическую форму жизни в соответствии с нашим собственным генетическим шаблоном в ходе быстрой и метаболически интенсивной мутации. Однако такое внезапное изменение может сделать большинство несовместимого населения... безжизненным." #NT!
+ FLEETORDER_DESTROY_PLANET_WITH_PLANET_KILLER_TEC_BIORAY:0 "Подготовка к Ре-Генезису $PLANET|Y$" #NT!
+ MESSAGE_DESC_FOR_PLANET_KILLER_TEC_BIORAY:0 "население пострадало от Ре-Генезиса" #NT!
+ tec_will_purge_robot_pops:0 "§R§YНеорганическое§! поселенцы будет убито§!" #NT!
+
+ PLANET_KILLER_TEC_REPLICANTRAY:0 "Луч Синтеза" #NT!
+ PLANET_KILLER_TEC_REPLICANTRAY_ACTION:0 "Синтезировать" #NT!
+ PLANET_KILLER_TEC_REPLICANTRAY_DESC:0 "Усовершенствованные наноботы покроют поверхность планеты, реформируя внутреннюю и внешнюю структуру любой разумной и здравомыслящей формы жизни в соответствии с нашим основным шаблоном репликанта. Вскоре все они станут такими же, как мы." #NT!
+ FLEETORDER_DESTROY_PLANET_WITH_PLANET_KILLER_TEC_REPLICANTRAY:0 "Подготовка к синтезу $PLANET|Y$" #NT!
+ MESSAGE_DESC_FOR_PLANET_KILLER_TEC_REPLICANTRAY:0 "была синтезирована" #NT!
+ tec_no_assimilatable_by_replicant:0 "§R$TRIGGER_FAIL$Цель не содержит поселенцев, пригодных для ассимиляции репликантов§!" #NT!
+
+ PLANET_KILLER_TEC_COMPOSERAY:0 "Композитный Луч" #NT! Тут поработать надо
+ PLANET_KILLER_TEC_COMPOSERAY_ACTION:0 "Написать" #NT!
+ PLANET_KILLER_TEC_COMPOSERAY_DESC:0 "Луч обратной энергии и рекомпиляции данных анализирует, сканирует и экспортирует нейронные модели любого разумного или синтетического существа на поверхности, подготавливая немедленное преобразование таких моделей в ценные данные для нашего коллектива. Этот процесс, однако, немедленно обугливает нейронные пути затронутых субъектов, прекращая их работу с самого начала." #NT!
+ FLEETORDER_DESTROY_PLANET_WITH_PLANET_KILLER_TEC_COMPOSERAY:0 "Подготовка к созданию $PLANET|Y$" #NT!
+ MESSAGE_DESC_FOR_PLANET_KILLER_TEC_COMPOSERAY:0 "был составлен" #NT!
+ tec_no_assimilatable_by_replicant:0 "§R$TRIGGER_FAIL$Target не содержит населения, подходящего для ассимиляции репликантов§!" #NT!
+
+ PLANET_KILLER_TEC_SYNTHRAY:0 "Реструктуризированный Луч" #NT! И тут поработать
+ PLANET_KILLER_TEC_SYNTHRAY_ACTION:0 "Реструктурировать" #NT!
+ PLANET_KILLER_TEC_SYNTHRAY_DESC:0 "Развернутые на планете, специальные синтетические вещества будут разрывать и перестраивать структурную целостность разумных форм жизни в новые платформы по нашему подобию, перерабатывая для этого сопутствующий материал. Хотя большинство единиц, теоретически, будут несовместимы, те, что останутся, будут служить нашему коллективу в качестве новых дронов." #NT!
+ FLEETORDER_DESTROY_PLANET_WITH_PLANET_KILLER_TEC_SYNTHRAY:0 "Подготовка к реструктуризации $PLANET|Y$" #NT!
+ MESSAGE_DESC_FOR_PLANET_KILLER_TEC_SYNTHRAY:0 "была реструктурирована" #NT!
+ tec_no_assimilatable_by_replicant:0 "§R$TRIGGER_FAIL$Цель не содержит поселенцев, подходящих для ассимиляции репликантов§!" #NT!
+
+ PLANET_KILLER_TEC_ETHEREALRAY:0 "Сублимационный луч" #NT!
+ PLANET_KILLER_TEC_ETHEREALRAY_ACTION:0 "Сублимация" #NT!
+ PLANET_KILLER_TEC_ETHEREALRAY_DESC:0 "Направив нашу собственную псионическую силу на поверхность этой планеты, мы сможем отделить зерна от плевел; те, у кого сильный дух, возвысятся, и их псионическое присутствие проявится, оставив свое обугленное физическое присутствие позади, в то время как те, у кого нет, цепляясь за материальное существование ... станут только пылью на ветру." #NT!
+ FLEETORDER_DESTROY_PLANET_WITH_PLANET_KILLER_TEC_ETHEREALRAY:0 "Подготовка к сублимации $PLANET|Y$" #NT!
+ MESSAGE_DESC_FOR_PLANET_KILLER_TEC_ETHEREALRAY:0 "была сублимирована" #NT!
+ tec_no_assimilatable_by_ethereal:0 "§R$TRIGGER_FAIL$Цель не содержит органических поселенцев.§!" #NT!
+
+# ------------------------------------------------------------------------
+# EVENTS
+ pk_event1.name:0 "Население планеты мутировало" #NT!
+ pk_event1.desc:0 "Когда вирусные вещества были размещены на [From.GetName], на небе образовались видимые и аномальные облака, в то время как население наблюдало, прикрываясь страхом, надвигающейся поверхностью [FromFrom.GetName].\n\nТеперь эти испуганные глаза давно исчезли, поскольку те, кто выстоял, теперь наши, нашего народа, а те, кто не устоял перед совершенством, погибли вместе со своим дефектным генетическим наследием." #NT!
+ pk_event1.tooltip:0 "Часть прежнего населения планеты становится новым §Y[FromFrom.Owner.GetSpeciesNamePlural]§!.\nВсех §YНеорганических§! поселенцев сразу убивает." #NT!
+
+ pk_event2.name:0 "Воспроизведение планеты" #NT!
+ pk_event2.desc:0 "Нанитовые бури спускались с главного проектора [FromFrom.GetName], создавая огромные столбы, которые пересекали планету, поселение за поселением, меняя население клетка за клеткой. Некоторые сопротивлялись, пытаясь прекратить свое существование до того, как процесс репликации был завершен, но в целом теперь в [From.GetName] остались только наши шаблоны.\n\nНаша усовершенствованная платформа принадлежит большему количеству людей, и вскоре их постигнет еще больше." #NT!
+ pk_event2.tooltip:0 "Часть прежнего населения планеты становится новым §Y[FromFrom.Owner.GetSpeciesNamePlural]§!." #NT!
+
+# ---------------------------------------------------------------------------------------
+# ARMIES
+# ---------------------------------------------------------------------------------------
+# ------------------------------------------------- War Engineers
+ tec_siegecraft_army:0 "Осадное орудие" #NT!
+ tec_siegecraft_army_plural:0 "Осадные орудия" #NT!
+ tec_siegecraft_army_desc:0 "Большие и сложные машины массового поражения, эти танки возвышаются над полем боя, вмещая несколько полков и обрушивая на врага разрушительную мощь." #NT!
+
+# ------------------------------------------------- Genetic
+ tec_genetic_army:0 "Генно-морской батальон" #NT!
+ tec_genetic_army_plural:0 "Батальоны генно-морских пехотинцев" #NT!
+ tec_genetic_army_desc:0 "ДЕЛАТЬ." #NT!
+
+ tec_genetic_elite_army:0 "Ген-Примарх" #NT!
+ tec_genetic_elite_army_plural:0 "Гены-примархи" #NT!
+ tec_genetic_elite_army_desc:0 "ДЕЛАТЬ." #NT!
+
+ tec_genetic_army_hive:0 "Армия генетического тирана" #NT!
+ tec_genetic_army_hive_plural:0 "Армии генетического тирана" #NT!
+ tec_genetic_army_hive_desc:0 "ДЕЛАТЬ." #NT!
+
+ tec_genetic_hive_elite_army:0 "Генная парадигма" #NT!
+ tec_genetic_hive_elite_army_plural:0 "Гены-примархи" #NT!
+ tec_genetic_hive_elite_army_desc:0 "ДЕЛАТЬ." #NT!
+
+# ------------------------------------------------- Cyborgs
+ tec_cyborg_army:0 "Армия киборгов" #NT!
+ tec_cyborg_army_plural:0 "Армии киборгов" #NT!
+ tec_cyborg_army_desc:0 "ДЕЛАТЬ." #NT!
+
+ tec_cyborg_elite_army:0 "Киборг-коммандос" #NT!
+ tec_cyborg_elite_army_plural:0 "Киборг-коммандос" #NT!
+ tec_cyborg_elite_army_desc:0 "ДЕЛАТЬ." #NT!
+
+ tec_cyborg_army_hive:0 "Кибернетический выводок" #NT!
+ tec_cyborg_army_hive_plural:0 "Кибернетические выводки" #NT!
+ tec_cyborg_army_hive_desc:0 "ДЕЛАТЬ." #NT!
+
+ tec_cyborg_hive_elite_army:0 "Кибернетическая парадигма" #NT!
+ tec_cyborg_hive_elite_army_plural:0 "Кибернетические парадигмы" #NT!
+ tec_cyborg_hive_elite_army_desc:0 "ДЕЛАТЬ." #NT!
+
+# ------------------------------------------------- Synths
+ tec_synth_army:0 "Совершенный синтоид" #NT!
+ tec_synth_army_plural:0 "Совершенные синтоиды" #NT!
+ tec_synth_army_desc:0 "ДЕЛАТЬ." #NT!
+
+ tec_synth_elite_army:0 "Военная синтетическая платформа" #NT!
+ tec_synth_elite_army_plural:0 "Военная синтетическая платформа" #NT!
+ tec_synth_elite_army_desc:0 "ДЕЛАТЬ." #NT!
+
+# ------------------------------------------------- Psi
+ tec_psi_good_army:0 "Псионический рыцарь" #NT!
+ tec_psi_good_army_plural:0 "Псионические рыцари" #NT!
+ tec_psi_good_army_desc:0 "ДЕЛАТЬ." #NT!
+
+ tec_psi_good_elite_army:0 "Псионический архонт" #NT!
+ tec_psi_good_elite_army_plural:0 "Псионические Архонты" #NT!
+ tec_psi_good_elite_army_desc:0 "ДЕЛАТЬ." #NT!
+
+ tec_psi_bad_army:0 "Фанатик Покрова" #NT!
+ tec_psi_bad_army_plural:0 "Фанатик Покрова" #NT!
+ tec_psi_bad_army_desc:0 "ДЕЛАТЬ." #NT!
+
+ tec_psi_bad_elite_army:0 "Энтропический прелат" #NT!
+ tec_psi_bad_elite_army_plural:0 "Энтропические прелаты" #NT!
+ tec_psi_bad_elite_army_desc:0 "ДЕЛАТЬ." #NT!
+
+# ------------------------------------------------- Replicant
+ tec_replicant_army:0 "Репликантная армия" #NT!
+ tec_replicant_army_plural:0 "Репликантные армии" #NT!
+ tec_replicant_army_desc:0 "ДЕЛАТЬ." #NT!
+
+ tec_replicant_elite_army:0 "Репликантный похититель" #NT!
+ tec_replicant_elite_army_plural:0 "Репликантный похититель" #NT!
+ tec_replicant_elite_army_desc:0 "ДЕЛАТЬ." #NT!
+
+# ------------------------------------------------- BioPsi
+ tec_biopsi_army:0 "Чистый воин" #NT!
+ tec_biopsi_army_plural:0 "Чистые воины" #NT!
+ tec_biopsi_army_desc:0 "ДЕЛАТЬ." #NT!
+
+ tec_biopsi_elite_army:0 "Чистый Образец" #NT!
+ tec_biopsi_elite_army_plural:0 "Чистые Образцы" #NT!
+ tec_biopsi_elite_army_desc:0 "ДЕЛАТЬ." #NT!
+
+# ------------------------------------------------- Cyberpsi
+ tec_cyberpsionic_army:0 "Псиотический берсерк" #NT!
+ tec_cyberpsionic_army_plural:0 "Псиотики берсерки" #NT!
+ tec_cyberpsionic_army_desc:0 "В этих усовершенствованных киборгов вводятся высокопсиорреактивные вещества, повышающие их эффективность и агрессивность в бою." #NT!
+
+ tec_cyberpsionic_elite_army:0 "Вознесенный киберпсайкер" #NT!
+ tec_cyberpsionic_elite_army_plural:0 "Вознесенные киберпсайкеры" #NT!
+ tec_cyberpsionic_elite_army_desc:0 "ДЕЛАТЬ." #NT!
+
+# ------------------------------------------------- Machine
+ tec_machine_army:0 "Репликантная армия" #NT!
+ tec_machine_army_plural:0 "Репликантные армии" #NT!
+ tec_machine_army_desc:0 "ДЕЛАТЬ." #NT!
+
+ tec_elite_machine_army:0 "Автокомпозитор" #NT!
+ tec_elite_machine_army_plural:0 "Автокомпозиторы" #NT!
+ tec_elite_machine_army_desc:0 "ДЕЛАТЬ." #NT!
+
+# ------------------------------------------------- Psionic Hive
+ tec_psionic_hive_army:0 "Нейронный роевик" #NT!
+ tec_psionic_hive_army_plural:0 "Нейронные роевики" #NT!
+ tec_psionic_hive_army_desc:0 "ДЕЛАТЬ." #NT!
+
+ tec_psionic_hive_elite_army:0 "Синаптический примордиал" #NT!
+ tec_psionic_hive_elite_army_plural:0 "Синаптические примодриалы" #NT!
+ tec_psionic_hive_elite_army_desc:0 "ДЕЛАТЬ." #NT!
+
+
+
+# Not added
+ elite_cyborg_army:0 "Элитная армия киборгов" #NT!
+ elite_cyborg_army_plural:0 "Элитные армии киборгов" #NT!
+ elite_cyborg_army_desc:0 "Личная элитная гвардия правителя." #NT!
+ elite_cyborg_army_proper:0 "Элитная армия киборгов" #NT!
+ elite_cyborg_army_plural_proper:0 "Элитные армии киборгов" #NT!
+ elite_cyborg_army_desc_proper:0 "Личная элитная гвардия правителя." #NT!
+ elite_cyborg_army_trigger_tooltip:0 "Правитель может нанять только одну Личную охрану." #NT!
+
+ elite_inquisitor_army:0 "Элитные силы инквизиторов" #NT!
+ elite_inquisitor_army_plural:0 "Элитные силы инквизиторов" #NT!
+ elite_inquisitor_army_desc:0 "Личный элитный штурмовой отряд правителя." #NT!
+ elite_inquisitor_army_proper:0 "Элитные силы инквизиторов" #NT!
+ elite_inquisitor_army_plural_proper:0 "Элитные силы инквизиторов" #NT!
+ elite_inquisitor_army_desc_proper:0 "Личная элитная штурмовая инквизиция правителя." #NT!
+ elite_inquisitor_army_trigger_tooltip:0 "Правитель может нанять только один личный отряд Инквизиции." #NT!
+ 
+ inquisition_army:0 "Элитная Инквизиция" #NT!
+ inquisition_army_plural:0 "Элитные силы инквизиции" #NT!
+ inquisition_army_desc:0 "Элитные силы инквизиции" #NT!
+
+# --------------------
+# Origin troops
+# --------------------
+
+ mech_army:0 "Армия мехов" #NT!
+ mech_army_plural:0 "Армии мехов" #NT!
+ mech_army_desc:0 "Высокотехнологичные механические конструкции, управляемые опытными пилотами." #NT!
+ mech_army_proper:0 "Армия мехов" #NT!
+ mech_army_plural_proper:0 "Армии мехов" #NT!
+ mech_army_desc_proper:0 "Высокотехнологичные механические конструкции, управляемые опытными пилотами." #NT!
+# mech_army_trigger_tooltip:0 "."
+
+ jaeger_army:0 "Отряд егерей" #NT!
+ jaeger_army_plural:0 "Отряды егерей" #NT!
+ jaeger_army_desc:0 "Огромные высокотехнологичные механические конструкции, управляемые избранными пилотами, предназначенные для сражения даже с самыми ужасными монстрами или армией." #NT!
+ jaeger_army_proper:0 "Отряд егерей" #NT!
+ jaeger_army_plural_proper:0 "Отряды егерей" #NT!
+ jaeger_army_desc_proper:0 "Огромные высокотехнологичные механические конструкции, управляемые избранными пилотами, предназначенные для сражения даже с самыми ужасными монстрами или армией." #NT!
+# mech_army_trigger_tooltip:0 "."
+
+ bioconstruct_army:0 "Инженерный биоотряд" #NT!
+ bioconstruct_army_plural:0 "Инженерные биоотряды" #NT!
+ bioconstruct_army_desc:0 "Послушные, бесстрашные и безжалостные инженерные войска, получившие базовую тактику при выращивании в генетических чанах, дистанционно управлялись, служа простыми, но эффективными ударными войсками." #NT!
+ bioconstruct_army_proper:0 "Инженерный биоотряд" #NT!
+ bioconstruct_army_plural_proper:0 "Инженерные биоотряды" #NT!
+ bioconstruct_army_desc_proper:0 "Послушные, бесстрашные и безжалостные инженерные войска, получившие базовую тактику при выращивании в генетических чанах, дистанционно управлялись, служа простыми, но эффективными ударными войсками." #NT!
+# bioconstruct_army_trigger_tooltip:0 "."
+
+ biocommando_army:0 "Био-коммандос" #NT!
+ biocommando_army_plural:0 "Био-коммандос" #NT!
+ biocommando_army_desc:0 "Усиленный отряд послушных биоинженерных войск с нейронными имплантатами и передовыми знаниями в области ведения войны, автономно служащий для уничтожения вражеских войск и тактических целей." #NT!
+ biocommando_army_proper:0 "Био-коммандос" #NT!
+ biocommando_army_plural_proper:0 "Био-коммандос" #NT!
+ biocommando_army_desc_proper:0 "Усиленный отряд послушных биоинженерных войск с нейронными имплантатами и передовыми знаниями в области ведения войны, автономно служащий для уничтожения вражеских войск и тактических целей." #NT!
+# biocommando_army_trigger_tooltip:0 "."
+
+
+
+
+# --------------------
+# Bioform troops
+# --------------------
+ biospore_army:0 "Распространитель биоформных спор" #NT!
+ biospore_army_plural:0 "Распространители биоформных спор" #NT!
+ biospore_army_desc:0 "Колоссальная спора, содержащая миллионы генетически измененных организмов, которые преобразуются в биоформы, адаптированные к чужой среде, поглощая биоматерию планеты, высвобождая огромные армии биодронов." #NT!
+ biospore_army_proper:0 "Распространитель биоформных спор" #NT!
+ biospore_army_plural_proper:0 "Распространители биоформных спор" #NT!
+ biospore_army_desc_proper:0 "Колоссальная спора, содержащая миллионы генетически измененных организмов, которые преобразуются в биоформы, адаптированные к чужой среде, поглощая биоматерию планеты, высвобождая огромные армии биодронов." #NT!
+# biospore_army_trigger_tooltip:0 "."
+
+ bioswarm_army:0 "Биоформа "Ядовитый рой"" #NT!
+ bioswarm_army_plural:0 "Биоформы "Ядовитые рои"" #NT!
+ bioswarm_army_desc:0 "Биологическая капсула, содержащая особую форму жизни, единственной целью которой является пожирание и растворение любой органической жизни на поверхности планеты путем химического переваривания. Настоящий ужас." #NT!
+ bioswarm_army_proper:0 "Биоформы "Ядовитый рой"" #NT!
+ bioswarm_army_plural_proper:0 "Биоформа "Ядовитые рои"" #NT!
+ bioswarm_army_desc_proper:0 "Биологическая капсула, содержащая особую форму жизни, единственной целью которой является пожирание и растворение любой органической жизни на поверхности планеты путем химического переваривания. Настоящий ужас." #NT!
+# bioswarm_army_trigger_tooltip:0 "."
+
+ biohorror_army:0 "Биоформа "Ужас"" #NT!
+ biohorror_army_plural:0 "Биоформы "Ужасы"" #NT!
+ biohorror_army_desc:0 "Это гигантское биологическое существо одновременно служит удаленным ретранслятором разума для Коллективного разума и настоящей массой разрушения, используя когти, челюсти или кислоту для нейтрализации и поглощения вражеских врагов." #NT!
+ biohorror_army_proper:0 "Биоформа "Ужас"" #NT!
+ biohorror_army_plural_proper:0 "Биоформы "Ужасы"" #NT!
+ biohorror_army_desc_proper:0 "Это гигантское биологическое существо одновременно служит удаленным ретранслятором разума для Коллективного разума и настоящей массой разрушения, используя когти, челюсти или кислоту для нейтрализации и поглощения вражеских врагов." #NT!
+# biohorror_armytrigger_tooltip:0 "."
+
+ biotitan_army:0 "Био-Титан" #NT!
+ biotitan_army_plural:0 "Био-Титаны" #NT!
+ biotitan_army_desc:0 "Это гигантское биологическое существо одновременно служит удаленным ретранслятором разума для Коллективного разума и настоящей массой разрушения, используя когти, челюсти или кислоту для нейтрализации и поглощения вражеских врагов." #NT!
+ biotitan_army_proper:0 "Био-Титан" #NT!
+ biotitan_army_plural_proper:0 "Био-Титаны" #NT!
+ biotitan_army_desc_proper:0 "Это гигантское биологическое существо одновременно служит удаленным ретранслятором разума для Коллективного разума и настоящей массой разрушения, используя когти, челюсти или кислоту для нейтрализации и поглощения вражеских врагов." #NT!
+# biohorror_armytrigger_tooltip:0 "."
+
+
+ simulant_army:0 "Набор «Симулятор штурма»" #NT!
+ simulant_army_plural:0 "Наборы «Симуляторов штурма»" #NT!
+ simulant_army_desc:0 "ааа" #NT!
+ simulant_army_proper:0 "Набор «Симулятор штурма»" #NT!
+ simulant_army_plural_proper:0 "Наборы «Симуляторов штурма»" #NT!
+ simulant_army_desc_proper:0 "ааа" #NT!
+# biohorror_armytrigger_tooltip:0 "."
+
+
+
+### new ship components
+
+# STRIKE_CRAFT_HANGAR_1:0 "Базовое ударное ремесло" #NT!
+# STRIKE_CRAFT_HANGAR_1_DESC:0 "$tech_strike_craft_1_desc$" #NT!
+# BOMBERS
+ BOMBER_CRAFT_HANGAR_1:0 "Базовые бомбардировщики" #NT!
+ BOMBER_CRAFT_HANGAR_1_DESC:0 "Эти пилотируемые бомбардировщики запускаются с корабля-носителя и полагаются на свою скорость и небольшой размер, чтобы выжить достаточно долго, чтобы пробить вражескую оборону и выпустить мощный заряд." #NT!
+
+ BOMBER_CRAFT_HANGAR_2:0 "Улучшенные бомбардировщики" #NT!
+ BOMBER_CRAFT_HANGAR_2_DESC:0 "Новое поколение бомбардировщиков с улучшенной устойчивостью, улучшенными характеристиками управляемости и более мощной загрузкой для уничтожения средних кораблей." #NT!
+
+ BOMBER_CRAFT_HANGAR_3:0 "Усовершенствованные бомбардировщики" #NT!
+ BOMBER_CRAFT_HANGAR_3_DESC:0 "Еще одно усовершенствование конструкции бомбардировщиков, эти усовершенствованные бомбардировщики — настоящий кошмар для вражеских кораблей. Выпуская мощные энергетические заряды, они могут уничтожать более крупные цели за одну волну." #NT!
+
+# AUTOSHIPS
+ DRONE_CRAFT_HANGAR_1:0 "Автоматизированный ударный корабль" #NT!
+ DRONE_CRAFT_HANGAR_1_DESC:0 "Дистанционно управляемый ударный корабль, запускаемый с корабля-носителя с определенной степенью автономности для обеспечения надежности и выживания судна." #NT!
+
+ DRONE_CRAFT_HANGAR_2:0 "Ударный корабль дроидов" #NT!
+ DRONE_CRAFT_HANGAR_2_DESC:0 "Эти автономные роботизированные корабли предназначены для нанесения максимально возможного урона врагам, атакуя жизненно важные точки вражеских кораблей." #NT!
+
+ DRONE_CRAFT_HANGAR_3:0 "Самоосознающий ударный корабль" #NT!
+ DRONE_CRAFT_HANGAR_3_DESC:0 "Являясь настоящим чудом искусственного интеллекта, эти ударные корабли ведут себя как хищный и слаженный рой насекомых, выполняя замысловатые маневры и окружая вражеские корабли, буквально разрезая их на части выстрел за выстрелом." #NT!
+
+# REPAIR DRONES
+ POINT_CRAFT_HANGAR_1:0 "Защитный дрон" #NT!
+ POINT_CRAFT_HANGAR_1_DESC:0 "Автоматические дроны, вооруженные энергетическим оружием ближнего действия, чтобы отражать возможные опасности своего корабля-носителя." #NT!
+
+ POINT_CRAFT_HANGAR_2:0 "Улучшенный защитный дрон" #NT!
+ POINT_CRAFT_HANGAR_2_DESC:0 "Автоматические дроны, вооруженные энергетическим оружием ближнего действия и ремонтными комплектами, чтобы отражать возможные опасности своего корабля-носителя и устранять мелкие повреждения на лету." #NT!
+
+ POINT_CRAFT_HANGAR_3:0 "Усовершенствованный защитный дрон" #NT!
+ POINT_CRAFT_HANGAR_3_DESC:0 "Высокотехнологичные дроны, оснащенные арсеналом энергетического оружия средней дальности и ремонтными комплектами, чтобы отражать возможные опасности своего корабля-носителя и устранять повреждения на лету." #NT!
+
+
+# - - - - - - - - - - - - - - - - - - - - -
+# Starbase buildings
+# - - - - - - - - - - - - - - - - - - - - -
+# --------- BUILDINGS --------------
+# Mineral boost the starbase mining output and the system mineral capacities
+ sm_tec_starbase_b_energygrid:0 "Астральный генератор" #NT!
+ sm_tec_starbase_b_energygrid_desc:0 "Крупные установки на звездной базе, объединяющие источник энергии всех генераторов и создающие энергетические батареи на лету." #NT!
+
+ sm_tec_starbase_b_mininggrid:0 "Астральный перерабатывающий завод" #NT!
+ sm_tec_starbase_b_mininggrid_desc:0 "Большие установки на звездной базе, которые значительно помогают процессу переработки полезных ископаемых, поступающих из различных горнодобывающих и гражданских доков." #NT!
+
+ sm_tec_starbase_b_foodgrid:0 "Залив Гидропоники" # just replace #NT!
+ sm_tec_starbase_b_foodgrid_desc:0 "Выделив большую часть этой звездной базы для гидропонного земледелия и переработки, станция сможет прокормить себя, повысить эффективность других орбитальных гидропонных отсеков и даже экспортировать излишки продукции в другие системы.\n" #NT!
+
+ sm_tec_starbase_b_research:0 "Инновационная сеть" # just replace #NT!
+ sm_tec_starbase_b_research_desc:0 "Специализированные орбитальные лаборатории, подключенные к исследовательской сети всей империи и расширяющие исследовательские возможности звездных баз." #NT!
+
+# --------- MODULES --------------
+ sm_tec_starbase_m_generator:0 "Орбитальные динамо-машины" #NT!
+ sm_tec_starbase_m_generator_desc:0 "Прикрепленные генераторы, которые могут автоматически подавать огромное количество энергокредитов, хранящиеся в переносных гигабатареях для облегчения транспортировки.\n\n§EЭтот модуль звездной базы производит дополнительные §Y+2§! $tec_loc_energy$ в системах с §YНейтронной звездой§! или §YПульсаром§!.§!" #NT!
+
+ sm_tec_starbase_m_mining:0 "Шахтерские доки" #NT!
+ sm_tec_starbase_m_mining_desc:0 "Космические доки для переработки и сортировки минералов, собранных на близких планетоидах или астероидах небольшими флотилиями добывающих кораблей.\n\n§EЭтот модуль звездной базы производит дополнительные §Y+2§! $tec_loc_minerals$ в системах с §YАстероидами§! или §YЧерной дырой§!.§!" #NT!
+
+ sm_tec_starbase_m_food:0 "Гравитационная гидропоника" #NT!
+ sm_tec_starbase_m_food_desc:0 "Автоматизированные гидропонные отсеки, производящие большое количество биологических ресурсов.\n\n§EЭтот модуль звездной базы производит дополнительные §Y+2§! £food£ в системах с §Yобитаемыми неаркологическими планетами§! или с продовольственными депозитами £food£.§!" #NT!
+
+ sm_tec_starbase_m_physics:0 "Лаборатории экспериментальной физики" #NT!
+ sm_tec_starbase_m_physics_desc:0 "Станционные установки заполнены лабораториями физических измерений, предназначенными для изучения и создания телеметрии для системы.\n\n§EЭтот модуль звездной базы производит дополнительные §Y+2§! £physics£ в системах с §YЧерной дырой§! или §YПульсаром§!.§!" #NT!
+
+ sm_tec_starbase_m_society:0 "Социальные обсерватории" #NT!
+ sm_tec_starbase_m_society_desc:0 "Станционные установки, где опытные команды социологов разрабатывают информацию о социальном поведении и развитии.\n\n§EЭтот модуль звездной базы производит §Y+4§! £society£ в системах с любым типом §YПримитивов§!.§!" #NT!
+
+ sm_tec_starbase_m_engineering:0 "Инженерные доки" #NT!
+ sm_tec_starbase_m_engineering_desc:0 "Станционные установки, где внедряются новые инновации на военно-морском и технологическом уровне.\n\n§EЭтот модуль звездной базы производит дополнительные §Y+2§! £engineering£ в системах с §YНейтронной звездой§!.§!" #NT!
+
+ sm_tec_starbase_m_interceptor:0 "Батарея перехвата" #NT!
+ sm_tec_starbase_m_interceptor_desc:0 "Усовершенствованные системы слежения, добавленные в звездную базу, обеспечат лучшую защиту от враждебных атак.\n\nДобавляет четыре слота защиты на звездную базу.\n" #NT!
+
+ sm_tec_starbase_m_xxl_cannons:0 "Усовершенствованные навесные пушки" #NT!
+ sm_tec_starbase_m_xxl_cannons_desc:0 "Улучшенные структуры, обеспечивающие более высокую выходную мощность для звездной базы.\n\nДобавляет два слота для оружия большого размера на звездную базу.\n" #NT!
+
+ sm_tec_starbase_m_xxl_hangars:0 "Расширенные ангарные отсеки" #NT!
+ sm_tec_starbase_m_xxl_hangars_desc:0 "Ряд автоматизированных ангаров запускает оборонительный флот небольших перехватчиков для оперативного обеспечения звездной базы.\n\nДобавляет три ангара для ударных кораблей на звездную базу.\n" #NT!
+
+ sm_tec_starbase_m_xxl_missiles:0 "Усовершенствованная ракетная стойка" #NT!
+ sm_tec_starbase_m_xxl_missiles_desc:0 "Ракетные установки дальнего действия в сочетании с номинальной огневой мощью звездной базы обеспечивают более высокий общий урон.\n\nДобавляет четыре слота для ракетного оружия на звездную базу.\n" #NT!
+
+ sm_tec_starbase_m_xxl_hypergun:0 "Аннигиляционная батарея" #NT!
+ sm_tec_starbase_m_xxl_hypergun_desc:0 "Структурная компоновка с максимальной производительностью для установки чрезвычайно мощного оружия.\n\nДобавляет два спинального слота для оружия на звездную базу.\n" #NT!
+
+ # sm_tec_starbase_m_xxl_hypergun:0 "ЧАД. Батарея" - too memey, can get unwanted attention #NT!
+ # sm_tec_starbase_m_xxl_hypergun_desc:0 "Противодействие враждебному нападению — мощная структурная схема для размещения чрезвычайно мощного оружия.\n\nДобавляет два слота для оружия среднего размера на звездную базу.\n" #NT!
+
+ #sm_fleet_academy:0 "Академия флота" #NT!
+ #sm_fleet_academy_machine_intelligence:0 "Боевые симуляторы" #NT!
+ #sm_fleet_academy_hive_mind:0 "$sm_fleet_academy_machine_intelligence$" #NT!
+ #sm_fleet_academy_desc:0 "Чтобы наши вновь набранные экипажи были действительно боеспособны, ими должны руководить боеспособные офицеры. Академия флота гарантирует, что эти офицеры будут иметь современные знания о доктринах и практике межзвездной войны." #NT!
+ #sm_fleet_academy_desc_machine_intelligence:0 "Многократное моделирование различных боевых сценариев лучше подготовит наши корабельные боевые дроны к реальному бою." #NT!
+ #sm_fleet_academy_desc_hive_mind:0 "$sm_fleet_academy_desc_machine_intelligence$" #NT!
+
+
+
+
+
+# nanite things
+
+ tech_nanite_advanced_uses:0 "TO_DO_WIP" #NT!
+ tech_nanite_advanced_uses_desc:0 "TO_DO_WIP" #NT!
+
+ tech_nanite_mass_drivers:0 "TO_DO_WIP" #NT!
+ tech_nanite_mass_drivers_desc:0 "TO_DO_WIP" #NT!
+
+ tech_nanite_missiles:0 "TO_DO_WIP" #NT!
+ tech_nanite_missiles_desc:0 "TO_DO_WIP" #NT!
+
+ tech_nanite_ship_armor:0 "TO_DO_WIP" #NT!
+ tech_nanite_ship_armor_desc:0 "TO_DO_WIP" #NT!
+
+ tech_nanite_plating:0 "TO_DO_WIP" #NT!
+ tech_nanite_plating_desc:0 "TO_DO_WIP" #NT!
+
+ tech_nanite_cloud_component:0 "TO_DO_WIP" #NT!
+ tech_nanite_cloud_component_desc:0 "TO_DO_WIP" #NT!
+
+
+ tech_nanite_energy_weapons:0 "TO_DO_WIP" #NT!
+ tech_nanite_energy_weapons_desc:0 "TO_DO_WIP" #NT!
+
+ tech_nanite_disruptors:0 "TO_DO_WIP" #NT!
+ tech_nanite_disruptors_desc:0 "TO_DO_WIP" #NT!

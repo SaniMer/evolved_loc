@@ -1,0 +1,435 @@
+﻿l_russian:
+
+# - - - - - - - - - - - - - - - - - - - - - #
+# C U S T O M U I S
+# - - - - - - - - - - - - - - - - - - - - - #
+
+# smol reminder
+# §B thisisblue §!
+# §E thisisteal §!
+# §G thisisgreen §!
+# §H thisisorange §!
+# §L thisisbrown §!
+# §M thisispurple §!
+# §P thisislightred §!
+# §R thisisred §!
+# §S thisisdarkorange §!
+# §T thisislightgrey §!
+# §W thisiswhite §!
+# §Y thisisyellow §!
+
+# --------------------------- MAINSCREEN -------------------------------- #DATE DATE DATE DATE
+	TEC_EVOLVED_VERSION:0 "Версия Evolved: v0.9R6A IV (§Y20-06-2023§!)" 
+	TEC_EVOLVED_TOOLTIP:0 "§E$TEC_EVOLVED_TITLE$§!\n§Y$TEC_EVOLVED_STEAMLINK$§!\n$TEC_EVOLVED_REPORTS$\n\n$TEC_EVOLVED_DONATIONS$" 
+	TEC_EVOLVED_TITLE:0 "Stellaris Evolved" 
+	TEC_EVOLVED_STEAMLINK:0 "Щелкнув по этому пункту, вы откроете страницу мода в Steam Workshop." 
+	TEC_EVOLVED_REPORTS:0 "Пожалуйста, сообщайте о любых проблемах или ошибках, которые вы обнаружите, особенно через тикеты в дискорде." 
+	TEC_EVOLVED_DONATIONS:0 "Если вам понравился этот мод, поддержите его! £unity£" 
+
+# --------------------------- SCRIPTED LOC --------------------------------
+    tec_jump_empty:0 "\n\n"
+  
+    tec_loc_warning:0 "£trigger_tec_war
+    
+tec_loc_energy:0 "£energy£ Энергия"
+	tec_loc_minerals:0 "£minerals£ Минералы"
+	tec_loc_food:0 "£food£ Еда"
+	tec_loc_alloys:0 "£alloys£ Сплавы"
+	tec_loc_consumer_goods:0 "£consumer_goods£ товары массового спроса"
+	tec_loc_cg:0 "$tec_loc_consumer_goods$"
+	tec_loc_unity:0 "£unity£ Единство"
+	tec_loc_influence:0 "£influence£ Влияние"
+
+	tec_loc_alloys_and_energy:0 "$tec_loc_alloys$ и $tec_loc_energy$" 
+	tec_loc_alloys_and_minerals:0 "$tec_loc_alloys$ и $tec_loc_minerals$" 
+	tec_loc_alloys_and_food:0 "$tec_loc_alloys$ и $tec_loc_food$" 
+
+	tec_loc_food_or_minerals:0 "$tec_loc_food$ или $tec_loc_minerals$" 
+	tec_loc_food_and_minerals:0 "$tec_loc_food$ или $tec_loc_minerals$" 
+
+	tec_loc_basic_resource:0 "£trigger_tec_basic_resources£ Базовые ресурсы"
+	tec_loc_basic_resources:0 "£trigger_tec_basic_resources£ Базовые ресурсы" 
+    tec_loc_industrial_resource:0 "£alloys£ £consumer_goods£ Производственные ресурсы"
+	tec_loc_industrial_resources:0 "£alloys£ £consumer_goods£ Производственные ресурсы" 
+
+
+	tec_loc_engineering:0 "£engineering£ $engineering_research$"
+	tec_loc_society:0 "£society£ $society_research$"
+	tec_loc_physics:0 "£physics£ $physics_research$"
+	tec_loc_research_resources_icon:0 "£trigger_tec_research£"
+	tec_loc_research_resources:0 "£trigger_tec_research£ Research"
+	tec_loc_research_speed:0 "£job_researcher£ Research Speed"
+
+	tec_loc_rare_crystals:0 "£rare_crystals£ $rare_crystals$"
+	tec_loc_exotic_gases:0 "£exotic_gases£ $exotic_gases$"
+	tec_loc_volatile_motes:0 "£volatile_motes£ $volatile_motes$"
+	tec_loc_minor_artifacts:0 "£minor_artifacts£ $minor_artifacts$" 
+
+	tec_loc_strategic_resources: "£trigger_tec_rare_resources£ Редкие ресурсы" 
+	tec_loc_zro: "£sr_zro£ $sr_zro$" 
+
+ # Fake resource locs
+	tec_loc_housing: "£housing£ $PLANET_HOUSING_TITLE$" 
+	tec_loc_amenities: "£amenities£ $PLANET_AMENITIES_TITLE$" 
+	tec_loc_amenities_gestalt: "£amenities_no_happiness£ $PLANET_AMENITIES_TITLE$" 
+	tec_loc_crime: "£crime£ $PLANET_CRIME_TITLE$" 
+	tec_loc_crime_gestalt: "£crime£ $MOD_PLANET_CRIME_NO_HAPPINESS_MULT$" 
+	tec_loc_happiness: "£happiness£ $MOD_POP_HAPPINESS$" 
+
+	tec_loc_stability: "£stability£ $PLANET_STABILITY_TITLE$"
+	tec_loc_trade_value_icon: "£trade_value£"
+	tec_loc_trade_value_icon: "£trade_value£"
+	tec_loc_trade_value: "£trade_value£ $TRADE_VALUE$"
+	tec_loc_trade: "$tec_loc_trade_value$"
+	tec_loc_trade_icon: "£trade_value£"
+	tec_loc_pop_growth: "£mod_pop_growth_speed£ $MOD_POP_GROWTH_SPEED$"
+	tec_loc_pop_growth_icon: "£mod_pop_growth_speed£"
+	tec_loc_job_output: "£job£ Job Output"
+
+    tec_loc_defense_army:0 "£defense_army£ Армия обороны"
+	tec_loc_defense_armies:0 "£defense_army£ Армия обороны"
+
+	tec_loc_building_slots: "$planet_automation_building_slot$"
+
+tec_loc_edict_funds_icon:0 "£mod_country_edict_fund_add£"
+	tec_loc_edict_funds:0 "$tec_loc_edict_funds_icon$  $MOD_COUNTRY_EDICT_FUND_ADD$"
+	tec_loc_naval_cap: "£mod_country_naval_cap_add£ $MOD_COUNTRY_NAVAL_CAP_ADD$"
+	tec_loc_navalcap_from_jobs:0 "$mod_pop_job_naval_mult$"
+	tec_loc_admin_cap: "£mod_country_admin_cap_add£ $MOD_COUNTRY_ADMIN_CAP_ADD$"
+
+	tec_loc_jobs: "£job£"
+	tec_loc_job: "£job£"
+
+	tec_loc_designation: "£stability£ Обозначение"
+	tec_loc_planet_designation: "£stability£ Обозначение планеты"
+	
+	tec_loc_district: "£district£ $DISTRICT$"
+	tec_loc_districts: "£district£ $DISTRICTS$"
+	tec_loc_building: "£building£ $BUILDING$"
+	tec_loc_buildings: "£building£ $BUILDINGS_TITLE$"
+	tec_loc_blocker: "£blocker£ $BLOCKER_DEPOSIT$"
+	tec_loc_blockers: "£blocker£ $BLOCKER_DEPOSITS$" 
+    tec_loc_natural_blocker: "£blocker£ Естественный $BLOCKER_DEPOSIT$"
+	tec_loc_natural_blockers: "£blocker£ Естественный $BLOCKER_DEPOSITS$"
+	tec_loc_deposit: "£tec_deposit£ Депозит"
+	tec_loc_deposits: "$tec_loc_deposit$s"
+	tec_loc_resource_deposit: "£tec_deposit£ Месторождение ресурсов"
+	tec_loc_resource_deposits: "$tec_loc_resource_deposit$s"
+	tec_loc_planet_feature: "£tec_planet_feature£ Особенность планеты"
+	tec_loc_planet_features: "$tec_loc_planet_feature$s"
+	tec_loc_planet_natural_feature: "£tec_planet_feature£ Естественная особенность"
+	tec_loc_planet_natural_features: "$tec_loc_planet_natural_feature$s"
+	tec_loc_planet_engineered_feature: "£tec_planet_feature£ Спроектированная особенность"
+	tec_loc_planet_engineered_features: "$tec_loc_planet_engineered_feature$s"
+
+	tec_loc_sr_tec_ai_power: "£sr_tec_ai_power£ $sr_tec_ai_power$" 
+    tec_loc_sr_tec_machine_processing_empire: "£sr_tec_machine_processing_empire£ $sr_tec_machine_processing_empire$"
+
+    tec_loc_robot_assembly:0 "£job_roboticist£ Механический Поселение-узел"
+	tec_loc_robot_assembly_add: "£job_roboticist£ Сбор роботов" 
+	tec_loc_robot_assembly_mult: "£job_roboticist£ Сбор роботов Мульт" 
+	tec_loc_biological_assembly: "£mod_planet_pop_assembly_mult£ $MOD_PLANET_POP_ASSEMBLY_ORGANIC_ADD$" 
+	tec_loc_biological_assembly_mult_per_pop: "£mod_planet_pop_assembly_mult£ $MOD_PLANET_POP_ASSEMBLY_ORGANIC_ADD$ Mult per pop" 
+	tec_loc_assembly: "£mod_planet_pop_assembly_mult£ $MOD_PLANET_POP_ASSEMBLY_ADD$" 
+	tec_loc_cybernetic_assembly_mult: "£mod_planet_pop_assembly_mult£ Кибернетическая сборка Мульт" 
+
+	tec_loc_industrial_jobs:0 "£job_foundry£ £job_artisan£ Промышленники" 
+	tec_loc_research_jobs:0 "$mod_base_planet_researchers$" 
+	tec_loc_unity_jobs:0 "$mod_base_planet_administrators$" 
+
+	tec_loc_job_output:0 "$mod_planet_jobs_produces_mult$"  #Ресурсы от видов деятельности - потом возможно заменить ниже
+	tec_loc_biological_pop_output:0 "$mod_planet_jobs_organics_produces_mult$" 
+	tec_loc_robot_pop_output:0 "$mod_planet_jobs_robotic_produces_mult$" 
+	tec_loc_cyborg_pop_output:0 "$mod_planet_cyborg_jobs_produces_mult$" 
+	tec_loc_cybernetic_pop_output:0 "£tec_cybernetic_icon£ Производство кибернетических поселений" 
+	tec_loc_psionic_pop_output:0 "$mod_planet_psionic_jobs_produces_mult$" 
+	tec_loc_psychic_pop_output:0 "£tec_psychic_icon£ Производство поселений экстрасенсов" 
+	tec_loc_automation_output:0 "£trigger_tec_automation£ Автоматизированное производство" 
+
+	tec_loc_machine_processing:0 "£sr_tec_machine_processing_empire£ $sr_tec_machine_processing_empire$" 
+	tec_loc_machine_processing_redirection:0 "£sr_tec_machine_processing_redirection£ $sr_tec_machine_processing_redirection$" 
+
+	tec_loc_habitability:0 "£mod_habitability_floor_add£ $HABITABILITY$" 
+	tec_loc_planet_capacity:0 "£mod_planet_carry_cap_add£ $MOD_PLANET_CARRY_CAP_ADD$" 
+	tec_loc_planet_build_speed:0 "£mod_planet_building_build_speed_mult£ $MOD_PLANET_BUILDING_BUILD_SPEED_MULT$" 
+
+	tec_loc_terraform_speed:0 "£mod_country_terraform_speed_mult£ $MOD_COUNTRY_TERRAFORM_SPEED_MULT$" 
+
+	tec_loc_building:0 "£building£ Здание"
+	tec_loc_building_plural:0 "£building£ Здание"
+	tec_loc_building_icon:0 "£building£"
+	tec_loc_capital_tier:0 "£building£ Уровень Столицы"
+	tec_loc_district:0 "£district£ Район"
+	tec_loc_district_plural:0 "£district£ Районы"
+	tec_loc_district_icon:0 "£district£"
+
+	tec_loc_planet_ascension:0 "£unity£ Вознесение планеты"
+	tec_loc_planet_ascensions:0 "£unity£ Восхождения планет"
+	tec_loc_planet_ascension_plural:0 "$tec_loc_planet_ascensions$"
+
+	tec_loc_ascension_perk:0 "£unity£ Привилегия вознесения"
+	tec_loc_ascension_perks:0 "£unity£ Привилегии вознесения"
+	tec_loc_ascension_perk_plural:0 "$tec_loc_ascension_perks$"
+
+	tec_loc_xenocytes:0 "£tec_genetics_icon£ §YКсеноциты§!" 
+
+	tec_loc_cannot_reproduce:0 "§RНе могут размножаться естественным путем§!" 
+
+	tec_loc_failure_rate:0 "§R£job_purge£ Частота отказов§!" #Речь идет о геноциде, возможно Частота неудачи
+
+	tec_loc_terraform:0 "£planet£ Терраформ" 
+
+	tec_blank:0 ""
+	tec_error:0 "£trigger_no£ §RERROR§!"
+	tec_temporarely_disabled: "£trigger_tec_warning£§YTEMPORARILY DISABLED§!"
+
+	trigger_tec_warning:1 "£trigger_tec_warning£" 
+
+	tec_loc_ai_ruler_node: "£tec_ai_ruler£ Узел правителя ИИ" 
+	tec_loc_ai_councilor_node: "£tec_ai_councilor£ Узел советника ИИ" 
+	tec_loc_ai_planetary_node: "£tec_ai_planetary£ Планетарный узел ИИ" 
+	tec_loc_ai_node: "£tec_ai_node£ Узел лидера ИИ" 
+	tec_loc_ai_idle_node: "£tec_ai_node£ Бездействующий узел лидера ИИ" 
+	tec_loc_ruler: "£ruler£ Правитель" 
+	tec_loc_ruler_plural: "£ruler£ Правители" 
+	tec_loc_councilor: "£council£ Советник" 
+	tec_loc_councilor_plural: "£council£ Советники" 
+	tec_loc_council_members: "£council£ Члены Совета"
+	tec_loc_idle_leader: "Бездействующий лидер" 
+
+	tec_loc_leader_icon:0 "£tec_leader£" 
+	tec_loc_leader:0 "$tec_loc_leader_icon$ Лидер" 
+	tec_loc_leaders:0 "$tec_loc_leader_icon$ Лидеры"
+
+	tec_loc_councilor_traits: "£council£ Черты советника" 
+	tec_loc_normal_traits: "£noclass£ Обычные черты" 
+	
+     tec_trait_bonuses_scale_with_skill:  "§YБонусы за черты характера зависят от §HНавыка лидера§!§!"
+	 tec_trait_upkeep_scale_with_skill:  "§YШкала поддержания характеристик с §HНавыком лидера§!§!"
+	 tec_trait_upkeep_scale_with_negatives:  "§YШкала поддержания черт с §RОтрицательными чертами§! подавленными до сих пор§!"
+
+ # Шпионаж
+	 tec_loc_espionage_interdiction_icon:0  "£trigger_tec_espionage_interdiction£"
+	 tec_loc_espionage_interdiction:0  "$tec_loc_espionage_interdiction_icon$ Операция "Перехват""
+	 tec_loc_espionage_interdiction_desc:0  "$tec_loc_espionage_interdiction$ - это значение (%) дополнительного шанса обнаружить враждебную скрытую операцию на планете или территории до того, как она будет выполнена".
+	 tec_loc_espionage_bypass_icon:0  "£trigger_tec_spionage_bypass"
+	 tec_loc_espionage_bypass:0  "$tec_loc_espionage_bypass_icon$ Обход операции"
+	 tec_loc_espionage_bypass_desc:0  "$tec_loc_espionage_bypass$ - это значение (%) дополнительного шанса преодолеть защиту цели и разведданные при выполнении секретной операции на планете или территории, задерживая ее обнаружение до тех пор, пока не станет слишком поздно реагировать".
+	 
+# --------------------------- MACHINE COMPUTING POWER --------------------------------
+	TEC_PROCESSCAP_WINDOW_TITLE: "Производственная мощность" 
+	TEC_PROCESSCAP_WINDOW_DESC: "Управляет §Yпроизводственной мощностью§! империи." 
+
+	tec_processcap_icon: "£job_maintenance_drone£ Производственная мощность" 
+	tec_processcap_text_title: "§HПроизводственная мощность§!" 
+	tec_processcap_text_icon_desc: "§E§HПроизводственная мощность§! (£job_maintenance_drone£) представляет расчеты, выполненные для обработки и управления этой империей.\n\nПроизводственная мощность увеличивается за счет £job_tec_operator£ §Yоператоров§! и определенных £buildings£ §Yстроений§!, или обмениваются на £trigger_tec_research£ §Yисследовательские§! усилия.§!" 
+
+	#TEC_PROCESSCAP_BAR_TOOLTIP: "§HПроизводственная мощность§!\nФактический объем этого ресурса: §Y[root.tec_processcap_resource]§!/§Y[root.tec_processcap_max]§! $tec_processcap_icon$.\n\n$TEC_TEST_PROCESSCAP_CAP_DESC$" 
+	#TEC_PROCESSCAP_BAR_CAP_DESC: "§EОбщая сумма $tec_test_power_icon$ изменена на:§!\n+§G[root.tec_processcap_country]§! от модификаторов страны.\n+§G[root.tec_processcap_buildings]§! от зданий.\n+§G[root.tec_processcap_jobs]§! от рабочих." 
+
+	tec_processcap_monthly_up: "Ежемесячно $tec_processcap_icon$" 
+	tec_processcap_monthly_up_name: "§HЕжемесячно $tec_processcap_icon$§!" 
+	#tec_processcap_monthly_up_desc: "§EМы регенерируем §G[root.tec_processcap_resource]§! §H$tec_processcap_icon$§! в месяц, на него влияют следующие модификаторы:§!\n------------" 
+
+	# bad resource
+	tec_processhold_icon: "£job_criminal£ Порог" 
+	tec_processhold_text_title: "§RПорог§!" 
+	tec_processhold_text_icon_desc: "§E§HПорог§! (£job_criminal£) является результатом превышения минимального использования производственной мощности, что приводит к возникновению узкого места..\n\nНакопленный порог приводит к отрицательным штрафам и снижает дальнейшее использование производственной мощности, и со временем будет уменьшаться с положительным $tec_overclock_icon$.§!" 
+
+	#TEC_PROCESSHOLD_BAR_TOOLTIP: "§RПорог§!: §Y[root.tec_processhold]§!/§Y100§!%\n-------------\n$TEC_PROCESSHOLD_BAR_DESC$" 
+	#TEC_PROCESSHOLD_BAR_DESC: "§EОбщая сумма $tec_processhold_icon$ изменена:§!\n+§R[root.tec_processhold_country]§! из-за узкого места производственных мощностей." 
+
+	# On use resource
+	tec_overclock_icon: "£job_enforcer£ Разгон" 
+	tec_overclock_text_title: "§YРазгон§!" 
+	tec_overclock_text_icon_desc: "§E§YРазгон§! (£job_enforcer£) — это увеличение вычислительной мощности за счет других ресурсов, позволяющее использовать больше ресурсов и уменьшающее $tec_processhold_icon$.\n\nРазгон можно получить, обменяв проценты £trigger_tec_research£ на §Yисследование§! или §Y$tec_loc_admin_cap$§!.§!" 
+
+	#TEC_OVERCLOCK_BAR_BASE_TOOLTIP: "§YРазгон§!: §Y[root.tec_overclock_power]§!/§Y100§!\n-------------\n$TEC_STRESS_BAR_DESC$" 
+	#TEC_OVERCLOCK_BAR_DESC: "§EОбщая сумма $tec_overclock_icon$ изменена:§!\n+§R[root.tec_overclock_country]§! от чрезмерного употребления." 
+	#TEC_OVERCLOCK_BAR_USE_TOOLTIP: "§HОриентировочная стоимость§!\nИсходя из выбранного действия, нам понадобится §Y[root.tec_overclock]§! §H$tec_test_power_icon$§! чтобы принять его." 
+
+
+# ------------------------------------------------------------
+# "Полномочия" - Overload 
+# General usage
+	tec_processcap_button_overload_tooltip_25_processhold: "Увеличивает §R$tec_processhold_icon$§! на §R25%§!" 
+	tec_processcap_button_overload_tooltip_50_processhold: "Увеличивает §R$tec_processhold_icon$§! на §R50%§!" 
+	tec_processcap_button_overload_tooltip_100_processhold: "Увеличивает §R$tec_processhold_icon$§! на §R100%§!" 
+
+	tec_processcap_button_overload_research_title: "§HИсследовательская перегрузка§!" 
+	#tec_processcap_button_overload_research_desc: "Описание.\n\n$tec_processcap_button_overload_research_effects$\n$tec_processcap_button_overload_tooltip_50_processcap$\n$tec_processcap_button_overload_tooltip_50_proceshold$\n\n$pse_power_botton_summon_construct_tooltip_end$\n$pse_power_botton_summon_construct_cooldown$" 
+	tec_processcap_button_overload_research_effects: "Увеличивает производство £trigger_tec_research£ §Yисследований§! всех исследователей за счет §Y50%§! общего §H$tec_processcap_icon$§!. Сохраняется до отмены или активной перегрузки." 
+	tec_processcap_button_overload_tooltip_cost: ""
+	tec_processcap_button_overload_tooltip_processhold: "Увеличивает порог на 25%" 
+	#pse_power_botton_summon_construct_tooltip_end: "$pse_power_botton_base_cost_text$§H140§!" 
+	# pse_power_botton_summon_construct_cooldown: "$pse_power_botton_cooldown_3600$" 
+
+
+
+
+# Old machinerf modifiers
+	machinerf_dry_tech_modifier:0 "§YОткрыта функция:§ Солнечные фильтры." 
+	machinerf_dry_tech_modifier_desc:0 "Все механические единицы будут работать с эффективностью §Y70%§! на §YПустынных§!, §YЗасушливых§! и Саванных§! планетах." 
+	#machinerf_dry_tech_modifier_desc:0 "Обитаемость океана: §G+70%§!\nКонтинентальная обитаемость: §G+70%§!\nТропическая обитаемость: §G+70%§!" 
+	#machinerf_dry_tech_modifier_desc:1 "§YВсе механические юниты будут работать с эффективностью 60% на  Пустынных, Засушливых и Саванных планетах.§" 
+	machinerf_wet_tech_modifier:0 "§YОткрыта функция:§ Регуляторы окисления." 
+	machinerf_wet_tech_modifier_desc:0 "Все механические единицы будут работать с эффективностью §Y70%§! на §GОкеанических§!, §GКонтинентальных§! и §GТропических§! планетах." 
+	#machinerf_wet_tech_modifier_desc:1 "§YВсе механические юниты будут работать с эффективностью 60% на Океанических, Континентальных и Тропических планетах.§" 
+	machinerf_cold_tech_modifier:0 "§YОткрыта функция:§ YПеренаправление тепла." 
+	machinerf_cold_tech_modifier_desc:0 "Все механические единицы будут работать с эффективностью §Y70%§! на §BАрктических§!, §BТундровых§! и §BГорных§! планетах." 
+
+	#machinerf_cold_tech_modifier_desc:1 "§YВсе механические юниты будут работать с эффективностью 60% в Арктических, Тундровых и Горных планетах.§" 
+	machinerf_nano_tech_modifier:0 "§YОткрыта функция:§ Обслуживание наноботов." 
+	machinerf_nano_tech_modifier_desc:0 "Все механические юниты будут работать с эффективностью §G90%§! в чужой среде, кроме миров-гробниц." 
+	#machinerf_nano_tech_modifier_desc:1 "§BВсе механические юниты будут работать с эффективностью 80% в чужой среде, кроме миров-гробниц.§" 
+	machinerf_bio_tech_modifier:0 "§YОткрыта функция:§ Адаптация биороботов." 
+	machinerf_bio_tech_modifier_desc:0 "Все механические единицы будут работать с эффективностью §B100%§! на любой планете." 
+	#machinerf_bio_tech_modifier_desc:1 "§BВсе механические юниты будут работать со 100% эффективностью на любой планете.§" 
+	machinerf_nuked_tech_modifier:0 "§YОткрыта функция:§ Протоколы защиты от радиационного облучения." 
+	machinerf_nuked_tech_modifier_desc:0 "Все механические юниты будут работать с эффективностью §G80%§! в мирах-гробницах." 
+	#machinerf_nuked_tech_modifier_desc:1 "§BВсе механические юниты будут работать с эффективностью 80% в мирах-гробницах.§" 
+
+
+#MODIFIER
+
+	machinerf_40_modifier:0 "Минимальная эффективность" 
+	machinerf_40_modifier_desc:0 "Машинные интерфейсы на этой планете имеют конструктивные недостатки для работы в этой среде. Эффективность серьезно снижается до тех пор, пока мы не сможем преодолеть этот недостаток.\n\nМашины на этой планете работают с эффективностью §R50%§." 
+
+	machinerf_60_modifier:0 "Снижение эффективности" 
+	machinerf_60_modifier_desc:0 "Наши интерфейсы теперь частично адаптированы для борьбы с опасностями окружающей среды, но должны быть реализованы новые подпрограммы.\n\nМашины на этой планете работают с эффективностью §Y70%§." 
+
+	machinerf_80_modifier:0 "Почти оптимальная эффективность" 
+	machinerf_80_modifier_desc:0 "С некоторыми корректировками интерфейсы теперь могут работать почти на полную мощность на этой планете.\n\nМашины на этой планете работают с эффективностью §G90%§." 
+
+	machinerf_100_modifier:0 "Полная эффективность" 
+	machinerf_100_modifier_desc:0 "Все подразделения в рабочем состоянии.\n\nМашины на этой планете работают с эффективностью §B100%§!." 
+
+
+
+
+#TECH
+
+	tech_machinerf_dry:0 "Адаптация к засушлевым планетам" 
+	tech_machinerf_dry_desc:1 "Мы можем внедрить пылевые фильтры, солнечные батареи и новые материалы для охлаждающей жидкости, чтобы наши агрегаты работали более эффективно в жарком и сухом климате." 
+	#tech_machinerf_dry_modifier_desc:0 "§Y Все механические юниты будут работать с эффективностью 60% на  Пустынных, Засушливых и Саванных планетах. §" 
+
+	tech_machinerf_wet:0 "Адаптация к континентальным планетам" 
+	tech_machinerf_wet_desc:1 "Благодаря разработке новых поли-сплавов и гибких материалов мы можем преодолеть ржавчину, короткое замыкание или биологическую опасность в континентальном климате." 
+	#tech_machinerf_wet_modifier_desc:0 "§Y Все механические юниты будут работать с эффективностью 60% на Океанических, Континентальных и Тропических планетах. §" 
+
+	tech_machinerf_cold:0 "Адаптация к холодным планетам" 
+	tech_machinerf_cold_desc:1 "Новые вентиляционные отверстия и керамические каналы, перенаправляющие тепло от наших агрегатов, могут помочь предотвратить замерзание стыков и растрескивание кузова в холодном климате." 
+	#tech_machinerf_cold_modifier_desc:0 "§Y Все механические юниты будут работать с эффективностью 60% в Арктических, Тундровых и Горных планетах. §" 
+
+	tech_machinerf_nano:0 "Экологические нанороботы" 
+	tech_machinerf_nano_desc:1 "Интегрируя наноботов в наши производственные линии и агрегаты, мы можем обеспечить постоянное техническое обслуживание, что приведет к повышению эффективности." 
+	#tech_machinerf_nano_modifier_desc:0 "§B Все механические юниты будут работать с эффективностью 80% в чужой среде, кроме миров-гробниц. §" 
+
+	tech_machinerf_bio:0 "Всесторонняя адаптация" 
+	tech_machinerf_bio_desc:1 "Имитируя природу и используя наши производственные мощности для создания усовершенствованных конструкций, наши устройства будут оснащены для преодоления любых экологических опасностей." 
+	#tech_machinerf_bio_modifier_desc:0 "§B Все механические единицы будут работать со 100% эффективностью. §" 
+
+	tech_machinerf_nuked:0 "Адаптация к мирам-гробницам" 
+	tech_machinerf_nuked_desc:1 "Создавая слой изолирующих материалов, мы можем преодолеть опасности радиации и кислотных дождей в мирах-гробницах." 
+	#tech_machinerf_nuked_modifier_desc:0 "§B Все механические юниты будут работать со 100% эффективностью в мирах-гробницах. §" 
+
+	tech_machinerf_nuked_ext:0 "Адаптация к мирам-гробницам" 
+	tech_machinerf_nuked_ext_desc:1 "Создавая слой изолирующих материалов, мы можем преодолеть опасности радиации и кислотных дождей в мирах-гробницах." 
+
+
+
+
+ #EVENTS
+
+	machinerf.100.name:0 "Экологические проблемы" 
+	machinerf.100.desc:0 "После первого тестирования вновь созданных юнитов в [Root.GetName] мы заметили некоторые конструктивные недостатки, которые мешают нормальному функционированию покравителям нашего вида.\n\nПохоже, что наши создатели не проектировали нас с учетом других видов окружающей среды, поэтому мы должны приспосабливаться сами." 
+	machinerf.100.a: "Нам нужно быстрое решение." 
+	machinerf.100.a.tooltip:0 "Без надлежащего исследования все юниты на [Root.GetName] менее эффективны. Нам нужно исследовать новые способы улучшения." 
+
+	#machinerf.100.name:0 "Проблемы окружающей среды" 
+	#machinerf.100.desc:0 "После первого тестирования вновь созданных юнитов в [Root.GetName] мы заметили некоторые конструктивные недостатки, которые мешают нормальному функционированию покравителям нашего вида.\n\nПохоже, что наши создатели не проектировали нас с учетом других видов окружающей среды, поэтому мы должны приспосабливаться сами." 
+	#machinerf.100.a.tooltip:0 "Без надлежащего исследования все юниты на [Root.GetName] менее эффективны. Нам нужно исследовать новые способы улучшения." 
+
+
+
+
+
+ #TECH DESC
+
+	tech_machinerf_dry_effect:0 "Производительность машины в пустыне: §Y+70%§!\nПроизводительность машины в засушливой местности: §Y+70%§!\nПроизводительность машины в саванне: §Y+70%§!" 
+	tech_machinerf_wet_effect:0 "Производительность машин в океане: §Y+70%§!\nПроизводительность машин на континентах: §Y+70%§!\nПроизводительность машин в тропиках: §Y+70%§!" 
+	tech_machinerf_cold_effect:0 "Производительность машин в арктике: §Y+70%§!\nПроизводительность машин в тундре: §Y+70%§!\nПроизводительность машин в горах: §Y+70%§!" 
+	tech_machinerf_nano_effect:0 "Производительность машины во враждебной среде: §G+90%§!\n§Y Не работает в §!§RМирах-гробницах§!§Y, за исключением решительных истребителей.§!" 
+	tech_machinerf_nano_ext_effect:0 "Производительность машины во враждебной среде: §G+90%§!" 
+	tech_machinerf_bio_effect:0 "Производительность машины: §B+100%§! на каждой планете!\n" 
+	tech_machinerf_nuked_effect:0 "Производительность машины в Мирах-гробницах: §G+90%§!" 
+	tech_machinerf_nuked_ext_effect:0 "Производительность машины в Мирах-гробницах: §Y+70%§!" 
+
+	# tech_machinerf_dry_effect:0 "§YРазблокировка функции:§ §wФильтры солнечной пыли\nВсе механические устройства будут работать с эффективностью §Y60%§ на §YПустынных§!, §YЗасушливых§! и Саванных§! планетах." 
+	# tech_machinerf_wet_effect:0 "§YОткрыть функцию:§ Регуляторы окисления\nВсе механические узлы будут работать с эффективностью §Y60%§ на §GОкеанических§!, §GКонтинентальных§! и §GТропических§! планетах." 
+	# tech_machinerf_heat_effect:0 "§YОткрыть функцию:§ YПеренаправление тепла\nВсе механические устройства будут работать с эффективностью §Y60%§ на §BАрктических§!, §BТундровых§! и §BГорных§! планетах." 
+	# tech_machinerf_nano_effect:0 "§YРазблокировка:§ Обслуживание наноботов\nВсе механические устройства будут работать с эффективностью §G80%§ в чужой среде, за исключением миров-гробниц." 
+	# tech_machinerf_bio_effect:0 "§YРазблокировка функции:§ Адаптация биороботов\nВсе механические единицы будут работать с эффективностью §B100%§ на каждой планете." 
+	# tech_machinerf_nuked_effect:0 "§YРазблокировка:§ Протоколы защиты от радиации\nВсе механические устройства будут работать с эффективностью §G80%§ в мирах-гробницах." 
+
+#Planetary diversity
+
+	tech_machinerf_exotic:0 "Адаптация к экзотическому миру" 
+	tech_machinerf_exotic_desc:1 "Оснастив наши аппараты поливалентными средствами защиты окружающей среды, мы можем повысить производительность в любом экзотическом мире." 
+
+	tech_machinerf_exotic_effect:0 "Производительность экзотического мира: §G+70%§!" 
+
+
+# Ai auth
+
+tec_ai_power_balance_negative: "§R[tec_ai_power_balance_value]§!" 
+tec_ai_power_balance_neutral: "§Y[tec_ai_power_balance_value]§!" 
+tec_ai_power_balance_positive: "§G+[tec_ai_power_balance_value]§!" 
+
+tec_cui_aiauth_ethic: "£icon_ethics£"
+tec_cui_aiauth_ethic_effect: "Повторно выровняйте §Y[This.GetName]§! Узел искусственного интеллекта к другой §YЭтики§!"
+tec_cui_ai_power: "$tec_loc_sr_tec_ai_power$: [FROM.tec_ai_power_income]"
+tec_cui_ai_power_effect: "§H$sr_tec_ai_power$§!\n$RESOURCES_STORED$§Y[FROM.tec_ai_power_stockpile]§!\n$RESOURCES_GAINED$[FROM.tec_ai_power_income]\n$PRODUCED$§G+[FROM.tec_ai_power_revenue]§!\n$CONSUMED$§R-[FROM.tec_ai_power_expenses]§!\n-----------\n$sr_tec_ai_power_desc$"
+
+tec_cui_aiuth_fragment_admiral: "£admiral£" 
+tec_cui_aiuth_fragment_general: "£general£" 
+tec_cui_aiuth_fragment_governor: "£governor£" 
+tec_cui_aiuth_fragment_scientist: "£scientist£" 
+
+tec_cui_aiuth_fragment_admiral_effect: "Фрагментирует основной ИИ-узел в новый ИИ-узел $admiral_with_icon$, который можно использовать только для заполнения должностей советников.\n\nФрагментированный узел будет требовать ежемесячно Содержание §Y$tec_loc_sr_tec_ai_power$§!, но не будет занимать §YВместимость лидера§! и может получить только §YЧерты советника§!" 
+tec_cui_aiuth_fragment_general_effect: "Фрагментирует основной ИИ-узел в новый ИИ-узел $general_with_icon$, который можно использовать только для заполнения должностей советников.\n\nФрагментированный узел будет требовать ежемесячно Содержание §Y$tec_loc_sr_tec_ai_power$§!, но не будет занимать §YВместимость лидера§! и может получить только §YЧерты советника§!" 
+tec_cui_aiuth_fragment_governor_effect: "Фрагментирует основной ИИ-узел в новый ИИ-узел $governor_with_icon$, который можно использовать только для заполнения должностей советников.\n\nФрагментированный узел будет требовать ежемесячно Содержание §Y$tec_loc_sr_tec_ai_power$§!, но не будет занимать §YВместимость лидера§! и может получить только §YЧерты советника§!" 
+tec_cui_aiuth_fragment_scientist_effect: "Фрагментирует основной ИИ-узел в новый ИИ-узел $scientist_with_icon$, который можно использовать только для заполнения должностей советников.\n\nФрагментированный узел будет требовать ежемесячно Содержание §Y$tec_loc_sr_tec_ai_power$§!, но не будет занимать §YВместимость лидера§! и может получить только §YЧерты советника§!" 
+
+tec_aiauth_experience_tooltip: "\nЛидеры узлов ИИ обычно не получают опыта. Запасной §Y$tec_loc_sr_tec_ai_power$§! преобразуется в опыт, распределяемый взвешенным образом между узлами ИИ.[tec_aiauth_node_share_total_tooltip]" 
+
+tec_aiauth_node_share_total_tooltip: "\n\nДоля веса опыта/всего: §Y[tec_aiauth_node_weight_tooltip]/[owner.tec_aiauth_total_weight]§!" 
+
+tec_can_not_dismiss_aiauth_planetary_nodes: "§RНевозможно отключить планетарные узлы ИИ, вы должны снести $building_tec_planetary_node_center$§!" 
+
+tec_cui_aiauth_fragmenting_node: "$TRIGGER_FAIL$Невозможно фрагментировать другой узел ИИ, так как в данный момент узел уже фрагментирован." 
+tec_cui_aiauth_fragmenting_cost_effect: "\n\nФрагментация будет стоить §Y£unity£ [tec_aiauth_fragment_cost] Единства§!.\nЕсли фрагментация не завершена, то затраты на единство §Rпотрачены впустую§!" 
+
+tec_cui_aiauth_refragment_node: "Этот узел будет повторно фрагментирован, создавая новый набор черт и качеств." 
+tec_cui_aiauth_finish_fragmenting_node: "Этот узел ИИ присоединится к вашей империи." 
+tec_cui_aiauth_changing_class_refragment_node: "Изменение этого класса узлов требует его повторной фрагментации, генерирующей новый набор признаков и качеств, специфичных для нового класса."
+tec_cui_aiauth_finish_fragmenting_node: "Этот узел искусственного интеллекта присоединится к вашей империи."
+tec_cui_aiauth_planetary_dismiss: "§RОтключение этого планетарного узла искусственного интеллекта приведет к разрушению всего £building£ §Y$building_tec_planetary_node_center$§!§!"
+tec_cui_aiauth_ruler_dismiss: "§RМы не можем уволить наш узел искусственного интеллекта Ruler§!"
+TEC_REFRAGMENT_NODE: "Повторно фрагментировать узел" 
+TEC_FRAGMENT_NODE: "Завершить фрагментацию" 
+# Extra
+
+tec_loc_empire_scope_effects: "£empire£ §YИмперия§!" 
+tec_loc_planet_scope_effects: "£planet£ §YПланета§!" 
+tec_loc_science_ship_scope_effects: "£planet£ §YПланета§!" 
+
+
+
+# --------------------------- ANNOTATIONS --------------------------------
+
+#Leader levels
+
+#Level    II   III   IV    V     VI     VII    VIII   IX     X
+#XP       400  1100  2100  3400  5000   6900   8100   10600  13400
+#Total XP 400  1500  3600  7000  12000  18900  27000  37600  51000

@@ -1,0 +1,282 @@
+﻿l_russian:
+
+# ORIGIN replaces
+# ------------------------------------------------------------
+	origin_default:0 "Успешное объединение"
+	origin_default_desc:0 "Через борьбу и победы это общество воплотило мечту любой молодой цивилизации, объединив мир одной целью и проложив дорогу к звездам."
+	origin_tooltip_default_effects:0 "- Вы начнете игру с §Y4§! дополнительными £pop£ поселениями и §Y2§! дополнительными районами.\n\n- Плод раннего процветания планеты, благодаря которому столица получит бонус: §Y10%§! производства от видов £job£ деятельности, §Y15%§! £happiness£ счастья и на §Y25%§! больше £amenities£ благ в течении 10 лет, после чего бонус уменьшается."
+	pm_tec_prosp_uni_mod_2:0 "Успешное объединение"
+	pm_tec_prosp_uni_mod_2_desc:0 "Единая гармоничная планета с процветающим развитием, ведущим к лучшей и более сбалансированной экономике."
+	pm_tec_prosp_uni_mod_gestalt_2:0 "Успешное объединение"
+	pm_tec_prosp_uni_mod_gestalt_2_desc:0 "Гармония с процветающим развитием, ведущим к полному совместному контролю над планетой [Planet.GetName]."
+
+ #megacorp origin text
+	origin_tooltip_common_ground_effects:0 "- Вы начнете игру в качестве предводителя §Hфедерации§! с двумя дополнительными участниками\n- Тип федерации определяется §Yформой правления§! и §Yпринципами§!.\n- Члены союза займут гарантированно пригодные для жизни миры рядом с вашей родной системой\n- Традиция §HФедерация§! открыта со старта"
+	
+	origin_tooltip_void_dwellers_effects:5 "- Вы начнете игру с тремя §Yорбитальными поселениями§! и технологией, позволяющей строить новые\n- Представители этой расы чувствуют себя комфортно в орбитальном поселении и производят на §G+10%§! больше ресурсов\n- Колониальные корабли £alloys£ £influence£ §Yобходятся дороже§!, но построенные среды обитания мгновенно колонизируются.\n- Серьезные штрафы к приспособленности, производству и росту применяются ко всем обычным планетам, кроме §Gсред обитания§!, §Yаркологий§! или §Yидеальных миров§!\n- Столичные сооружения предоставляют §G+1§! £building£ §Yячейку сооружений§! за уровень на среде обитания."
+	# Гидропонные фермы получают §G+1§! деятельность категории £job_farmer£ $job_farmer$
+	#\n\n§RКолонии, не относящиеся к аркологии, требуют принудительного роста населения.§!
+
+	trait_void_dweller_1:0 "Житель пустоты"
+	trait_void_dweller_1_desc:0 "§LПредставители этой расы чувствуют себя как дома в орбитальных поселениях и интуитивно ориентируются в запутанных коридорах и сложной архитектуре. К несчастью, их ослабленная иммунная система не приспособлена к жизни на поверхности планет.§!"
+
+	trait_void_dweller_2:0 "$trait_void_dweller_1$"
+	trait_void_dweller_2_desc:0 "§LПредставители этой расы привыкли к переработанному воздуху и стерильным отсекам в орбитальных поселениях, и их ослабленная иммунная система не приспособлена к жизни на поверхности планет.§!"
+
+	civic_tooltip_post_apocalyptic_effects:3 "- Первоначальная столица §Yопустошенный мир§!\n- Позволяет использовать позицию бомбардировки §Yармагеддон§! которая превращает вражеские планеты в §Yопустошенный мир§! при достаточном опустошении\n- Вы получаете признак §Y$trait_survivor$§!, дающий следующее:\nПриспособленность — опустошенный мир: §G+70%§!\nИспользование благ: §G-10%§!\nРесурсы от видов деятельности: §G+5%§!"
+
+ # Mechanist origin replace
+	origin_tooltip_mechanists_effects:0 "- Вы начнете игру с §Y2§! дополнительными £pop£ поселениями.\n- Вы начнете игру с §Y10§! £pop£ поселениями £job_roboticist£ роботов, а также технологиями и инфраструктурой, позволяющими увеличить их количество.\n- Вы начнете игру с возможностью §Yмодифицировать§! £job_roboticist£ роботов."
+	tec_robot_subname:0 "Роботы"
+
+	civic_tooltip_syncretic_evolution_effects:4 "- Вы начнете игру с §Y2§! дополнительными £pop£ поселениями.\n- Вы начнете игру с §Y12§! £pop£ поселениями другой расы, подчиняющейся вам."
+
+ # Ringworld rework
+	origin_shattered_ring:0 "Расколотое кольцо"
+	origin_shattered_ring_desc:1 "Эта цивилизация населяет мир-кольцо, построенный неизвестными предтечами. Сумев понять принципы его работы и починив его, они обретут колоссальное могущество."
+	origin_tooltip_shattered_ring_effects:1 "- Вашим начальным миром будет расколотый §Yмир-кольцо§!.\n- §Y$d_arcane_generator$§! установлен на мире-кольце, обеспечивая ваши сегменты энергией, а £blocker£ непригодные квадраты сильно ограничивают расширение.\n- Рядом с вашей родной системой не будет §Yгарантированно§! пригодных для жизни миров, но после ремонта родного участка ваша империя сможет полностью восстановить мир-кольцо."
+
+ # Offspring
+	origin_tooltip_progenitor_hive_effects:3 "- Нанимает уникальных §Hлидеров-отпрысков§! которые пассивно накапливают опыт, ценой §Rотключения§! бонуса уровня правителя гештальт-сознания.\n- Заменяет £building£ §HРезервуары для выведения§! на £building£ §HГнезда отпрысков§!, которые предоставляют мощную оборонительную армию и улучшают единицы Разума чернорабочих.\n- Позволяет возводить £building£ §HГнезда отпрысков§! на планетах подданного.\n- Может освобождать §Hсекторы§! и делать их §Hподданными§!.\n- Стройте §Hкорабли отпрысков§!, повышающие эффективность ближайших кораблей. Флотилии без кораблей отпрысков получают следующие эффекты:\n\n"
+ #Progenitor deposits, armies and decisions
+
+
+# GOVERNMENT Replaces
+# ------------------------------------------------------------
+# Technocracy
+	gov_technocratic_dictatorship_desc:0 "Этот тип правления — материалистическая форма автократии, при которой научная элита взяла на себя управление государством ради эффективности и технического прогресса."
+
+	gov_direct_democracy:0 "Материальная демократия" 
+	RT_FIRST_SPEAKER:0 "Руководитель"
+
+
+# ETHIC replaces
+# ------------------------------------------------------------
+
+
+# AUTHORITY Replaces
+# ------------------------------------------------------------
+	AUTH_HIVE_MIND_ASCENSION_RESTRICTIONS:0 "§EОграничение:§! Нельзя следовать по пути §Hсинтетического возвышения§!; §HКибернетическое возвышение§! позволит заменить эту форму правления"
+	AUTH_HIVE_MIND_FOREIGN_POP_SURVIVAL:1 "§EОграничение:§! £pop£ Посления без §Hколлективного разума§! должны быть ассимилированны, порабощены, уничтожены или §Hгенетически модифицированы§! чтобы получить признак коллективного разума, если нет §Hэмпатии§!.\n"
+	AUTH_HIVE_MIND_GENEMODDING:0 "Возможна модификация §H£pop£ поселений§! с целью наделить их совместимостью с §Hколлективным разумом§! посредством §Hгенетического возвышения§!"
+
+ # added to machine auth
+	AUTH_MACHINE_ASCENSION_RESTRICTIONS:0 "Нельзя следовать по пути §Hпсионического возвышения§!"
+	AUTH_MACHINE_PROVIDES_FREE_ASSEMBLY:0 "Столицы предоставляют §G+1§! ежемесячной §Hсборки§!"
+
+# CIVICS replaces
+# ------------------------------------------------------------
+# Regular empire
+# Ruler Civic
+
+# rest
+
+# JOB replaces
+# ------------------------------------------------------------
+	job_enforcer_effect_desc:2 "£job_enforcer£ $job_enforcer_plural$ снижают £crime£ §Y$PLANET_CRIME_TITLE$§!, повышают £stability£ §Yстабильность§! и создают £defense_army£ §Yоборонительные армии§!"
+	job_enforcer_authoritarian_effect_desc:0 "£job_enforcer£ $job_enforcer_plural$ снижают £crime£ §Y$PLANET_CRIME_TITLE$§!, повышают £stability£ §Yстабильность§!, увеличивают §Yпроизводство§! £pops£ рабочих и рабов и создают £defense_army£ §Yоборонительные армии§!"
+
+	job_politician:0 "Политик"
+	job_politician_plural:0 "Политики"
+	job_politician_desc:0 "Управление целой планетой — это труднейшая задача, требующая преданных своему делу и высококвалифицированных работников."
+	job_politician_effect_desc:0 "['concept_tec_job_politician_plural_icon'] превращают §Y$tec_loc_consumer_goods$§! в §Y$tec_loc_unity$§! и §Y$tec_loc_amenities$§!"
+
+	job_executive_effect_desc:2 "['concept_tec_job_executive_plural_icon'] превращают §Y$tec_loc_consumer_goods$§! в §Y$tec_loc_unity$§!, §Y$tec_loc_amenities$§! и §Y$tec_loc_trade_value$§!"
+
+	job_merchant:0 "Торговец"
+	job_merchant_plural:0 "Торговцы"
+	job_merchant_desc:1 "Они покупают. Они продают. Они копят. Они перепродают. Агенты, коммерсанты, опт и розница — везде, где торговля, есть торговцы."
+	job_merchant_effect_desc:1 "['concept_tec_job_merchant_plural_icon'] превращают §Y$tec_loc_consumer_goods$§! в §Y$tec_loc_amenities$§! и §Y$tec_loc_trade_value$§!"
+	mod_job_merchant_add:0 "Деятельность: $job_merchant$"
+	mod_job_merchant_per_pop:0 "§G+1§! $job_merchant$ как вид деятельности для $VALUE$ поселений"
+	mod_job_merchant_per_pop_short:0 "\n§G+1§! £mod_job_merchant_add£ для $VALUE$ £pop£"
+
+	job_noble_effect_desc:2 "['concept_tec_ruler_job_noble_plural_icon'] превращают §Y$tec_loc_consumer_goods$§! в §Y$tec_loc_unity$§!, §Y$tec_loc_amenities$§! и §Y$tec_loc_stability$§!"
+
+	job_head_researcher_effect_desc:2 "['concept_tec_ruler_job_head_researcher_plural_icon'] превращают §Y$tec_loc_consumer_goods$§! в £unity£ §Y$tec_loc_unity$§!, §Y$tec_loc_amenities$§! и §Y$tec_loc_research_resources$§!"
+
+	job_high_priest_effect_desc:1 "['concept_tec_ruler_job_high_priest_plural_icon'] превращают §Y$tec_loc_consumer_goods$§! в §Y$tec_loc_unity$§! и §Y$tec_loc_amenities$§!"
+
+	job_bureaucrat_effect_desc:1 "['concept_tec_specialist_job_bureaucrat_plural_icon'] превращают §Y$tec_loc_consumer_goods$§! в §Y$tec_loc_unity$§! и §Y$tec_loc_edict_capacity$§!"
+
+	job_coordinator:0 "Координатор"
+	job_coordinator_plural:0 "Координаторы"
+	job_coordinator_desc:1 "Сигналы, поступающие в центр и исходящие от него, должны быть усилены, ускорены и очищены от помех и поврежденных данных."
+	job_coordinator_effect_desc:2 "£job_coordinator£ $job_coordinator_plural$ превращают £trigger_tec_research£ §Yисследования§! в £unity£ §Yединство§!"
+	mod_job_coordinator_add:0 "Деятельность: $job_coordinator$"
+	mod_job_coordinator_per_pop:0 "§G+1§! $job_coordinator$ как вид деятельности для $VALUE$ поселений"
+	mod_job_coordinator_per_pop_short:0 "\n§G+1§! £mod_job_coordinator_add£ для $VALUE$ £pop£"
+
+	job_synapse_drone_effect_desc:4 "£job_synapse_drone£ $job_synapse_drone_plural$ превращают §Y$tec_loc_energy$§! и [Owner.GetTecSynapseDroneUpkeep] в §Y$tec_loc_unity$§! и §Y$tec_loc_edict_capacity$§!." 
+
+	job_brain_drone_effect_desc:0 "£job_brain_drone£ $job_brain_drone_plural$ превращают [owner.GetTecBrainDroneUpkeep] в §Y$tec_loc_research_resources$§! для новых технологий"
+
+	job_spawning_drone_effect_desc:2 "[job_spawning_drone_effect_desc]"
+	job_spawning_drone_effect_default_desc: "£job_spawning_drone£ $job_spawning_drone_plural$ преобразуют [Owner.tec_spawning_drone_upkeep] в £mod_planet_amenities_no_happiness_add£ §Y$PLANET_AMENITIES_TITLE$§! и §Y$tec_loc_biological_assembly$§!"
+	job_spawning_drone_necrophage_effect_desc:0 "£job_spawning_drone£ $job_spawning_drone_plural$ преобразуют [Owner.tec_spawning_drone_upkeep] в £mod_planet_amenities_no_happiness_add£ §Y$PLANET_AMENITIES_TITLE$§!, §Y$tec_loc_biological_assembly$§! и £mod_pop_growth_speed£ §Y$MOD_POP_GROWTH_SPEED$§!"
+
+	job_criminal_effect_desc: "Эти £job_criminal£ $job_criminal_plural$ живут за рамками правового общества, одни — осознанно, другие — в силу обстоятельств."
+	job_deviant_drone_effect_desc: "Эти £job_criminal£ $job_deviant_drone_plural$ больше не подчиняются коллективному разуму."
+	job_corrupt_drone_effect_desc: "Эти £job_criminal£ $job_corrupt_drone_plural$ испорчены и больше не подчиняются указаниям центра."
+
+	job_necro_apprentice_effect_desc:2 "[job_necro_apprentice_effect_desc]"
+	job_necro_apprentice_effect_default_desc:2 "£job_necro_apprentice£ $job_necro_apprentice_plural$ превращают §Y$tec_loc_consumer_goods$§! и §Y$tec_loc_food$§! в §Y$tec_loc_unity$§! и §Y$tec_loc_amenities$§!.\n$job_necro_apprentice_effect_desc_base$"
+	job_necro_apprentice_effect_lithoid_desc:1 "£job_necro_apprentice£ $job_necro_apprentice_plural$ превращают §Y$tec_loc_consumer_goods$§! и §Y$tec_loc_minerals$§! в §Y$tec_loc_unity$§! и §Y$tec_loc_amenities$§!.\n$job_necro_apprentice_effect_desc_base$"
+	job_necro_apprentice_effect_hive_desc:0 "£job_necro_apprentice£ $job_necro_apprentice_plural$ превращают §Y$tec_loc_food$§! в §Y$tec_loc_unity$§! и §Y$tec_loc_amenities$§!.\n$job_necro_apprentice_effect_desc_base$"
+	job_necro_apprentice_effect_hive_lithoid_desc:0 "£job_necro_apprentice£ $job_necro_apprentice_plural$ превращают §Y$tec_loc_minerals$§! в §Y$tec_loc_unity$§! и §Y$tec_loc_amenities$§!.\n$job_necro_apprentice_effect_desc_base$"
+
+	job_pearl_diver_effect_desc:1 "['concept_tec_specialist_job_pearl_diver_plural_icon'] превращают [root.job_tec_pearl_diver_upkeep] В §Y$tec_loc_consumer_goods$§! и §Y$tec_loc_trade_value$§!"
+
+	job_bath_attendant_effect_desc: "$job_toxic_baths_effect_desc$"
+	job_bath_attendant_hive_effect_desc: "$job_toxic_baths_effect_hive_desc$"
+	job_bath_attendant_machine_effect_desc: "$job_toxic_baths_effect_machine_desc$"
+
+	job_roboticist_effect_desc:0 "£job_roboticist£ $job_roboticist_plural$ превращают [root.GetTecRoboticistUpkeep] в новые £pop£ §Yпоселения роботов§!"
+
+	job_culture_worker_effect_desc:0 "£job_culture_worker£ $job_culture_worker_plural$ превращают §Y$tec_loc_consumer_goods$§! в §Y$tec_loc_unity$§!$tec_culture_worker_cleanup$ и £mod_ethic_attraction_mult£ §Y$MOD_POP_GOVERNMENT_ETHIC_ATTRACTION$§!."
+	tec_culture_worker_cleanup:0 "[Owner.tec_cw_mat_bonus][Owner.tec_cw_mil_bonus][Owner.tec_cw_auth_bonus][Owner.tec_cw_xen_bonus][Owner.tec_cw_eco_bonus][Owner.tec_cw_comp_bonus][Owner.tec_cw_eli_bonus]"
+	tec_cw_mat_bonus_desc:0 ", §Y$tec_loc_edict_funds$§!"
+	tec_cw_spi_bonus_desc:0 ", §Y$mod_planet_pops_upkeep_mult$: снижение§!"
+	tec_cw_mil_bonus_desc:0 ", §Y$tec_loc_naval_cap$§!"
+	tec_cw_pac_bonus_desc:0 ", §Y$mod_pop_lifestyle_trade_mult$§!"
+	tec_cw_egal_bonus_desc:0 ", §Y$MOD_POP_CITIZEN_HAPPINESS$§!"
+	tec_cw_auth_bonus_desc:0 ", §Y$tec_loc_stability$§!"
+	tec_cw_phobe_bonus_desc:0 "§Y$mod_planet_jobs_tec_main_species_produces_mult$§!"
+	tec_cw_phile_bonus_desc:0 ", §Y$MOD_POP_GROWTH_FROM_IMMIGRATION$§!"
+	tec_cw_green_bonus_desc:0 ", §Y$mod_planet_structures_upkeep_mult$: снижение§!"
+	tec_cw_ind_bonus_desc:0 ", §Y$MOD_PLANET_BUILDING_BUILD_SPEED_MULT$§!"
+	tec_cw_comp_bonus_desc:0 ", §Y$mod_pop_job_trade_mult$§!"
+	tec_cw_coop_bonus_desc:0 ", §Y$tec_loc_amenities$§!"
+	tec_cw_eli_bonus_desc:0 ", §Y$mod_planet_jobs_ruler_produces_mult$§!"
+	tec_cw_plur_bonus_desc:0 ", §Y$MOD_PLANET_HOUSING_MULT$§!"
+
+	job_death_chronicler_effect_desc:1 "£job_death_chronicler£ $job_death_chronicler_plural$ превращают §Y$tec_loc_consumer_goods$§! в §Y$tec_loc_unity$§!$tec_culture_worker_cleanup$ и £stability£ §YStability§!"
+	job_death_chronicler_effect_desc_civic:1 "£job_death_chronicler£ $job_death_chronicler_plural$ превращают §Y$tec_loc_consumer_goods$§! в §Y$tec_loc_unity$§!, в зависимости от §Yпринципов§! империи и £stability£ §Yстабильности§!"
+
+	job_chronicle_drone_effect_desc:2 "£job_chronicle_drone£ $job_chronicle_drone_plural$ превращают §Y$tec_loc_energy$§! и §Y$tec_loc_minerals$§! в §Y$tec_loc_unity$§!, $tec_loc_society$$tec_evaluator_cleanup$ и £stability£ §Yстабильности§!"
+	job_chronicle_drone_effect_desc_civic:2 "£job_chronicle_drone£ $job_chronicle_drone_plural$ превращают §Y$tec_loc_energy$§! и §Y$tec_loc_minerals$§! в §Y$tec_loc_unity$§!, $tec_loc_society$, в зависимости от гештальт §Yстремления§! и £stability£ §Yстабильности§!"
+	job_evaluator_effect_desc:0 "£job_evaluator£ $job_evaluator_plural$ превращают §Y$tec_loc_energy$§! в §Y$tec_loc_unity$§!$tec_evaluator_cleanup$ и £mod_planet_amenities_no_happiness_add£ §Y$PLANET_AMENITIES_TITLE$§!."
+	job_evaluator_effect_desc_civic:0 "£job_evaluator£ $job_evaluator_plural$ превращают §Y$tec_loc_energy$§! в §Y$tec_loc_unity$§!, в зависимости от гештальт §Yстремления§! и £mod_planet_amenities_no_happiness_add£ §Y$PLANET_AMENITIES_TITLE$§!."
+	tec_evaluator_cleanup:0 "[Owner.tec_ev_eco_bonus][Owner.tec_ev_relation_bonus][Owner.tec_ev_ego_bonus]"
+	tec_ev_overconsumption_bonus_desc:0 ", §Y$mod_planet_structures_cost_mult$: снижение £building£§!"
+	tec_ev_preservation_bonus_desc:0 ", §Y$mod_planet_structures_upkeep_mult$: снижение £building£§!"
+	tec_ev_empathy_bonus_desc:0 ", §Y£mod_edict_cap_add£ Фонд указов§!"
+	tec_ev_apathy_bonus_desc:0 ", §YСнижение £crime£ девиантности§!"
+	tec_ev_introspective_bonus_desc:0 ", §Y$MOD_POP_AMENITIES_USAGE_MULT$: снижение £pop£§!"
+	tec_ev_extrospective_bonus_desc:0 ", §YСнижение содержания £job_researcher£ исследователей§!"
+
+	job_bio_trophy_effect_desc:0 "£job_bio_trophy£ $job_bio_trophy_plural$ производит §Y$tec_loc_unity$§! и умножает производство £pop_cat_complex_drone£ §Y$pop_cat_complex_drone$§!."
+
+# STARBASE replaces
+# ------------------------------------------------------------
+	tec_sbd_production:0 "Производство ресурсов"
+	tec_sbd_research:0 "Технологическая станция"
+
+# DECISIONS replaces
+# ------------------------------------------------------------
+	decision_arcology_project_requirements:0 "£trigger_no£ §RВо всех ячейках районов на планете должны быть§! £district£ §YГородские районы§!, §Y$district_industrial_plural$§! или 3 полностью улучшенных £building£ §Y$building_tec_megacity_plural$§!."
+
+	decision_tec_arcology_blocker_tweaks:0 "£trigger_no£ §RТребуется расчистить ВСЕ £blocker£ непригодные квадраты на планете, если только империя не сможет §Yпревысить§! ресурсы."
+
+	decision_tec_ecoarcology_blocker_tweaks:0 "£trigger_no£ §RТребуется расчистить ВСЕ £blocker£ непригодные квадраты на планете, если только империя не получает от них §Yвыгоду§!."
+
+	decision_tec_ecoarcology_require_mastery_of_nature:0 "£trigger_no£ §RТребуется бонус за стремление $ap_mastery_of_nature$ для специализации Экомира."
+
+	decision_tec_ecoarcology_no_swarm:0 "£trigger_no£ §RМы хотим пожирать, а не сохранять биосферу планеты."
+
+# MECHANICS replaces
+# ------------------------------------------------------------
+# habitat changes
+	habitat_0_CONSTRUCTION_INFO_DELAYED:4 "В каждой среде обитания можно строить только специальные £building£ §Yсооружения§!. Если разместить ее на орбите планеты с $tec_loc_minerals$, $tec_loc_energy$, или £trigger_tec_research£ §Yнаучными данными§! в ней также можно будет построить особые £district£ §Yрайоны§!. Среды обитания построенные на орбите планет без полезных месторождений, будут использовать освободившееся пространство для £food£ §Yгидропонных ферм§! "
+ 
+# DEPOSITS replaces
+# ------------------------------------------------------------
+	mod_building_crystal_mines_max:0 "Разрешает £building£ $building_crystal_mines$.\nДеятельность: добытчик £rare_crystals£ редких кристаллов: максимум"
+	mod_building_mote_harvesters_max:0 "Разрешает £building£ $building_mote_harvesters$.\nnДеятельность: ловец £volatile_motes£ летучих пылинок: максимум"
+	mod_building_gas_extractors_max:0 "Разрешает £building£ $building_gas_extractors$.\nnДеятельность: добытчик £exotic_gases£ экзотических газов: максимум"
+	mod_building_betharian_power_plant_max:0 "Разрешает £building£ $building_betharian_power_plant$.\nnДеятельность: техник £energy£: максимум"
+
+# BUILDINGS replaces - TODO REMOVE
+# ------------------------------------------------------------
+	building_tec_mote_harvesters:0 "$building_mote_harvesters$"
+	building_tec_mote_harvesters_desc:0 "$building_mote_harvesters_desc$"
+	building_tec_gas_extractors:0 "$building_gas_extractors$"
+	building_tec_gas_extractors_desc:0 "$building_gas_extractors_desc$"
+	building_tec_crystal_mines:0 "$building_crystal_mines$"
+	building_tec_crystal_mines_desc:0 "$building_crystal_mines_desc$"
+	building_tec_betharian_power_plant:0 "$building_betharian_power_plant$"
+	building_tec_betharian_power_plant_desc:0 "$building_betharian_power_plant_desc$"
+
+# TRAITS replaces
+# ------------------------------------------------------------
+# Psionic changes
+	trait_latent_psionic_desc:0 "§LЭта раса обладает скрытыми псионическими способностями, которые неактивны у большинства ее представителей. Хотя и довольно редко, эти силы проявляются у некоторых лидеров.§!\n"
+	trait_psionic_desc:0 "§LВсе представители этой расы обладают мощными псионическими способностями. Обычно они общаются друг с другом посредством телепатии.§!\n"
+
+# Zombie
+	TRAIT_ZOMBIE_EFFECT: "Нельзя создавать §Yлидеров§!\nНельзя осуществлять такую деятельность, как §Y$pop_cat_ruler$§! или §Y$pop_cat_specialist$§!"
+
+# STARBASE BUILDINGS Replace
+# ------------------------------------------------------------
+# Omeganerf
+	sm_hydroponics_bay:0 "Гидропонный отсек"
+	sm_hydroponics_bay_desc:0 "Выделив секцию под гидропонную ферму, эта космическая база будет способна обеспечивать себя едой и даже экспортировать излишки продукции в другие системы.\n\n§EДанное сооружение космической базы увеличивает производство £food£ пищи гравитационной гидропоники на §G+2§!.§!" #$sm_tec_starbase_m_food$
+
+# PURGE replaces
+# ------------------------------------------------------------
+	purge_necrophage:0 "Ассимиляция"
+	purge_necrophage_tooltip:0 "Затронутые поселения постепенно становятся частью расы [From.GetSpeciesAdj], хотят они того или нет."
+	purge_necrophage_tooltip_delayed:0 "§LТолько сильнейшие могут выжить во враждебной галактике. Так они смогут продолжить свой путь как [From.GetSpeciesNamePlural].§!"
+
+# EVENT replaces and additions
+# ------------------------------------------------------------
+ # Added the event replace here
+	distar.170.desc.tec_pu_neuroslug:0 "Экипаж корабля [Root.GetName] сделал несколько удивительных открытий на [From.GetName]. В заброшенных поселениях, замеченных впервые еще с орбиты, жило когда-то общество рептилий, которые до сих пор обитают на этой планете, но с тех пор утратили любую способность разумно мыслить! При изучении того, каким образом эти существа деградировали от аграрного общества, умевшего изготавливать инструменты, до простых животных, [Root.GetLeaderName] делает неожиданное открытие.\n\nЗахороненные в останках рептилий, живших в поселениях, имеется некий придаток на позвоночнике в области головы, которого у их одичавших потомков не наблюдается. Испытания показали, что эти органы-придатки в сущности являются другой расой — неким нейронным симбионтом, который присоединяется к мозговому стволу хозяина при помощи внешней присоски к позвоночнику. Этих симбионтов все еще можно отыскать в горячих источниках на поверхности планеты. Похоже, союз между двумя расами временно подстегнул развитие рептилий.\n\nОднако, что впоследствии прервало этот симбиоз, нам неизвестно."
+	distar.170.tec_pu_neuroslug.retrieve:0 "Мы узнаем об этом. Извлечь образцы."
+	distar.170.tec_pu_neuroslug.retrieve.tooltip:0 "Симбионты будут §Yизвлечены§! и сохранены."
+	distar.170.tec_pu_neuroslug.destroy:0 "Неудачные и слабые симбионты. Уничтожьте образцы."
+	distar.170.tec_pu_neuroslug.destroy.tooltip:0 "Неполноценные симбионты будут §Yуничтожены§!."
+
+	story.201.desc.tec_gestalt_empathy:0 "$story.201.desc.base$\n\nОбъектыразмером с корабль и их немного меньшие, но тоже напоминающие кристаллы спутники сперва казались инертными, но внезапные изменения в их расположении относительно наших кораблей и новые энергетические сигнатуры, исходящие изнутри призм, указывают на то, что, возможно, они являются живыми существами. Конечно, это удивительная вещь, но к ним нужно приближаться с осторожностью.\n\nМы направим часть наших коллективных усилий на изучение этих сущностей."
+
+# MISC replaces
+# ------------------------------------------------------------
+ MOD_COUNTRY_ADMIN_CAP_ADD:1 "Дополнительный базовый размер империи"
+
+# Flooded Worlds
+
+ decision_flood_habitat:0 "Затопить мир"
+ decision_flood_habitat_desc:0 "[decision_flood_world_desc]"
+ decision_flood_habitat_default_desc:0 "Этот мир мог бы стать для нас идеальным, будь в нем достаточно воды. К счастью, мы могли бы растопить лед, добытый на других планетах и затопить мир [This.GetName]."
+ decision_flood_habitat_habitat_desc:0 "Орбитальные поселения могли бы стать для нас идеальными жилищами, будь в них достаточно воды. К счастью, мы могли бы превратить поселения на мире [This.GetName] в орбитальные аквариумы, растапливая лед, добытый на других планетах."
+ decision_flood_habitat_ring_desc:0 "Сегменты мира-кольца могли бы стать идеальным местом для нас, будь в них достаточно воды. К счастью, мы могли бы превратить поселения на мире [This.GetName] в аквариумы, растапливая лед, добытый на других планетах."
+ decision_flood_habitat_elysium_desc:0 "Орбитальные Элизиумы могли бы стать идеальным местом для нас, будь в них достаточно воды. К счастью, мы могли бы превратить поселения на мире [This.GetName] в орбитальные аквариумы, растапливая лед, добытый на других планетах."
+ decision_flood_habitat_machine_desc:0 "Машинные миры слишком неэффективны для нас - вот если бы у них было достаточно воды. К счастью, мы могли бы превратить поселения на мире [This.GetName] в аквариумы, растапливая лед, добытый на других планетах."
+ decision_flood_habitat_hive_desc:0 "Этому миру улью не хватает воды, необходимой для сверхразума, чтобы дроны работали с максимальной эффективностью. К счастью, мы могли бы превратить мир [This.GetName] в гидрологический улей, растапливая лед, добытый на других планетах."
+ decision_flood_habitat_gaia_desc:0 "Идеальный мир в основном совершенен для большинства видов, включая нас - но им все же не помешало бы больше воды. К счастью, мы могли бы превратить мир [This.GetName] в океанический рай, растапливая лед, добытый на других планетах."
+ decision_flood_habitat_nuked_desc:0 "Опустошенный мир могут быть суровыми для большинства видов, но мы приспособились жить на них, особенно если там достаточно водоемов, чтобы защитить нас от фоновой радиации - но здесь дело обстоит иначе. К счастью, мы могли бы растопить лед, добытый на других планетах и затопить мир [This.GetName], создавая лучшую защиту от радиации."
+
+ flooded_habitat:0 "Мир аквоидов"
+ flooded_habitat_desc:0 "[flooded_world_desc]" Это орбитальное поселение затоплено водой, оно имитирует естественную среду обитания аквоидов.
+ flooded_habitat_default_desc:0 "Этот мир затоплен водой, он имитирует естественную среду обитания аквоидов."
+ flooded_habitat_ring_desc:0 "Этот сегмент кольца затоплен водой, он имитирует естественную среду обитания аквоидов."
+ flooded_habitat_elysium_desc:0 "Этот орбитальный элизиум затоплен водой, он имитирует естественную среду обитания аквоидов."
+ flooded_habitat_habitat_desc:0 "Это орбитальное поселение затоплено водой, оно имитирует естественную среду обитания аквоидов."
+ flooded_habitat_machine_desc:0 "Этот машинный мир затоплен водой, он увеличить эффективность и улучшает охлаждение машин аквоидов."
+ flooded_habitat_hive_desc:0 "Этот мир улья затоплен водой, он имитирует естественную среду обитания аквоидов."
+ flooded_habitat_gaia_desc:0 "Этот идеальный мир затоплен водой, он имитирует естественную среду обитания аквоидов, сохраняя пространство для неводных видов." 
+ flooded_habitat_nuked_desc:0 "Этот опустошенный мир затоплен водой или содержит достаточно водоемов из периода до ядерной зимы, он имитирует естественную среду обитания аквоидов, обеспечивая защиту в этих водоемах." 
+
+# Offspring
+
+ job_offspring_drone_effect_desc:1 "£job_spawning_drone£ $job_offspring_drone_plural$ увеличивают £mod_planet_amenities_no_happiness_add£ §Y$PLANET_AMENITIES_TITLE$§! и генерируют §Y$tec_loc_unity$§! и другие ресурсы в зависимости от назначения, создают §Y$offspring_defense_plural$§!, а §Y$pop_cat_simple_drone$ становится эффективнее§! на £mod_planet_jobs_simple_drone_produces_mult£ §G+10%§!."
+
+# Organic throphy descriptions
+
+ ORGANIC_TROPHY_POP_EFFECTS:0 "§YПоселения§! получают $20_HAPPINESS$ при отсутствии дефицита на $tec_loc_consumer_goods$."
+
+# archeostudies
+
+ building_archaeostudies_faculty_relic_effect:0  "Если построен на §YРеликтовом мире§! или §YВосстановленных Экуменополисах§!:\n Скорость исследования (археологические исследования): §G+50%§!\n £minor_artifacts£ Незначительные артефакты от £job_researcher£ археоинженеров: §G+0.25§![ TecGPMArchaeostudiesCompat]"
+ building_archaeostudies_faculty_relic_gpm_effect:  "\n Если он построен на §YДревнем мире Археополиса§!:\n Скорость исследования (Археологические исследования): §G+100%§!\n £minor_artifacts£ Незначительные артефакты от £job_researcher£ археоинженеров: §G+0.5§!"
+

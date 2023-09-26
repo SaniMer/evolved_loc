@@ -1,0 +1,1405 @@
+﻿l_russian:
+
+# Country names
+  NAME_EATER_OF_WORLDS:0  "Пожиратель миров"
+  NAME_COMPOSER_OF_STRANDS:0  "Составитель нитей"
+  NAME_INSTRUMENT_OF_DESIRE:0  "Инструмент желания"
+  NAME_WHISPERS_OF_THE_VOID:0  "Шепот в пустоте"
+  NAME_END_OF_THE_CYCLE:0  "Конец цикла"
+  NAME_THE_ETERNAL:0  "Вечный единый"
+
+
+  NAME_tecark:0  "Межгалактический ковчег"
+
+  TEC_ARK_SHIP_NAME:0  "[owner.GetSpeciesName] Ковчег"
+
+
+
+# Common ---------------------------------------------------------------
+	 TEC_FACTION_NO_NEGATIVE_ECONOMY:0  "Здоровая экономика"
+	 TEC_FACTION_BAD_ECONOMY:0  "Отрицательная экономика"
+	 TEC_FACTION_NO_NEGATIVE_ECONOMY_DESC:0  "Наличие любого §RЭкономического дефицита§! вызывает недовольство [Root.GetName]".
+# /
+
+# ------------------------------------------------- Авторитарный
+ # --------------- Требования
+	 TEC_FAC_AUTH_ENSLAVE_XENOS:0  "Базовое рабство"
+	 TEC_FAC_AUTH_NON_ENSLAVED_XENOS:0  "$TEC_FAC_AUTH_ENSLAVE_XENOS$"
+	 TEC_FAC_AUTH_ENSLAVE_XENOS_DESC:0  "Обеспечение §Yпорабощения§! любого вида будет §Gрадовать§![Root.GetName]".
+
+	 TEC_FAC_AUTH_ENSLAVE_ALL_XENOS:0  "Покоренные ксеносы"
+	 TEC_FAC_AUTH_NON_ENSLAVED_ALL_XENOS:0  "$TEC_FAC_AUTH_ENSLAVE_ALL_XENOS$"
+	 TEC_FAC_AUTH_ENSLAVE_ALL_XENOS_DESC:0  "Обеспечение §Yпорабощения§! (или того хуже) всех ксено- или искусственно созданных видов, присутствующих в империи, будет §Gочень радовать§!_[Root.GetName]".
+
+	 TEC_FAC_AUTH_SERVING_XENOS:0  "Социальное рабство"
+	 TEC_FAC_AUTH_NO_SERVING_XENOS:0  "$TEC_FAC_AUTH_SERVING_XENOS$"
+	 TEC_FAC_AUTH_SERVING_XENOS_DESC:0  "Обеспечение §Yпорабощения§! любого вида - будь то через стратификацию или упадочный уровень жизни, или рабство любого типа - будет §Gрадовать§![Root.GetName]."
+
+	 TEC_FAC_AUTH_HAS_SUBJECTS:0  "Наднациональный орган"
+	 TEC_FAC_AUTH_NO_SUBJECTS:0  "$TEC_FAC_AUTH_HAS_SUBJECTS$"
+	 TEC_FAC_AUTH_HAS_SUBJECTS_DESC:0  "Расширение нашего влияния, чтобы доминировать над §Yподвластными нациями§! будет §Gрадовать§![Root.GetName]".
+
+	 TEC_FAC_AUTH_STRONG_CONTROL:0  "Принудительное повиновение"
+	 TEC_FAC_AUTH_WEAK_CONTROL:0  "$TEC_FAC_AUTH_STRONG_CONTROL$"
+	 TEC_FAC_AUTH_STRONG_CONTROL_DESC:0  "Наличие либо §YПолицейского государства§! Гражданского, либо завершение §YКонтроля§! Традиций будет §Gрадовать§![Root.GetName]."
+
+	 TEC_FAC_AUTH_AUTOCRATIC_GOVERNMENT:0  "Автократическое правительство"
+	 TEC_FAC_AUTH_NON_AUTOCRATIC_GOVERNMENT:0  "$TEC_FAC_AUTH_AUTOCRATIC_GOVERNMENT$"
+	 TEC_FAC_AUTH_AUTOCRATIC_GOVERNMENT_DESC:0  "Автократическое правление - §Yимперская или диктаторская власть§! - будет §Gугождать§! тем [Root.GetName]".
+
+	 TEC_FAC_AUTH_STRATIFY_POPS:0  "Принудительная стратификация"
+	 TEC_FAC_AUTH_NO_STRATIFIED_POPS:0  "$TEC_FAC_AUTH_STRATIFY_POPS$"
+	 TEC_FAC_AUTH_STRATIFY_POPS_DESC:0  "Обеспечение стратифицированного общества - будь то посредством стратифицированной экономики, рабства, академических привилегий, упадочных или даже снижающих уровень жизни - будет §Gрадовать§!_[Root.GetName]".
+
+	 TEC_FAC_AUTH_CENTRALIZED_STATE:0  "Централизованное государство"
+	 TEC_FAC_AUTH_NO_CENTRALIZED_STATE:0  "$TEC_FAC_AUTH_CENTRALIZED_STATE$"
+	 TEC_FAC_AUTH_CENTRALIZED_STATE_DESC:0  "Принятие §YЦентрализованного государственного§! варианта политики позиции властей §Gпорадует§![Root.GetName]".
+
+	 TEC_FAC_AUTH_LINEAGES:0  "Избранные лидеры"
+	 TEC_FAC_AUTH_NO_LINEAGES:0  "Избранные лидеры"
+	 TEC_FAC_AUTH_LINEAGES_DESC:0  "Принятие §Yвыбранных линий§! или §YПовышение потенциала§! вариант политики повышения квалификации лидеров §Gпожалуйста§! the [Root.GetName]."
+
+	 TEC_FAC_AUTH_GALCOM_SEAT:0  "Галактическое управление"
+	 TEC_FAC_AUTH_NO_GALCOM_SEAT:0  "$TEC_FAC_AUTH_GALCOM_SEAT$"
+	 TEC_FAC_AUTH_GALCOM_SEAT_DESC:0  "Будучи частью §YГалактического совета§! будет §Gпожалуйста§![Root.GetName]".
+
+	 TEC_FAC_AUTH_NO_DEMOCRACY:0  "Антидемократический"
+	 TEC_FAC_AUTH_HAS_DEMOCRACY:0  "$TEC_FAC_AUTH_NO_DEMOCRACY$"
+	 TEC_FAC_AUTH_NO_DEMOCRACY_DESC:0  "Жизнь при §YДемократической власти§! вызовет §Rсильное недовольство§!_[Root.GetName]".
+
+	 TEC_FAC_AUTH_NOT_BEING_SUBJECT:0  "Подчиненный"
+	 TEC_FAC_AUTH_BEING_A_SUBJECT_IS_BAD:0  "$TEC_FAC_AUTH_NOT_BEING_SUBJECT$"
+	 TEC_FAC_AUTH_NOT_BEING_SUBJECT_DESC:0  "Быть подданным иностранного §Yповелителя§! вызовет §Rнеудовольствие§!_[Root.GetName]".
+
+	 TEC_FAC_AUTH_NO_FREE_MEDIA:0  "Государственные СМИ"
+	 TEC_FAC_AUTH_FREE_MEDIA_IS_BAD:0  "$TEC_FAC_AUTH_NO_FREE_MEDIA$"
+	 TEC_FAC_AUTH_NO_FREE_MEDIA_DESC:0  "Наличие §Yсвободных СМИ§! политики §Rвызывает недовольство§![Root.GetName]".
+
+	 TEC_FAC_AUTH_NO_WEAK_STANCE:0  "Позиция превосходства"
+	 TEC_FAC_AUTH_WEAK_STANCE:0  "$TEC_FAC_AUTH_NO_WEAK_STANCE$"
+	 TEC_FAC_AUTH_NO_WEAK_STANCE_DESC:0  "Не имеющий §Yагрессивной§! или §YСторонник превосходства§! дипломатической позиции §Rнедовольства§![Root.GetName]."
+ # /
+# /
+# ------------------------------------------------- Эгалитарный
+ # --------------- Требования
+	 TEC_FAC_EGA_FEDERALSTATE:0  "Федеративное государство"
+	 TEC_FAC_EGA_NO_FEDERALSTATE:0  "Федеративное государство"
+	 TEC_FAC_EGA_FEDERALSTATE_DESC:0  "Активная §YПолитика федеративного государства§! позиция властей будет §Gрадовать§![Root.GetName]".
+
+
+	 TEC_FAC_EGA_EGALITARIAN_CIVICS:0  "Представлен $ethic_egalitarian_adj$"
+	 TEC_FAC_EGA_NO_EGALITARIAN_CIVICS:0  "Представлен $ethic_egalitarian_adj$"
+	 TEC_FAC_EGA_EGALITARIAN_CIVICS_DESC:0  "Имея какие-либо §YГражданские§! представляющие $ethic_egalitarian$ идеи, такие как Beacon of Liberty, §Gпожалуйста§! the [Root.GetName]."
+
+	 TEC_FAC_EGA_GOOD_STANDARDS:0  "Обеспеченное общество"
+	 TEC_FAC_EGA_NO_GOOD_STANDARDS:0  "Обеспеченное общество"
+	 TEC_FAC_EGA_GOOD_STANDARDS_DESC:0  "Обеспечение §Yбазовых§! стандартов жизни или выше для всех разумных видов, живущих в нашей империи, будет §Gпожалуйста§![Root.GetName]".
+
+	 TEC_FAC_EGA_FREE_MOVEMENT:0  "Свободное передвижение"
+	 TEC_FAC_EGA_NO_FREE_MOVEMENT:0  "Свободное передвижение"
+	 TEC_FAC_EGA_FREE_MOVEMENT_DESC:0  "Обеспечение свободного передвижения поселений путем запрета §Yпринудительного переселения§! и §Yотключения миграционного контроля§! будет §Gпожалуйста§! тот [Root.GetName]."
+
+	 TEC_FAC_EGA_FREE_REPRODUCTION:0  "Репродуктивные права"
+	 TEC_FAC_EGA_NO_FREE_REPRODUCTION:0  "Репродуктивное право"
+	 TEC_FAC_EGA_FREE_REPRODUCTION_DESC:0  "Обеспечение политики §YЗапрещенного контроля численности§! всех видов империи §Gпожалуйста§![Root.GetName]".
+
+	 TEC_FAC_EGA_STATE_MEDIA_BAD:0  "Освободите средства массовой информации!"
+	 TEC_FAC_EGA_NO_STATE_MEDIA_BAD:0  "Освободите средства массовой информации!"
+	 TEC_FAC_EGA_STATE_MEDIA_BAD_DESC:0  "Активная §YГосударственная политика в области средств массовой информации§! в области телекоммуникаций вызовет §Yнедовольство§![Root.GetName]".
+
+	 TEC_FAC_EGA_NOSTRATA:0  "Расслоение, которого можно избежать"
+	 TEC_FAC_EGA_NO_NOSTRATA:0  "Расслоение, которого можно избежать"
+	 TEC_FAC_EGA_NOSTRATA_DESC:0  "Наличие любого вида с §Yстратифицированным§! уровнем жизни §Rвызывает сильное недовольство§!_[Root.GetName]".
+
+	 TEC_FAC_EGA_NODEMOCRACY:0  "Антидемократический страх"
+	 TEC_FAC_EGA_NO_NODEMOCRACY:0  "Антидемократический страх"
+	 TEC_FAC_EGA_NODEMOCRACY_DESC:0  "Наличие какой-либо §Yавтократической§! власти §Rвызывает сильное недовольство§!_[Root.GetName]".
+ # /
+ # --------------- Поощрение/подавление
+	 suppressed_egalitarian:0  "$ethic_egalitarian_adj$ Подавлено"
+	 suppressed_egalitarian_desc:0  "Тот §H$ethic_egalitarian$§! Этика подавляется правительством".
+	 promoted_egalitarian:0  "$ethic_egalitarian_adj$ Повышен в должности"
+	 promoted_egalitarian_desc:0  "Тот §H$ethic_egalitarian$§! Этика поощряется правительством".
+ # /
+# /
+# ------------------------------------------------- Xenophobe
+ # --------------- Demands
+	# Using vanilla strings for now
+ # /
+# /
+# ------------------------------------------------- Xenophile
+ # --------------- Demands
+	# Using vanilla strings for now
+ # /
+# /
+# ------------------------------------------------- Militarist
+ # --------------- Demands
+	# Using vanilla strings for now
+ # /
+# /
+# ------------------------------------------------- Pacifist
+ # --------------- Demands
+	# Using vanilla strings for now
+ # /
+# /
+# ------------------------------------------------- Spiritualist
+ # --------------- Demands
+	 TEC_FAC_SPI_SPIRITUALIST_POPS1:0  "Верная община"
+	 TEC_FAC_SPI_FEW_SPIRITUALIST_POPS1:0  "Верная община"
+	 TEC_FAC_SPI_SPIRITUALIST_POPS1_DESC:0  "Имеющий, по меньшей мере, §G15%§! из общего числа §Yнаселения§! империи, придерживающегося §Yспиритизма§! будет §Gпожалуйста§!_[Root.GetName]."
+
+	 TEC_FAC_SPI_SPIRITUALIST_POPS2:0  "Благочестивая община"
+	 TEC_FAC_SPI_FEW_SPIRITUALIST_POPS2:0  "Благочестивая община"
+	 TEC_FAC_SPI_SPIRITUALIST_POPS2_DESC:0  "Имеющий, по меньшей мере, §G25%§! из общего числа §Yнаселения§! империи, придерживающегося §Yспиритизма§! будет §Gпожалуйста§!_[Root.GetName]."
+
+	 TEC_FAC_SPI_SPIRITUALIST_POPS3:0  "Священное собрание"
+	 TEC_FAC_SPI_FEW_SPIRITUALIST_POPS3:0  "Священное собрание"
+	 TEC_FAC_SPI_SPIRITUALIST_POPS3_DESC:0  "Имеющий, по меньшей мере, §G50%§! из общего числа §Yнаселения§! империи, придерживающегося §Yспиритизма§! будет §Gочень рад§!_[Root.GetName]."
+
+	 TEC_FAC_SPI_RECENT_SACRIFFICE:0  "Единство в самопожертвовании"
+	 TEC_FAC_SPI_NO_RECENT_SACRIFFICE:0  "Единство в самопожертвовании"
+	 TEC_FAC_SPI_RECENT_SACRIFFICE_DESC:0  "Совершение §Yжертвоприношения§! для укрепления нашей веры будет §Gрадовать§![Root.GetName]".
+
+	 TEC_FAC_SPI_PSIONIC_PURSUIT:0  "Псионическое преследование"
+	 TEC_FAC_SPI_NO_PSIONIC_PURSUIT:0  "Псионическое преследование"
+	 TEC_FAC_SPI_PSIONIC_PURSUIT_DESC:0  "Ищу способ проникнуть в тайны веры, убеждений и §Mпсионических знаний§! будет §Gпожалуйста§!_[Root.GetName]".
+
+	 TEC_FAC_SPI_PURITY_ASSEMBLY:0  "Сохраненная чистота"
+	 TEC_FAC_SPI_NO_PURITY_ASSEMBLY:0  "Сохраненная чистота"
+	 TEC_FAC_SPI_PURITY_ASSEMBLY_DESC:0  "Решение отвергнуть все виды нечестиво созданных видов и сосредоточиться на §YЧистоте§! и цитогенезе нашего вида будет §Gрадовать§![Root.GetName]."
+
+	 TEC_FAC_SPI_CYBERFORM:0  "Плоть слаба"
+	 TEC_FAC_SPI_NO_CYBERFORM:0  "Слабость плоти"
+	 TEC_FAC_SPI_CYBERFORM_DESC:0  "Ищем способ улучшить наши тела с помощью любого вида божественной §BКибернетики§! будет §Gпожалуйста§![Root.GetName]".
+
+	 TEC_FAC_SPI_FOCUSCULT:0  "Сосредоточенная вера"
+	 TEC_FAC_SPI_NO_FOCUSCULT:0  "Сосредоточенная вера"
+	 TEC_FAC_SPI_FOCUSCULT_DESC:0  "Выбор конкретного §YРелигиозного культа§! политики будет §Gрадовать§![Root.GetName]".
+
+	 TEC_FAC_SPI_THEOCRACY:0  "Божественная империя"
+	 TEC_FAC_SPI_NO_THEOCRACY:0  "Божественная империя"
+	 TEC_FAC_SPI_THEOCRACY_DESC:0  "Наличие §YТеократической власти§! или §YБожественной империи§! типа правительства или гражданского общества будет §Gпожалуйста§! тот самый [Root.GetName]."
+
+	 TEC_FAC_SPI_SHROUD_BOON:0  "Скрытое благо"
+	 TEC_FAC_SPI_NO_SHROUD_BOON:0  "Скрытое благо"
+	 TEC_FAC_SPI_SHROUD_BOON_DESC:0  "Пожинаю полезные §Yнаграды§! от §MСавана§! воли §Gпожалуйста§![Root.GetName] на какое-то время."
+
+	 TEC_FAC_SPI_RELIGIOUS_FINDING:0  "Комфорт в прошлом"
+	 TEC_FAC_SPI_NO_RELIGIOUS_FINDING:0  "Комфорт в прошлом"
+	 TEC_FAC_SPI_RELIGIOUS_FINDING_DESC:0  "Обретение религиозного значения в §Y$tec_loc_minor_artifacts$§! будет ли §Gрадовать§!_[Root.GetName] на некоторое время".
+
+	 TEC_FAC_SPI_MEMORIAL:0  "Мемориал прошлого"
+	 TEC_FAC_SPI_MEMORIAL_DESC:0  "Создание любого §Yмемориального здания§! на §Yреликвии или разрушенном ядерной бомбой§! мире будет §Gрадовать§!________________________________________________[Root.GetName]."
+
+	 TEC_FAC_SPI_FLESH_IS_STRONG:0  "Плоть крепка"
+	 TEC_FAC_SPI_FLESH_IS_WEAK:0  "Плоть слаба"
+	 TEC_FAC_SPI_FLESH_IS_STRONG_DESC:0  "Развращение наших естественных тел §Yкибернетическими имплантатами§! и нашего общества страстью к §YОтвратительным разумным существам§! вызовет §Rсильное недовольство§! тот [Root.GetName]."
+
+	 TEC_FAC_SPI_DISGUSTING_FLESH:0  "Слабость плоти"
+	 TEC_FAC_SPI_FLESH_IS_WEAK_DESC:0  "Приближаемся к совершенствованию наших тел и нашей веры с помощью §Yкибернетических имплантатов§! и §Yусовершенствованных машин§! воли §Gпожалуйста§! тот [Root.GetName]."
+
+	 TEC_FAC_SPI_GOVERNMENT:0  "Благочестивое государство"
+	 TEC_FAC_SPI_SECULAR_GOVERNMENT:0  "Светское государство"
+	 TEC_FAC_SPI_GOVERNMENT_DESC:0  "Наличие §Yспиритуалистических ценностей§!, отраженных в этике управления нашей империей, будет §G, пожалуйста§!, [4]_".
+
+	 TEC_FAC_SPI_SHROUD_CURSE:0  "Скрытый мор"
+	 TEC_FAC_SPI_NO_SHROUD_CURSE:0  "Скрытый мор"
+	 TEC_FAC_SPI_SHROUD_CURSE_DESC:0  "Пожинание дурных плодов от §MПлащаницы§! вызовет §Rнеудовольствие§Y_[Root.GetName] на некоторое время".
+
+	 TEC_FAC_SPI_NO_CRAFTED_SPECIES:0  "Отвращай бездушных"
+	 TEC_FAC_SPI_CRAFTED_SPECIES_ARE_BAD:0  "Отвращай бездушных"
+	 TEC_FAC_SPI_NO_CRAFTED_SPECIES_DESC:0  "Допуская замену §Yорганической жизни§! на §Rлюбой созданный вид§! вызовет §Rнедовольство§!_______________________________________________[Root.GetName]."
+
+	 TEC_FAC_SPI_NO_ROBOT_RIGHTS:0  "Никаких прав на роботов"
+	 TEC_FAC_SPI_ROBOT_RIGHTS_BAD:0  "Никаких прав на роботов"
+	 TEC_FAC_SPI_NO_ROBOTS_DESC:0  "Неспособность объявить вне закона ненормативную лексику, которая является §Eмыслящими машинами§!, вызовет §Rнедовольство§![Root.GetName]".
+
+	 TEC_FAC_SPI_NO_FULL_ROBOT_RIGHTS:0  "Никаких синтетических прав"
+	 TEC_FAC_SPI_FULL_ROBOT_RIGHTS_BAD:0  "Никаких синтетических прав"
+	 TEC_FAC_SPI_NO_FULL_ROBOT_RIGHTS_DESC:0  "Предоставление бездушным §Eсинтетикам§! полных гражданских прав вызовет §Rсильное недовольство§!_[Root.GetName]".
+
+	 TEC_FAC_SPI_LOW_POPS:0  "Сражающееся меньшинство"
+	 TEC_FAC_SPI_LOW_POPS_IS_BAD:0  "Сражающееся меньшинство"
+	 TEC_FAC_SPI_LOW_POPS_DESC:0  "Признание спиритических верований §Yменьшинством§! проблемой в [Root.Owner.GetName] вызовет §Rнедовольство§!_[Root.GetName]".
+ # /
+# /
+# ------------------------------------------------- Materialist
+ # --------------- Demands
+	 TEC_FAC_MAT_RESEARCHPACTS_1:0  "Общие знания"
+	 TEC_FAC_MAT_NO_RESEARCHPACTS_1:0  "Общие знания"
+	 TEC_FAC_MAT_RESEARCHPACTS_1_DESC:0  "Имеющий по меньшей мере §G1§! £influence£ §YИсследовательский пакт§! с иностранной империей §Gпожалуйста§! тот [Root.GetName]."
+
+	 TEC_FAC_MAT_RESEARCHPACTS_2:0  "Галактическое знание"
+	 TEC_FAC_MAT_NO_RESEARCHPACTS_2:0  "Галактическое знание"
+	 TEC_FAC_MAT_RESEARCHPACTS_2_DESC:0  "Имеющий по меньшей мере §G3§! £influence£ §YИсследовательские договоры§! с иностранной империей §Gпожалуйста§! тот [Root.GetName]."
+
+	 TEC_FAC_MAT_RESEARCHPACTS_3:0  "Универсальное знание"
+	 TEC_FAC_MAT_NO_RESEARCHPACTS_3:0  "Универсальное знание"
+	 TEC_FAC_MAT_RESEARCHPACTS_3_DESC:0  "Имеющий по меньшей мере §G5§! £influence£ §YИсследовательские договоры§! с иностранной империей §Gпожалуйста§! тот [Root.GetName]."
+
+	 TEC_FAC_MAT_RARETECHS:0  "Аномальные изобретения"
+	 TEC_FAC_MAT_NO_RARETECHS:0  "Аномальные изобретения"
+	 TEC_FAC_MAT_RARETECHS_DESC:0  "Открытие §G5§! или больше §MРедких технологий§! будет §Gпожалуйста§![Root.GetName]."
+
+	 TEC_FAC_MAT_RARETECHS1:0  "Инновационная технология"
+	 TEC_FAC_MAT_NO_RARETECHS1:0  "Инновационная технология"
+	 TEC_FAC_MAT_RARETECHS1_DESC:0  "Открытие §G5§! или больше §MРедких технологий§! будет §Gпожалуйста§![Root.GetName]."
+
+	 TEC_FAC_MAT_RARETECHS2:0  "Превосходная технология"
+	 TEC_FAC_MAT_NO_RARETECHS2:0  "Превосходная технология"
+	 TEC_FAC_MAT_RARETECHS2_DESC:0  "Открытие §G10§! или больше §MРедких технологий§! будет §Gпожалуйста§![Root.GetName]."
+
+	 TEC_FAC_MAT_RARETECHS3:0  "Высочайшая технология"
+	 TEC_FAC_MAT_NO_RARETECHS3:0  "Высочайшая технология"
+	 TEC_FAC_MAT_RARETECHS3_DESC:0  "Открытие §G15§! или больше §MРедких технологий§! будет §Gпожалуйста§![Root.GetName]."
+
+	 TEC_FAC_MAT_PRECURSORS:0  "Секреты предшественников"
+	 TEC_FAC_MAT_NO_PRECURSORS:0  "Секреты предшественников"
+	 TEC_FAC_MAT_PRECURSORS_DESC:0  "Разгадка древних тайн £minor_artifacts£ §YПредшественники§! будут §Gрадовать§!_[Root.GetName]."
+
+	 TEC_FAC_MAT_SECRET_KNOWLEDGE:0  "Тайное знание"
+	 TEC_FAC_MAT_NO_SECRET_KNOWLEDGE:0  "Тайное знание"
+	 TEC_FAC_MAT_SECRET_KNOWLEDGE_DESC:0  "Доступ к §YТайным знаниям§! - какому-то древнему §YОзарению§! или §YКэшу данных§! - будет §Gпожалуйста§!_[Root.GetName]."
+
+	 TEC_FAC_MAT_MATERIALCIVIC:0  "Материальная эффективность"
+	 TEC_FAC_MAT_NO_MATERIALCIVIC:0  "Материальная эффективность"
+	 TEC_FAC_MAT_MATERIALCIVIC_DESC:0  "Принятие любого вида §Yматериалистической§! управляющей гражданской воли §Gпожалуйста§![Root.GetName]".
+
+	 TEC_FAC_MAT_ARCANE_INSIGHT:0  "Знание прошлого"
+	 TEC_FAC_MAT_NO_ARCANE_INSIGHT:0  "Знание прошлого"
+	 TEC_FAC_MAT_ARCANE_INSIGHT_DESC:0  "Изучение §Y$tec_loc_minor_artifacts$§! будет ли §Gрадовать§!_[Root.GetName] на некоторое время".
+
+	 TEC_FAC_MAT_RESEARCH_TRADITIONS:0  "Космическое любопытство"
+	 TEC_FAC_MAT_NO_RESEARCH_TRADITIONS:0  "Космическое любопытство"
+	 TEC_FAC_MAT_RESEARCH_TRADITIONS_DESC:0  "Принятие £unity£ §YОткрытие§! Традиций §Gпорадует§!_[Root.GetName]."
+
+	 TEC_FAC_MAT_RESEARCH_FED_LEADER:0  "Главный научный сотрудник"
+	 TEC_FAC_MAT_NO_RESEARCH_FED_LEADER:0  "Главный научный сотрудник"
+	 TEC_FAC_MAT_RESEARCH_FED_LEADER_DESC:0  "Доказательство того, что мы достойны возглавлять §YИсследовательскую федерацию§! будет §Gпожалуйста§![Root.GetName] на некоторое время".
+
+	 TEC_FAC_MAT_RESEARCH_CAPITAL:0  "Центр знаний"
+	 TEC_FAC_MAT_NO_RESEARCH_CAPITAL:0  "Центр знаний"
+	 TEC_FAC_MAT_RESEARCH_CAPITAL_DESC:0  "Имеющий £trigger_tec_research£ §YНаучно-исследовательский институт§! строит на вашем §Yкапитале§! завещании §Gпожалуйста§! тот [Root.GetName]."
+
+	 TEC_FAC_MAT_WRONG_RESEARCH_LEADER:0  "Неэтичные задания"
+	 TEC_FAC_MAT_NO_WRONG_RESEARCH_LEADER:0  "Неэтичные задания"
+	 TEC_FAC_MAT_WRONG_RESEARCH_LEADER_DESC:0  "Наличие любого руководителя неправильной §Yкатегории исследований§!, или без черт, которые естественным образом стимулируют эту область исследований или исследование в целом, возглавляющего исследование определенного типа, вызовет §Rнедовольство§! тот [Root.GetName]."
+
+	 TEC_FAC_MAT_NO_SYNTH_ENVY:0  "Синтезаторная зависть"
+	 TEC_FAC_MAT__SYNTH_ENVY:0  "Синтезаторная зависть"
+	 TEC_FAC_MAT_NO_SYNTH_ENVY_DESC:0  "Видеть, как другие империи выставляют напоказ любые §YРоботизированные поселения§! вокруг - без каких-либо внутренних эквивалентов ни в одном из наших миров - несомненно, §Rвызовет недовольство§!________________________________[Root.GetName]."
+
+	 TEC_FAC_MAT_OVERADMINCAP:0  "Плохое управление"
+	 TEC_FAC_MAT_NO_OVERADMINCAP:0  "Плохое управление"
+	 TEC_FAC_MAT_OVERADMINCAP_DESC:0  "Наличие §YСектора§! без §YГубернатора§!, тем самым снижая эффективность управления, вызовет §Rнедовольство§! тот самый [Root.GetName]."
+	 TEC_FAC_MAT_OVERADMINCAP_OLD_DESC:0  "Превышение §Yадминистративных возможностей§! и, таким образом, снижение эффективности приведет §Rк недовольству§!_[Root.GetName]".
+ # /
+# /
+# ------------------------------------------------- Cooperative
+  format.pop_faction.socialists:0  "<socialists_names_1> <socialists_names_2>"
+ pft_socialists:2 "Кооперативная фракция"
+ pft_socialists_desc:5 "Кооперативные фракции борются за утверждение законов и политики в области социального обеспечения, добиваясь предоставления государственных услуг, общих льгот и развития колоний.\n\n§L$ethic_socialism$ Этос§!"
+ tec_cooperative_visual_ethic:2 "£ethic_cooperative£"
+ # --------------- Demands
+	 TEC_FAC_COOP_PLANNED_MARKET:0  "Планируемый рынок"
+	 TEC_FAC_COOP_NO_PLANNED_MARKET:0  "Планируемый рынок"
+	 TEC_FAC_COOP_PLANNED_MARKET_DESC:0  "Принятие §Yплановой рыночной§! экономической политики будет §Gрадовать§![Root.GetName]".
+
+	 TEC_FAC_COOP_WELFARE:0  "Социальное обеспечение"
+	 TEC_FAC_COOP_NO_WELFARE:0  "Социальное обеспечение"
+	 TEC_FAC_COOP_WELFARE_DESC:0  "Обеспечение общества хорошими условиями жизни для каждого вида - будь то посредством социального обеспечения, декадентского или утопического уровня жизни в изобилии - будет §Gочень радовать§!_[Root.GetName]".
+
+	 TEC_FAC_COOP_RESERVES1:0  "Социальные резервы"
+	 TEC_FAC_COOP_NO_RESERVES1:0  "Социальные резервы"
+	 TEC_FAC_COOP_RESERVES1_DESC:0  "Хранение и консервация в общей сложности §G2000§! из каждого £trigger_tec_basic_resources£ §YОсновной ресурс§! будет §Gпожалуйста§! тот [Root.GetName]."
+
+	 TEC_FAC_COOP_RESERVES2:0  "Планируемые резервы"
+	 TEC_FAC_COOP_NO_RESERVES2:0  "Планируемые резервы"
+	 TEC_FAC_COOP_RESERVES2_DESC:0  "Хранение и консервация в общей сложности §G5000§! из каждого £trigger_tec_basic_resources£ §YОсновной ресурс§! будет §Gпожалуйста§! тот [Root.GetName]."
+
+	 TEC_FAC_COOP_RESERVES3:0  "Аварийные резервы"
+	 TEC_FAC_COOP_NO_RESERVES3:0  "Аварийные резервы"
+	 TEC_FAC_COOP_RESERVES3_DESC:0  "Хранение и консервация в общей сложности §G10000§! из каждого £trigger_tec_basic_resources£ §YБазовый ресурс§! будет §Gочень рад§! тот [Root.GetName]."
+
+	 TEC_FAC_COOP_DEVELOPED_SOCIALISM:0  "Развитая социализация"
+	 TEC_FAC_COOP_NO_DEVELOPED_SOCIALISM:0  "Развитая социализация"
+	 TEC_FAC_COOP_DEVELOPED_SOCIALISM_DESC:0  "Принятие любого §Yкооператива§! гражданского общества, ориентированного на предоставление преимуществ обществу, такого как "Профсоюзы", будет §Gрадовать§![Root.GetName]".
+
+	 TEC_FAC_COOP_STATECRAFT:0  "Надежное управление государством"
+	 TEC_FAC_COOP_NO_STATECRAFT:0  "Надежное управление государством"
+	 TEC_FAC_COOP_STATECRAFT_DESC:0  "Принятие £unity£ §YГосударственное управление§! Традиции будут §Gрадовать§![Root.GetName]."
+
+	 TEC_FAC_COOP_STATEMEDIA:0  "Государственные СМИ"
+	 TEC_FAC_COOP_NO_STATEMEDIA:0  "Государственные СМИ"
+	 TEC_FAC_COOP_STATEMEDIA_DESC:0  "Имея §YГосударственные СМИ§! политику §Gпожалуйста§![Root.GetName]".
+
+	 TEC_FAC_COOP_SOCIALTRADE:0  "Социальные инвестиции"
+	 TEC_FAC_COOP_NO_SOCIALTRADE:0  "Социальные инвестиции"
+	 TEC_FAC_COOP_SOCIALTRADE_DESC:0  "Имеющий либо §YПотребительские преимущества§!, §YРынок идей§!, §YТорговая лига§!, §YСоциальное развитие§! или §YИнновации§! Торговая политика §Gпожалуйста§![Root.GetName]."
+
+	 TEC_FAC_COOP_PUBLICSERVICES:0  "Никаких частных услуг"
+	 TEC_FAC_COOP_NO_PUBLICSERVICES:0  "Никаких частных услуг"
+	 TEC_FAC_COOP_PUBLICSERVICES_DESC:0  "Лишение нашего общества §Yгосударственных услуг§! здравоохранения и образования вызовет §Rсерьезное недовольство§![Root.GetName]".
+
+	 TEC_FAC_COOP_NOFREEMARKET:0  "Свободного рынка нет"
+	 TEC_FAC_COOP_NO_NOFREEMARKET:0  "Свободного рынка нет"
+	 TEC_FAC_COOP_NOFREEMARKET_DESC:0  "Принятие §Yполитики свободного рынка§! экономической позиции вызовет §Rсерьезное недовольство§![Root.GetName]".
+ # /
+ # --------------- Поощрение/подавление
+	 suppressed_socialism:0  "$ethic_socialism_adj$ Подавлено"
+	 suppressed_socialism_desc:0  "Тот §H$ethic_socialism$§! Этика подавляется правительством".
+	 promoted_socialism:0  "$ethic_socialism_adj$ Повышен в должности"
+	 promoted_socialism_desc:0  "Тот §H$ethic_socialism$§! Этика поощряется правительством".
+ # /
+# /
+# ------------------------------------------------- Competitive
+  format.pop_faction.bankers:0  "<bankers_names_1> <bankers_names_2>"
+ pft_bankers:2 "Competitive Faction"
+ pft_bankers_desc:5 "Competitive Factions wish for their Empire's economical growth to prosper and expand. They push for policies that benefit economy and trade over social benefits or public services.\n\n§L$ethic_capitalism$ Ethos§!"
+ tec_competitive_visual_ethic:2 "£ethic_competitive£"
+ # --------------- Demands
+	 TEC_FAC_COMP_WEALTH_CAPITAL1:0  "Богатый капитал"
+	 TEC_FAC_COMP_NOWEALTH_CAPITAL1:0  "Богатый капитал"
+	 TEC_FAC_COMP_WEALTH_CAPITAL1_DESC:0  "Имеющий по меньшей мере §G200§! §Y$tec_loc_trade_value$§! генерируется нашим капиталом §Gпожалуйста§! тот самый [Root.GetName]."
+
+	 TEC_FAC_COMP_WEALTH_CAPITAL2:0  "Богатый капитал"
+	 TEC_FAC_COMP_NOWEALTH_CAPITAL2:0  "Богатый капитал"
+	 TEC_FAC_COMP_WEALTH_CAPITAL2_DESC:0  "Имеющий по меньшей мере §G400§! §Y$tec_loc_trade_value$§! генерируется нашим капиталом §Gпожалуйста§! тот самый [Root.GetName]."
+
+	 TEC_FAC_COMP_WEALTH_CAPITAL3:0  "Богатая столица"
+	 TEC_FAC_COMP_NOWEALTH_CAPITAL3:0  "Богатая столица"
+	 TEC_FAC_COMP_WEALTH_CAPITAL3_DESC:0  "Имеющий по меньшей мере §G800§! §Y$tec_loc_trade_value$§! генерируется нашим капиталом §Gочень прошу§! тот [Root.GetName]."
+
+	 TEC_FAC_COMP_TRADEPACTS1:0  "Коммерческое расширение"
+	 TEC_FAC_COMP_NOTRADEPACTS1:0  "Коммерческое расширение"
+	 TEC_FAC_COMP_TRADEPACTS1_DESC:0  "Имеющий по меньшей мере §G1§! £influence£ §YКоммерческий договор§! с иностранной империей §Gпожалуйста§! тот [Root.GetName]."
+
+	 TEC_FAC_COMP_TRADEPACTS2:0  "Коммерческое расширение"
+	 TEC_FAC_COMP_NOTRADEPACTS2:0  "Коммерческое расширение"
+	 TEC_FAC_COMP_TRADEPACTS2_DESC:0  "Имеющий по меньшей мере §G2§! £influence£ §YКоммерческий договор§! с иностранной империей §Gпожалуйста§! тот [Root.GetName]."
+
+	 TEC_FAC_COMP_TRADEPACTS3:0  "Контролируемое торговое пространство"
+	 TEC_FAC_COMP_NOTRADEPACTS3:0  "Контролируемое торговое пространство"
+	 TEC_FAC_COMP_TRADEPACTS3_DESC:0  "Имеющий по меньшей мере §G3§! £influence£ §YКоммерческий договор§! с иностранной империей §Gочень прошу§! тот [Root.GetName]."
+
+	 TEC_FAC_COMP_TRADEBASES1:0  "Контролируемое торговое пространство"
+	 TEC_FAC_COMP_NOTRADEBASES1:0  "Контролируемое торговое пространство"
+	 TEC_FAC_COMP_TRADEBASES1_DESC:0  "Имеющий по меньшей мере §G1§! £mod_country_naval_cap_add£ §YТорговый центр Звездной базы§ внутри наших границ §Gпожалуйста§! тот [Root.GetName]."
+
+	 TEC_FAC_COMP_TRADEBASES2:0  "Контролируемое торговое пространство"
+	 TEC_FAC_COMP_NOTRADEBASES2:0  "Контролируемое торговое пространство"
+	 TEC_FAC_COMP_TRADEBASES2_DESC:0  "Имеющий по меньшей мере §G2§! £mod_country_naval_cap_add£ §YЗвездные базы торгового центра§! внутри наших границ §Gпожалуйста§! тот [Root.GetName]."
+
+	 TEC_FAC_COMP_TRADEBASES3:0  "Контролируемое торговое пространство"
+	 TEC_FAC_COMP_NOTRADEBASES3:0  "Контролируемое торговое пространство"
+	 TEC_FAC_COMP_TRADEBASES3_DESC:0  "Имеющий по меньшей мере §G3§! £mod_country_naval_cap_add£ §YЗвездные базы торгового центра§! внутри наших границ §Gочень прошу§! тот [Root.GetName]."
+
+	 TEC_FAC_COMP_TRADEFED:0  "Федеративная экономическая элита"
+	 TEC_FAC_COMP_NO_TRADEFED:0  "Федеративная экономическая элита"
+	 TEC_FAC_COMP_TRADEFED_DESC:0  "Являясь частью §YФедерации Торговой лиги§! в качестве члена или ассоциированного лица §Gпожалуйста§![Root.GetName]".
+
+
+	 TEC_FAC_COMP_HASBRANCHES:0  "Внутреннее разветвление"
+	 TEC_FAC_COMP_NOTHASBRANCHES:0  "Внутреннее разветвление"
+	 TEC_FAC_COMP_HASBRANCHES_DESC:0  "Имея какой-либо §Yфилиал§!, установленный на любой из наших планет §G, пожалуйста§!_[Root.GetName]".
+
+	 TEC_FAC_COMP_MEGAHASBRANCHES:0  "Галактическое разветвление"
+	 TEC_FAC_COMP_MEGANOTHASBRANCHES:0  "Галактическое разветвление"
+	 TEC_FAC_COMP_MEGAHASBRANCHES_DESC:0  "Создав §Yфилиал§! на любой чужой планете §Gпожалуйста§!_[Root.GetName]".
+
+	 TEC_FAC_COMP_MERCANTILE:0  "Меркантильные традиции"
+	 TEC_FAC_COMP_NO_MERCANTILE:0  "Меркантильные традиции"
+	 TEC_FAC_COMP_MERCANTILE_DESC:0  "Принятие £unity£ §YМеркантильные§! Традиции будут §Gрадовать§![Root.GetName]."
+
+	 TEC_FAC_COMP_PRIV_MEDICINE:0  "Частное здравоохранение"
+	 TEC_FAC_COMP_NO_PRIV_MEDICINE:0  "Нет частной медицинской помощи"
+	 TEC_FAC_COMP_PRIV_MEDICINE_DESC:0  "Наличие §Yполиса частного медицинского страхования§!_§Gпожалуйста§!_[Root.GetName]".
+
+	 TEC_FAC_COMP_LEAD_TRADEFED:0  "Глава лиги"
+	 TEC_FAC_COMP_LEAD_TRADEFED_DESC:0  "Глава лиги"
+	 TEC_FAC_COMP_NO_LEAD_TRADEFED:0  "Будучи §YЛидером§! Федерации Торговой лиги §Gпожалуйста§![Root.GetName]".
+
+	 TEC_FAC_COMP_STRATIFY_POPS:0  "Стратифицированное общество"
+	 TEC_FAC_COMP_NO_STRATIFIED_POPS:0  "Стратифицированное общество"
+	 TEC_FAC_COMP_STRATIFY_POPS_DESC:0  "$TEC_FAC_AUTH_STRATIFY_POPS_DESC$"
+
+	 TEC_FAC_COMP_MERCANTILE_STANCE:0  "Меркантильная позиция"
+	TEC_FAC_COMP_NO_MERCANTILE:0 "Нет меркантильной позиции"
+	 TEC_FAC_COMP_MERCANTILE_STANCE_DESC:0  "Отсутствие §Yмеркантильной§! дипломатической позиции §Rвызывает недовольство§!_[Root.GetName]".
+
+	 TEC_FAC_COMP_NO_SOCIAL_DEVELOPMENT:0  "Отсутствие социального развития"
+	 TEC_FAC_COMP_SOCIAL_DEVELOPMENT_IS_BAD:0  "$TEC_FAC_COMP_NO_SOCIAL_DEVELOPMENT$"
+	 TEC_FAC_COMP_NO_SOCIAL_DEVELOPMENT_DESC:0  "Проведение §YСоциального развития§! политики торгового обмена §Rвызывает недовольство§![Root.GetName]".
+
+	 TEC_FAC_COMP_NO_PLANNED_ECO:0  "Плановой экономики нет"
+	 TEC_FAC_COMP_PLANNED_ECO_IS_BAD:0  "Плановой экономики нет"
+	 TEC_FAC_COMP_NO_PLANNED_ECO_DESC:0  "Наличие §Yплановой экономики§! политики §Rвызывает серьезное недовольство§!_[Root.GetName]".
+
+	 TEC_FAC_COMP_NO_WELFARE:0  "Нет социального обеспечения"
+	 TEC_FAC_COMP_WELFARE_IS_BAD:0  "Нет социального обеспечения"
+	 TEC_FAC_COMP_NO_WELFARE_DESC:0  "Наличие любого вида с §YСоциальным обеспечением§! уровнем жизни §Rвызывает недовольство§!_[Root.GetName]".
+ # /
+ # --------------- Promotion/Supression
+	 suppressed_capitalism:0  "$ethic_capitalism_adj$ Подавлено"
+	 suppressed_capitalism_desc:0  "Тот §H$ethic_capitalism$§! Этика подавляется правительством".
+	 promoted_capitalism:0  "$ethic_capitalism_adj$ Повышен в должности"
+	 promoted_capitalism_desc:0  "Тот §H$ethic_capitalism$§! Этика поощряется правительством".
+ # /
+# /
+# ------------------------------------------------- Ecologist
+  format.pop_faction.environmentalists:0  "<environmentalists_names_1> <environmentalists_names_2>"
+ pft_environmentalists:2 "Ecologist Faction"
+ pft_environmentalists_desc:5 "Ecologist Factions prioritize the conservation and good use of natural resources. They tend to favor policies and laws focused on preserving nature and reducing the impact of industrial and empire development on it.\n\n§L$ethic_green$ Ethos§!"
+ tec_ecologist_visual_ethic:2 "£ethic_ecologist£"
+ # --------------- Demands
+	 TEC_FAC_ECO_TERRAFORMED1:0  "Местное терраформирование"
+	 TEC_FAC_ECO_TERRAFORMED1_DESC:0  "§YТерраформирование§! или §YЭкологическое§! улучшение планеты §Gпожалуйста§![Root.GetName]."
+
+	 TEC_FAC_ECO_TERRAFORMED2:0  "Крупномасштабное терраформирование"
+	 TEC_FAC_ECO_TERRAFORMED2_DESC:0  "§YТерраформирование§! или §YЭкологически§! улучшающее §G5§! или больше планет §Gпожалуйста§!_[Root.GetName]."
+
+	 TEC_FAC_ECO_TERRAFORMED3:0  "Небесное терраформирование"
+	 TEC_FAC_ECO_TERRAFORMED3_DESC:0  "§YТерраформирование§! или §YЭкологически§! улучшающее §G10§! или больше планет §Gочень прошу§!_[Root.GetName]."
+
+	 TEC_FAC_ECO_GREEN_CGS:0  "Экологические товары"
+	 TEC_FAC_ECO_NO_GREEN_CGS:0  "Экологические товары"
+	 TEC_FAC_ECO_GREEN_CGS_DESC:0  "Имея §YЭкологическую§! или §Yсмешанную§! Политику в отношении потребительских товаров §Gпожалуйста§![Root.GetName]."
+
+	 TEC_FAC_ECO_RECEDIT:0  "Кампания по переработке отходов"
+	 TEC_FAC_ECO_NO_RECEDIT:0  "Кампания по переработке отходов"
+	 TEC_FAC_ECO_RECEDIT_DESC:0  "Проводим активную §Yкампанию по утилизации§! указ §Gпожалуйста§![Root.GetName]".
+
+	 TEC_FAC_ECO_CIVICS:0  "Зеленый компромисс"
+	 TEC_FAC_ECO_NO_CIVICS:0  "Зеленый компромисс"
+	 TEC_FAC_ECO_CIVICS_DESC:0  "Усыновление любого §YГражданского эколога§! будет §Gпожалуйста§![Root.GetName]".
+
+	 TEC_FAC_ECO_INDUEFFICIENCY:0  "Эффективность управления"
+	 TEC_FAC_ECO_NO_INDUEFFICIENCY:0  "Эффективность управления"
+	 TEC_FAC_ECO_INDUEFFICIENCY_DESC:0  "Наличие §Yрегулируемой отрасли§! варианта политики блока политики экологического регулирования §Gпожалуйста§![Root.GetName]".
+
+	 TEC_FAC_ECO_RECYMODULARIZATION:0  "Экологическая модульность"
+	 TEC_FAC_ECO_NO_RECYMODULARIZATION:0  "Экологическая модульность"
+	 TEC_FAC_ECO_RECYMODULARIZATION_DESC:0  "Наличие §YЭкологической модульности§! варианта политики блока политики инфраструктурного производства §Gпожалуйста§![Root.GetName]".
+
+	 TEC_FAC_ECO_TERRAFORMPERKS:0  "Опыт, формирующий мир"
+	 TEC_FAC_ECO_NO_TERRAFORMPERKS:0  "Опыт, формирующий мир"
+	 TEC_FAC_ECO_TERRAFORMPERKS_DESC:0  "Открыв и приняв §YГосподство над природой§! или §YСоздателей мира§! привилегии вознесения будут §Gпожалуйста§! тот самый [Root.GetName]."
+
+	 TEC_FAC_ECO_NO_MINERAL_CGS:0  "Промышленные товары"
+	 TEC_FAC_ECO_MINERAL_CGS_IS_BAD:0  "Промышленные товары"
+	 TEC_FAC_ECO_NO_MINERAL_CGS_DESC:0  "Проведение §YПолитики в области промышленного производства§! политики в области потребительских товаров §Rвызывает серьезное недовольство§![Root.GetName]".
+
+	 TEC_FAC_ECO_RECENT_ECU:0  "Необратимый ущерб экосистеме"
+	 TEC_FAC_ECO_NO_RECENT_ECU:0  "Необратимый ущерб экосистеме"
+	 TEC_FAC_ECO_RECENT_ECU_DESC:0  "Создание любого вида аркологии, наносящей ущерб естественной экологии, вызовет §Rсерьезное недовольство§!_[Root.GetName] в течение §Y10 лет§!".
+
+	 TEC_FAC_ECO_NO_REGULATION:0  "Нерегулируемая промышленность"
+	 TEC_FAC_ECO_NO_REGULATION_BAD:0  "Нерегулируемая промышленность"
+	 TEC_FAC_ECO_NO_REGULATION_DESC:0  "Отсутствие §YПромышленного регулирования§! политики §Rвызывает серьезное недовольство§!_[Root.GetName]".
+
+	 TEC_FAC_ECO_NO_RECYCL:0  "Без вторичной переработки"
+	 TEC_FAC_ECO_NO_RECYCL_BAD:0  "Без вторичной переработки"
+	 TEC_FAC_ECO_NO_RECYCL_DESC:0  "Отсутствие какого-либо типа §Yкампании по переработке§! или промышленного §YИнфраструктурного производства§! политики §Rвызывает серьезное недовольство§! тот [Root.GetName]."
+ # /
+ # --------------- Поощрение/подавление
+	 suppressed_green:0  "$ethic_green_adj$ Подавлено"
+	 suppressed_green_desc:0  "Тот §H$ethic_green$§! Этика подавляется правительством".
+	 promoted_green:0  "$ethic_green_adj$ Повышен в должности"
+	 promoted_green_desc:0  "Тот §H$ethic_green$§! Этика поощряется правительством".
+ # /
+# /
+# ------------------------------------------------- Industrialist
+  format.pop_faction.manufacturers:0  "<manufacturers_names_1> <manufacturers_names_2>"
+ pft_manufacturers:2 "Industrialist Faction"
+ pft_manufacturers_desc:5 "Industrialist Factions promote industrial and productive development. They tend to disregard ecology-friendly policies in favor of hyper-industrialization oriented ones.\n\n§L$ethic_industrial$ Ethos§!"
+ tec_industrialist_visual_ethic:2 "£ethic_industrialist£"
+ # --------------- Demands
+	 TEC_FAC_IND_CREATED_ECU1:0  "Аркологическая урбанизация"
+	 TEC_FAC_IND_NO_CREATED_ECU1:0  "Аркологическая урбанизация"
+	 TEC_FAC_IND_CREATED_ECU1_DESC:0  "Создание §G1§! или больше §GЭкуменополис§!, либо планетарный, либо преобразующий искусственную аркологию, §Gпожалуйста§! тот [Root.GetName]."
+
+	 TEC_FAC_IND_CREATED_ECU2:0  "Звездная урбанизация"
+	 TEC_FAC_IND_NO_CREATED_ECU2:0  "Звездная урбанизация"
+	 TEC_FAC_IND_CREATED_ECU2_DESC:0  "Создание §G2§! или больше §GЭкуменополис§!, либо планетарный, либо преобразующий искусственную аркологию, §Gпожалуйста§! тот [Root.GetName]."
+
+	 TEC_FAC_IND_CREATED_ECU3:0  "Галактическая урбанизация"
+	 TEC_FAC_IND_NO_CREATED_ECU3:0  "Галактическая урбанизация"
+	 TEC_FAC_IND_CREATED_ECU3_DESC:0  "Создание §G5§! или больше §GЭкуменополис§!, либо планетарный, либо реформирующий искусственную аркологию, §Gочень прошу§! тот [Root.GetName]."
+
+	 TEC_FAC_IND_CREATED_ARCOLOGY:0  "Недавно созданная аркология"
+	 TEC_FAC_IND_NO_CREATED_ARCOLOGY:0  "Недавно созданная аркология"
+	 TEC_FAC_IND_CREATED_ARCOLOGY_DESC:0  "Создав §GАркологию§! недавно §Gпожалуйста§!_[Root.GetName]."
+
+	 TEC_FAC_IND_CAPITAL:0  "Промышленный капитал"
+	 TEC_FAC_IND_NO_CAPITAL:0  "Промышленный капитал"
+	 TEC_FAC_IND_CAPITAL_DESC:0  "Имеющий обновленный £alloys£ £consumer_goods£ §YПромышленное здание§! построено в нашей §Yстолице§! будет §Gпожалуйста§! тот [Root.GetName]."
+
+	 TEC_FAC_IND_ARTIFICE:0  "Ремесленники, предназначенные судьбой"
+	 TEC_FAC_IND_NO_ARTIFICE:0  "Ремесленники, предназначенные судьбой"
+	 TEC_FAC_IND_ARTIFICE_DESC:0  "Принятие £unity£ §YВыдумка§! Традиции будут §Gрадовать§![Root.GetName]."
+
+	 TEC_FAC_IND_INDUTRADE:0  "Эффективная торговля"
+	 TEC_FAC_IND_NO_INDUTRADE:0  "Эффективная торговля"
+	 TEC_FAC_IND_INDUTRADE_DESC:0  "Имеющий либо §YПотребительские преимущества§!, §YРазвитие инфраструктуры§!, §YИнновация§!, §YСубсидирование добычи полезных ископаемых§! или §YТорговая лига§! Торговая политика §Gпожалуйста§![Root.GetName]."
+
+	 TEC_FAC_IND_INDUGROWTH:0  "Сокращенные правила"
+	 TEC_FAC_IND_NO_INDUGROWTH:0  "Сокращенные правила"
+	 TEC_FAC_IND_INDUGROWTH_DESC:0  "Наличие §Yсокращенных правил§! Промышленной политики §Gпожалуйста§![Root.GetName]".
+
+	 TEC_FAC_IND_INDUREGULATION:0  "Никаких ужесточенных правил"
+	 TEC_FAC_IND_INDUREGULATION_BAD:0  "Никаких ужесточенных правил"
+	 TEC_FAC_IND_INDUREGULATION_DESC:0  "Наличие §Yужесточенных правил§! Промышленной политики §Rвызывает серьезное недовольство§!_[Root.GetName]".
+
+	 TEC_FAC_IND_NO_ECOLOGIC_CGS:0  "Неэкологичное производство"
+	 TEC_FAC_IND_ECOLOGIC_CGS_IS_BAD:0  "Неэкологичное производство"
+	 TEC_FAC_IND_NO_ECOLOGIC_CGS_DESC:0  "Проведение §Yэкологической политики в области производства§! потребительских товаров §Rвызывает серьезное недовольство§!_[Root.GetName]".
+ # /
+ # --------------- Поощрение/подавление
+	 suppressed_industrial:0  "$ethic_industrial_adj$ Подавлено"
+	 suppressed_industrial_desc:0  "Тот §H$ethic_industrial$§! Этика подавляется правительством".
+	 promoted_industrial:0  "$ethic_industrial_adj$ Повышен в должности"
+	 promoted_industrial_desc:0  "Тот §H$ethic_industrial$§! Этика поощряется правительством".
+ # /
+# /
+# ------------------------------------------------- Elitist
+  format.pop_faction.conservatives:0  "<conservatives_names_1> <conservatives_names_2>"
+ pft_conservatives:2 "Elitist Faction"
+ pft_conservatives_desc:5 "Elitist Factions prioritize the assignment of resources to a ruling specialized elite. They tend to favor policies and laws focused on boosting the performance and comfort of highly trained and skilled leaders, over diversity and plurality.\n\n§L$ethic_elitist$ Ethos§!"
+ tec_elitist_visual_ethic:2 "£ethic_elitist£"
+ # --------------- Demands
+	 TEC_FAC_ELI_TRAINED_LEADERS_1:0  "Элита элит"
+	 TEC_FAC_ELI_NO_TRAINED_LEADERS_1:0  "Элита элит"
+	 TEC_FAC_ELI_TRAINED_LEADERS_1_DESC:0  "Наличие, по крайней мере, лидера, достигшего уровня §Y4§! будет §Gпожалуйста§!_[Root.GetName]."
+
+	 TEC_FAC_ELI_TRAINED_LEADERS_2:0  "Элита элит"
+	 TEC_FAC_ELI_NO_TRAINED_LEADERS_2:0  "Элита элит"
+	 TEC_FAC_ELI_TRAINED_LEADERS_2_DESC:0  "Наличие, по крайней мере, лидера, достигшего уровня §Y6§! будет §Gпожалуйста§!_[Root.GetName]."
+
+	 TEC_FAC_ELI_TRAINED_LEADERS_3:0  "Элита из элит"
+	 TEC_FAC_ELI_NO_TRAINED_LEADERS_3:0  "Элита элит"
+	 TEC_FAC_ELI_TRAINED_LEADERS_3_DESC:0  "Наличие, по крайней мере, лидера, достигшего уровня §Y8§! будет §Gпожалуйста§!_[Root.GetName]."
+
+	 TEC_FAC_ELI_OLIGARCHY:0  "Обязательная олигархия"
+	 TEC_FAC_ELI_NO_OLIGARCHY:0  "Обязательная олигархия"
+	 TEC_FAC_ELI_OLIGARCHY_DESC:0  "Принятие §Yолигархической§! государственной власти будет §Gрадовать§![Root.GetName]".
+
+	 TEC_FAC_ELI_BALANCE_TRADS:0  "Внутренний баланс"
+	 TEC_FAC_ELI_NO_BALANCE_TRADS:0  "Внутренний баланс"
+	 TEC_FAC_ELI_BALANCE_TRADS_DESC:0  "Принятие £unity£ §YСбалансируйте§! Традиции§Gпожалуйста§![Root.GetName]."
+
+	 TEC_FAC_ELI_ARISTOCIVICS:0  "Элитарный девиз"
+	 TEC_FAC_ELI_NO_ARISTOCIVICS:0  "Элитарный девиз"
+	 TEC_FAC_ELI_ARISTOCIVICS_DESC:0  "Принятие в §YАристократическую элиту§! или §YЭксклюзивное членство§! гражданское общество будет §Gрадовать§![Root.GetName]."
+
+	 TEC_FAC_ELI_LEADER_BOOST:0  "Улучшение лидерства"
+	 TEC_FAC_ELI_NO_LEADER_BOOST:0  "Улучшение лидерства"
+	 TEC_FAC_ELI_LEADER_BOOST_DESC:0  "Принятие §Yвыбранных линий§! или §YПовышение потенциала§! вариант политики повышения квалификации лидеров §Gпожалуйста§! the [Root.GetName]."
+
+	 TEC_FAC_ELI_ACADEMIC_PRIVILEGE:0  "Академическая привилегия"
+	 TEC_FAC_ELI_NO_ACADEMIC_PRIVILEGE:0  "Академическая привилегия"
+	 TEC_FAC_ELI_ACADEMIC_PRIVILEGE_DESC:0  "Обеспечение общества привилегированными учеными - будь то с помощью академических привилегий или упадочных стандартов жизни - будет §Gрадовать§![Root.GetName]".
+
+	 TEC_FAC_ELI_NO_PUBLIC_EDU:0  "Нет государственного образования"
+	 TEC_FAC_ELI_PUBLIC_EDU_IS_BAD:0  "Нет государственного образования"
+	 TEC_FAC_ELI_NO_PUBLIC_EDU_DESC:0  "Активное §YГосударственное образование§! социальная политика §Rвызывает серьезное недовольство§![Root.GetName]".
+
+	 TEC_FAC_ELI_NO_DRUGS:0  "Контролируемые наркотики"
+	 TEC_FAC_ELI_DRUGS_BAD:0  "Контролируемые наркотики"
+	 TEC_FAC_ELI_NO_DRUGS_DESC:0  "Активный §YОтсутствие контроля над наркотиками§! политика в отношении наркотиков §Rвызывает серьезное недовольство§![Root.GetName]".
+
+	 TEC_FAC_ELI_NO_CHEMICAL_BLISS:0  "Никакого химического блаженства"
+	 TEC_FAC_ELI_CHEMICAL_BLISS_BAD:0  "Никакого химического блаженства"
+	 TEC_FAC_ELI_NO_CHEMICAL_BLISS_DESC:0  "Наличие любого вида с §Yхимическим блаженством§! уровнем жизни §Rвызывает серьезное недовольство§!_[Root.GetName]".
+ # /
+ # --------------- Поощрение/подавление
+	 suppressed_elitist:0  "$ethic_elitist_adj$ Подавлено"
+	 suppressed_elitist_desc:0  "Тот §H$ethic_elitist$§! Этика подавляется правительством".
+	 promoted_elitist:0  "$ethic_elitist_adj$ Повышен в должности"
+	 promoted_elitist_desc:0  "Тот §H$ethic_elitist$§! Этика поощряется правительством".
+ # /
+# /
+# ------------------------------------------------- Pluralist
+  format.pop_faction.labourites:0  "<labourites_names_1> <labourites_names_2>"
+ pft_labourites:2 "Pluralist Faction"
+ pft_labourites_desc:5 "Pluralist Factions have a deep focus on promoting access to education, formation and distribution. They tend to favor policies and laws focused on a diverse corp of leaders and effective plural council.\n\n§L$ethic_pluralist$ Ethos§!"
+ tec_pluralist_visual_ethic:2 "£ethic_pluralist£"
+ # --------------- Demands
+	 TEC_FAC_PLU_DISTRIBUTEDGOODS1:0  "Взаимовыгодные товары"
+	 TEC_FAC_PLU_NO_DISTRIBUTEDGOODS1:0  "Распределяемые товары"
+	 TEC_FAC_PLU_DISTRIBUTEDGOODS1_DESC:0  "Активное §YРаспределение товаров§! решение по крайней мере среди §G1§! одна из наших планет будет §Gрадовать§![Root.GetName]."
+
+	 TEC_FAC_PLU_DISTRIBUTEDGOODS2:0  "Распределяемые товары"
+	 TEC_FAC_PLU_NO_DISTRIBUTEDGOODS2:0  "Равенство возможностей"
+	 TEC_FAC_PLU_DISTRIBUTEDGOODS2_DESC:0  "Активное §YРаспределение товаров§! решение по крайней мере среди §G3§! одна из наших планет будет §Gрадовать§![Root.GetName]."
+	 TEC_FAC_PLU_DISTRIBUTEDGOODS3:0  "Общие блага"
+	 TEC_FAC_PLU_NO_DISTRIBUTEDGOODS3:0  "Общие блага"
+	 TEC_FAC_PLU_DISTRIBUTEDGOODS3_DESC:0  "Активное §YРаспределение товаров§! решение по крайней мере среди §G5§! одна из наших планет будет §Gочень радовать§! тот самый [Root.GetName]."
+	 TEC_FAC_PLU_EQUALITY:0  "Равенство возможностей"
+	 TEC_FAC_PLU_NO_EQUALITY:0  "Равенство возможностей"
+	 TEC_FAC_PLU_EQUALITY_DESC:0  "Наличие активного §YРавенства возможностей§! указа §Gпожалуйста§![Root.GetName]".
+
+	 TEC_FAC_PLU_UTOPIC:0  "Утопическое общество"
+	 TEC_FAC_PLU_NO_UTOPIC:0  "Утопическое общество"
+	 TEC_FAC_PLU_UTOPIC_DESC:0  "Обеспечение §YУтопического изобилия, совместного бремени или декадентского§! уровня жизни для всего нашего общества будет §Gочень радовать§![Root.GetName]".
+
+	 TEC_FAC_PLU_MERITOCRACY:0  "Меритократические дела"
+	 TEC_FAC_PLU_NO_MERITOCRACY:0  "Меритократические дела"
+	 TEC_FAC_PLU_MERITOCRACY_DESC:0  "Принятие §Yмеритократического, покровительственного или совместного бремени§! гражданской воли §Gпожалуйста§![Root.GetName]".
+
+	 TEC_FAC_PLU_WAGE:0  "Повышенная заработная плата"
+	 TEC_FAC_PLU_NO_WAGE:0  "Повышенная заработная плата"
+	 TEC_FAC_PLU_WAGE_DESC:0  "Обеспечение активной §Yполитики повышения заработной платы§! будет §Gрадовать§![Root.GetName]".
+
+	 TEC_FAC_PLU_DEMOCRACY:0  "Демократическая империя"
+	 TEC_FAC_PLU_NO_DEMOCRACY:0  "Демократическая империя"
+	 TEC_FAC_PLU_DEMOCRACY_DESC:0  "Живущий при §YДемократической власти§! будет §Gрад§![Root.GetName]".
+
+	 TEC_FAC_PLU_NOLEADERELITISM:0  "Лидерство по заслугам"
+	 TEC_FAC_PLU_NO_NOLEADERELITISM:0  "Лидерство по заслугам"
+	 TEC_FAC_PLU_NOLEADERELITISM_DESC:0  "Обеспечение того, чтобы §Yне было§! дискриминации или несправедливости §YСтимулирование лидеров§! политика была введена в действие, будет §Gпожалуйста§! ________________________________________________[Root.GetName]."
+
+	 TEC_FAC_PLU_FREEDUCATION:0  "Государственное образование"
+	 TEC_FAC_PLU_NO_FREEDUCATION:0  "Государственное образование"
+	 TEC_FAC_PLU_FREEDUCATION_DESC:0  "Обеспечение активного §Yгосударственного образования§! политики §Gпожалуйста§![Root.GetName]".
+
+	 TEC_FAC_PLU_NOPRIVEDU:0  "Никакого частного образования"
+	 TEC_FAC_PLU_NO_NOPRIVEDU:0  "Никакого частного образования"
+	 TEC_FAC_PLU_NOPRIVEDU_DESC:0  "Активное §YЧастное образование§! политика §Rвызывает недовольство§![Root.GetName]".
+
+	 TEC_FAC_PLU_REDUCED_WAGE:0  "Пониженная заработная плата"
+	 TEC_FAC_PLU_REDUCED_WAGE_IS_BAD:0  "Пониженная заработная плата"
+	 TEC_FAC_PLU_REDUCED_WAGE_DESC:0  "Активная §YПолитика снижения заработной платы§! политика §Rвызывает недовольство§!_[Root.GetName]".
+
+	 TEC_FAC_PLU_NOSLAVERY:0  "Порабощенная воля"
+	 TEC_FAC_PLU_NOSLAVERY_IS_BAD:0  "Порабощенная воля"
+	 TEC_FAC_PLU_NOSLAVERY_DESC:0  "Разрешение §YПорабощения§! разумных видов §Rвызывает недовольство§!_[Root.GetName]".
+
+	 TEC_FAC_PLU_NODEMOCRATIC:0  "Под бурные аплодисменты..."
+	 TEC_FAC_PLU_NODEMOCRATIC_IS_BAD:0  "Под бурные аплодисменты..."
+	 TEC_FAC_PLU_NODEMOCRATIC_DESC:0  "Наличие какой-либо §Yавтократической§! власти §Rвызывает сильное недовольство§!_[Root.GetName]".
+
+	 TEC_FAC_PLU_NOSTRATIFICATION:0  "Стратифицированная дискриминация"
+	 TEC_FAC_PLU_NOSTRATIFICATION_IS_BAD:0  "Стратифицированная дискриминация"
+	 TEC_FAC_PLU_NOSTRATIFICATION_DESC:0  "Наличие любого вида с §Yстратифицированным§! уровнем жизни §Rвызывает сильное недовольство§!_[Root.GetName]".
+ # /
+ # --------------- Поощрение/подавление
+	 suppressed_pluralist:0  "$ethic_pluralist_adj$ Подавлено"
+	 suppressed_pluralist_desc:0  "Тот §H$ethic_pluralist$§! Этика подавляется правительством".
+	 promoted_pluralist:0  "$ethic_pluralist_adj$ Повышен в должности"
+	 promoted_pluralist_desc:0  "Тот §H$ethic_pluralist$§! Этика поощряется правительством".
+ # /
+# /
+
+
+# ------------------------------------------------------------
+# OLD FACTION REQUIREMENTS
+# ------------------------------------------------------------
+	 tec_martial_brotherhood:0  "Боевое братство"
+	 tec_martial_brotherhood_DESC:0  "Активное §YБоевое братство§! гражданское правительство радует [Root.GetName]".
+
+	 INCREASED_WAGE:0  "Власть народу"
+	 INCREASED_WAGE_DESC:0  "Введение политики §Yповышения минимальной заработной платы§! удовлетворит профсоюзы, и, следовательно, [Root.GetName] тоже будут довольны".
+
+	 NO_REDUCED_WAGE:0  "Повысить минимальную заработную плату"
+	 NO_REDUCED_WAGE_DESC:0  "Профсоюзы требуют минимум §YУмеренной минимальной заработной платы§! политики, которая должна быть установлена в Империи".
+
+	 NO_INCREASED_WAGE:0  "Более низкая минимальная заработная плата"
+	 NO_INCREASED_WAGE_DESC:0  "§YПовышенная минимальная заработная плата§! политика вызывает недовольство [Root.GetName]."
+
+
+	 POWER_INDUSTRY:0  "Развитая энергетика"
+	 NO_POWER_INDUSTRY:0  "Энергетика"
+	 POWER_INDUSTRY_DESC:0  "Активная §YЭнергетика§! гражданское правительство порадует [Root.GetName]".
+
+	 PRIVATE_PROPERTY:0  "Приватизированная собственность"
+	 NO_PRIVATE_PROPERTY:0  "Частная собственность"
+	 PRIVATE_PROPERTY_DESC:0  "Активная §YЧастная собственность§! гражданское правительство удовлетворит [Root.GetName]".
+
+	 CONSUMERISM:0  "Культура потребления"
+	 NO_CONSUMERISM:0  "Потребительство"
+	 CONSUMERISM_DESC:0  "Гражданская активность правительства §YПотребительство§! понравится [Root.GetName]".
+
+	 WEALTH_ACCUMULATION_2:0  "Богатый"
+	 NO_WEALTH_ACCUMULATION_2:0  "Накопление богатства"
+	 WEALTH_ACCUMULATION_2_DESC:0  "Сохраняя по крайней мере £energy£ §Y7000§! сохраненный в любое время, будет радовать [Root.GetName]."
+	
+	 WEALTH_ACCUMULATION_3:0  "Богатый"
+	 NO_WEALTH_ACCUMULATION_3:0  "Накопление богатства"
+	 WEALTH_ACCUMULATION_3_DESC:0  "Сохраняя по крайней мере £energy£ §Y12000§! сохраненный в любое время, будет радовать [Root.GetName]."
+
+	 WEALTH_ACCUMULATION_4:0  "Богатый"
+	 NO_WEALTH_ACCUMULATION_4:0  "Накопление богатства"
+	 WEALTH_ACCUMULATION_4_DESC:0  "Сохраняя по крайней мере £energy£ §Y18000§! сохраненный в любое время, будет радовать [Root.GetName]."
+
+	 MARKET_ECONOMY:0  "Развитый рынок"
+	 NO_MARKET_ECONOMY:0  "Рыночная экономика"
+	 MARKET_ECONOMY_DESC:0  "Активная §YРыночная§! экономическая политика понравится [Root.GetName]".
+
+	 MARKET_ECONOMIC_STRATEGIES:0  "Сфокусированная экономика"
+	 NO_MARKET_ECONOMIC_STRATEGIES:0  "Установить экономическую стратегию"
+	 MARKET_ECONOMIC_STRATEGIES_DESC:0  "Разработка конкретной §Yрыночной экономической стратегии§! политики удовлетворит [Root.GetName]".
+
+
+	 WEALTH_INFRASTRUCTURE:0  "Галактическая фондовая биржа"
+	 NO_WEALTH_INFRASTRUCTURE:0  "Создать Галактический фондовый рынок"
+	 WEALTH_INFRASTRUCTURE_DESC:0  "Строительство §YГалактической фондовой биржи§! порадует [Root.GetName]".
+
+	 PARLIAMENTARY_SYSTEM:0  "Публичное обсуждение"
+	 NO_PARLIAMENTARY_SYSTEM:0  "Публичное обсуждение"
+	 PARLIAMENTARY_SYSTEM_DESC:0  "Политические фракции счастливее в империях с развитыми традициями §YПубличного обсуждения§!".
+
+	 SOCIAL_SECURITY:0  "Социальное обеспечение"
+	 NO_SOCIAL_SECURITY:0  "Создать систему социального обеспечения"
+	 SOCIAL_SECURITY_DESC:0  "Установление §Yсоциального обеспечения§! (или более высокого) уровня жизни удовлетворит [Root.GetName]".
+
+	 HUMANITARIAN_SCIENCE:0  "Субсидии на здравоохранение"
+	 NO_HUMANITARIAN_SCIENCE:0  "Никаких субсидий на здравоохранение"
+	 HUMANITARIAN_SCIENCE_DESC:0  "Применение §YКампании в области здравоохранения§! указа удовлетворит [Root.GetName]".
+
+	 WELFARE_ECONOMY:0  "Плановая экономика"
+	 NO_WELFARE_ECONOMY:0  "Плановая экономика"
+	 WELFARE_ECONOMY_DESC:0  "Активная §YПланируемая§! экономическая политика понравится [Root.GetName]".
+
+	 SOCIAL_ECONOMIC_STRATEGIES:0  "Сфокусированная экономика"
+	 NO_SOCIAL_ECONOMIC_STRATEGIES:0  "Установить экономическую стратегию"
+	 SOCIAL_ECONOMIC_STRATEGIES_DESC:0  "Разработка конкретной §YСоциально-экономической стратегии§! политики удовлетворит [Root.GetName]".
+
+	 COLLECTIVIST_TRADITION:0  "Традиционная гармония"
+	 NO_COLLECTIVIST_TRADITION:0  "Традиционная гармония"
+	 COLLECTIVIST_TRADITION_DESC:0  "Принятие §YУтопической мечты§! традиции понравится [Root.GetName]".
+
+	 MINING_INDUSTRY:0  "Развитая горнодобывающая промышленность"
+	 NO_MINING_INDUSTRY:0  "Развитие горнодобывающей промышленности"
+	 MINING_INDUSTRY_DESC:0  "Активная §YДобыча полезных ископаемых§! гражданское правительство порадует [Root.GetName]".
+
+	 LAND_CONSTRUCTION:0  "Развитая земельная застройка"
+	 NO_LAND_CONSTRUCTION:0  "Развивать земельное строительство"
+	 LAND_CONSTRUCTION_DESC:0  "Активное §YЗемельное строительство§! гражданское правительство удовлетворит [Root.GetName]".
+
+	 SPACE_ENGINEERING:0  "Развитая космическая техника"
+	 NO_SPACE_ENGINEERING:0  "Развитие космической техники"
+	 SPACE_ENGINEERING_DESC:0  "Активная §YКосмическая инженерия§! гражданское правительство порадует [Root.GetName]".
+
+
+	 MINERALS_ACCUMULATION_2:0  "Богатый минералами"
+	 NO_MINERALS_ACCUMULATION_2:0  "Накапливать минералы"
+	 MINERALS_ACCUMULATION_2_DESC:0  "Сохраняя по крайней мере £minerals£ §Y3000§! сохраненный в любое время, будет радовать [Root.GetName]."
+
+	 MINERALS_ACCUMULATION_3:0  "Богатый минералами"
+	 NO_MINERALS_ACCUMULATION_3:0  "Накапливать минералы"
+	 MINERALS_ACCUMULATION_3_DESC:0  "Сохраняя по крайней мере £minerals£ §Y7000§! сохраненный в любое время, будет радовать [Root.GetName]."
+
+	 OWN_RICH_WORLD:0  "Мир, богатый минералами"
+	 NO_OWN_RICH_WORLD:0  "Мир, богатый минералами"
+	 OWN_RICH_WORLD_DESC:0  "Владение §Yбогатым минералами§! миром доставит удовольствие [Root.GetName]".
+
+	 OWN_ANCIENT_TECH:0  "Древний технологический мир"
+	 NO_OWN_ANCIENT_TECH:0  "Древний технологический мир"
+	 OWN_ANCIENT_TECH_DESC:0  "Владение миром с любым видом древней промышленной технологии доставит удовольствие [Root.GetName]".
+
+	 INDUSTRY_ASCENSION_1:0  "Традиционная галактическая инженерия"
+	 NO_INDUSTRY_ASCENSION_1:0  "Традиционная галактическая инженерия"
+	 INDUSTRY_ASCENSION_1_DESC:0  "Принятие §YГалактических чудес§! или §YКруга жизни§! традиции порадует [Root.GetName]".
+
+	 INDUSTRY_ASCENSION_2:0  "Великолепная галактическая инженерия"
+	 NO_INDUSTRY_ASCENSION_2:0  "Великолепная галактическая инженерия"
+	 INDUSTRY_ASCENSION_2_DESC:0  "Принятие традиций §YМастеров-строителей§! порадует [Root.GetName]".
+
+	 INDUSTRY_POLICY:0  "Промышленный экономический фокус"
+	 NO_INDUSTRY_POLICY:0  "Создание промышленно-экономической направленности"
+	 INDUSTRY_POLICY_DESC:0  "Установление конкретной §Yпромышленно-экономической§! политики удовлетворит [Root.GetName]".
+
+	 LABOURITE_NO_OLIGARCHY:0  "Никакой элитарности"
+	 LABOURITE_OLIGARCHY:0  "Антиэлитарный"
+	 LABOURITE_NO_OLIGARCHY_DESC:0  "Отмена §Yолигархической§! или §Yимперской§! государственной власти удовлетворит [Root.GetName]".
+
+	 tec_labour_unions:  "Трудовое сообщество"
+	 NO_tec_labour_unions:0  "Трудовое сообщество"
+	 tec_labour_unions_DESC:0  "Активен §Y$civic_tec_regular_labour_unions$§! или §Y$civic_tec_regular_syndical$§! гражданское правительство порадует [Root.GetName]".
+
+	 WASTE_RECYCLING:0  "Переработка отходов"
+	 NO_WASTE_RECYCLING:0  "Переработка отходов"
+	 WASTE_RECYCLING_DESC:0  "Активная §YПереработка отходов§! гражданское правительство порадует [Root.GetName]".
+
+	 TERRAFORMING_INDUSTRY:0  "Индустрия терраформирования"
+	 NO_TERRAFORMING_INDUSTRY:0  "Индустрия терраформирования"
+	 TERRAFORMING_INDUSTRY_DESC:0  "Активное §YТерраформирование§! гражданское правительство удовлетворит [Root.GetName]".
+
+	 ECO_NO_TOMB_WORLDS:0  "Терраформированный мир гробниц"
+	 ECO_TOMB_WORLDS:0  "Терраформированный мир гробниц"
+	 ECO_NO_TOMB_WORLDS_DESC:0  "Терраформирование §YМира-гробницы§! внутри границ Империи доставит удовольствие [Root.GetName]".
+
+	 ECO_NO_TOXIC_WORLDS:0  "Токсичный мир терраформирован"
+	 ECO_TOXIC_WORLDS:0  "Терраформируйте токсичный мир"
+	 ECO_NO_TOXIC_WORLDS_DESC:0  "Терраформирование §YТоксичного мира§! внутри границ Империи доставит удовольствие [Root.GetName]".
+
+	 ECO_NO_BARREN_WORLDS:0  "Терраформированный бесплодный мир"
+	 ECO_BARREN_WORLDS:0  "Терраформируйте бесплодный мир"
+	 ECO_NO_BARREN_WORLDS_DESC:0  "Терраформирование §YБесплодного мира-кандидата на терраформирование§! внутри границ Империи понравится [Root.GetName]".
+
+	 PROTECTED_NATURE:0  "Охраняемая природа"
+	 NO_PROTECTED_NATURE:0  "Берегите природу"
+	 PROTECTED_NATURE_DESC:0  "Владение миром §Yпышным§! доставит удовольствие [Root.GetName]".
+
+	 PROTECTED_WILDLIFE:0  "Охраняемая дикая природа"
+	 NO_PROTECTED_WILDLIFE:0  "Защита местной дикой природы"
+	 PROTECTED_WILDLIFE_DESC:0  "Владение миром §YОпасной дикой природы§! доставит удовольствие [Root.GetName]".
+
+	 PROTECTED_BEAUTY:0  "Природная красота защищена"
+	 NO_PROTECTED_BEAUTY:0  "Берегите естественную красоту"
+	 PROTECTED_BEAUTY_DESC:0  "Обладание миром §YЕстественной красоты§! доставит удовольствие [Root.GetName]".
+
+	 UNIQUE_LIFERORMS:0  "Уникальные формы жизни защищены"
+	 NO_UNIQUE_LIFERORMS:0  "Защита уникальных форм жизни"
+	 UNIQUE_LIFERORMS_DESC:0  "Владение миром с §YТитанической жизнью§! или §YКсеносохранилищем§! зданием понравится [Root.GetName]".
+
+	 ECO_POLICY:0  "Экологическая экономика"
+	 NO_ECO_POLICY:0  "Экологическая экономика"
+	 ECO_POLICY_DESC:0  "Установление конкретной §YЭколого-экономической§! политики удовлетворит [Root.GetName]".
+
+	 ECO_MIN_WASTE:0  "Минимальное расточительство"
+	 NO_ECO_MIN_WASTE:0  "Минимальное расточительство"
+	 ECO_MIN_WASTE_DESC:0  "Поддержание §Yуровня жизни§! на соответствующем минимуме удовлетворит [Root.GetName]".
+
+
+	 FEW_RULERS:0  "Олигархическое правительство"
+	 NO_FEW_RULERS:0  "Олигархическое правительство"
+	 FEW_RULERS_DESC:0  "Переход к §Yолигархической§! государственной власти удовлетворит [Root.GetName]".
+
+	 ELITE_RULE:0  "Стратифицированное общество"
+	 NO_ELITE_RULE:0  "Стратифицированное общество"
+	 ELITE_RULE_DESC:0  "Обеспечение стратифицированного общества - кастовой системы или ограниченного гражданства для некоторых представителей нашего вида - удовлетворит [Root.GetName]".
+
+	 ELITE_COMMAND:0  "Элитарные военные"
+	 NO_ELITE_COMMAND:0  "Элитарные военные"
+	 ELITE_COMMAND_DESC:0  "Обеспечение стратифицированной военной службы - ограниченной или вообще никакой военной службы для некоторых представителей нашего вида - удовлетворит [Root.GetName]".
+
+	 ARISTOCRATIC_TRADITION:0  "Традиционный аристократизм"
+	 NO_ARISTOCRATIC_TRADITION:0  "Традиционный аристократизм"
+	 ARISTOCRATIC_TRADITION_DESC:0  "Принятие традиций §Yколониальных вице-королей§! порадует [Root.GetName]".
+
+	 POP_GROWTH:0  "Рост населения"
+	 NO_POP_GROWTH:0  "Рост населения"
+	 POP_GROWTH_DESC:0  "Поддержание §Yзапасов продовольствия§! на минимальном уровне для обеспечения максимального роста населения удовлетворит [Root.GetName]".
+
+	 AGRICULTURE_INDUSTRY:0  "Развитое сельское хозяйство"
+	 NO_AGRICULTURE_INDUSTRY:0  "Развивать сельское хозяйство"
+	 AGRICULTURE_INDUSTRY_DESC:0  "Активное §YСельское хозяйство§! гражданское правительство порадует [Root.GetName]".
+
+	 TOURISM_INDUSTRY:0  "Развитый туризм"
+	 NO_TOURISM_INDUSTRY:0  "Развивать туризм"
+	 TOURISM_INDUSTRY_DESC:0  "Активный §YТуризм§! гражданское правительство порадует [Root.GetName]".
+
+	 TRANSPORTATION_INDUSTRY:0  "Развитый транспорт"
+	 NO_TRANSPORTATION_INDUSTRY:0  "Развивать транспорт"
+	 TRANSPORTATION_INDUSTRY_DESC:0  "Активный §YТранспорт и логистика§! гражданское правительство порадует [Root.GetName]".
+
+	 FREE_PRESS:0  "Свобода слова"
+	 NO_FREE_PRESS:0  "Свобода слова"
+	 FREE_PRESS_DESC:0  "Обращение к §YСвободным СМИ§! государственной политике понравится [Root.GetName]".
+
+	 INDUSTRIAL_ADV_INFRASTRUCTURE:0  "Передовая промышленная инфраструктура"
+	 NO_INDUSTRIAL_ADV_INFRASTRUCTURE:0  "Передовая промышленная инфраструктура"
+	 INDUSTRIAL_ADV_INFRASTRUCTURE_DESC:0  "Строительство "Тепловой скважины" на каждой планете, где это возможно, доставит удовольствие [Root.GetName]".
+
+	 ENERGY_INFRASTRUCTURE:0  "Развитая энергетическая инфраструктура"
+	 NO_ENERGY_INFRASTRUCTURE:0  "Развитие энергетической инфраструктуры"
+	 ENERGY_INFRASTRUCTURE_DESC:0  "Построение "Энергетической связи" на каждой большой (>15 плиток) планете доставит удовольствие [Root.GetName]".
+
+	 XENO_ZOO:0  "Зоопарк Ксено"
+	 NO_XENO_ZOO:  "Постройте зоопарк Ксено"
+	 XENO_ZOO_DESC:0  "Строительство "Ксенозоозо" на каждой планете, где это возможно, доставит удовольствие [Root.GetName]".
+
+	NO_MARKET_ECONOMY:0 "Плановая экономика"
+	MARKET_ECONOMY:0 "Рыночной экономики нет"
+	 NO_MARKET_ECONOMY_DESC:   "Отмена §YРыночной§! экономической политики удовлетворит [Root.GetName]".
+
+	NO_WELFARE_ECONOMY:0 "Нерегулируемый рынок"
+	 WELFARE_ECONOMY:   "Отсутствие регулирования рынка"
+	 NO_WELFARE_ECONOMY_DESC:0  "Отмена §Yзапланированной§! экономической политики удовлетворит [Root.GetName]". 
+
+	 PROGRESSIVE_CASTE:0  "$PROGRESSIVE_NO_CASTE$"
+
+	 LABOURITE_NO_CASTE:0  "Антикастовый"
+	 LABOURITE_CASTE:0  "Кастовая система" 
+	 LABOURITE_NO_CASTE_DESC:0  "Если позволить кому-либо в нашей империи подчиняться §Yкастовой системе§!, это вызовет большое недовольство [Root.GetName]".
+
+	 EQUAL_ARMY:0  "$ethic_egalitarian$ Военный"
+	 NO_EQUAL_ARMY:0  "$ethic_egalitarian$ Военный"
+	 EQUAL_ARMY_DESC:0  "Обеспечение того, чтобы ни один вид в нашей империи не подвергался ограничениям или вообще не проходил военную службу, удовлетворит [Root.GetName]".
+
+
+	 TOTALITARIAN_NO_GUN_RIGHTS:0  "Личное оружие запрещено"
+	 TOTALITARIAN_GUN_RIGHTS:0  "Запретить личное оружие"
+	 TOTALITARIAN_NO_GUN_RIGHTS_DESC:0  "Запрет обычным гражданам нашей Империи носить §YЛичное оружие§! удовлетворит [Root.GetName]".
+
+	 PROGRESSIVE_GUN_RIGHTS:0  "Личное оружие разрешено"
+	 PROGRESSIVE_NO_GUN_RIGHTS:0  "Разрешить ношение личного оружия"
+	 PROGRESSIVE_GUN_RIGHTS_DESC:0  "Разрешение гражданам нашей Империи носить и использовать §YЛичное оружие§! доставит удовольствие [Root.GetName]".
+
+
+	 NO_ASCENSION_TRADITIONS:0  "Никаких традиций Вознесения"
+	 ASCENSION_TRADITIONS:0  "Никаких традиций Вознесения"
+	 NO_ASCENSION_TRADITIONS_DESC:0  "Принятие §Yфундаментализма§! традиций вызывает недовольство [Root.GetName]".
+
+
+	 TOTALITARIAN_HIERARCHY:0  "Иерархическое общество"
+	 TOTALITARIAN_NO_HIERARCHY:0  "Иерархическое общество"
+	 TOTALITARIAN_HIERARCHY_DESC:0  "Активный §YАвторитет§! гражданское правительство удовлетворит [Root.GetName]".
+
+	 TOTALITARIAN_NO_FREE_SPEECH:0  "Никакой Свободы Слова"
+	 TOTALITARIAN_FREE_SPEECH:0  "Никакой Свободы Слова"
+	 TOTALITARIAN_NO_FREE_SPEECH_DESC:0  "Обращение к §Yгосударственным СМИ§! правительственной политике понравится [Root.GetName]".
+
+	 TECHNOLOGIST_PROGRESS:0  "Традиционный прогресс"
+	 TECHNOLOGIST_NO_PROGRESS:0  "Традиционный прогресс"
+	 TECHNOLOGIST_PROGRESS_DESC:0  "Принятие §YПрогресса§! традиций понравится [Root.GetName]".
+
+	 TECHNOLOGIST_NO_RELIGIOUS_FANATISM:0  "Никакого религиозного фанатизма"
+	 TECHNOLOGIST_RELIGIOUS_FANATISM:0  "Никакого религиозного фанатизма"
+	 TECHNOLOGIST_NO_RELIGIOUS_FANATISM_DESC:0  "Принятие §Yрелигиозного фундаментализма§! традиции вызывает недовольство [Root.GetName]".
+
+
+	 XENOIST_NO_ISOLATION:0  "Никакого изоляционизма"
+	 XENOIST_ISOLATION:0  "Никакого изоляционизма"
+	 XENOIST_NO_ISOLATION_DESC:0  "Принятие §Yизоляционизма§! традиций вызывает недовольство [Root.GetName]".
+
+	 XENOIST_UNITY_TRADITION:0  "Традиционное единство"
+	 XENOIST_NO_UNITY_TRADITION:0  "Традиционное единство"
+	 XENOIST_UNITY_TRADITION_DESC:0  "Принятие §YЕдинства§! традиций понравится [Root.GetName]".
+
+	 TRADITIONALIST_HARMONY:0  "Традиционная гармония"
+	 TRADITIONALIST_NO_HARMONY:0  "Традиционная гармония"
+	 TRADITIONALIST_HARMONY_DESC:0  "Принятие §YГармонии§! традиций понравится [Root.GetName]".
+
+
+	 TRADITIONALIST_NO_PROGRESS:0  "Поклонение без прогресса"
+	 TRADITIONALIST_PROGRESS:0  "Поклонение без прогресса"
+	 TRADITIONALIST_PROGRESS_DESC:0  "Принятие §YПрогресса§! традиций без §YГармонии§!, §YФундаментализм§! или §YЧистота§! вызывает недовольство [Root.GetName]."
+
+
+	 PROSPERITY_NO_SUPREMACY:0  "Никакого милитаризма"
+	 PROSPERITY_NO_SUPREMACY:0  "Никакого милитаризма"
+	 PROSPERITY_SUPREMACY_DESC:0  "Принятие §Yпревосходства§! традиций вызывает недовольство [Root.GetName]".
+
+	 SUPREMACIST_NO_UNITY:0  "Нет единства"
+	 SUPREMACIST_UNITY:0  "Нет единства"
+	 SUPREMACIST_NO_UNITY_DESC:0  "Принятие §YЕдинства§! традиций вызывает недовольство [Root.GetName]".
+
+	 SUPREMACIST_PURITY_TRADITION:0  "Традиционная чистота"
+	 SUPREMACIST_PURITY_NO_TRADITION:0  "Традиционная чистота"
+	 SUPREMACIST_PURITY_TRADITION_DESC:0  "Принятие §YЧистоты§! традиций порадует [Root.GetName]".
+
+	 CAPITALISM_IDEOLOGY:0  "Капиталистическая идеология"
+	 NO_CAPITALISM_IDEOLOGY:0  "Капиталистическая идеология"
+	 CAPITALISM_IDEOLOGY_DESC:0  "Активный §YКапитализм§! гражданское правительство порадует [Root.GetName]".
+
+	 NO_INDUSTRIAL_FOCUS:0  "Отсутствие превосходной промышленной направленности"
+	 INDUSTRIAL_FOCUS:0  "Неприемлемая промышленная направленность"
+	 NO_INDUSTRIAL_FOCUS_DESC:0  "Установка §Yэкономического фокуса§! политики на §YПревосходство в промышленности§! вызывает недовольство [Root.GetName]".
+
+	 STRONG_RESEARCH_FOCUS:0  "Превосходная исследовательская направленность"
+	 NO_STRONG_RESEARCH_FOCUS:0  "Превосходная исследовательская направленность"
+	 STRONG_RESEARCH_FOCUS_DESC:0  "Установка §Yфокуса экономики§! политики на §YПревосходные исследования§! порадует [Root.GetName]".
+
+	 DIRECT_DEMOCRACY:0  "Прямая демократия"
+	 NO_DIRECT_DEMOCRACY:0  "Установить прямую демократию"
+	 DIRECT_DEMOCRACY_DESC:0  "Установление §Yпрямой демократии§! типа власти удовлетворит [Root.GetName]".
+
+	 PROGRESSIVE_NO_SLAVERY:0  "Нет рабству"
+	 PROGRESSIVE_SLAVERY:0  "Рабство разрешено"
+	 PROGRESSIVE_NO_SLAVERY_DESC:0  "Разрешенное §YРабство§! политика вызывает недовольство [Root.GetName]".
+
+	 TRADITIONALIST_YES_ROBOTS:0  "Слава Роботам!"
+	 TRADITIONALIST_NO_ROBOTS:0  "Никаких роботов"
+	 TRADITIONALIST_YES_ROBOTS_DESC:0  "Разрешение роботизированным работникам работать в Империи порадует [Root.GetName]".
+
+	 CAPITALISM_DEVELOPED:0  "Развитый капитализм"
+	 NO_CAPITALISM_DEVELOPED:0  "Развивать капитализм"
+	 CAPITALISM_DEVELOPED_DESC:0  "[Root.GetName] будет рад, если какой-либо из следующих гражданских организаций будет активен: §YТорговая лига§!, §YКорпоратократия§!."
+
+	 WEALTH_ACCUMULATION_1:0  "Богатый"
+	 NO_WEALTH_ACCUMULATION_1:0  "Накопление богатства"
+	 WEALTH_ACCUMULATION_1_DESC:0  "[Root.GetName] будут довольны, если торговая политика §YСоздания богатства§! будет активной".
+
+	 FREE_MARKET_ECONOMY:0  "Свободный рынок"
+	 NO_FREE_MARKET_ECONOMY:0  "Свободного рынка нет"
+	 FREE_MARKET_ECONOMY_DESC:0  "Активная §YПолитика свободного рынка§! экономическая позиция понравится [Root.GetName]".
+
+	 NO_PLANNED_ECONOMY:0  "Плановой экономики нет"
+	 PLANNED_ECONOMY:0  "Плановая экономика"
+	 NO_PLANNED_ECONOMY_DESC:0  "Активная §YПланируемая§! экономическая позиция вызывает недовольство [Root.GetName]".
+
+	 PRIVATE_MEDICINE:0  "Частное здравоохранение"
+	 NO_PRIVATE_MEDICINE:0  "Нет частной медицинской помощи"
+	 PRIVATE_MEDICINE_DESC:0  "Активная §YЧастная медицинская§! социальная политика понравится [Root.GetName]".
+
+	 NO_PUBLIC_MEDICINE:0  "Нет общественного здравоохранения"
+	 PUBLIC_MEDICINE:0  "Общественное здравоохранение"
+	 NO_PUBLIC_MEDICINE_DESC:0  "Активная §YГосударственная политика в области здравоохранения§! социальная политика вызывает недовольство [Root.GetName]".
+
+	 COMMERCIAL_PACTS:0  "Торговля без границ"
+	 NO_COMMERCIAL_PACTS:0  "Нет торговле без границ"
+	 COMMERCIAL_PACTS_DESC:0  "Подписание коммерческих договоров по крайней мере с §Y2§! другие империи порадуют [Root.GetName]."
+
+	 SOCIALISM_DEVELOPED:0  "Развитый социализм"
+	 NO_SOCIALISM_DEVELOPED:0  "Развитый социализм"
+	 SOCIALISM_DEVELOPED_DESC:0  "[Root.GetName] будет рад, если будет активен любой из следующих гражданских институтов: §YСоциальное государство§!, §YБратство дронов§!, §YРазделяемое бремя§!."
+
+	 MARKETPLACE_OF_IDEAS:0  "Рынок Идей"
+	 NO_MARKETPLACE_OF_IDEAS:0  "Рынок Идей"
+	 MARKETPLACE_OF_IDEAS_DESC:0  "[Root.GetName] будет рад, если торговая политика §YРынок Идей§! будет активна".
+
+	 TRADE_COMMON_GOOD:0  "Торговля ради общего блага"
+	 NO_TRADE_COMMON_GOOD:0  "Торговля ради общего блага"
+	 TRADE_COMMON_GOOD_DESC:0  "[Root.GetName] будут довольны, если торговая политика §YОбщего блага§! будет активной".
+
+	 NO_FREE_MARKET:0  "Свободного рынка нет"
+	 FREE_MARKET:0  "Свободного рынка нет"
+	 NO_FREE_MARKET_DESC:0  "Активный §YСвободный рынок§! экономическая позиция вызывает недовольство [Root.GetName]".
+
+	PLANNED_ECONOMY:0 "Плановая экономика"
+	NO_PLANNED_ECONOMY:0 "Нет Плановая экономика"
+	 PLANNED_ECONOMY_DESC:0  "Активная §YПланируемая§! экономическая позиция понравится [Root.GetName]".
+
+	PUBLIC_MEDICINE:0 "Общественное здравоохранение"
+	NO_PUBLIC_MEDICINE:0 "Нет Общественное здравоохранение"
+	 PUBLIC_MEDICINE_DESC:0  "Активная §YГосударственная политика в области здравоохранения§! социальная политика понравится [Root.GetName]".
+
+	NO_PRIVATE_MEDICINE:0 "Нет частной медицинской помощи"
+	PRIVATE_MEDICINE:0 "Частное здравоохранение"
+	 NO_PRIVATE_MEDICINE_DESC:0  "Активная §YЧастная медицинская§! социальная политика вызывает недовольство [Root.GetName]".
+
+	 MERITOCRATIC_ELITE:0  "Разработано $ethic_egalitarian_adj$"
+	 NO_MERITOCRATIC_ELITE:0  "Не разработано $ethic_egalitarian_adj$"
+	 MERITOCRATIC_ELITE_DESC:0  "Активные §YПрофсоюзы§!, §YСиндикализм§! или §YМеритократия§! гражданское правительство удовлетворит [Root.GetName]."
+
+	 PUBLIC_EDUCATION:0  "Государственное образование"
+	 NO_PUBLIC_EDUCATION:0  "Нет государственного образования"
+	 PUBLIC_EDUCATION_DESC:0  "Активное §YГосударственное образование§! социальная политика понравится [Root.GetName]".
+
+	 NO_PRIVATE_EDUCATION:0  "Никакого частного образования"
+	 PRIVATE_EDUCATION:0  "Частное образование"
+	 NO_PRIVATE_EDUCATION_DESC:0  "Активная §YГосударственная образовательная§! социальная политика вызывает недовольство [Root.GetName]".
+
+	 PROGRESSIVE_LOW_TAXES:0  "Низкие налоги"
+	 NO_PROGRESSIVE_LOW_TAXES:0  "Низкие налоги"
+	 PROGRESSIVE_LOW_TAXES_DESC:0  "§YНизкая§! налоговая политика понравится [Root.GetName]."
+			
+	 NO_PROGRESSIVE_HIGH_TAXES:0  "Высокие налоги"
+	 PROGRESSIVE_HIGH_TAXES:0  "Высокие налоги"
+	 NO_PROGRESSIVE_HIGH_TAXES_DESC:0  "§YВысокая§! налоговая политика вызывает недовольство [Root.GetName]."
+
+	 PROGRESSIVE_FREE_MEDIA:0  "Свобода слова"
+	 NO_PROGRESSIVE_FREE_MEDIA:0  "Свобода слова"
+	 PROGRESSIVE_FREE_MEDIA_DESC:0  "§YПолитика свободных средств массовой информации§! понравится [Root.GetName]." 
+
+	 NO_PROGRESSIVE_STATE_MEDIA:0  "Никакой свободы слова"
+	 PROGRESSIVE_STATE_MEDIA:0  "Никакой свободы слова"
+	 NO_PROGRESSIVE_STATE_MEDIA_DESC:0  "§YПолитика государственных средств массовой информации§! вызывает недовольство [Root.GetName]."
+
+	TOTALITARIAN_NO_GUN_RIGHTS:0 "Личное оружие запрещено"
+	TOTALITARIAN_GUN_RIGHTS:0 "Личное оружие запрещено"
+	TOTALITARIAN_NO_GUN_RIGHTS_DESC:0 "Запрещение гражданам носить §YЛичное оружие§! вызывает недовольство [Root.GetName]". 
+
+	PRIVATE_EDUCATION:0 "Частное образование"
+	NO_PRIVATE_EDUCATION:0 "Нет частного образования"
+	 PRIVATE_EDUCATION_DESC:0  "Активное §YЧастное образование§! социальная политика понравится [Root.GetName]".
+
+	NO_PUBLIC_EDUCATION:0 "Нет государственного образования"
+	PUBLIC_EDUCATION:0 "Государственное образование"
+	 NO_PUBLIC_EDUCATION_DESC:0  "Активная §YГосударственная образовательная§! социальная политика вызывает недовольство [Root.GetName]".
+
+	 ARISTOCRATIC_ELITE:0  "Аристократическая элита"
+	 NO_ARISTOCRATIC_ELITE:0  "Аристократическая элита"
+	 ARISTOCRATIC_ELITE_DESC:0  "Активная §YМеритократия§! или §YАристократическая элита§! гражданская будет нравиться [Root.GetName]". 
+
+	 DEVELOPED_HIERARCHY:0  "Принудительная власть"
+	 NO_DEVELOPED_HIERARCHY:0  "Принудительная власть"
+	 DEVELOPED_HIERARCHY_DESC:0  "Активное §YПолицейское государство§! гражданское правительство порадует [Root.GetName]". 
+
+	 FEDERAL_STATE:0  "Федеративное государство"
+	 NO_FEDERAL_STATE:0  "Федеративное государство"
+	 FEDERAL_STATE_DESC:0  "Активная §YФедерализованная§! политика позиции властей удовлетворит [Root.GetName]".
+
+	 CENTRALIZED_STATE:0  "Централизованное государство"
+	 NO_CENTRALIZED_STATE:0  "Централизованное государство"
+	 CENTRALIZED_STATE_DESC:0  "Активная §YЦентрализованная§! политика позиции властей удовлетворит [Root.GetName]".
+
+	 ECO_ASCENSION_1:0  "Господство над природой"
+	 ECO_NO_ASCENSION_1:0  "Господство над природой"
+	 ECO_ASCENSION_1_DESC:0  "Принятие §YГосподства над природой§! привилегии вознесения понравится [Root.GetName]".
+
+	 STRONG_INDUSTRIAL_FOCUS:0  "Промышленное развитие"
+	 NO_STRONG_INDUSTRIAL_FOCUS:0  "Промышленное развитие"
+	 STRONG_INDUSTRIAL_FOCUS_DESC:0  "Установление §YТорговой§! политики в отношении §Yпромышленного развития§! удовлетворит [Root.GetName]".
+
+	 INDUSTRIAL_INFRASTRUCTURE:0  "Промышленный капитал"
+	 NO_INDUSTRIAL_INFRASTRUCTURE:0  "Промышленный капитал"
+	 INDUSTRIAL_INFRASTRUCTURE_DESC:0  "Строительство зданий §YМинистерства производства§! и §YСистемного капитального комплекса§! на любой отдельно взятой планете доставит удовольствие [Root.GetName]".
+
+	 MINERALS_ACCUMULATION_1:0  "Богатый минералами"
+	 NO_MINERALS_ACCUMULATION_1:0  "Накапливать минералы"
+	 MINERALS_ACCUMULATION_1_DESC:0  "Сохраняя по крайней мере £minerals£ §Y10000§! сохраненный в любое время, будет радовать [Root.GetName]."
+
+	 INDUSTRIAL_ECONOMY:0  "Культура промышленника"
+	 NO_INDUSTRIAL_ECONOMY:0  "Культура промышленника"
+	 INDUSTRIAL_ECONOMY_DESC:0  "Активная §YПромышленная экономика§! гражданское правительство порадует [Root.GetName]".
+
+	 TOTALITARIAN_STRATIFICATION_DESC:1  "Обеспечение стратифицированного общества - будь то посредством стратифицированной экономики, рабства, академических привилегий или даже чистки - удовлетворит [Root.GetName]".
+
+	 PROGRESSIVE_NO_WELFARE:0  "Нет социального обеспечения"
+	 NO_PROGRESSIVE_NO_WELFARE:0  "Нет социального обеспечения"
+	 PROGRESSIVE_NO_WELFARE_DESC:0  "Установление §Yсоциального обеспечения§! уровня жизни вызывает недовольство [Root.GetName]".
+
+	 PROGRESSIVE_NO_STRATIFIED_DESC:0  "Если позволить любому жителю нашей империи жить в §YСтратифицированной экономике§! или §YАкадемических привилегиях§!, это вызовет большое недовольство [Root.GetName]".
+
+	 NO_FREE_MEDIA:0  "Нет свободных СМИ"
+	 NO_FREE_MEDIA:0  "Нет свободных СМИ"
+	 NO_FREE_MEDIA_DESC:0  "Активная §YПолитика свободных СМИ§! вызывает недовольство [Root.GetName]".
+
+	 SHARED_BURDEN:0  "Разделяемое бремя"
+	 SHARED_BURDEN_DESC:0  "Действительный §YРазделяемое бремя§! гражданское радует [Root.GetName]".
+
+	 XENOIST_UNIVERSALISM:0  "Галактический универсализм"
+	 XENOIST_UNIVERSALISM_DESC:0  "Хостинг по крайней мере §Y8§! уникальные виды в пределах нашей империи очень понравятся [Root.GetName]."
+	 XENOIST_NO_UNIVERSALISM:0  "$XENOIST_UNIVERSALISM$"
+
+	 IMPERIALIST_DEFENSIVE_PACTS:0  "Оборонительный союз"
+	 IMPERIALIST_DEFENSIVE_PACTS_DESC:0  "Подписание оборонительных пактов по крайней мере с §Y3§! другие империи порадуют [Root.GetName]."
+	 NO_IMPERIALIST_DEFENSIVE_PACTS:0  "$IMPERIALIST_DEFENSIVE_PACTS$"
+
+	 HEALTHCARE_CAMPAIGN:0  "Общественное здравоохранение"
+	 NO_HEALTHCARE_CAMPAIGN:0  "Никакой публичной кампании"
+	 HEALTHCARE_CAMPAIGN_DESC:0  "Обеспечение §Yполитики общественного здравоохранения§! удовлетворяет [Root.GetName]".
+
+	 EDUCATION_CAMPAIGN:0  "Государственное образование"
+	 NO_EDUCATION_CAMPAIGN:0  "Нет государственного образования"
+	 EDUCATION_CAMPAIGN_DESC:0  "Обеспечение §Yполитики государственного образования§! империи нравится [Root.GetName]".
+
+	# указ
+	 PLURALIST_INDOCTRINATION:0  "ПЛЮРАЛИСТИЧЕСКАЯ ИДЕОЛОГИЧЕСКАЯ ОБРАБОТКА"
+	 NO_PLURALIST_INDOCTRINATION:0  "НИКАКОЙ ПЛЮРАЛИСТИЧЕСКОЙ ИДЕОЛОГИЧЕСКОЙ ОБРАБОТКИ"
+	 PLURALIST_INDOCTRINATION_DESC:0  "Активная §YИдеологическая обработка: защита окружающей среды§! указ вызывает недовольство [Root.GetName]".
+
+	 ELITIST_INDOCTRINATION:0  "ИДЕОЛОГИЧЕСКАЯ ОБРАБОТКА ЭЛИТАРНОСТИ"
+	 NO_ELITIST_INDOCTRINATION:0  "НИКАКОЙ ИДЕОЛОГИЧЕСКОЙ ОБРАБОТКИ В ДУХЕ ЭЛИТАРНОСТИ"
+	 ELITIST_INDOCTRINATION_DESC:0  "Активная §YИдеологическая обработка: элитарность§! указ вызывает недовольство [Root.GetName]".
+
+	 SPIRITUALIST_INDOCTRINATION:0  "СПИРИТИЧЕСКАЯ ИДЕОЛОГИЧЕСКАЯ ОБРАБОТКА"
+	 NO_SPIRITUALIST_INDOCTRINATION:0  "НИКАКОЙ СПИРИТИЧЕСКОЙ ИДЕОЛОГИЧЕСКОЙ ОБРАБОТКИ"
+	 SPIRITUALIST_INDOCTRINATION_DESC:0  "Активная §YИдеологическая обработка: спиритизм§! указ вызывает недовольство [Root.GetName]".
+
+	 MATERIALIST_INDOCTRINATION:0  "ИДЕОЛОГИЧЕСКАЯ ОБРАБОТКА МАТЕРИАЛИЗМОМ"
+	 NO_MATERIALIST_INDOCTRINATION:0  "НИКАКОЙ ИДЕОЛОГИЧЕСКОЙ ОБРАБОТКИ МАТЕРИАЛИЗМОМ"
+	 MATERIALIST_INDOCTRINATION_DESC:0  "Активная §YИдеологическая обработка: материализм§! указ вызывает недовольство [Root.GetName]".
+
+	 MILITARIST_INDOCTRINATION:0  "ИДЕОЛОГИЧЕСКАЯ ОБРАБОТКА МИЛИТАРИЗМОМ"
+	 NO_MILITARIST_INDOCTRINATION:0  "НИКАКОЙ ИДЕОЛОГИЧЕСКОЙ ОБРАБОТКИ МИЛИТАРИЗМОМ"
+	 MILITARIST_INDOCTRINATION_DESC:0  "Активная §YИдеологическая обработка: милитаризм§! указ вызывает недовольство [Root.GetName]".
+
+	 PACIFIST_INDOCTRINATION:0  "ПАЦИФИСТСКАЯ ИДЕОЛОГИЧЕСКАЯ ОБРАБОТКА"
+	 NO_PACIFIST_INDOCTRINATION:0  "НИКАКОЙ ПАЦИФИСТСКОЙ ИДЕОЛОГИЧЕСКОЙ ОБРАБОТКИ"
+	 PACIFIST_INDOCTRINATION_DESC:0  "Активная §YИдеологическая обработка: пацифизм§! указ вызывает недовольство [Root.GetName]".
+
+	 AUTHORITARIAN_INDOCTRINATION:0  "ИДЕОЛОГИЧЕСКАЯ ОБРАБОТКА ТОТАЛИТАРИЗМОМ"
+	 NO_AUTHORITARIAN_INDOCTRINATION:0  "НИКАКОЙ ИДЕОЛОГИЧЕСКОЙ ОБРАБОТКИ В ДУХЕ ТОТАЛИТАРИЗМА"
+	 AUTHORITARIAN_INDOCTRINATION_DESC:0  "Активная §YИдеологическая обработка: тоталитаризм§! указ вызывает недовольство [Root.GetName]".
+
+	 XENOPHILE_INDOCTRINATION:0  "ИДЕОЛОГИЧЕСКАЯ ОБРАБОТКА КСЕНОФИЛОВ"
+	 NO_XENOPHILE_INDOCTRINATION:0  "НИКАКОЙ КСЕНОФИЛЬСКОЙ ИДЕОЛОГИЧЕСКОЙ ОБРАБОТКИ"
+	 XENOPHILE_INDOCTRINATION_DESC:0  "Активная §YИдеологическая обработка: ксенофилия§! указ вызывает недовольство [Root.GetName]".
+
+	 XENOPHOBE_INDOCTRINATION:0  "ИДЕОЛОГИЧЕСКАЯ ОБРАБОТКА КСЕНОФОБАМИ"
+	 NO_XENOPHOBE_INDOCTRINATION:0  "НИКАКОЙ ИДЕОЛОГИЧЕСКОЙ ОБРАБОТКИ КСЕНОФОБАМИ"
+	 XENOPHOBE_INDOCTRINATION_DESC:0  "Активная §YИдеологическая обработка: ксенофобия§! указ вызывает недовольство [Root.GetName]".
+
+	 INDUSTRIAL_INDOCTRINATION:0  "ИДЕОЛОГИЧЕСКАЯ ОБРАБОТКА ИНДУСТРИАЛИЗМОМ"
+	 NO_INDUSTRIAL_INDOCTRINATION:0  "НИКАКОЙ ИДЕОЛОГИЧЕСКОЙ ОБРАБОТКИ ИНДУСТРИАЛИЗМОМ"
+	 INDUSTRIAL_INDOCTRINATION_DESC:0  "Активная §YИдеологическая обработка: индустриализм§! указ вызывает недовольство [Root.GetName]".
+
+	 GREEN_INDOCTRINATION:0  "ИДЕОЛОГИЧЕСКАЯ ОБРАБОТКА ЭКОЛОГОВ"
+	 NO_GREEN_INDOCTRINATION:0  "НИКАКОЙ ИДЕОЛОГИЧЕСКОЙ ОБРАБОТКИ ЭКОЛОГАМИ"
+	 GREEN_INDOCTRINATION_DESC:0  "Активная §YИдеологическая обработка: защита окружающей среды§! указ вызывает недовольство [Root.GetName]".
+
+	 SOCIALISM_INDOCTRINATION:0  "СОВМЕСТНАЯ ИДЕОЛОГИЧЕСКАЯ ОБРАБОТКА"
+	 NO_SOCIALISM_INDOCTRINATION:0  "НИКАКОЙ СОВМЕСТНОЙ ИДЕОЛОГИЧЕСКОЙ ОБРАБОТКИ"
+	 SOCIALISM_INDOCTRINATION_DESC:0  "Активная §YИдеологическая обработка: коллективизм§! указ вызывает недовольство [Root.GetName]".
+
+	 CAPITALISM_INDOCTRINATION:0  "КОНКУРЕНТНАЯ ИДЕОЛОГИЧЕСКАЯ ОБРАБОТКА"
+	 NO_CAPITALISM_INDOCTRINATION:0  "НИКАКОЙ КОНКУРЕНТНОЙ ИДЕОЛОГИЧЕСКОЙ ОБРАБОТКИ"
+	 CAPITALISM_INDOCTRINATION_DESC:0  "Активная §YИдеологическая обработка: индивидуализм§! указ вызывает недовольство [Root.GetName]".
+
+
+	 RECYCLING_CAMPAIGN:0  "Субсидии на переработку отходов"
+	 NO_RECYCLING_CAMPAIGN:0  "Никаких субсидий на переработку отходов"
+	 RECYCLING_CAMPAIGN_DESC:0  "Введение §YКампании по утилизации§! указа удовлетворит [Root.GetName]".
+
+	ОБРАЗОВАТЕЛЬНАЯ_КАМПАНИЯ:0 "Образовательная кампания"
+	NO_EDUCATION_CAMPAIGN:0 "Кампания без образования"
+	EDUCATION_CAMPAIGN_DESC:0 "Применение §YОбразовательной кампании§! указа удовлетворит [Root.GetName]".
+
+	 ENGINEERING_SCIENCE:0  "Промышленные субсидии"
+	 NO_ENGINEERING_SCIENCE:0  "Никаких промышленных субсидий"
+	 ENGINEERING_SCIENCE_DESC:0  "Применение §YПроизводственных целей§! указа удовлетворит [Root.GetName]".
+
+
+	# Традиции
+	 ENVIRONMENTAL_ECONOMY_1:0  "Экологический приоритет I"
+	 NO_ENVIRONMENTAL_ECONOMY_1:0  "Экологический приоритет I"
+	 ENVIRONMENTAL_ECONOMY_1_DESC:0  "Принятие любой из традиций уровня I §Yразвития§!, без какой-либо из традиций уровня I §Yзащиты окружающей среды§! вызывает недовольство [Root.GetName]".
+
+	 ENVIRONMENTAL_ECONOMY_2:0  "Экологический приоритет II"
+	 NO_ENVIRONMENTAL_ECONOMY_2:0  "Экологический приоритет II"
+	 ENVIRONMENTAL_ECONOMY_2_DESC:0  "Принятие любой из традиций уровня II §Yразвития§!, без какой-либо из традиций уровня II §Yзащиты окружающей среды§! сильно не нравится [Root.GetName]".
+
+	 ENVIRONMENTAL_ECONOMY_3:0  "Экологический приоритет III"
+	 NO_ENVIRONMENTAL_ECONOMY_3:0  "Экологический приоритет III"
+	 ENVIRONMENTAL_ECONOMY_3_DESC:0  "Завершение §YТрадиций развития§!, без завершения §Yтрадиций защиты окружающей среды§! невероятно не нравится [Root.GetName]".
+
+	 DEVELOPMENT_ECONOMY_1:0  "Приоритет развития I"
+	 NO_DEVELOPMENT_ECONOMY_1:0  "Приоритет развития I"
+	 DEVELOPMENT_ECONOMY_1_DESC:0  "Принятие любой из §Yтрадиций защиты окружающей среды§! уровня I, без какой-либо из §Yтрадиций развития§! уровня I вызывает недовольство [Root.GetName]".
+
+	 DEVELOPMENT_ECONOMY_2:0  "Приоритет развития II"
+	 NO_DEVELOPMENT_ECONOMY_2:0  "Приоритет развития II"
+	 DEVELOPMENT_ECONOMY_2_DESC:0  "Принятие любой из §Yтрадиций защиты окружающей среды§! уровня II, без какой-либо из §Yтрадиций развития§! уровня II вызывает недовольство [Root.GetName]".
+
+	 DEVELOPMENT_ECONOMY_3:0  "Приоритет развития III"
+	 NO_DEVELOPMENT_ECONOMY_3:0  "Приоритет развития III"
+	 DEVELOPMENT_ECONOMY_3_DESC:0  "Завершение §YТрадиций защиты окружающей среды§!, без завершения §YТрадиций развития§! невероятно не нравится [Root.GetName]".
+
+
+	 DIPLOMACY_TRADITIONS:0  "Традиционный милитаризм"
+	 NO_DIPLOMACY_TRADITIONS:0  "Нет традиционного процветания"
+	 DIPLOMACY_TRADITIONS_DESC:0  "Принятие §YТрадиций процветания§! вызывает недовольство [Root.GetName]". 
+
+	 ELITISM_TRADITION:0  "Традиционная элитарность"
+	 NO_ELITISM_TRADITION:0  "Нет традиционной меритократии"
+	 ELITISM_TRADITION_DESC:0  "Принятие §Yмеритократических§! традиций вызывает недовольство [Root.GetName]". 
+
+	 TECHNOLOGIST_NO_SPIRITUALISM:0  "Традиционный материализм"
+	 TECHNOLOGIST_SPIRITUALISM:0  "Нет традиционной веры"
+	 TECHNOLOGIST_NO_SPIRITUALISM_DESC:0  "Принятие §Yверы§! традиций вызывает недовольство [Root.GetName]".
+
+	 DEVELOPED_ENVIRONMENTALISM:0  "Развитый энвайронментализм"
+	 NO_DEVELOPED_ENVIRONMENTALISM:0  "Развивать экологизм"
+	 DEVELOPED_ENVIRONMENTALISM_DESC:0  "Активная §YЭкономика окружающей среды§! или §YХранители гармонии§! гражданское правительство порадует [Root.GetName]".
+
+
+	 ENVIRONMENTAL_ECONOMY:0  "Традиционный энвайронментализм"
+	 NO_ENVIRONMENTAL_ECONOMY:0  "Нет традиционного развития"
+	 ENVIRONMENTAL_ECONOMY_DESC:0  "Принятие §YРазвитие§! традиций вызывает недовольство [Root.GetName]".
+
+	 MILITARY_ORDER:0  "Развитый милитаризм"
+	 MILITARY_ORDER_NO:0  "Развивать милитаризм"
+	 MILITARY_ORDER_DESC:0  "Активная §YСтратократия§! или §YВоенный мастер§! гражданское правительство порадует [Root.GetName]". 
+
+	 ISOLATIONIST_WAR_TRADITION:0  "Развитый изоляционизм"
+	 ISOLATIONIST_NO_WAR_TRADITION:0  "Развивать изоляционизм"
+	 ISOLATIONIST_WAR_TRADITION_DESC:0  "Активный §Yизоляционист§! гражданское правительство порадует [Root.GetName]".
+
+	 DEVELOPMENT_ECONOMY:0  "Традиционное развитие"
+	 NO_DEVELOPMENT_ECONOMY:0  "Нет традиционной гармонии"
+	 DEVELOPMENT_ECONOMY_DESC:0  "Принятие §YГармонии§! вызывает недовольство [Root.GetName]".
+
+
+	 PROGRESSIVE_ANARCHY:0  "Разработано $ethic_egalitarian_adj$"
+	 NO_PROGRESSIVE_ANARCHY:0  "Разработать $ethic_egalitarian_adj$"
+	 PROGRESSIVE_ANARCHY_DESC:0  "Активный §YДух свободы§! или §YПолитический $ethic_egalitarian_adj$§! гражданское правительство порадует [Root.GetName]". 
+
+	 TRADITION_ANARCHY:0  "Традиционная свобода"
+	 NO_TRADITION_ANARCHY:0  "Нет традиционной власти"
+	 TRADITION_ANARCHY_DESC:0  "Принятие §Yавторитета§! традиций вызывает недовольство [Root.GetName]".
+
+	 PROSPERITY_IDEOLOGY:0  "Процветающее общество"
+	 PROSPERITY_NO_IDEOLOGY:0  "Процветающее общество"
+	 PROSPERITY_IDEOLOGY_DESC:0  "Активная §YЗемля изобилия§! или §YАграрная идиллия§! гражданское правительство порадует [Root.GetName]".
+
+	 PROSPERITY_TRADITION:0  "Традиционное процветание"
+	 NO_PROSPERITY_TRADITION:0  "Нет традиционному превосходству"
+	 PROSPERITY_TRADITION_DESC:0  "Принятие §Yпревосходства§! традиций вызывает недовольство [Root.GetName]". 
+
+	 SOCIALISM_IDEOLOGY:0  "Традиционное содружество"
+	 NO_SOCIALISM_IDEOLOGY:0  "Нет традиционной торговли"
+	 SOCIALISM_IDEOLOGY_DESC:0  "Принятие §Yкоммерческих§! традиций вызывает недовольство [Root.GetName]".
+
+
+	 policy_military_budget:0  "Фокус государственного бюджета"
+	 policy_military_budget_desc:0  " "
+
+	 military_budget_normal:0  "Сбалансированные расходы"
+	 military_budget_normal_name:0  "Сбалансированные расходы"
+	 military_budget_normal_desc:0  " "
+
+	 military_budget_very_low:0  "Сильная направленность государственного управления"
+	 military_budget_very_low_name:0  "Сильная направленность государственного управления"
+	 military_budget_very_low_desc:0  " " 
+
+	 military_budget_low:0  "Фокус на управлении государством"
+	 military_budget_low_name:0  "Фокус на управлении государством"
+	 military_budget_low_desc:0  " " 
+
+	 military_budget_high:0  "Военная направленность"
+	 military_budget_high_name:0  "Военная направленность"
+	 military_budget_high_desc:0  " "
+
+	 military_budget_very_high:0  "Сильная военная направленность"
+	 military_budget_very_high_name:0  "Сильная военная направленность"
+	 military_budget_very_high_desc:0  " "
+
+	 PROSPERITY_LOW_MILITARY:0  "Бюджетный фокус государственного управления"
+	 PROSPERITY_NO_LOW_MILITARY:0  "Бюджетный фокус государственного управления"
+	 PROSPERITY_LOW_MILITARY_DESC:0  "Сохранение §Yгосударственного бюджета§! политики, ориентированной на §YГосударственное управление§! доставит удовольствие [Root.GetName]".
+
+	 PROSPERITY_NOT_BIG_MILITARY:0  "Регулярные военные расходы"
+	 PROSPERITY_BIG_MILITARY:0  "Сокращение военных расходов"
+	 PROSPERITY_NOT_BIG_MILITARY_DESC:0  "Сохранение §Yгосударственного бюджета§! политики, ориентированной на §Yвоенную сферу§! вызывает недовольство [Root.GetName]."
+
+	 IMPERIALIST_HIGH_MILITARY:0  "Высокие военные расходы"
+	 IMPERIALIST_NO_HIGH_MILITARY:0  "Увеличить военные расходы"
+	 IMPERIALIST_HIGH_MILITARY_DESC:0  "Сохранение §Yгосударственного бюджета§! политики, ориентированной на §Yвоенную сферу§! порадует [Root.GetName]."
+
+	 IMPERIALIST_NORMAL_MILITARY:0  "Регулярные военные расходы"
+	 IMPERIALIST_NO_NORMAL_MILITARY:0  "Увеличить военные расходы"
+	 IMPERIALIST_NORMAL_MILITARY_DESC:0  "Сохранение §Yгосударственного бюджета§! политики, ориентированной на §YГосударственное управление§ вызывает недовольство [Root.GetName]". 
+
+	 IMPERIALIST_TRADITION:0  "Традиционный империализм"
+	 IMPERIALIST_NO_TRADITION:0  "Традиционный империализм"
+	 IMPERIALIST_TRADITION_DESC:0  "Принятие традиций §YПревосходства§! доставит удовольствие [Root.GetName]".
+
+	 CAPITALISM_TRADITION:0  "Традиционный капитализм"
+	 NO_CAPITALISM_TRADITION:0  "Нет традиционного содружества"
+	 CAPITALISM_TRADITION_DESC:0  "Принятие §Yтрадиций Содружества§! вызывает недовольство [Root.GetName]". 
+
+
+
+	PROSPERITY_TRADITION_DESC:0 "Принятие традиций §YПревосходства§! без §YПроцветания§! вызывает недовольство [Root.GetName]".
+
+	 TRADITION_HIERARCHY:0  "Традиционная власть"
+	 NO_TRADITION_HIERARCHY:0  "Нет традиционной свободы"
+	 TRADITION_HIERARCHY_DESC:0  "Принятие §YСвободы§! традиций вызывает недовольство [Root.GetName]".
+
+	 TRADITIONALIST_NO_SCIENCE:0  "Никакого поклонения науке"
+	 TRADITIONALIST_SCIENCE:0  "Никакого поклонения науке"
+	 TRADITIONALIST_SCIENCE_DESC:0  "Принятие §YВеры в науку§! без завершения §YВеры§! традиций вызывает недовольство [Root.GetName]".
+
+	 TRADITIONALIST_SPIRITUALISM:0  "Традиционный спиритизм"
+	 TRADITIONALIST_NO_SPIRITUALISM:0  "Нет традиционного открытия"
+	 TRADITIONALIST_SPIRITUALISM_DESC:0  "Принятие §YОткрытия§! вызывает недовольство [Root.GetName]".
+
+	 PLURALISM_TRADITION:0  "Традиционный $ethic_pluralist_adj$"
+	 NO_PLURALISM_TRADITION:0  "Нет традиционной аристократии"
+	 PLURALISM_TRADITION_DESC:0  "Принятие §Yтрадиций аристократии§! вызывает недовольство [Root.GetName]". 
+
+	 XENOIST_NO_PURITY:0  "Традиционное единство"
+	 XENOIST_PURITY:0  "Нет традиционной чистоты"
+	 XENOIST_NO_PURITY_DESC:0  "Принятие §Yтрадиций чистоты§! вызывает недовольство [Root.GetName]".
+
+	# Новый
+	 TRADITIONALIST_FLESH_IS_WORTHLESS:0  "Слабость плоти"
+	 TRADITIONALIST_FLESH_IS_WEAK_DESC:0  "Поиск способа создания кибернетических имплантатов, которые благословляют наши тела священным металлом, или улучшают наших роботов, очень радует [Root.GetName]"
+
+	 TRADITIONALIST_SEEK_FLESH_IS_WEAK:0  "Слабость плоти"
+	 TRADITIONALIST_SEEK_FLESH_IS_WEAK_DES:0  "Поиск способа создания кибернетических имплантатов, которые благословляют наши тела священным металлом, или улучшают наших роботов, очень радует [Root.GetName]; в противном случае это будет полной ересью и вызовет их недовольство".
+# /

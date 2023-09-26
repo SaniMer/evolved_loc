@@ -1,0 +1,64 @@
+﻿l_russian:
+ opinion_socialism_pos_1:0 "Социалистические товарищи" 
+ opinion_socialism_pos_2:0 "Социалистические товарищи" 
+ opinion_socialism_pos_3:0 "Социалистические товарищи" 
+ opinion_socialism_pos_4:0 "Социалистические товарищи" 
+
+ opinion_socialism_neg_1:0 "Коммунистические тираны" 
+ opinion_socialism_neg_2:0 "Коммунистические тираны" 
+ opinion_socialism_neg_3:0 "Коммунистические тираны" 
+ opinion_socialism_neg_4:0 "Коммунистические тираны" 
+
+ opinion_capitalism_pos_1:0 "Свободные маркетологи" 
+ opinion_capitalism_pos_2:0 "Свободные маркетологи" 
+ opinion_capitalism_pos_3:0 "Свободные маркетологи" 
+ opinion_capitalism_pos_4:0 "Свободные маркетологи" 
+
+ opinion_capitalism_neg_1:0 "Капиталистические эксплуататоры" 
+ opinion_capitalism_neg_2:0 "Капиталистические эксплуататоры" 
+ opinion_capitalism_neg_3:0 "Капиталистические эксплуататоры" 
+ opinion_capitalism_neg_4:0 "Капиталистические эксплуататоры" 
+
+ opinion_green_pos_1:0 "Друзья природы" 
+ opinion_green_pos_2:0 "Друзья природы" 
+ opinion_green_pos_3:0 "Друзья природы" 
+ opinion_green_pos_4:0 "Друзья природы" 
+
+ opinion_green_neg_1:0 "Тупоголовые любители обнимать деревья" 
+ opinion_green_neg_2:0 "Тупоголовые любители обнимать деревья" 
+ opinion_green_neg_3:0 "Тупоголовые любители обнимать деревья" 
+ opinion_green_neg_4:0 "Тупоголовые любители обнимать деревья" 
+
+ opinion_industrial_pos_1:0 "Товарищи инженеры" 
+ opinion_industrial_pos_2:0 "Товарищи инженеры" 
+ opinion_industrial_pos_3:0 "Товарищи инженеры" 
+ opinion_industrial_pos_4:0 "Товарищи инженеры" 
+
+ opinion_industrial_neg_1:0 "Погремушка металлистов" 
+ opinion_industrial_neg_2:0 "Погремушка металлистов" 
+ opinion_industrial_neg_3:0 "Погремушка металлистов" 
+ opinion_industrial_neg_4:0 "Погремушка металлистов" 
+
+ opinion_pluralist_pos_1:0 "Братья-плюралисты" 
+ opinion_pluralist_pos_2:0 "Братья-плюралисты" 
+ opinion_pluralist_pos_3:0 "Братья-плюралисты" 
+ opinion_pluralist_pos_4:0 "Братья-плюралисты" 
+
+ opinion_pluralist_neg_1:0 "Плюралистический сброд" 
+ opinion_pluralist_neg_2:0 "Плюралистический сброд" 
+ opinion_pluralist_neg_3:0 "Плюралистический сброд" 
+ opinion_pluralist_neg_4:0 "Плюралистический сброд" 
+
+ opinion_elitist_pos_1:0 "Благородные аристократы" 
+ opinion_elitist_pos_2:0 "Благородные аристократы" 
+ opinion_elitist_pos_3:0 "Благородные аристократы" 
+ opinion_elitist_pos_4:0 "Благородные аристократы" 
+
+ opinion_elitist_neg_1:0 "Высокомерные крысы" 
+ opinion_elitist_neg_2:0 "Высокомерные крысы" 
+ opinion_elitist_neg_3:0 "Высокомерные крысы" 
+ opinion_elitist_neg_4:0 "Высокомерные крысы" 
+
+ opinion_capitalists_vs_collectivists:0 "Ленивый внушенный" 
+ opinion_socialists_vs_individualists:0 "Эгоистичные вопиющие" 
+

@@ -1,0 +1,42 @@
+﻿l_russian:
+
+# TRADITIONS replaces
+# ------------------------------------------------------------
+
+
+
+
+
+# ASCENSION replaces
+# ------------------------------------------------------------
+ ap_synthetic_evolution_desc:0 "Пришло время отринуть эти несовершенные органические сосуды, в которых томится наш разум. Переместив наши нейронные схемы в синтетические тела, мы достигнем более высокой ступени бытия."
+#[ap_synthetic_evolution_desc]"
+
+
+# Is "menacing" a jojo reference?
+# ------------------------------------------------------------
+ ap_become_the_crisis:0 "Эфирофазная аннигиляция"
+ ap_become_the_crisis_desc:1 "Все великие достижения требуют жертв. Никто в галактике нас не поймет, но им придется смириться."
+
+ # Menacing Actions
+ menacing_actions_name:0 "Угрожающие действия"
+ menacing_actions_destruction_title:0 "$menacing_actions_name$ - $crisis_path_destruction_name$"
+ menacing_actions_supremacy_title:0 "$menacing_actions_name$ - $crisis_path_supremacy_name$"
+ menacing_actions_deception_title:0 "$menacing_actions_name$ - $crisis_path_deception_name$"
+
+ GAINING_MENACE:0 "Выполняйте задания угрозы, чтобы увеличить угрозу."
+ CRISIS_OBJECTIVE_PROGRESS:1 "Мы получили £menace£ $AMOUNT$ от этого задания угрозы."
+ CRISIS_LEVELS_DESC:1 "Для получения уровней кризиса выполняйте задания угрозы и особые проекты кризиса, указанные в журнале"
+
+ CRISIS_HOWTO:1 "Выполняя §Hзадания угрозы§! в качестве кризиса, вы получаете £menace£ §Yугрозу§! и открываете разрушительный потенциал вашего государства на пути к завершению эфирофазной установки и переустройству галактики согласно вашим идеям."
+
+ become_the_crisis_chain:0 "Эфирофазная аннигиляция"
+ become_the_crisis_chain_title:0 "Эфирофазная аннигиляция"
+ become_the_crisis_chain_desc:0 "Мы зависли над пропастью кровавого будущего, и судьба тянет нас в него, словно неумолимая сила притяжения.\n\nВглядываясь в бездну, мы видим лишь самих себя."
+
+ crisis_corvette:2 "Корвет угрозы"
+ crisis_corvette_plural:2 "Корветы угрозы"
+ crisis_destroyer:2 "Эсминец угрозы"
+ crisis_destroyer_plural:2 "Эсминцы угрозы"
+ crisis_cruiser:1 "Крейсер угрозы"
+ crisis_cruiser_plural:1 "Крейсеры угрозы"

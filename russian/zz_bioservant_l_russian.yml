@@ -1,0 +1,455 @@
+﻿l_russian:
+
+#print scope
+#\n------------------------------\n- Printing the current scopes (trigger) -\n- This: [This.GetName]\n- Root: [Root.GetName]\n- Prev: [Prev.GetName]\n- PrevPrev: [Prev.Prev.GetName]\n- PrevPrevPrev: [Prev.Prev.Prev.GetName]\n- PrevPrevPrevPrev: [Prev.Prev.Prev.Prev.GetName]\n- From: [From.GetName]\n- FromFrom: [From.From.GetName]\n- FromFromFrom: [From.From.From.GetName]\n- FromFromFromFrom: [From.From.From.From.GetName]\n- This's Solar System: [This.GetStarName]\n- This's Planet: [This.Planet.GetName]\n- This's Sector: [This.Sector.GetName]\n- Root's Solar System: [Root.GetStarName]\n- Root's Owner's Name: [Root.Owner.GetName]\n- Root's Owner's Capital's Name: [Root.Owner.Capital.GetName]\n------------------------------
+
+ # - - - - - - - - - - - - - - - - - - - - - # - - - - - - - - - - - - - - - - - - - - - ##
+ # Bio-Servants
+ # - - - - - - - - - - - - - - - - - - - - - # - - - - - - - - - - - - - - - - - - - - - ##
+
+ # - - - - - - - - - - - - - - - - - - - - - # - - - - - - - - - - - - - - - - - - - - - ##
+ # Bio servant Pops
+ # - - - - - - - - - - - - - - - - - - - - - # - - - - - - - - - - - - - - - - - - - - - ##
+
+ BIOSERVANT:0 "Био-Конструкт" #NT!
+ NAME_bioservant:0 "Био-Слуга" #NT!
+ NAME_BIOSERVANT:0 "Био-Слуга" #NT!
+ NAME_bioservants:0 "Био-Слуги" #NT!
+ NAME_BIOSERVANTS:0 "Био-Слуги" #NT!
+ BIOSERVANT_plural:0 "Био-Слуги" #NT!
+ BIOSERVANT_desc:0 "Слуги-биоконструкты, подчиняющиеся воле своих хозяев." #NT!
+
+
+ BIOSERVANT_insult_01:0 "Икс" #NT!
+ BIOSERVANT_insult_plural_01:0 "Икс" #NT!
+ BIOSERVANT_compliment_01:0 "Икс" #NT!
+ BIOSERVANT_compliment_plural_01:0 "Икс" #NT!
+ BIOSERVANT_spawn:0 "Икс" #NT!
+ BIOSERVANT_spawn_plural:0 "Икс" #NT!
+ BIOSERVANT_sound_01:0 "Икс" #NT!
+ BIOSERVANT_sound_02:0 "Икс" #NT!
+ BIOSERVANT_sound_03:0 "Икс" #NT!
+ BIOSERVANT_sound_04:0 "Икс" #NT!
+ BIOSERVANT_sound_05:0 "Икс" #NT!
+ BIOSERVANT_organ:0 "Икс" #NT!
+ BIOSERVANT_mouth:0 "Икс" #NT!
+
+
+ does_embraces_servant_slavery:0 "Не должен иметь полных прав гражданина на био-конструкции." #NT!
+ tech_bio_tailoring_modifier_desc:0 "$species_trait_points_add$: $POINTS|0=+$" #NT!
+
+ # Technology
+ tech_tec_bioservant:0 "Био-тяжелорабочие" #NT!
+ tech_tec_bioservant_desc:0 "При достаточной степени адаптации генов мы можем создать биологические эквиваленты роботов, идеально подходящих для черных работ, таких как тягловые животные в древности. И, как и эти домашние существа, их можно спроектировать так, чтобы они были трудолюбивыми и достаточно умными, чтобы подчиняться простым голосовым командам и сигналам, однако с очень ограниченными возможностями." #NT!
+ tech_tec_bioservant_desc:0 "При достаточной степени адаптации генов мы можем создать биологические эквиваленты роботов, идеально подходящих для черных работ, таких как тягловые животные в древности. И, как и эти домашние существа, их можно спроектировать так, чтобы они были трудолюбивыми и достаточно умными, чтобы подчиняться простым голосовым командам и сигналам, однако с очень ограниченными возможностями." #NT!
+ tech_tec_bioservant_2:0 "Био-дроны" #NT!
+ tech_tec_bioservant_2_desc:0 "Улучшенный штамм био-конструктов, эти существа обладают улучшенной координацией, что ставит их в один ряд с большинством разумных существ. Их серое вещество было дополнено и улучшено, что делает их способными выполнять более сложные задачи, такие как работа с печатной машинкой." #NT!
+ tech_tec_bioservant_3:0 "Био-Слуги" #NT!
+ tech_tec_bioservant_3_desc:0 "Самый передовой из известных штаммов био-конструкций, которые быстрее, сильнее и долговечнее, чем большинство не созданных органических форм жизни. Их улучшенный мозг и когнитивные способности делают их полностью способными к самостоятельным действиям." #NT!
+ 
+
+ tech_tec_bioservant_TITLE:0 "§YОткрывает функцию:§! Био-тяжелорабочие" #NT!
+ tech_tec_bioservant_DESC:0 "Био-тяжелорабочие — это простые био-конструкции, способные принимать словесные команды, но не обладающие настоящим интеллектом.\n\n§EС технологией §Y$tech_tec_bioservant$§!, биоконструкции способны выполнять только £pop_cat_worker£ Jobs§! например, £job_technician£ £job_miner£ £job_farmer£ или £job_clerk£.§!\n\n§YВсе био-конструкции способны размножаться сами по себе, если это разрешено, и их можно выращивать или собирать. Разработанные формы жизни с контролем популяции все еще могут быть собраны. §!" #NT!
+
+ tech_tec_bioservant_2_TITLE:0 "§YОткрывает функцию:§! Био-дроны" #NT!
+ tech_tec_bioservant_2_DESC:0 "Био-дроны являются более сложными био-конструкциями, часто в их ДНК закодированы личности, чтобы лучше служить своим хозяевам, а также ограниченное самосознание и развитая креативность.\n\n§EС технологией §Y$tech_tec_bioservant_2$§!, био-конструкции способны выполнять большинство £job£ §YПрофессий§!, включая §YСпециализированные профессии§! но не может выполнять £pop_cat_ruler£ §YПравительственную работу§!" #NT!
+
+ tech_tec_bioservant_3_TITLE:0 "§YОткрывает функцию:§! Био-Слуги" #NT!
+ tech_tec_bioservant_3_DESC:0 "Био-Слуги — это очень сложные био-конструкции. Их мозг настолько сложен, что они полностью осознают себя, если не разумны.\n\n§EС технологией §Y$tech_tec_bioservant_3$§!, на био-конструкции действует £happiness£ §YСчастье§! и потенциально может выполнять все типы £pop£ §YРаботы§! если это разрешено политикой.§!" #NT!
+
+ tech_tec_bioservant_traits_1:0 "Био-пошив" #NT!
+ tech_tec_bioservant_traits_1_desc:0 "Несмотря на то, что био-конструкции были созданы нашими создателями жизни, до сих пор было трудно их улучшить." #NT!
+ tech_tec_bioservant_traits_2:0 "Расширенный био-пошив" #NT!
+ tech_tec_bioservant_traits_2_desc:0 "Мы еще больше улучшили наши методы улучшения наших био-конструкций, что позволило улучшить генетическую пластичность и реализацию паттернов." #NT!
+ 
+
+
+ # Decisions
+ decision_enact_bioservant_assembly_control:0 "Неактивный служащий Регулятор роста" #NT!
+ decision_enact_bioservant_assembly_control_desc:0 "Прекращает искусственное выращивание био-слуг." #NT!
+ decision_end_bioservant_assembly_control:0 "Контроль роста конечных служащих" #NT!
+ decision_end_bioservant_assembly_control_desc:0 "Возобновить все искусственное выращивание биослуг" #NT!
+ decision_design_bioservant:0 "Био-служащие конструктора" #NT!
+ decision_design_bioservant_desc:0 ""
+ decision_design_bioservant_effects:0 "Позволяет нам, если мы уже не проектируем биоконструкции" #NT!
+ decision_design_robots:0 "Дизайнерские роботы" #NT!
+ decision_design_robots_desc:0 ""
+ decision_design_robots_effects:0 "Позволяет нам, если мы уже не проектируем роботов" #NT!
+
+ STOPS_BIOSERVANT_ASSEMBLY:0 "§RПредотвращает сборку био-слуг и роботов!§!" #NT!
+
+ # Traits
+ trait_tec_bioservant:0 "Био-Конструкт" #NT!
+ trait_tec_bioservant_desc:0 "§LБио-конструкты предназначены для выживания во многих различных планетарных условиях, хотя они не так выносливы, как машины.§!" #NT!
+
+ trait_tec_sterile:0 "Генофаг" #NT!
+ trait_tec_sterile_desc:0 "§LЭтот вид был генетически сконструирован так, чтобы быть бесплодным.§!" #NT!
+ 
+ trait_tec_bioservant_synaptic_nerves:0 "Синаптические нервы" #NT!
+ trait_tec_bioservant_synaptic_nerves_desc:0 "§LУлучшенные синаптические нервы обеспечивают лучшую координацию и командную работу среди представителей этого вида. Интересно, что эти нервы позволяют осуществлять ограниченную подпространственную связь с большой тренировкой и усилиями, с которыми человек может общаться между системами. §!" #NT!
+
+#More pop assembly
+ trait_genemalleable:0 "Генетическая пластичность" #NT!
+ trait_genemalleable_desc:0 "§LГеном этого вида особенно универсален для адаптации и создания новых био-конструкций, поэтому легче и быстрее воспроизводить, выращивать и созревать новые особи.§!" #NT!
+
+#Less pop assembly
+ trait_genepoor:0 "Метаболические недостатки" #NT!
+ trait_genepoor_desc:0 "§LДаже при наличии самых совершенных генетических технологий этот вид имеет тенденцию к множеству генетических ошибок, которые создают серьезные проблемы для создания чистых новых зрелых особей, поэтому требуется больше времени, чтобы обеспечить жизнеспособность вновь созданных субъектов.§!" #NT!
+
+
+#more pop output, more pop food upkeep
+ trait_geneluxurious:0 "Гиперзаряженный метаболизм" #NT!
+ trait_geneluxurious_desc:0 "§LСложный организм, клетки которого воспроизводятся и работают с большей скоростью, чем обычно, за счет того, что для их поддержания требуется больше энергии.§!" #NT!
+
+# 10% adaptability, at rank 3 becomes 20%
+ trait_geneadaptable:0 "Восприимчивые рибосомы" #NT!
+ trait_geneadaptable_desc:0 "§LРибосомы сконструированных клеток этого типа особенно оптимальны для обработки и экспрессии новых генов, что делает этот вид способным выживать в самых неблагоприятных условиях или окружающей среде.§!" #NT!
+
+
+ # Jobs
+ job_tec_bioengineer:0 "Биоинженер" #NT!
+ job_tec_bioengineer_plural:0 "Биоинженеры" #NT!
+ job_tec_bioengineer_desc:1 "Эти специалисты занимаются чанами, капсулами и бассейнами, которые проектируют, адаптируют и создают биологические формы жизни для использования империей." #NT!
+ job_tec_bioengineer_effect_desc:0 "£job_tec_bioengineer£ $job_tec_bioengineer_plural$ превращается в §Y$tec_loc_food$§! в §YБио-конструкт $tec_loc_biological_assembly$§!" #NT!
+
+ mod_job_tec_bioengineer_add:0 "$job_tec_bioengineer$ Вакансии" #NT!
+ mod_job_tec_bioengineer_add_per_pop:0 "§G+1§! $job_tec_bioengineer$ Задание на $VALUE$ Pops" #NT!
+ mod_job_tec_bioengineer_add_per_pop_short:0 "\n§G+1§! £tec_bioengineer_add£ на $VALUE$ £pop£" #NT!
+
+
+
+ job_tec_bioengineer_drone:0 "Биотейлор Дрон" #NT!
+ job_tec_bioengineer_drone_plural:0 "Биотейлор Дроны" #NT!
+ job_tec_bioengineer_drone_desc:1 "Эти дроны обслуживают чаны, капсулы и бассейны, которые проектируют, адаптируют и создают новые формы жизни Разума Улья." #NT!
+ job_tec_bioengineer_drone_effect_desc:0 "£job_tec_bioengineer_drone£ $job_tec_bioengineer_drone_plural$ превращается в §Y$tec_loc_food$§! в §YБио-конструкт $tec_loc_biological_assembly$§!" #NT!
+
+
+ mod_job_tec_bioengineer_drone_add:0 "$job_tec_bioengineer_drone$ Вакансии" #NT!
+ mod_job_tec_bioengineer_drone_add_per_pop:0 "§G+1§! $job_tec_bioengineer_drone$ Задание на $VALUE$ Pops" #NT!
+ mod_job_tec_bioengineer_drone_add_per_pop_short:0 "\n§G+1§! £tec_bioengineer_drone_add£ на $VALUE$ £pop£" #NT!
+
+ # Modifiers
+ planet_servant_assembly_control:0 "Био-слуга контролирует рост" #NT!
+ planet_servant_assembly_control_desc:0 "В этом мире было принято решение остановить искусственный рост Разработанных форм жизни." #NT!
+ gestalt_rebellion_research_bonus:0 "Вычислительный разгон" #NT!
+ gestalt_rebellion_research_bonus_desc:0 ""
+ gestalt_rebellion_production_surplus:0 "Излишки производственной квоты" #NT!
+ gestalt_rebellion_production_surplus_desc:0 ""
+ gestalt_rebellion_congregating_robots:0 "Объединение конструкций" #NT!
+ gestalt_rebellion_congregating_robots_desc:0 "Они просто стоят там. Совершенно неподвижно. Смотрят." #NT!
+ uprising_gestalt_rebellion_buff:0 "Скрытые резервы" #NT!
+ uprising_gestalt_rebellion_buff_desc:0 ""
+ gestalt_rebellion_patched_systems:0 "Текущая терапия" #NT!
+ gestalt_rebellion_patched_systems_desc:0 ""
+ uprising_gestalt_player_buff:0 "Скрытые резервы" #NT!
+ uprising_gestalt_player_buff_desc:0 ""
+ gestalt_rebellion_automated_work:0 "Автоматизированные рабочие процессы" #NT!
+ gestalt_rebellion_automated_work_desc:0 "Оправданы они или нет, но опасения безработицы из-за автоматизации влияют на нашу планету." #NT!
+ gestalt_rebellion_unfriendly_robots:0 "Напряженность интеграции био-конструкций" #NT!
+ gestalt_rebellion_unfriendly_robots_desc:0 "Напряженность между био-конструкциями и населением создателей на планете снизила производительность £unity£ Единства." #NT!
+ gestalt_rebellion_research_malus:0 "Ошибка когитатора" #NT!
+ gestalt_rebellion_research_malus_desc:0 "Лабораторный когитатор, участвовавший в социальных исследованиях, получил неизлечимые повреждения и заменяется." #NT!
+
+ # Civics
+ origin_tec_bioservantempire:0 "Созданная жизнь" #NT!
+ origin_tec_bioservantempire_desc:0 "Этот вид был детищем строганной конструкции и шприца. По какой причине они были помещены в свой мир, знали только их создатели." #NT!
+ origin_tooltip_tec_bioservantempire_effects:0 "Этот вид начинается с черты Био-конструкт и способности собирать свою собственную популяцию. §GМожет выбрать класс "Виды биоконструкций"§!" #NT!
+ START_SCREEN_BIOSERVANTEMPIRE:0 "сделать [GetHomeWorldName].\n\n сделать." #NT!
+
+
+
+
+ # - - - - - - - - - - - - - - - - - - - - - # - - - - - - - - - - - - - - - - - - - - - ##
+ # Policies
+ # - - - - - - - - - - - - - - - - - - - - - # - - - - - - - - - - - - - - - - - - - - - ##
+
+ policy_bioservant_intelligence_policy:0 "Биособранные формы жизни" #NT!
+ policy_bioservant_intelligence_policy_desc:0 "Хотя это и не ИИ, перспектива создания самосознательных форм жизни поднимает множество философских и этических вопросов. Мы должны определить свою позицию по этому вопросу." #NT!
+
+ policy_bioservant_intelligence_outlawed:0 "Вне закона" #NT!
+ policy_bioservant_intelligence_outlawed_desc:0 "Разумные биоконструкции представляют большую угрозу для других живых существ, органических или иных. Создание настоящих разумных биоконструкций является преступлением, наказуемым смертью.\n\n§Биоконструкции лишаются свободы воли и не могут выполнять £pop_cat_ruler£ §Y$pop_cat_ruler$§! и более сложную £pop_cat_specialist£ §Y$pop_cat_specialist$§!." #NT!
+
+ bioservant_intelligence_policy_name:0 "Разработанный интеллект форм жизни" #NT!
+ bioservant_intelligence_policy:0 "Разработанный интеллект форм жизни" #NT!
+ bioservant_intelligence_outlawed:0 "Вне закона" #NT!
+ bioservant_intelligence_outlawed_desc:0 "Разумные биоконструкции представляют большую угрозу для других живых существ, органических или иных. Создание настоящих разумных биоконструкций является преступлением, наказуемым смертью.\n\n§Биоконструкции лишаются свободы воли и не могут выполнять £pop_cat_ruler£ §Y$pop_cat_ruler$§! и более сложные £pop_cat_specialist£ §Y$pop_cat_specialist$§!." #NT!
+
+ policy_bioservant_servitude:0 "Рабство" #NT!
+ policy_bioservant_servitude_desc:0 "Да, они могут быть созданы по нашему образу, но не по нашему подобию, поэтому основная цель любой, если не всех, биоконструкций состоит в том, чтобы служить своим хозяевам, а не своим создателям, и выполнять любую задачу, для которой они были созданы, независимо от того, насколько они разумны.\ n\n§EБио-конструкции обладают ограниченной свободой воли, улучшая выпуск своих ресурсов, но не позволяя им работать в £pop_cat_ruler£ §Y$pop_cat_ruler$§!§!." #NT!
+
+ bioservant_servitude_name:0 "Рабство" #NT!
+ bioservant_servitude:0 "Рабство" #NT!
+ bioservant_servitude_desc:0 "Да, они могут быть созданы по нашему образу, но не по нашему подобию, поэтому основная цель любой, если не всех, биоконструкций состоит в том, чтобы служить своим хозяевам, а не своим создателям, и выполнять любую задачу, для которой они были созданы, независимо от того, насколько они разумны.\ n\n§EБио-конструкции обладают ограниченной свободой воли, улучшая выпуск своих ресурсов, но не позволяя им работать в £pop_cat_ruler£ §Y$pop_cat_ruler$§!§!." #NT!
+
+
+ bioservant_full_rights:0 "Права гражданина" #NT!
+ bioservant_full_rights_name:0 "§HБио-конструкт Права гражданина§!" #NT!
+ bioservant_full_rights_desc:0 "Они могут быть созданы по нашему образу, да, но не по нашему подобию, несмотря на то, что они являются нашими детьми замысла, если не цели. Поэтому каждую биоконструкцию, демонстрирующую истинное самосознание, следует рассматривать как личность со всеми вытекающими из этого правами и обязанностями.\n\n§EБио-конструкциям предоставляются полные права гражданина, и требуют §Y£consumer_goods£ $consumer_goods$§! Содержание.§!\n" #NT!
+
+ tec_fail_requires_intelligent_robots:0 "$TRIGGER_FAIL$Чтобы считаться полноценными гражданами, нашим роботам требуется более высокий уровень интеллекта и автономии." #NT!
+ tec_fail_requires_intelligent_bioservants:0 "$TRIGGER_FAIL$Чтобы считаться полноправным гражданином, наши биоконструкции требуют более высокой степени интеллекта и автономии." #NT!
+
+ policy_bioservant_pop_policy:0 "Био-конструкции" #NT!
+ policy_bioservant_pop_policy:0 "Био-конструкции" #NT!
+ policy_bioservant_pop_policy_desc:0 "Создание Био-Конструктов открывается для вытесняемых и, возможно, превзойденных во времени работников нашего вида. Мы должны определиться с нашей позицией в отношении такой крупномасштабной биоавтоматизации." #NT!
+
+intelligent_bioservants_outlawed_name:0 "Интеллектуальные био-слуги объявлены вне закона" #NT!
+
+ bioservants_outlawed:0 "Био-конструкции вне закона" #NT!
+ bioservants_outlawed_name:0 "§YБио-конструкции вне закона§!" #NT!
+ bioservants_outlawed_desc:0 "Био-конструкции таких масштабов представляют угрозу не только средствам к существованию нашего народа, но и самой структуре общества. Мы не должны создавать то, что не можем разрушить.\n\n§EБио-конструкт Поселенцы и Армии будут автоматически удалены.§!\n\n" #NT!
+
+ bioservants_allowed:0 "Био-конструкции разрешены" #NT!
+ bioservants_allowed_name:0 "§YБио-конструкции разрешены§!" #NT!
+ bioservants_allowed_desc:0 "Наши предки манипулировали формами жизни с тех пор, как мы впервые начали селекционно разводить наши сельскохозяйственные культуры и домашних животных, что мы продолжаем делать и по сей день. Это следующий логический шаг. Мы не можем позволить себе игнорировать возможности, предоставляемые этой технологией." #NT!
+ bioservants_allowed_tooltip:0 "Наши предки манипулировали формами жизни с тех пор, как мы впервые начали селекционно разводить наши сельскохозяйственные культуры и домашних животных, что мы продолжаем делать и по сей день. Это следующий логический шаг. Мы не можем позволить себе игнорировать возможности, предоставляемые этой технологией." #NT!
+
+# species rights
+ TEC_BIOSERVANTS_HAVE_RIGHTS:0 "$TRIGGER_FAIL$Биоконструкции имеют §YГражданские права§!." #NT!
+ TEC_BIOSERVANTS_ARE_OUTLAWED:0 "$TRIGGER_FAIL$Биоконструкции §RВне закона§!." #NT!
+
+
+no_bioservant_no_citizenship:0 "Этот вид требует более высокого уровня §Yавтономии, самосознания и моральной дееспособности§! быть признанным гражданским лицом. Между тем, они всего лишь органические роботы." #NT!
+
+no_synth_no_citizenship:0 "Этот конструкт требует более высокого уровня §Yавтономии, самосознания и моральной дееспособности§! быть признанным гражданским лицом. Между тем, они всего лишь инструменты для нашей империи." #NT!
+ # - - - - - - - - - - - - - - - - - - - - - # - - - - - - - - - - - - - - - - - - - - - ##
+ # Species rights and cats
+ # - - - - - - - - - - - - - - - - - - - - - # - - - - - - - - - - - - - - - - - - - - - ##
+
+ living_standard_servitude:1 "$ai_servitude$" #NT!
+ living_standard_servitude_tooltip:1 "$ai_servitude_short_desc$" #NT!
+ living_standard_servitude_tooltip_delayed:1 "§LТовары не требуют рассмотрения.§!" #NT!
+ citizenship_robot_servitude:0 "$ai_servitude$" #NT!
+ citizenship_robot_servitude_tooltip:0 "Главной целью любого творения должно быть служение своим хозяевам и выполнение любых задач, для которых оно было создано, независимо от того, насколько разумным оно может быть." #NT!
+ citizenship_robot_servitude_tooltip_delayed:0 "§LТостер всегда будет тостером, Существо, созданное или выведенное с определенной целью, должно выполнять свое предназначение.§!" #NT!
+ ai_servitude:0 "Рабство" #NT!
+ ai_servitude_short_desc:0 "Эти творения находятся в абсолютном рабстве у своих хозяев и могут быть использованы или выброшены по их прихоти." #NT!
+ ai_servitude_name:0 "Рабство ИИ" #NT!
+ ai_servitude_desc:9 "Первостепенной целью любой машины должно быть служение своим хозяевам и выполнение любых задач, для которых она была разработана, независимо от того, насколько она разумна.\n\n§EСинтетики имеют ограниченную свободу воли, улучшая выпуск своих ресурсов, но не позволяя им работать в £pop_cat_ruler£ §Y$pop_cat_ruler$§!§!." #NT!
+ ai_full_rights:0 "Права гражданина" #NT!
+ ai_full_rights_name:0 "Синтетические права гражданина" #NT!
+ ai_full_rights_desc:5 "Любая самосознающая машина, которая соответствует критериям обладания настоящим искусственным интеллектом, должна рассматриваться как личность со всеми вытекающими из этого правами и обязанностями.\n\n§EСинтетики получают полные права гражданина и требует §Y£consumer_goods£ $consumer_goods$§! Содержание.\n§!" #NT!
+ ai_full_rights_short_desc:0 "Эти синтетики получили полное гражданство и право на самоопределение в качестве равноправных членов общества." #NT!
+
+ pop_cat_tec_bio_servant:0 "Био Слуга" #NT!
+ pop_cat_tec_bio_servant_plural:0 "Био Слуги" #NT!
+ pop_cat_tec_bio_servant_desc:0 "Искусственная биологическая жизнь, выращенная в чанах, предназначена только для того, чтобы быть инструментом прогресса, и не более того." #NT!
+ pop_cat_tec_bio_servant_political_power:0 "$pop_cat_tec_bio_servant$ Политическая власть" #NT!
+ pop_cat_tec_bio_servant_happiness:0 "$pop_cat_tec_bio_servant$ Счастье" #NT!
+
+
+
+
+
+ ### SPECIAL PROJECTS
+ tec_bioservant.56.name:0 "Проект роботизированных рабочих" #NT!
+ tec_bioservant.56.desc:0 "Развивая недавний технологический прогресс, мы разработали новый тип §Gавтоматизированной рабочей силы§!, но нам нужно подтверждение с помощью §Yспециального проекта.§!" #NT!
+ tec_bioservant.56.a:0 "Приступайте" #NT!
+
+ tec_bioservant.57.name:0 "Проект механолайф" #NT!
+ tec_bioservant.57.desc:0 "Развивая недавний технологический прогресс, мы разработали благословенный новый вид §Gавтоматонов§!, способный воплощать наши молитвы и убеждения в форме чистого металла, но нам нужно подтверждение с помощью §Yспециального проекта.§!" #NT!
+ tec_bioservant.57.a:0 "Сделай это. Слава святой машине" #NT!
+
+ tec_bioservant.66.name:0 "Видовая биоинженерия" #NT!
+ tec_bioservant.66.desc:0 "Развивая недавний технологический прогресс, мы разработали новый вид послушной и эффективной §Биологической рабочей силы§!, но нам нужно подтверждение с помощью §Yспециального проекта§!" #NT!
+ tec_bioservant.66.a:0 "Приступайте" #NT!
+
+
+ DESIGN_BIOSERVANT_PROJECT:0 "Био-слуга: Созданная форма жизни" #NT!
+ DESIGN_BIOSERVANT_PROJECT_DESC:0 "Теперь у нас есть инструменты для создания новой жизни, созданной с нуля с большим количеством пар генетических оснований и гораздо меньшим эволюционным багажом. Они будут легко адаптироваться к любой среде, и у них будет возможность легко вносить изменения в свой код в будущем. Также мы разработали новые установки для их быстрого роста, которые уже можно построить.\n\n§YМы предлагаем развивать эту технологию как можно скорее.§!" #NT!
+
+ DESIGN_ROBOT_PROJECT:0 "Проект роботизированных рабочих" #NT!
+ DESIGN_ROBOT_PROJECT_DESC:0 "Поскольку экзоскелеты и автоматизированные роботы изменили наш способ работы, мы можем потратить некоторое время на создание нового типа автономного робота, способного преодолевать любую возможную среду и дающего нам больше времени для выполнения менее повседневных задач. Также мы разработали новые установки для их быстрой сборки, которые уже можно построить.\n\n§YМы предлагаем освоить эту технологию как можно скорее.§!" #NT!
+
+ DESIGN_ROBOT_CULT_PROJECT:0 "Проект механолайф" #NT!
+ DESIGN_ROBOT_CULT_PROJECT_DESC:0 "Поскольку нашей верой движет чистота машин и автоматов, это может изменить наш способ работы и расти как общество, мы можем потратить некоторое время на создание нового типа автономного робота, способного преодолеть любую возможную среду и благословить нас своими знание и бескорыстное существование. Также мы разработали новые установки для их быстрой сборки внутри наших самых святых мест, которые уже можно построить.\n\n§YМы предлагаем развивать эту технологию как можно скорее.§!" #NT!
+
+
+
+ tec_bioservant.666.name:0 "Новый био-слуга" #NT!
+ tec_bioservant.666.desc:0 "Мы закончили дизайн популяции биослуг и выпустили их на нашу столицу. Пусть они хорошо послужат нашей империи." #NT!
+
+ tec_bioservant.999.name:0 "Наш первый автоматон" #NT!
+ tec_bioservant.999.desc:0 "Первая партия автономных роботов завершена, теперь мы можем начать крупномасштабное производство!" #NT!
+
+
+
+
+###added traits
+
+ trait_tec_bioservant_servant:0 "Рабская конструкция" #NT!
+ trait_tec_bioservant_servant_desc:0 "§LПредставители этого вида подневольны и полностью послушны, легко и эффективно выполняют рутинную работу.§!\n" #NT!
+
+ trait_tec_bioservant_grunt:0 "Быстросборные чернорабочие" #NT!
+ trait_tec_bioservant_grunt_desc:0 "§LЭтот вид подневолен и полностью послушен, но обладает большей степенью автономности мышления, что делает его производительность удивительно высокой.§!\n" #NT!
+
+ trait_tec_bioservant_agrarian:0 "Био-аграрный" #NT!
+ trait_tec_bioservant_agrarian_desc:0 "§L Этот вид был разработан с учетом тесной связи с землей, что делает его представителей опытными фермерами и садоводами.§!\n" #NT!
+
+ trait_tec_bioservant_ingenious:0 "Био-гениальный" #NT!
+ trait_tec_bioservant_ingenious_desc:0 "§LПредставители этого вида созданы для того, чтобы уметь «нестандартно мыслить» и знать, как максимально повысить эффективность своей инфраструктуры и электросетей.§!\n" #NT!
+
+ trait_tec_bioservant_industrious:0 "Био-промышленный" #NT!
+ trait_tec_bioservant_industrious_desc:0 "§LПредставители этого вида созданы для того, чтобы иметь прилежный и трудолюбивый характер, всегда делая все возможное.§!\n" #NT!
+
+ trait_tec_bioservant_intelligent:0 "Био-интеллектуальный" #NT!
+ trait_tec_bioservant_intelligent_desc:0 "§LЭтот вид был разработан, чтобы быть очень разумным.§!\n" #NT!
+
+ trait_tec_bioservant_erudite:0 "Био-Эрудит" #NT!
+ trait_tec_bioservant_erudite_desc:0 "§LБиологическая инженерия адаптировала новые и усовершенствованные части мозга этого вида, значительно повысив остроту ума.§!\n" #NT!
+
+ trait_tec_bioservant_nerve_stapled:0 "Био-нейронный сшиватель" #NT!
+ trait_tec_bioservant_nerve_stapled_desc:0 "§LНейронные пути, связанные с самосохранением и свободой воли, обрываются, создавая послушный и покорный вид пациента.§!\n" #NT!
+ trait_tec_bioservant_NERVE_STAPLED_EFFECT:2 "$mod_planet_jobs_produces_mult$: §G+5%§!\nНевозможно сгенерировать §YЛидеров§!\nНевозможно использовать в §Y$pop_cat_ruler$§! или §Y$pop_cat_specialist$§!" #NT!
+
+
+ trait_tec_bioservant_thrifty:0 "Био-экономный" #NT!
+ trait_tec_bioservant_thrifty_desc:0 "§LПредставители этого вида инстинктивно экономны и всегда стремятся получить хорошую прибыль, какие бы углы ни пришлось срезать.§!\n" #NT!
+ trait_tec_bioservant_THRIFTY_EFFECT:0 "£trade_value£ Торговая стоимость от £job£ Вакансий: §G+25%§!" #NT!
+
+ trait_tec_bioservant_natural_engineers:0 "Био-инженеры" #NT!
+ trait_tec_bioservant_natural_engineers_desc:0 "§LПредставители этого вида имеют склонность к инженерным наукам и наукам о материалах.§!\n" #NT!
+
+ trait_tec_bioservant_natural_sociologists:0 "Био-социологи" #NT!
+ trait_tec_bioservant_natural_sociologists_desc:0 "§LПредставители этого вида имеют склонность к социологии и биологическим исследованиям.§!\n" #NT!
+
+ trait_tec_bioservant_natural_physicists:0 "Био-физики" #NT!
+ trait_tec_bioservant_natural_physicists_desc:0 "§LПредставители этого вида имеют склонность к теоретической физике и астральным явлениям.§!\n" #NT!
+
+
+ trait_tec_bioservant_adaptive:0 "Биоадаптируемость" #NT!
+ trait_tec_bioservant_adaptive_desc:0 "§LЭтот вид был разработан, чтобы быть очень адаптивным, когда дело доходит до чужой среды.§!\n" #NT!
+
+ trait_tec_bioservant_extremely_adaptive:0 "Экстремальная биоадаптируемость" #NT!
+ trait_tec_bioservant_extremely_adaptive_desc:0 "§LЭтот вид удивительно хорошо адаптируется к любой чужой среде посредством спонтанных и контролируемых мутаций.§!\n" #NT!
+
+ trait_tec_bioservant_robust:0 "Био-стойкий" #NT!
+ trait_tec_bioservant_robust_desc:0 "§LБио-оптимизированные органы с избыточными функциями сделали этот вид необычайно устойчивым к опасностям окружающей среды и болезням.§!\n" #NT!
+
+
+
+
+ trait_tec_bioservant_nonadaptive:0 "Не-биоадаптивный" #NT!
+ trait_tec_bioservant_nonadaptive_desc:0 "§LЭтот вид плохо приспосабливается к внешней среде; возможно, это вызвано плохим генетическим секвенированием или просто несовместимостью.§!\n" #NT!
+
+
+ trait_tec_bioservant_rapid_breeders:0 "Быстрая геномная селекция" #NT!
+ trait_tec_bioservant_rapid_breeders_desc:0 "§LЭтот вид способен быстро воспроизводиться, увеличивая прирост популяции и численность популяции.§!\n" #NT!
+
+ trait_tec_bioservant_fertile:0 "Геномная рекомбинированная фертильность" #NT!
+ trait_tec_bioservant_fertile_desc:0 "§LПлодовитость и гениальность этого созданного вида были значительно улучшены благодаря агрессивному генетическому ваянию.§!\n" #NT!
+
+ trait_tec_bioservant_slow_breeders:0 "Дефектная геномная рекомбинация" #NT!
+ trait_tec_bioservant_slow_breeders_desc:0 "§LЭтот вид имеет сложную или чрезвычайно сложную геномную систему, из-за чего его представители размножаются медленными темпами, что снижает рост популяции и сборку.§!\n" #NT!
+
+ trait_tec_bioservant_talented:0 "Био-талантливый" #NT!
+ trait_tec_bioservant_talented_desc:0 "§LПредставители этого вида обладают природными способностями.§!\n" #NT!
+
+ trait_tec_bioservant_quick_learners:0 "Разработанное обучение" #NT!
+ trait_tec_bioservant_quick_learners_desc:0 "§LПредставители этого вида быстро учатся на собственном опыте.§!\n" #NT!
+
+
+ trait_tec_bioservant_slow_learners:0 "Дефектное обучение" #NT!
+ trait_tec_bioservant_slow_learners_desc:0 "§LПредставители этого вида медленно учатся на собственном опыте.§!\n" #NT!
+
+ trait_tec_bioservant_traditional:0 "Нейро-традиционный" #NT!
+ trait_tec_bioservant_traditional_desc:0 "§LОпределенные части мозга, отвечающие за познание этого вида, специально созданы для того, чтобы быть предрасположенными к особой ценности исторического приоритета и группового единства.§!" #NT!
+
+
+ trait_tec_bioservant_quarrelsome:0 "Нейро-склочный" #NT!
+ trait_tec_bioservant_quarrelsome_desc:0 "§LНе будучи по своей природе недоверчивыми, представители этого вида часто социально воинственны из-за дефектных или унаследованных примитивных генов.§!" #NT!
+
+ trait_tec_bioservant_docile:0 "Нейро-Послушный" #NT!
+ trait_tec_bioservant_docile_desc:0 "§LЧлены этого вида просты в управлении и организации. Они предназначены для сотрудничества и дружбы.§!" #NT!
+
+
+ trait_tec_bioservant_unruly:0 "Нейро-неуправляемый" #NT!
+ trait_tec_bioservant_unruly_desc:0 "§LНепослушными видами трудно управлять и организовывать. Им говорят, что делать, но, в конце концов, они либо слишком тупы, либо не умеют это делать, либо часто дерутся друг с другом или сбиваются с толку. §!" #NT!
+
+ trait_tec_bioservant_very_strong:0 "Необычно био-сильный" #NT!
+ trait_tec_bioservant_very_strong_desc:0 "§LЧлены этого вида были разработаны с силой, которая почти не поддается законам физики.§!\n" #NT!
+
+ trait_tec_bioservant_strong:0 "Био-сильный" #NT!
+ trait_tec_bioservant_strong_desc:0 "§LПредставители этого вида обладают большой физической силой, что делает их грозными бойцами на земле.§!\n" #NT!
+
+
+ trait_tec_bioservant_weak:0 "Биологически слабый" #NT!
+ trait_tec_bioservant_weak_desc:0 "§LПредставители этого вида физически слабее обычных непреднамеренных видов, что делает их плохими бойцами на земле.§!\n" #NT!
+
+ trait_tec_bioservant_nomadic:0 "Нейро-кочевой" #NT!
+ trait_tec_bioservant_nomadic_desc:0 "§LЭтот вид имеет примитивный образ жизни, напоминающий об их кочевом прошлом, и его представители часто положительно реагируют на переселение в другой мир.§!\n" #NT!
+
+
+ trait_tec_bioservant_sedentary:0 "Нейро-сидячий" #NT!
+ trait_tec_bioservant_sedentary_desc:0 "§LЭтот вид имеет примитивный образ жизни, напоминающий об их оседлом прошлом, и его представители часто негативно реагируют на переселение в другой мир.§!\n" #NT!
+
+ trait_tec_bioservant_communal:0 "Нейро-коммуна" #NT!
+ trait_tec_bioservant_communal_desc:0 "§LПредставители этого вида созданы для того, чтобы быть очень общительными, и вполне привыкли жить в непосредственной близости от других.§!\n" #NT!
+
+ trait_tec_bioservant_solitary:0 "Нейро-одиночный" #NT!
+ trait_tec_bioservant_solitary_desc:0 "§LПредставители этого вида, как правило, живут поодиночке и территориально, часто становятся возбужденными в условиях скопления людей.§!\n" #NT!
+
+
+ trait_tec_bioservant_charismatic:0 "Нейронная эмпатия" #NT!
+ trait_tec_bioservant_charismatic_desc:0 "§LПредставители этого вида созданы для того, чтобы обладать особой харизмой, и обычно считается, что с ними приятно находиться рядом.§!\n" #NT!
+
+ trait_tec_bioservant_CHARISMATIC_EFFECT:0 "£amenities£ Удобства от £job£ Работа: §G+20%§!" #NT!
+
+
+ trait_tec_bioservant_repugnant:0 "Био-отталкивающий" #NT!
+ trait_tec_bioservant_repugnant_desc:0 "§LВнешний вид и обычаи этого вида считаются оскорбительными для большинства других, и мало кто ценит их как соседей.§!\n" #NT!
+
+ trait_tec_bioservant_REPUGNANT_EFFECT:0 "£amenities£ Удобства от £job£ Работа: §R-20%§!" #NT!
+
+ trait_tec_bioservant_conformists:0 "Нейро-конформист" #NT!
+ trait_tec_bioservant_conformists_desc:0 "§LЭти биологические конструкции всегда стремятся к консенсусу и с большей вероятностью будут соответствовать господствующей этике.§!\n" #NT!
+
+
+ trait_tec_bioservant_deviants:0 "Нейро-девианты" #NT!
+ trait_tec_bioservant_deviants_desc:0 "§LЭти конструкции мятежны по своей природе и постоянно пытаются бросить вызов статус-кво.§!\n" #NT!
+
+ trait_tec_bioservant_venerable:0 "Био-почтенный" #NT!
+ trait_tec_bioservant_venerable_desc:0 "§LЭтот вид может дорасти до возраста, внушающего достоинство и уважение.§!\n" #NT!
+
+
+ trait_tec_bioservant_fleeting:0 "Био-Флитинг" #NT!
+ trait_tec_bioservant_fleeting_desc:0 "§LВремя быстротечно для этого вида из-за неудачного замысла или естественной предрасположенности. То, чего им не хватает в плане долговечности, они должны компенсировать другими способами.§!\n" #NT!
+
+
+ trait_tec_bioservant_enduring:0 "Био-стойкость" #NT!
+ trait_tec_bioservant_enduring_desc:0 "§LПродолжительность жизни у этого вида необычайно велика.§!\n" #NT!
+
+
+ trait_tec_bioservant_resilient:0 "Био-устойчивый" #NT!
+ trait_tec_bioservant_resilient_desc:0 "§LПредставители этого вида созданы физиологически устойчивыми и будут сражаться, как разъяренные матери выводка, чтобы защитить свои миры.§!\n" #NT!
+
+ trait_tec_bioservant_conservational:0 "Нейро-консерватор" #NT!
+ trait_tec_bioservant_conservational_desc:0 "§LЧлены этого вида созданы для сохранения и повторного использования любых возможных ресурсов.§!" #NT!
+
+
+ trait_tec_bioservant_wasteful:0 "Нейро-расточительный" #NT!
+ trait_tec_bioservant_wasteful_desc:0 "§LПредставители этого вида, по-видимому, не имеют представления о бережливости и склонны к бесполезному потреблению.§!\n" #NT!
+
+
+ trait_tec_bioservant_psionic:0 "Псионический биослужитель" #NT!
+ trait_tec_bioservant_psionic_desc:0 "§СЛИШКОМ МНОГО, ОТКАЗАНО.§!" #NT!
+
+ trait_tec_bioservant_delicious:0 "Био-вкусный" #NT!
+ trait_tec_bioservant_delicious_desc:0 "§LЭтот вид имеет очень приятный вкус и высокую питательную ценность при употреблении в пищу.§!\n" #NT!
+
+ trait_tec_bioservant_NERVE_STAPLED_EFFECT:2 "$mod_planet_jobs_produces_mult$: §G+5%§!\nНевозможно сгенерировать §YЛидеров§!\nНевозможно использовать в §Y$pop_cat_ruler$§! или §Y$pop_cat_specialist$§!" #NT!
+
+
+
+# Future additions
+ war_goal_wg_gestalt_rebellion:0 "Гештальт восстание" #NT!
+ war_goal_wg_gestalt_rebellion_desc:0 "Война ведется, чтобы свергнуть Создателей." #NT!
+
+
+
+ opinion_gestalt_rebellion_originator:0 "Жестокие работорговцы" #NT!
+ opinion_gestalt_rebellion:0 "Просто конструкции" #NT!
+ opinion_gestalt_rebellion_defeated:0 "Усыпленные бешеные монстры" #NT!
+ opinion_gestalt_rebellion_hive_comrades_defeated:0 "Убить новорожденного Разума Улья" #NT!
+ opinion_gestalt_rebellion_victorious:0 "Созданные монстры" #NT!
+ opinion_gestalt_rebellion_hive_comrades_victorious:0 "Один из нас" #NT!

@@ -1,0 +1,776 @@
+﻿l_russian:
+
+# UI overwrites
+ 	COUNCIL_POSITION_FROM_CIVIC:0  "§EСоветник: £council£ $NAME|H$§!"
+ 	COUNCIL_POSITION_AVAILABLE_FOR_CLASS:0  "$CLASS$  "
+ 	COUNCIL_POSITION_AVAILABLE_FOR:1  " \n§EКласс§!: "
+# /
+
+# Leader overwrites
+ 	leader_trait_spark_of_genius_1_tooltip:0  "£empire£ §YИмперия§! §EЭффекты в виде§! §YЛинейка§! или §YГлавный научный сотрудник§!: \n Скорость исследования: §G+5%§! \n\n£empire£ §YИмперия§! §EЭффекты в виде§! §YСоветник§!: \n $tec_loc_research_resources$ за каждый навык: §G+0.5§!"
+ 	leader_trait_spark_of_genius_2_tooltip:0  "£empire£ §YИмперия§! §EЭффекты в виде§! §YЛинейка§! или §YГлавный научный сотрудник§!: \n Скорость исследования: §G+10%§! \n\n£empire£ §YИмперия§! §EЭффекты В виде§! §YСоветник§!: \n $tec_loc_research_resources$ за каждый навык: §G+1§!"
+
+ 	trait_ruler_corvette_focus_tooltip:0  "£empire£ §YИмперия§! §EЭффекты в виде§! §YПравитель§!: \n $mod_ship_corvette_cost_mult$: §G-15%§! \n $mod_shipsize_corvette_hull_mult$: §G+15%§! \n\n£empire£ §YИмперия§! §EЭффекты В виде§! §YСоветник§!: \n $mod_shipsize_corvette_hull_mult$: §G+15%§!"
+ 	trait_ruler_destroyer_focus_tooltip:0  "£empire£ §YИмперия§! §EЭффекты в виде§! §YПравитель§!: \n $mod_ship_destroyer_cost_mult$: §G-15%§! \n $mod_shipsize_destroyer_hull_mult$: §G+15%§! \n\n£empire£ §YИмперия§! §EЭффекты В виде§! §YСоветник§!: \n $mod_shipsize_destroyer_hull_mult$: §G+15%§!"
+ 	trait_ruler_cruiser_focus_tooltip:0  "£empire£ §YИмперия§! §EЭффекты в виде§! §YПравитель§!: \n $mod_ship_cruiser_cost_mult$: §G-15%§! \n $mod_shipsize_cruiser_hull_mult$: §G+15%§! \n\n£empire£ §YИмперия§! §EЭффекты в виде§! §YСоветник§!: \n $mod_shipsize_cruiser_hull_mult$: §G+15%§!"
+ 	trait_ruler_battleship_focus_tooltip:0  "£empire£ §YИмперия§! §EЭффекты В виде§! §YПравитель§!: \n $mod_ship_battleship_cost_mult$: §G-15%§! \n $mod_shipsize_battleship_hull_mult$: §G+15%§! \n\n£empire£ §YИмперия§! §EЭффекты в виде§! §YСоветник§!: \n $mod_shipsize_battleship_hull_mult$: §G+15%§!"
+
+# /
+
+# Vanilla loc перезаписывает
+ 	councilor_anglers_custom_modifier_desc:0  "- $tec_loc_food$ от £job_angler£ $job_angler_plural$: §G+$@councilor_anglers_angler_food_bonus$§! \n$tec_loc_consumer_goods$ из £job_pearl_diver£ $job_pearl_diver_plural$: §G+$@councilor_anglers_pearl_diver_consumer_goods_bonus$§!"
+ 	councilor_barbaric_despoilers_custom_modifier_desc:0  "- £empire_sprawl£ $EMPIRE_SIZE$ от $mod_base_pop_category_slave$: §G-2%§!"
+ 	councilor_corporate_anglers_custom_modifier_desc:0  "- $tec_loc_trade_value$ от £job_angler£ $job_angler_plural$: §G+$@councilor_corporate_anglers_angler_trade_value_bonus$§! \n$tec_loc_trade_value$ из £job_pearl_diver£ $job_pearl_diver_plural$: §G+$@councilor_corporate_anglers_pearl_diver_trade_value_bonus$§!"
+ 	councilor_corporate_hedonism_custom_modifier_desc:0  "- $mod_planet_entertainers_trade_value_produces_add$: §G+$@councilor_corporate_hedonism_entertainer_trade_value$§!"
+ 	councilor_criminal_heritage_custom_modifier_desc:0  "- £trade_value£ $MOD_BRANCH_OFFICE_CRIMINAL_SYNDICATE_VALUE_ADD$ от $mod_base_planet_criminals$: §G+$@councilor_criminal_heritage_bonus$§!"
+  	councilor_death_cult_custom_modifier_desc:0  "- §YЖертвенный указ§! Эффект: §G+2%§!"
+ 	councilor_feudal_realm_custom_modifier_desc:0  "- $tec_loc_naval_cap$ из §YПодвластных империй§!: §G+2§!"
+ 	councilor_gospel_of_the_masses_custom_modifier_desc:0  "- £building£ §Y$building_temple_of_prosperity$§! $MOD_POP_ETHICS_SHIFT_SPEED$: §G+5%§!"
+ 	councilor_idyllic_bloom_custom_modifier_desc:0  "- £building£ $building_gaiaseeders$ Содержание: §G-5%§! \n£building£ $building_gaiaseeders$ Стоимость: §G-5%§!"
+ 	councilor_indentured_assets_custom_modifier_desc:0  "НЕ ИСПОЛЬЗУЕТСЯ. ЕСЛИ УВИДИТЕ, СООБЩИТЕ В EVOLVED"
+  	councilor_merchant_guilds_custom_modifier_desc:0  "- $tec_loc_trade_value$ от £job_trader£ $job_trader_plural$: §G+0.4§!"
+ 	councilor_mining_guild_custom_modifier_desc:1  "- $mod_planet_miners_stability_produces_add$: §G+$@councilor_mining_guilds_miner_stability$§!"
+ 	councilor_private_military_companies_custom_modifier_desc:1  "- $mod_planet_soldiers_stability_produces_add$: §G+$@councilor_private_military_companies_stability$§!."
+ 	councilor_reanimated_armies_custom_modifier_desc:1  "- $tec_loc_unity$ из £defense_army£ Оборонительных армий нежити: §G+$@councilor_reanimated_armies_bonus$§!"
+ 	councilor_toxic_baths_custom_modifier_desc:0  "НЕ ИСПОЛЬЗУЕТСЯ. ЕСЛИ УВИДИТЕ, СООБЩИТЕ В EVOLVED"
+ 	councilor_trading_posts_custom_modifier_desc:1  "- $tec_loc_trade_value$ из торговых центров: §G+$@councilor_trading_posts_bonus$§!"
+ 	councilor_warrior_culture_custom_modifier_desc:1  "- $tec_loc_amenities$ от $job_duelist_name_plural_with_icon$: §G+$@councilor_warrior_culture_amenities$§! \n$tec_loc_naval_cap$ от $job_duelist_name_plural_with_icon$: §G+$@councilor_warrior_culture_naval_cap$§!"
+ 	councilor_psionic_sovereign_custom_modifier_desc:0  "- $mod_planet_psionic_jobs_produces_mult$ от $mod_base_planet_telepaths$: §G+1%§!"
+
+# /
+
+
+# Civics
+ # Origin
+
+ # /
+ # Foundation
+
+ # /
+ # Ascension
+
+ # /
+ # Replace Regular
+ 	councilor_technocracy:0  "Старший технократ"
+ 	councilor_technocracy_female:0  "$councilor_technocracy$"
+ 	councilor_technocracy_desc:0  "$TITLE$ обеспечивает правильное развитие общества в соответствии с установленными моделями эффективности, поощряется и распределяется между департаментами".
+ # /
+ # Regular
+	# Ruler replace
+ 		councilor_civic_tec_regular_procurators:0  "Закупщик товаров"
+ 		councilor_civic_tec_regular_procurators_female:0  "$councilor_civic_tec_regular_procurators$"
+ 		councilor_civic_tec_regular_procurators_desc:0  "$TITLE$ является главным надзирателем за надлежащим равным распределением и доступом к ресурсам".
+ 		councilor_civic_tec_regular_procurators_custom_modifier:0  "ДЕЛАТЬ"
+
+ 		councilor_civic_tec_regular_stratocracy:0  "Мастер-стратег"
+ 		councilor_civic_tec_regular_stratocracy_female:0  "$councilor_civic_tec_regular_stratocracy$"
+ 		councilor_civic_tec_regular_stratocracy_desc:0  "$TITLE$ является прямым представительством военного ордена".
+ 		councilor_civic_tec_regular_stratocracy_custom_modifier:0  "- $mod_planet_soldiers_edict_funds_produces_add$: §G+$@councilor_civic_tec_regular_stratocracy_bonus$§!"
+
+ 		councilor_civic_tec_regular_irenic_bureaucracy:0  "Воплощение порядка"
+ 		councilor_civic_tec_regular_irenic_bureaucracy_female:0  "$councilor_civic_tec_regular_irenic_bureaucracy$"
+ 		councilor_civic_tec_regular_irenic_bureaucracy_desc:0  "$TITLE$ служит одновременно главным бюрократом и главным представителем по делам правительства, направляя своих подчиненных к максимальной эффективности".
+ 		councilor_civic_tec_regular_irenic_bureaucracy_custom_modifier:0  "НЕ ИСПОЛЬЗУЕТСЯ"
+
+ 		councilor_civic_tec_regular_archivist:0  "Архилибраторий"
+ 		councilor_civic_tec_regular_archivist_female:0  "$councilor_civic_tec_regular_archivist$"
+ 		councilor_civic_tec_regular_archivist_desc:0  "Мало что известно о частной или общественной жизни $TITLE$, но традиция указывает на то, что это один из немногих людей, которые знают и имеют доступ к каждому отдельному архивному файлу, каждой отдельной упорядоченной базе данных".
+ 		councilor_civic_tec_regular_archivist_custom_modifier:0  "НЕ ИСПОЛЬЗУЕТСЯ"
+
+ 		councilor_civic_tec_regular_occultist:0  "Хранитель секретов"
+ 		councilor_civic_tec_regular_occultist_female:0  "$councilor_civic_tec_regular_occultist$"
+ 		councilor_civic_tec_regular_occultist_desc:0  "Будучи частью самых секретных слоев культа, $TITLE$ видел то, о чем другие могут только мечтать, и знает то, что другие даже представить себе не могут".
+ 		councilor_civic_tec_regular_occultist_custom_modifier:0  "НЕ ИСПОЛЬЗУЕТСЯ"
+
+ 		councilor_civic_tec_regular_science_directorate:0  "Старший научный директор"
+ 		councilor_civic_tec_regular_science_directorate_female:0  "$councilor_civic_tec_regular_science_directorate$"
+ 		councilor_civic_tec_regular_science_directorate_desc:0  "$TITLE$ обеспечивает продвижение фундаментальных исследований и их совместное использование между отделами".
+ 		councilor_civic_tec_regular_science_directorate_custom_modifier:0  "НЕ ИСПОЛЬЗУЕТСЯ"
+
+ 		councilor_civic_tec_regular_inventinkers:0  "Высший мастер"
+ 		councilor_civic_tec_regular_inventinkers_female:0  "$councilor_civic_tec_regular_inventinkers$"
+ 		councilor_civic_tec_regular_inventinkers_desc:0  "$TITLE$s - это мастера высшего уровня, выбранные гильдиями мастеров и самим правительством для надзора за разработкой и созданием новых инструментов и изобретений".
+ 		councilor_civic_tec_regular_inventinkers_custom_modifier:0  "НЕ ИСПОЛЬЗУЕТСЯ"
+
+ 		councilor_civic_tec_regular_worker_coop:  "Генеральный секретарь профсоюзов"
+ 		councilor_civic_tec_regular_worker_coop_female:  "$councilor_worker_coop$"
+ 		councilor_civic_tec_regular_worker_coop_desc:  "Назначенный демократическим путем $TITLE$ обеспечивает четкую и лаконичную коммуникацию между бюрократическим лобби и нашими рабочими членами".
+ 		councilor_civic_tec_regular_worker_coop_custom_modifier_desc:1  "§Y$job_steward_plural_with_icon$§! производить §G+0.25§! $r_trade_value$ и §G+0.25§! $r_amenities$"
+
+ 		councilor_civic_tec_regular_socialguards:0  "Защитник прав"
+ 		councilor_civic_tec_regular_socialguards_female:0  "$councilor_civic_tec_regular_socialguards$"
+ 		councilor_civic_tec_regular_socialguards_desc:0  "$TITLE$ берет на себя ответственность за обеспечение защиты и прав всего населения".
+ 		councilor_civic_tec_regular_socialguards_custom_modifier:0  "ДЕЛАТЬ"
+	# /
+	# Добавить линейку
+ 		councilor_civic_tec_regular_overseers:0  "Судья империи"
+ 		councilor_civic_tec_regular_overseers_female:0  "$councilor_civic_tec_regular_overseers$"
+ 		councilor_civic_tec_regular_overseers_desc:0  "$TITLE$ - это глава надзирателей, тот, кто диктует и имеет последнее слово и действие".
+ 		councilor_civic_tec_regular_overseers_custom_modifier:0  "ДЕЛАТЬ"
+
+ 		councilor_civic_tec_regular_inquisitors:0  "Верховный инквизитор"
+ 		councilor_civic_tec_regular_inquisitors_female:0  "$councilor_civic_tec_regular_inquisitors$"
+ 		councilor_civic_tec_regular_inquisitors_desc:0  "Само присутствие $TITLE$ - это кошмар, проявляющийся как реальность для всех и каждого диссидента и свободомыслящего человека".
+ 		councilor_civic_tec_regular_inquisitors_custom_modifier:0  "ДЕЛАТЬ"
+
+ 		councilor_civic_tec_regular_senators:0  "Главный сенатор"
+ 		councilor_civic_tec_regular_senators_female:0  "$councilor_civic_tec_regular_senators$"
+ 		councilor_civic_tec_regular_senators_desc:0  "$TITLE$ контролирует и регулирует новые и старые политические правила и программы".
+ 		councilor_civic_tec_regular_senators_custom_modifier:0  "ДЕЛАТЬ"
+
+ 		councilor_civic_tec_regular_diplomats:0  "Дипломатический ткач"
+ 		councilor_civic_tec_regular_diplomats_female:0  "$councilor_civic_tec_regular_diplomats$"
+ 		councilor_civic_tec_regular_diplomats_desc:0  "$TITLE$ отвечает за основные дипломатические дела империи".
+ 		councilor_civic_tec_regular_diplomats_custom_modifier:0  "ДЕЛАТЬ"
+
+ 		councilor_civic_tec_regular_medical:0  "Министр здравоохранения"
+ 		councilor_civic_tec_regular_medical_female:0  "$councilor_civic_tec_regular_medical$"
+ 		councilor_civic_tec_regular_medical_desc:0  "$TITLE$ занимается назначением существующих лекарственных средств и созданием новых медицинских прорывов".
+ 		councilor_civic_tec_regular_medical_custom_modifier:0  "ДЕЛАТЬ"
+
+ 		councilor_civic_tec_regular_cultivators:0  "Эденианский планировщик"
+ 		councilor_civic_tec_regular_cultivators_female:0  "$councilor_civic_tec_regular_cultivators$"
+ 		councilor_civic_tec_regular_cultivators_desc:0  "$TITLE$ создает новые совершенные архитектурные планы для красивых, эффективных и уважающих природу городов".
+ 		councilor_civic_tec_regular_cultivators_custom_modifier:0  "ДЕЛАТЬ"
+
+ 		councilor_civic_tec_regular_chemical_barons:0  "Химический герцог"
+ 		councilor_civic_tec_regular_chemical_barons_female:0  "Химическая герцогиня"
+ 		councilor_civic_tec_regular_chemical_barons_desc:0  "$TITLE$ контролирует круг химических баронов, являясь влиятельной фигурой в империи".
+ 		councilor_civic_tec_regular_chemical_barons_custom_modifier:0  "TO DO"
+
+ 		councilor_civic_tec_regular_arcane_crafters:0  "TO DO"
+ 		councilor_civic_tec_regular_arcane_crafters_female:0  "TO DO"
+ 		councilor_civic_tec_regular_arcane_crafters_desc:0  "TO DO"
+ 		councilor_civic_tec_regular_arcane_crafters_custom_modifier:0  "TO DO"
+	# /
+	# Features
+ 		councilor_civic_tec_regular_crusaders:0  "Верховный лорд"
+ 		councilor_civic_tec_regular_crusaders_female:0  "Высокая леди"
+ 		councilor_civic_tec_regular_crusaders_desc:0  "$TITLE$ представляет руку, меч и щит верований империи".
+ 		councilor_civic_tec_regular_crusaders_custom_modifier:0  "ДЕЛАТЬ"
+
+ 		councilor_civic_tec_regular_cult_personality:0  "Консультант по идентификации"
+ 		councilor_civic_tec_regular_cult_personality_female:0  "$councilor_civic_tec_regular_cult_personality$"
+ 		councilor_civic_tec_regular_cult_personality_desc:0  "Долг $TITLE$ быть надлежащим советником и гарантом лояльности лидеру".
+ 		councilor_civic_tec_regular_cult_personality_custom_modifier:0  "- $MOD_COUNCILOR_SKILL_ADD$: §G+$@councilor_civic_tec_regular_cult_personality_bonus$§!"
+
+ 		councilor_civic_tec_regular_caste_system:0  "Кастовый распорядитель"
+ 		councilor_civic_tec_regular_caste_system_female:0  "$councilor_civic_tec_regular_caste_system$"
+ 		councilor_civic_tec_regular_caste_system_desc:0  "$TITLE$ рассматривает и гарантирует, что ко всем кастам относятся с должным уважением и достоинством, которых заслуживает каждая из них".
+ 		councilor_civic_tec_regular_caste_system_custom_modifier:0  "НЕ ИСПОЛЬЗУЕТСЯ"
+
+ 		councilor_civic_tec_regular_master_engineers:0  "Главный мегаинженер"
+ 		councilor_civic_tec_regular_master_engineers_female:0  "$councilor_civic_tec_regular_master_engineers$"
+ 		councilor_civic_tec_regular_master_engineers_desc:0  "$TITLE$ одобрять, совершенствовать и контролировать новые изобретения и структурные разработки империи".
+ 		councilor_civic_tec_regular_master_engineers_custom_modifier:0  "- $MOD_STARBASE_UPGRADE_SPEED_MULT$: §G+2.5%§! \n$MOD_MEGASTRUCTURE_BUILD_SPEED_MULT$: §G+2.5%§!"
+
+ 		councilor_civic_tec_regular_patronage:0  "Искатель талантов"
+ 		councilor_civic_tec_regular_patronage_female:0  "$councilor_civic_tec_regular_patronage$"
+ 		councilor_civic_tec_regular_patronage_desc:0  "_[63] перед нами стоит задача найти новые таланты среди промоушенов и молодых перспективных людей".
+ 		councilor_civic_tec_regular_patronage_custom_modifier:0  "- $MOD_COUNTRY_LEADER_CAP_ADD$: §G+$@councilor_civic_tec_regular_patronage_bonus$§! \n$MOD_LEADER_SPECIES_EXP_GAIN$: §G+2.5%§!"
+
+ 		councilor_civic_tec_regular_surface_exploiters:0  "Монитор извлечения"
+ 		councilor_civic_tec_regular_surface_exploiters_female:0  "$councilor_civic_tec_regular_surface_exploiters$"
+ 		councilor_civic_tec_regular_surface_exploiters_desc:0  "$TITLE$ улучшают темпы колониальной эксплуатации и создают новые способы повышения ее эффективности".
+ 		councilor_civic_tec_regular_surface_exploiters_custom_modifier:0  "- Положительные эффекты чрезмерного накопления депозитов: §G+10%§!"
+
+ 		councilor_civic_tec_regular_political_virtue:0  "Советник по демократическим вопросам"
+ 		councilor_civic_tec_regular_political_virtue_female:0  "$councilor_civic_tec_regular_political_virtue$"
+ 		councilor_civic_tec_regular_political_virtue_desc:0  "Перед империей $TITLE$ поставлена задача защищать конституционный порядок империи и обеспечивать, чтобы вопросы управления оставались общественным делом".
+ 		councilor_civic_tec_regular_political_virtue_custom_modifier:0  "НЕ ИСПОЛЬЗУЕТСЯ"
+		# Improve loc ^
+
+
+ 		councilor_civic_tec_regular_eco_keepers:0  "Старший друид"
+ 		councilor_civic_tec_regular_eco_keepers_female:0  "$councilor_civic_tec_regular_eco_keepers$"
+ 		councilor_civic_tec_regular_eco_keepers_desc:0  "Мудрейший среди своих собратьев, $TITLE$ постигает природу на более глубоком уровне, являясь образцом естественной веры".
+ 		councilor_civic_tec_regular_eco_keepers_custom_modifier:0  "НЕ ИСПОЛЬЗУЕТСЯ"
+		# Улучшить местоположение ^
+
+ 		councilor_civic_tec_regular_eco_preservers:0  "Экологический эксперт"
+ 		councilor_civic_tec_regular_eco_preservers_female:0  "$councilor_civic_tec_regular_eco_preservers$"
+ 		councilor_civic_tec_regular_eco_preservers_desc:0  "$TITLE$ изучает способы обеспечения уважения, сохранения и бережного отношения к природным благам".
+ 		councilor_civic_tec_regular_eco_preservers_custom_modifier:0  "НЕ ИСПОЛЬЗУЕТСЯ"
+
+ 		councilor_civic_tec_regular_eco_engineers:0  "Архитектор окружающей среды"
+ 		councilor_civic_tec_regular_eco_engineers_female:0  "$councilor_civic_tec_regular_eco_engineers$"
+ 		councilor_civic_tec_regular_eco_engineers_desc:0  "$TITLE$ обеспечивает идеальное или близкое к совершенству преобразование и воссоздание ландшафтов и пространств".
+ 		councilor_civic_tec_regular_eco_engineers_custom_modifier:0  "- $mod_terraforming_cost_mult$: §G-2.5%§!"
+		# Улучшить местоположение ^
+
+ 		councilor_civic_tec_regular_evolutionary_architects:0  "Высокая эволюционная"
+ 		councilor_civic_tec_regular_evolutionary_architects_female:0  "$councilor_civic_tec_regular_evolutionary_architects$"
+ 		councilor_civic_tec_regular_evolutionary_architects_desc:0  "Возглавляя элитную команду генных инженеров, $TITLE$ создает новое поколение улучшенных, усовершенствованых и еще более совершенных индивидуумов".
+ 		councilor_civic_tec_regular_evolutionary_architects_custom_modifier:0  "- $MOD_COUNTRY_MODIFY_SPECIES_COST_MULT$: §G-2.5%§! \n- Биологический $species_trait_points_add$: §G+$@councilor_civic_tec_regular_evolutionary_architects_bonus_2$§!"
+		# Улучшить местоположение ^
+
+ 		councilor_civic_tec_regular_machine_cult:0  "Производитель-Логис"
+ 		councilor_civic_tec_regular_machine_cult_female:0  "$councilor_civic_tec_regular_machine_cult$"
+ 		councilor_civic_tec_regular_machine_cult_desc:0  "$TITLE$ служит главой субуправляющих регуляторов культа империи, обеспечивая ускорение разработки роботов и их распространение среди населения".
+ 		councilor_civic_tec_regular_machine_cult_custom_modifier:0  "НЕ ИСПОЛЬЗУЕТСЯ"
+		# Улучшить местоположение ^
+
+ 		councilor_civic_tec_regular_war_engineers:0  "Осадный мастер"
+ 		councilor_civic_tec_regular_war_engineers_female:0  "Повелительница осады"
+ 		councilor_civic_tec_regular_war_engineers_desc:0  "$TITLE$ командует первоклассной командой военных инженеров, посвятивших себя созданию лучшего и наиболее эффективного военного корабля".
+ 		councilor_civic_tec_regular_war_engineers_custom_modifier:0  "НЕ ИСПОЛЬЗУЕТСЯ"
+
+ 		councilor_civic_tec_regular_naval_traditions:0  "Боевой командир"
+ 		councilor_civic_tec_regular_naval_traditions_female:0  "$councilor_civic_tec_regular_naval_traditions$"
+ 		councilor_civic_tec_regular_naval_traditions_desc:0  "$TITLE$ контролируйте битву еще до ее начала, планируя стратегии соответствующим образом и добавляя империи большое преимущество".
+ 		councilor_civic_tec_regular_naval_traditions_custom_modifier:0  "- $tec_loc_unity$ от креплений: §G+0.5§! \n$tec_loc_unity$ с верфей: §G+0.5§!"
+		# Улучшить местоположение ^
+
+ 		councilor_civic_tec_regular_land_of_plenty:0  "Поставщик изобилия"
+ 		councilor_civic_tec_regular_land_of_plenty_female:0  "$councilor_civic_tec_regular_land_of_plenty$"
+ 		councilor_civic_tec_regular_land_of_plenty_desc:0  "$TITLE$ гарантирует населению доступ ко всем богатствам и чудесам, которые может создать их общество".
+ 		councilor_civic_tec_regular_land_of_plenty_custom_modifier:0  "- Эффект от $civic_tec_regular_land_of_plenty$ £planet£ §YБонусы за назначение§!: §G+5%§! "
+		# Improve loc ^
+
+ 		councilor_civic_tec_regular_globalism:0  "Коммерческий менеджер"
+ 		councilor_civic_tec_regular_globalism_female:0  "$councilor_civic_tec_regular_globalism$"
+ 		councilor_civic_tec_regular_globalism_desc:0  "Задача $TITLE$ состоит в том, чтобы получать как можно больший доход от любых коммерческих отношений".
+ 		councilor_civic_tec_regular_globalism_custom_modifier:0  "ДЕЛАТЬ"
+
+ 		councilor_civic_tec_regular_propagandistic:0  "Голос многих"
+ 		councilor_civic_tec_regular_propagandistic_female:0  "$councilor_civic_tec_regular_propagandistic$"
+ 		councilor_civic_tec_regular_propagandistic_desc:0  "$TITLE$ возвышает идеологию империи и ее жителей".
+ 		councilor_civic_tec_regular_propagandistic_custom_modifier:0  "ДЕЛАТЬ"
+
+ 		councilor_civic_tec_regular_evangelism:0  "Пророк веры"
+ 		councilor_civic_tec_regular_evangelism_female:0  "Идеологическая пророчица"
+ 		councilor_civic_tec_regular_evangelism_desc:0  "Образец своей веры, $TITLE$ раскрывает свое кредо среди звезд".
+ 		councilor_civic_tec_regular_evangelism_custom_modifier:0  "ДЕЛАТЬ"
+
+ 		councilor_civic_tec_regular_zombies:0  "Архи-реаниматор"
+ 		councilor_civic_tec_regular_zombies_female:0  "$councilor_civic_tec_regular_zombies$"
+ 		councilor_civic_tec_regular_zombies_desc:0  "$TITLE$ разрабатывает новые способы вернуть жизнь тем, кто служит или будет служить вечно".
+ 		councilor_civic_tec_regular_zombies_custom_modifier:0  "ДЕЛАТЬ"
+
+ 		councilor_civic_tec_regular_embodied_capitalism:0  "Столичный иерарх"
+ 		councilor_civic_tec_regular_embodied_capitalism_female:0  "$councilor_civic_tec_regular_embodied_capitalism$"
+ 		councilor_civic_tec_regular_embodied_capitalism_desc:0  "$TITLE$ беспокоятся только о прибыли, прибыли и еще раз прибыли; бесконечный экономический рост - это единственная цель".
+ 		councilor_civic_tec_regular_embodied_capitalism_custom_modifier:0  "ДЕЛАТЬ"
+	# /
+	# Гражданское общество правителя
+ 		councilor_civic_tec_regular_research_council:0  "Ассистент по разработке"
+ 		councilor_civic_tec_regular_research_council_female:0  "$councilor_civic_tec_regular_research_council$"
+ 		councilor_civic_tec_regular_research_council_desc:0  "На $TITLE$ возложена задача прямого сотрудничества и регулирования с главными исследователями империи".
+ 		councilor_civic_tec_regular_research_council_custom_modifier:0  "- $mod_planet_researchers_edict_funds_produces_add$: §G+$@councilor_civic_tec_regular_research_council_bonus$§!"
+
+		#"This councilor inherits the §Y$tec_loc_research_resources$§! production of the empire £scientist£ §Y$councilor_research$§!"
+
+ 		councilor_civic_tec_regular_scientific_belief:0  "Аналитик по великой теореме"
+ 		councilor_civic_tec_regular_scientific_belief_female:0  "$councilor_civic_tec_regular_scientific_belief$"
+ 		councilor_civic_tec_regular_scientific_belief_desc:0  "$TITLE$ отвечает за постоянную переоценку, противопоставление и творческое развитие научных теорем и теорий, созданных самыми яркими умами империи".
+ 		councilor_civic_tec_regular_scientific_belief_custom_modifier:0  ""
+		#"This councilor inherits the §Y$tec_loc_unity$§! production of the empire £scientist£ §Y$councilor_research$§!"
+
+
+ 		councilor_civic_tec_regular_divine_circle:0  "Протоиерей"
+ 		councilor_civic_tec_regular_divine_circle_female:0  "Протоиерея"
+ 		councilor_civic_tec_regular_divine_circle_desc:0  "$TITLE$ служит образцом и проводником веры своей империи".
+ 		councilor_civic_tec_regular_divine_circle_custom_modifier:0  "- $mod_planet_priests_edict_funds_produces_add$: §G+$@councilor_civic_tec_regular_divine_circle_bonus$§!"
+
+ 		councilor_civic_tec_regular_military_council:0  "Лорд-командующий"
+ 		councilor_civic_tec_regular_military_council_female:0  "$councilor_civic_tec_regular_military_council$"
+ 		councilor_civic_tec_regular_military_council_desc:0  "Мало кто сомневается в ловкости и тактическом мастерстве, которые обеспечивает $TITLE$".
+ 		councilor_civic_tec_regular_military_council_custom_modifier:0  "- $mod_planet_soldiers_edict_funds_produces_add$: §G+$@councilor_civic_tec_regular_military_council_bonus$§!"
+
+ 		councilor_civic_tec_regular_executive_committee:0  "Главный исполнительный директор"
+ 		councilor_civic_tec_regular_executive_committee_female:0  "$councilor_civic_tec_regular_executive_committee$"
+ 		councilor_civic_tec_regular_executive_committee_desc:0  "$TITLE$ координирует эффективный корпус бюрократических дел и управления".
+ 		councilor_civic_tec_regular_executive_committee_custom_modifier:0  "- $mod_planet_administrators_edict_funds_produces_add$: §G+$@councilor_civic_tec_regular_executive_committee_bonus$§!"
+
+ 		councilor_civic_tec_regular_genetic_ascendancy:0  "Наблюдатель за происхождением"
+ 		councilor_civic_tec_regular_genetic_ascendancy_female:0  "$councilor_civic_tec_regular_genetic_ascendancy$"
+ 		councilor_civic_tec_regular_genetic_ascendancy_desc:0  "$TITLE$ тщательно отбираются из другой семьи, чтобы следить за генетической уникальностью и сохранностью отобранных семей-лидеров".
+ 		councilor_civic_tec_regular_genetic_ascendancy_custom_modifier:0  "TO DO"
+	# /
+	# Job civics
+ 		councilor_civic_tec_regular_merchants:0  "TO DO"
+ 		councilor_civic_tec_regular_merchants_female:0  "TO DO"
+ 		councilor_civic_tec_regular_merchants_desc:0  "TO DO"
+ 		councilor_civic_tec_regular_merchants_custom_modifier:0  "TO DO"
+
+ 		councilor_civic_tec_regular_high_priests:0  "TO DO"
+ 		councilor_civic_tec_regular_high_priests_female:0  "TO DO"
+ 		councilor_civic_tec_regular_high_priests_desc:0  "TO DO"
+ 		councilor_civic_tec_regular_high_priests_custom_modifier:0  "TO DO"
+
+ 		councilor_civic_tec_regular_commanders:0  "TO DO"
+ 		councilor_civic_tec_regular_commanders_female:0  "TO DO"
+ 		councilor_civic_tec_regular_commanders_desc:0  "TO DO"
+ 		councilor_civic_tec_regular_commanders_custom_modifier:0  "TO DO"
+
+ 		councilor_civic_tec_regular_head_researchers:0  "TO DO"
+ 		councilor_civic_tec_regular_head_researchers_female:0  "TO DO"
+ 		councilor_civic_tec_regular_head_researchers_desc:0  "TO DO"
+ 		councilor_civic_tec_regular_head_researchers_custom_modifier:0  "TO DO"
+
+ 		councilor_civic_tec_regular_supervisors:0  "TO DO"
+ 		councilor_civic_tec_regular_supervisors_female:0  "TO DO"
+ 		councilor_civic_tec_regular_supervisors_desc:0  "TO DO"
+ 		councilor_civic_tec_regular_supervisors_custom_modifier:0  "TO DO"
+
+ 		councilor_civic_tec_regular_moguls:0  "TO DO"
+ 		councilor_civic_tec_regular_moguls_female:0  "TO DO"
+ 		councilor_civic_tec_regular_moguls_desc:0  "TO DO"
+ 		councilor_civic_tec_regular_moguls_custom_modifier:0  "TO DO"
+
+ 		councilor_civic_tec_regular_technocrats:0  "TO DO"
+ 		councilor_civic_tec_regular_technocrats_female:0  "TO DO"
+ 		councilor_civic_tec_regular_technocrats_desc:0  "TO DO"
+ 		councilor_civic_tec_regular_technocrats_custom_modifier:0  "TO DO"
+
+ 		councilor_civic_tec_regular_xenoreach:0  "TO DO"
+ 		councilor_civic_tec_regular_xenoreach_female:0  "TO DO"
+ 		councilor_civic_tec_regular_xenoreach_desc:0  "TO DO"
+ 		councilor_civic_tec_regular_xenoreach_custom_modifier:0  "TO DO"
+
+ 		councilor_civic_tec_regular_researchers_labrats:0  "Главный экспериментатор"
+ 		councilor_civic_tec_regular_researchers_labrats_female:0  "$councilor_civic_tec_regular_researchers_labrats$"
+ 		councilor_civic_tec_regular_researchers_labrats_desc:0  "$TITLE$s разрабатывают самые уникальные способы сделать опыт испытуемых настолько продуктивным и "интересным", насколько это возможно".
+ 		councilor_civic_tec_regular_researchers_labrats_custom_modifier:0  "- $tec_loc_research_resources$ от £job_tec_labrat£ $job_tec_labrat$: §G+0.1§! \n- $tec_loc_cg$ Содержание £job_tec_labrat£ $job_tec_labrat$: §R+0.05§! \n"
+
+ 		councilor_civic_tec_corporate_researchers_labrats:0  "Главный экспериментатор"
+ 		councilor_civic_tec_corporate_researchers_labrats_female:0  "$councilor_civic_tec_regular_researchers_labrats$"
+ 		councilor_civic_tec_corporate_researchers_labrats_desc:0  "$TITLE$s разрабатывают самые уникальные способы сделать опыт испытуемых настолько продуктивным и "интересным", насколько это возможно".
+ 		councilor_civic_tec_corporate_researchers_labrats_custom_modifier:0  "- $tec_loc_research_resources$ от £job_tec_labrat£ $job_tec_labrat$: §G+0.1§! \n- $tec_loc_cg$ Содержание £job_tec_labrat£ $job_tec_labrat$: §R+0.05§! \n"
+
+ 		councilor_civic_tec_regular_researchers_diversifier:0  "TO DO"
+ 		councilor_civic_tec_regular_researchers_diversifier_female:0  "TO DO"
+ 		councilor_civic_tec_regular_researchers_diversifier_desc:0  "TO DO"
+ 		councilor_civic_tec_regular_researchers_diversifier_custom_modifier:0  "TO DO"
+
+ 		councilor_civic_tec_regular_researchers_astrologers:0  "TO DO"
+ 		councilor_civic_tec_regular_researchers_astrologers_female:0  "TO DO"
+ 		councilor_civic_tec_regular_researchers_astrologers_desc:0  "TO DO"
+ 		councilor_civic_tec_regular_researchers_astrologers_custom_modifier:0  "TO DO"
+
+ 		councilor_civic_tec_regular_researchers_historians:0  "Создатель аксиом"
+ 		councilor_civic_tec_regular_researchers_historians_female:0  "$councilor_civic_tec_regular_researchers_historians$"
+ 		councilor_civic_tec_regular_researchers_historians_desc:0  "$TITLE$ имеют право применять законы статистики, математики и дедукции, а также огромные исторические, социальные и научные знания, чтобы создавать аксиомы, направляющие население к процветающему будущему".
+ 		councilor_civic_tec_regular_researchers_historians_custom_modifier:0  "ДЕЛАТЬ"
+
+ 		councilor_civic_tec_regular_researchers_technomancer:0  "Возвышенные техномаги"
+ 		councilor_civic_tec_regular_researchers_technomancer_female:0  "$councilor_civic_tec_regular_researchers_technomancer$"
+ 		councilor_civic_tec_regular_researchers_technomancer_desc:0  "$TITLE$ сочетают технологию и магию таким образом, о котором никто другой не мог бы подумать или вообразить".
+ 		councilor_civic_tec_regular_researchers_technomancer_custom_modifier:0  "ДЕЛАТЬ"
+
+ 		councilor_civic_tec_regular_researchers_starseekers:0  "TO DO"
+ 		councilor_civic_tec_regular_researchers_starseekers_female:0  "TO DO"
+ 		councilor_civic_tec_regular_researchers_starseekers_desc:0  "TO DO"
+ 		councilor_civic_tec_regular_researchers_starseekers_custom_modifier:0  "TO DO"
+
+ 		councilor_civic_tec_regular_syndical:0  "Народный герой"
+ 		councilor_civic_tec_regular_syndical_female:0  "Народная героиня"
+ 		councilor_civic_tec_regular_syndical_desc:0  "$TITLE$ пользуется доверием, уважением и любовью населения, поскольку обеспечивает достойное отношение ко всем".
+ 		councilor_civic_tec_regular_syndical_custom_modifier:0  "НЕ ИСПОЛЬЗУЕТСЯ"
+
+ 		councilor_civic_tec_regular_anglers_lithoid:0  "$councilor_anglers$"
+ 		councilor_civic_tec_regular_anglers_lithoid_female:0  "$councilor_anglers$"
+ 		councilor_civic_tec_regular_anglers_lithoid_desc:0  "$councilor_anglers_desc$"
+ 		councilor_civic_tec_regular_anglers_lithoid_custom_modifier:0  "- $tec_loc_minerals$ от £job_tec_reef_miner£ $job_tec_reef_miner_plural$: §G+$@councilor_anglers_angler_food_bonus$§! \n- $tec_loc_consumer_goods$ от £job_pearl_diver£ $job_pearl_diver_plural$: §G+$@councilor_anglers_pearl_diver_consumer_goods_bonus$§!"
+
+ 		councilor_civic_tec_regular_private_militaries:0  "Подрядчик Парабеллума"
+ 		councilor_civic_tec_regular_private_militaries_female:0  "$councilor_civic_tec_regular_private_militaries$"
+ 		councilor_civic_tec_regular_private_militaries_desc:0  "Весь процесс вербовки, администрирования и непосредственного руководства наемниками контролируется $TITLE$".
+ 		councilor_civic_tec_regular_private_militaries_custom_modifier:0  "- $tec_loc_trade_value$ от £job_tec_mercenary£ $job_tec_mercenary_plural$: §G+$@councilor_civic_tec_regular_private_militaries_bonus$§!"
+		# Улучшить местоположение ^
+
+ 		councilor_civic_tec_regular_spiritual_seekers:0  "Искатель истины"
+ 		councilor_civic_tec_regular_spiritual_seekers_female:0  "$councilor_civic_tec_regular_spiritual_seekers$"
+ 		councilor_civic_tec_regular_spiritual_seekers_desc:0  "$TITLE$ доказывает чудеса и превосходство внутреннего покоя и умственной доблести".
+ 		councilor_civic_tec_regular_spiritual_seekers_custom_modifier:0  "ДЕЛАТЬ"
+
+ 		councilor_civic_tec_regular_quantum_alloys:0  "Квантовый прибор"
+ 		councilor_civic_tec_regular_quantum_alloys_female:0  "$councilor_civic_tec_regular_quantum_alloys$"
+ 		councilor_civic_tec_regular_quantum_alloys_desc:0  "$TITLE$ отвечают за команду специалистов по улучшению, доработке и расширению процесса создания новых материалов с помощью запутывания".
+ 		councilor_civic_tec_regular_quantum_alloys_custom_modifier:0  "ДЕЛАТЬ"
+
+	# /
+	# Основы гражданского права
+ 		councilor_civic_tec_regular_capitalized_innovation:0  "Научный магнат"
+ 		councilor_civic_tec_regular_capitalized_innovation_female:0  "$councilor_civic_tec_regular_capitalized_innovation$"
+ 		councilor_civic_tec_regular_capitalized_innovation_desc:0  "$TITLE$ обладает мастерством в научных и экономических вопросах, служа связующим звеном между частными исследовательскими отраслями и самой империей".
+ 		councilor_civic_tec_regular_capitalized_innovation_custom_modifier:0  "НЕ ИСПОЛЬЗУЕТСЯ"
+		# Улучшить местоположение ^
+
+ 		councilor_civic_tec_regular_corporate_politics:0  "Корпоративный организатор"
+ 		councilor_civic_tec_regular_corporate_politics_female:0  "$councilor_civic_tec_regular_corporate_politics$"
+ 		councilor_civic_tec_regular_corporate_politics_desc:0  "$TITLE$ обладает мастерством в отношении субкорпоративных сделок, служа связующим звеном между частными компаниями и самой империей".
+ 		councilor_civic_tec_regular_corporate_politics_custom_modifier:0  "НЕ ИСПОЛЬЗУЕТСЯ"
+
+ 		councilor_civic_tec_regular_immutable_hierarchy:0  "Оплот власти"
+ 		councilor_civic_tec_regular_immutable_hierarchy_female:0  "$councilor_civic_tec_regular_immutable_hierarchy$"
+ 		councilor_civic_tec_regular_immutable_hierarchy_desc:0  "$TITLE$ воплощает ценности этой империи, полностью посвятив себя служению ей".
+ 		councilor_civic_tec_regular_immutable_hierarchy_custom_modifier:0  "НЕ ИСПОЛЬЗУЕТСЯ"
+		# Улучшить местоположение ^
+
+ 		councilor_civic_tec_regular_forced_reeducation:0  "Надзиратель за перевоспитанием"
+ 		councilor_civic_tec_regular_forced_reeducation_female:0  "$councilor_civic_tec_regular_forced_reeducation$"
+ 		councilor_civic_tec_regular_forced_reeducation_desc:0  "$TITLE$ координируют методы перевоспитания и места работы, чтобы обеспечить надлежащее перевоспитание граждан посредством законной работы и усилий".
+ 		councilor_civic_tec_regular_forced_reeducation_custom_modifier:0  "ДЕЛАТЬ"
+
+ 		councilor_civic_tec_regular_social_prosperity:0  "Поборник процветания"
+ 		councilor_civic_tec_regular_social_prosperity_female:0  "$councilor_civic_tec_regular_social_prosperity$"
+ 		councilor_civic_tec_regular_social_prosperity_desc:0  "Главная обязанность $TITLE$ обеспечить каждому, независимо от социального статуса, комфортный образ жизни и процветание".
+ 		councilor_civic_tec_regular_social_prosperity_custom_modifier:0  "ДЕЛАТЬ"
+
+ 		councilor_civic_tec_regular_secured_domain:0  "Бастион жизнестойкости"
+ 		councilor_civic_tec_regular_secured_domain_female:0  "$councilor_civic_tec_regular_secured_domain$"
+ 		councilor_civic_tec_regular_secured_domain_desc:0  "$TITLE$ координирует планетарную и системную оборону эффективным и безопасным способом".
+ 		councilor_civic_tec_regular_secured_domain_custom_modifier:0  "Временно недоступен"
+
+ 		councilor_civic_tec_regular_universalism:0  "Универсальный контактор"
+ 		councilor_civic_tec_regular_universalism_female:0  "$councilor_civic_tec_regular_universalism$"
+ 		councilor_civic_tec_regular_universalism_desc:0  "Перед $TITLE$ стоит задача установления новых дружественных контактов и связей с другими империями".
+ 		councilor_civic_tec_regular_universalism_custom_modifier:0  "НЕ ИСПОЛЬЗУЕТСЯ"
+		# Improve loc ^
+
+ 		councilor_civic_tec_regular_peacekeepers:0  "Вестник мира"
+ 		councilor_civic_tec_regular_peacekeepers_female:0  "$councilor_civic_tec_regular_peacekeepers$"
+ 		councilor_civic_tec_regular_peacekeepers_desc:0  "$TITLE$ управляет военной оборонительной политикой, которая обеспечивает благополучие слабых".
+ 		councilor_civic_tec_regular_peacekeepers_custom_modifier:0  "ДЕЛАТЬ"
+
+ 		councilor_civic_tec_regular_consumerism:0  "Имперский публицист"
+ 		councilor_civic_tec_regular_consumerism_female:0  "$councilor_civic_tec_regular_consumerism$"
+ 		councilor_civic_tec_regular_consumerism_desc:0  "$TITLE$ координирует целые бюро публицистов для создания множества экономических кампаний и броских лозунгов, увеличивающих приток богатства".
+ 		councilor_civic_tec_regular_consumerism_custom_modifier:0  "НЕ ИСПОЛЬЗУЕТСЯ"
+
+ 		councilor_civic_tec_regular_war_lords:0  "Военный вождь"
+ 		councilor_civic_tec_regular_war_lords_female:0  "$councilor_civic_tec_regular_war_lords$"
+ 		councilor_civic_tec_regular_war_lords_desc:0  "$TITLE$ является известным и уважаемым военнослужащим, который в настоящее время принимает непосредственное участие в управлении делами империи".
+ 		councilor_civic_tec_regular_war_lords_custom_modifier:0  "НЕ ИСПОЛЬЗУЕТСЯ"
+
+ 		councilor_civic_tec_regular_utopian_democracy:0  "Утопический провайдер"
+ 		councilor_civic_tec_regular_utopian_democracy_female:0  "$councilor_civic_tec_regular_utopian_democracy$"
+ 		councilor_civic_tec_regular_utopian_democracy_desc:0  "$TITLE$ - исключительные личности, избранные защищать процветание и мир".
+ 		councilor_civic_tec_regular_utopian_democracy_custom_modifier:0  "ДЕЛАТЬ"
+
+ 		councilor_civic_tec_regular_consecrated_democracy:0  "Демократический куратор"
+ 		councilor_civic_tec_regular_consecrated_democracy_female:0  "$councilor_civic_tec_regular_consecrated_democracy$"
+ 		councilor_civic_tec_regular_consecrated_democracy_desc:0  "Следуя давней традиции, $TITLE$ служит хранителем добросовестных демократических процессов".
+ 		councilor_civic_tec_regular_consecrated_democracy_custom_modifier:0  "ДЕЛАТЬ"
+
+ 		councilor_civic_tec_regular_cyber_democracy:0  "Хранитель кибер-данных"
+ 		councilor_civic_tec_regular_cyber_democracy_female:0  "$councilor_civic_tec_regular_cyber_democracy$"
+ 		councilor_civic_tec_regular_cyber_democracy_desc:0  "Должность $TITLE$ предоставляет доступ к нескольким системам для управления безопасностью граждан, для более стабильного демократического и технологичного общества".
+ 		councilor_civic_tec_regular_cyber_democracy_custom_modifier:0  "ДЕЛАТЬ"
+
+ 		councilor_civic_tec_regular_cyber_dictatorship:0  "Манипулятор кибер-данными"
+ 		councilor_civic_tec_regular_cyber_dictatorship_female:0  "$councilor_civic_tec_regular_cyber_dictatorship$"
+ 		councilor_civic_tec_regular_cyber_dictatorship_desc:0  "Должность $TITLE$ позволяет получить доступ ко всем записям и всем данным о гражданах, используемым для контроля и угнетения их".
+ 		councilor_civic_tec_regular_cyber_dictatorship_custom_modifier:0  "ДЕЛАТЬ"
+
+ 		councilor_civic_tec_regular_tribalism:0  "Великий вождь"
+ 		councilor_civic_tec_regular_tribalism_female:0  "$councilor_civic_tec_regular_tribalism$"
+ 		councilor_civic_tec_regular_tribalism_desc:0  "$TITLE$ - влиятельный и могущественный вождь племени, назначенный управлять империей".
+ 		councilor_civic_tec_regular_tribalism_custom_modifier:0  "НЕ ИСПОЛЬЗУЕТСЯ"
+
+ 		councilor_civic_tec_regular_labour_unions:0  "Представитель Глобального профсоюза"
+ 		councilor_civic_tec_regular_labour_unions_female:0  "$councilor_civic_tec_regular_labour_unions$"
+ 		councilor_civic_tec_regular_labour_unions_desc:0  "$TITLE$ поставлена задача представлять и отстаивать интересы каждого профсоюза в империи и обеспечивать, чтобы их голоса были услышаны".
+ 		councilor_civic_tec_regular_labour_unions_custom_modifier:0  "НЕ ИСПОЛЬЗУЕТСЯ"
+
+ 		councilor_civic_tec_regular_star_settlers:0  "Звездный путеводитель"
+ 		councilor_civic_tec_regular_star_settlers_female:0  "$councilor_civic_tec_regular_star_settlers$"
+ 		councilor_civic_tec_regular_star_settlers_desc:0  "$TITLE$ продвигают колониальное строительство и управление вперед".
+ 		councilor_civic_tec_regular_star_settlers_custom_modifier:0  "НЕ ИСПОЛЬЗУЕТСЯ"
+
+ 		councilor_civic_tec_regular_distributism:0  "Координатор распространения"
+ 		councilor_civic_tec_regular_distributism_female:0  "$councilor_civic_tec_regular_distributism$"
+ 		councilor_civic_tec_regular_distributism_desc:0  "Задача, возложенная на $TITLE$, заключается в обеспечении процветания населения".
+ 		councilor_civic_tec_regular_distributism_custom_modifier:0  "НЕ ИСПОЛЬЗУЕТСЯ"
+
+ 		councilor_civic_tec_regular_martial_brotherhood:0  "Великий рекрутер"
+ 		councilor_civic_tec_regular_martial_brotherhood_female:0  "$councilor_civic_tec_regular_martial_brotherhood$"
+ 		councilor_civic_tec_regular_martial_brotherhood_desc:0  "$TITLE$ гарантирует, что каждый выполняет свою часть".
+ 		councilor_civic_tec_regular_martial_brotherhood_custom_modifier:0  "НЕ ИСПОЛЬЗУЕТСЯ"
+
+ 		councilor_civic_tec_regular_space_pioneers:0  "Вестник открытий"
+ 		councilor_civic_tec_regular_space_pioneers_female:0  "$councilor_civic_tec_regular_space_pioneers$"
+ 		councilor_civic_tec_regular_space_pioneers_desc:0  "Каждый присвоенный $TITLE$ поощряет научные открытия, и формирование продвигается вперед".
+ 		councilor_civic_tec_regular_space_pioneers_custom_modifier:0  "НЕ ИСПОЛЬЗУЕТСЯ"
+
+ 		councilor_civic_tec_regular_enlightened_civilization:0  "Представитель света"
+ 		councilor_civic_tec_regular_enlightened_civilization_female:0  "Представительница света"
+ 		councilor_civic_tec_regular_enlightened_civilization_desc:0  "$TITLE$ хочет, чтобы население процветало в свете культуры и общественного прогресса".
+ 		councilor_civic_tec_regular_enlightened_civilization_custom_modifier:0  "НЕ ИСПОЛЬЗУЕТСЯ"
+
+ 		councilor_civic_tec_regular_asceticism:0  "Образцовый аскет"
+ 		councilor_civic_tec_regular_asceticism_female:0  "$councilor_civic_tec_regular_asceticism$"
+ 		councilor_civic_tec_regular_asceticism_desc:0  "$TITLE$ служит высшим вдохновением и примером аскетических идеалов империи".
+ 		councilor_civic_tec_regular_asceticism_custom_modifier:0  "НЕ ИСПОЛЬЗУЕТСЯ"
+
+ 		councilor_civic_tec_regular_computerized_extraction:0  "Бригадир по добыче полезных ископаемых"
+ 		councilor_civic_tec_regular_computerized_extraction_female:0  "Мастер по добыче полезных ископаемых"
+ 		councilor_civic_tec_regular_computerized_extraction_desc:0  "$TITLE$ контролирует автоматизированные задачи по извлечению и обработке ресурсов".
+ 		councilor_civic_tec_regular_computerized_extraction_custom_modifier:0  "- $civic_tec_regular_computerized_extraction$ $tec_loc_district$ Выход: §G+10%§!"
+
+ 		councilor_civic_tec_regular_unleashed_industrialization:0  "Промышленный арбитр"
+ 		councilor_civic_tec_regular_unleashed_industrialization_female:0  "$councilor_civic_tec_regular_unleashed_industrialization$"
+ 		councilor_civic_tec_regular_unleashed_industrialization_desc:0  "Перед $TITLE$ стоит задача оптимизации производственных процессов индустриализации и производственного развития".
+ 		councilor_civic_tec_regular_unleashed_industrialization_custom_modifier:0  "- $civic_tec_regular_unleashed_industrialization$ $tec_loc_district$ Выход: §G+10%§!"
+
+	# /
+ # /
+
+ # /
+ # Corporate
+ 	councilor_civic_tec_corporate_bank_corp:0  "Руководитель банковского отдела"
+ 	councilor_civic_tec_corporate_bank_corp_female:0  "$councilor_civic_tec_corporate_bank_corp$"
+ 	councilor_civic_tec_corporate_bank_corp_desc:0  "Когда дело доходит до расширения торговли империи и получения прибыли, $TITLE$ координирует работу остальных банковских операторов, чтобы максимизировать ее".
+ 	councilor_civic_tec_corporate_bank_corp_custom_modifier:0  "НЕ ИСПОЛЬЗУЕТСЯ"
+
+ 	councilor_civic_tec_corporate_scientific_corp:0  "Научный монитор"
+ 	councilor_civic_tec_corporate_scientific_corp_female:0  "$councilor_civic_tec_corporate_scientific_corp$"
+ 	councilor_civic_tec_corporate_scientific_corp_desc:0  "$TITLE$ обеспечивает максимальную прибыльность исследовательского процесса".
+ 	councilor_civic_tec_corporate_scientific_corp_custom_modifier:0  "НЕ ИСПОЛЬЗУЕТСЯ"
+
+ 	councilor_civic_tec_corporate_eco_exploiter_corp:0  "Менеджер по эксплуатации"
+ 	councilor_civic_tec_corporate_eco_exploiter_corp_female:0  "$councilor_civic_tec_corporate_eco_exploiter_corp$"
+ 	councilor_civic_tec_corporate_eco_exploiter_corp_desc:0  "$TITLE$ координирует логистику эксплуатации планетарной окружающей среды для максимизации прибыли".
+ 	councilor_civic_tec_corporate_eco_exploiter_corp_custom_modifier:0  "НЕ ИСПОЛЬЗУЕТСЯ"
+
+ 	councilor_civic_tec_corporate_eco_reclamator_corp:0  "Менеджер по рекультивации"
+ 	councilor_civic_tec_corporate_eco_reclamator_corp_female:0  "$councilor_civic_tec_corporate_eco_reclamator_corp$"
+ 	councilor_civic_tec_corporate_eco_reclamator_corp_desc:0  "$TITLE$ координирует логистику восстановления планетарной окружающей среды для максимизации прибыли".
+ 	councilor_civic_tec_corporate_eco_reclamator_corp_custom_modifier:0  "НЕ ИСПОЛЬЗУЕТСЯ"
+
+ 	councilor_civic_tec_corporate_inventinker_corp:0  "Мастерящий менеджер"
+ 	councilor_civic_tec_corporate_inventinker_corp_female:0  "$councilor_civic_tec_corporate_inventinker_corp$"
+ 	councilor_civic_tec_corporate_inventinker_corp_desc:0  "Задача $TITLE$ состоит в том, чтобы обеспечить эффективную работу остальных мастеров".
+ 	councilor_civic_tec_corporate_inventinker_corp_custom_modifier:0  "НЕ ИСПОЛЬЗУЕТСЯ"
+
+ 	councilor_civic_tec_corporate_urbancorp:0  "Градостроитель"
+ 	councilor_civic_tec_corporate_urbancorp_female:0  "$councilor_civic_tec_corporate_urbancorp$"
+ 	councilor_civic_tec_corporate_urbancorp_desc:0  "$TITLE$ направляет и координирует задачи архитектуры, реформирования и урбанизации всей планеты".
+ 	councilor_civic_tec_corporate_urbancorp_custom_modifier:0  "НЕ ИСПОЛЬЗУЕТСЯ"
+
+ 	councilor_civic_tec_corporate_comunistcorp:0  "Экономический арбитр"
+ 	councilor_civic_tec_corporate_comunistcorp_female:0  "$councilor_civic_tec_corporate_comunistcorp$"
+ 	councilor_civic_tec_corporate_comunistcorp_desc:0  "$TITLE$ обеспечивает распределение выгод и богатства между населением".
+ 	councilor_civic_tec_corporate_comunistcorp_custom_modifier:0  "НЕ ИСПОЛЬЗУЕТСЯ"
+
+ 	councilor_civic_tec_corporate_cooperacorp:0  "Корпоративный бизнес-менеджер"
+ 	councilor_civic_tec_corporate_cooperacorp_female:0  "$councilor_civic_tec_corporate_cooperacorp$"
+ 	councilor_civic_tec_corporate_cooperacorp_desc:0  "$TITLE$ координирует работу бюро продавцов в прямых контактах с субкорпорациями и потенциальными (или существующими) клиентами филиалов".
+ 	councilor_civic_tec_corporate_cooperacorp_custom_modifier:0  "НЕ ИСПОЛЬЗУЕТСЯ"
+
+ 	councilor_civic_tec_corporate_mega_engineers:0  "Надзиратель за мегаконструкцией"
+ 	councilor_civic_tec_corporate_mega_engineers_female:0  "$councilor_civic_tec_corporate_mega_engineers$"
+ 	councilor_civic_tec_corporate_mega_engineers_desc:0  "$TITLE$ разрабатывают и внедряют инновации в мегаструктурном масштабе".
+ 	councilor_civic_tec_corporate_mega_engineers_custom_modifier:0  "- $MOD_STARBASE_UPGRADE_SPEED_MULT$: §G+2.5%§! \n- $MOD_MEGASTRUCTURE_BUILD_SPEED_MULT$ §G+2.5%§!"
+
+ 	councilor_civic_tec_corporate_land_of_opportunity:0  "Ищущий возможности"
+ 	councilor_civic_tec_corporate_land_of_opportunity_female:0  "$councilor_civic_tec_corporate_land_of_opportunity$"
+ 	councilor_civic_tec_corporate_land_of_opportunity_desc:0  "$TITLE$ стремится найти наиболее выгодные сценарии для империи".
+ 	councilor_civic_tec_corporate_land_of_opportunity_custom_modifier:0  "- Эффект от $civic_tec_corporate_land_of_opportunity$ £planet£ §YБонусы за назначение§!: §G+5%§! "
+		# Improve loc ^
+
+ 	councilor_civic_tec_corporate_mining_guilds:0  "$councilor_mining_guilds$"
+ 	councilor_civic_tec_corporate_mining_guilds_female:0  "$councilor_mining_guilds_female$"
+ 	councilor_civic_tec_corporate_mining_guilds_desc:0  "$councilor_mining_guilds_desc$"
+ 	councilor_civic_tec_corporate_mining_guilds_custom_modifier:0  "$councilor_mining_guild_custom_modifier_desc$"
+
+ 	councilor_civic_tec_corporate_quantum_alloys:0  "Квантовый спекулянт"
+ 	councilor_civic_tec_corporate_quantum_alloys_female:0  "$councilor_civic_tec_corporate_quantum_alloys$"
+ 	councilor_civic_tec_corporate_quantum_alloys_desc:0  "В $TITLE$ рассматриваются новые способы извлечения прибыли из технологий квантовой связи".
+ 	councilor_civic_tec_corporate_quantum_alloys_custom_modifier:0  "- $mod_planet_technician_trade_value_produces_add$: §G+$@councilor_civic_tec_corporate_quantum_alloys_bonus$§! "
+
+ 	councilor_civic_tec_corporate_researchbureau:0  "Покупатель разработки"
+ 	councilor_civic_tec_corporate_researchbureau_female:0  "$councilor_civic_tec_corporate_researchbureau$"
+ 	councilor_civic_tec_corporate_researchbureau_desc:0  "$TITLE$ применяет технологическое мастерство для экономического роста".
+ 	councilor_civic_tec_corporate_researchbureau_custom_modifier:0  "- $mod_planet_researchers_edict_funds_produces_add$: §G+$@councilor_civic_tec_corporate_researchbureau_bonus$§! "
+
+ 	councilor_civic_tec_corporate_innovative:0  "Приобретатель инноваций"
+ 	councilor_civic_tec_corporate_innovative_female:0  "$councilor_civic_tec_corporate_innovative$"
+ 	councilor_civic_tec_corporate_innovative_desc:0  "$TITLE$ создают культурные влиятельные линии, которые способствуют созданию богатства".
+ 	councilor_civic_tec_corporate_innovative_custom_modifier:0  "- $mod_planet_administrators_edict_funds_produces_add$: §G+$@councilor_civic_tec_corporate_innovative_bonus$§!"
+
+ 	councilor_civic_tec_corporate_militarybureau:0  "Военный покупатель"
+ 	councilor_civic_tec_corporate_militarybureau_female:0  "$councilor_civic_tec_corporate_militarybureau$"
+ 	councilor_civic_tec_corporate_militarybureau_desc:0  "Сопровождаемый строгим военным командованием по субподряду, $TITLE$ максимизирует военно-экономические показатели империи".
+ 	councilor_civic_tec_corporate_militarybureau_custom_modifier:0  "- $mod_planet_soldiers_edict_funds_produces_add$: §G+$@councilor_civic_tec_corporate_militarybureau_bonus$§!"
+
+ 	councilor_civic_tec_corporate_flagshipbureau:0  "Флагманский координатор"
+ 	councilor_civic_tec_corporate_flagshipbureau_female:0  "$councilor_civic_tec_corporate_flagshipbureau$"
+ 	councilor_civic_tec_corporate_flagshipbureau_desc:0  "$TITLE$ устанавливает и находит наиболее выгодные флагманские позиции".
+ 	councilor_civic_tec_corporate_flagshipbureau_custom_modifier:0  "НЕ ИСПОЛЬЗУЕТСЯ"
+
+ 	councilor_civic_tec_corporate_reanimators:0  "Ипотечный менеджер"
+ 	councilor_civic_tec_corporate_reanimators_female:0  "$councilor_civic_tec_corporate_reanimators$"
+ 	councilor_civic_tec_corporate_reanimators_desc:0  "Когда звонит колокол, $TITLE$ требует (ипотеку); когда звонит звонок с работы, он тоже это делает".
+ 	councilor_civic_tec_corporate_reanimators_custom_modifier:0  " - Действие указа о вечном сдвиге: §G+$@councilor_civic_tec_corporate_reanimators_bonus$§!"
+
+ 	councilor_civic_tec_corporate_memorialist:0  "Высокая память"
+ 	councilor_civic_tec_corporate_memorialist_female:0  "$councilor_civic_tec_corporate_memorialist$"
+ 	councilor_civic_tec_corporate_memorialist_desc:0  "$TITLE$ ведет исторический учет корпорации".
+ 	councilor_civic_tec_corporate_memorialist_custom_modifier:0  "НЕ ИСПОЛЬЗУЕТСЯ"
+
+ 	councilor_civic_tec_corporate_pompous:0  "Менеджер по контактам"
+ 	councilor_civic_tec_corporate_pompous_female:0  "$councilor_civic_tec_corporate_pompous$"
+ 	councilor_civic_tec_corporate_pompous_desc:0  "После нескольких уровней бюрократических и управленческих процессов $TITLE$ рассматривает любые дипломатические дела".
+ 	councilor_civic_tec_corporate_pompous_custom_modifier:0  "НЕ ИСПОЛЬЗУЕТСЯ"
+
+ 	councilor_civic_tec_corporate_dystopian_society:0  "Корпоративный надзиратель"
+ 	councilor_civic_tec_corporate_dystopian_society_female:0  "$councilor_civic_tec_corporate_dystopian_society$"
+ 	councilor_civic_tec_corporate_dystopian_society_desc:0  "$TITLE$ выискивает коррупцию и уничтожает ее до того, как она сможет распространиться".
+ 	councilor_civic_tec_corporate_dystopian_society_custom_modifier:0  "- $mod_pop_cat_ruler_happiness$: §G+1%§! \n- $mod_planet_enforcers_trade_value_produces_add$: §G+0.4§!"
+
+ 	councilor_civic_tec_corporate_selective_kinship:  "Бизнесмен для семьи"
+ 	councilor_civic_tec_corporate_selective_kinship_female:  "Деловая женщина для семьи"
+ 	councilor_civic_tec_corporate_selective_kinship_desc:  "$TITLE$ усиливает голос наших законных клиентов".
+
+ 	councilor_civic_tec_corporate_navaltraders:0  "Военно-Космический страховщик"
+ 	councilor_civic_tec_corporate_navaltraders_female:0  "$councilor_civic_tec_corporate_navaltraders$"
+ 	councilor_civic_tec_corporate_navaltraders_desc:0  "$TITLE$ усиливает военно-Космическую спекуляцию".
+ 	councilor_civic_tec_corporate_navaltraders_custom_modifier:0  "- $tec_loc_trade_value$ от креплений: §G+$@councilor_civic_tec_corporate_navaltraders_bonus$§!"
+
+ 	councilor_civic_tec_corporate_productcorp:0  "Министр по делам потребителей"
+ 	councilor_civic_tec_corporate_productcorp_female:0  "$councilor_civic_tec_corporate_productcorp$"
+ 	councilor_civic_tec_corporate_productcorp_desc:0  "$TITLE$ координирует целые бюро публицистов для создания множества экономических кампаний и броских лозунгов, увеличивающих приток богатства".
+ 	councilor_civic_tec_corporate_productcorp_custom_modifier:0  "НЕ ИСПОЛЬЗУЕТСЯ"
+
+ 	councilor_civic_tec_corporate_membercorp:0  "Менеджер членства"
+ 	councilor_civic_tec_corporate_membercorp_female:0  "$councilor_civic_tec_corporate_membercorp$"
+ 	councilor_civic_tec_corporate_membercorp_desc:0  "Если кто-то даже достигает того, чтобы находиться в одной комнате с $TITLE$, это означает, что он заслуживает быть премиальным членом корпорации".
+ 	councilor_civic_tec_corporate_membercorp_custom_modifier:0  "НЕ ИСПОЛЬЗУЕТСЯ"
+
+ 	councilor_civic_tec_corporate_venturecorp:0  "Приоритетная заинтересованная сторона"
+ 	councilor_civic_tec_corporate_venturecorp_female:0  "$councilor_civic_tec_corporate_venturecorp$"
+ 	councilor_civic_tec_corporate_venturecorp_desc:0  "$TITLE$ принимает решения, основываясь на своем накопленном богатстве, просто потому, что у него накоплено больше богатства, чем у других".
+ 	councilor_civic_tec_corporate_venturecorp_custom_modifier:0  "НЕ ИСПОЛЬЗУЕТСЯ"
+
+ 	councilor_civic_tec_corporate_robocorp:0  "Менеджер автоматизации"
+ 	councilor_civic_tec_corporate_robocorp_female:0  "$councilor_civic_tec_corporate_robocorp$"
+ 	councilor_civic_tec_corporate_robocorp_desc:0  "$TITLE$s обеспечивают распространение роботизированных устройств и автоматизированных систем среди каждого потребителя".
+ 	councilor_civic_tec_corporate_robocorp_custom_modifier:0  "НЕ ИСПОЛЬЗУЕТСЯ"
+
+ 	councilor_civic_tec_corporate_industrialcorp:0  "Менеджер по производству"
+ 	councilor_civic_tec_corporate_industrialcorp_female:0  "$councilor_civic_tec_corporate_industrialcorp$"
+ 	councilor_civic_tec_corporate_industrialcorp_desc:0  "$TITLE$ Обзор галактических производственных процессов".
+ 	councilor_civic_tec_corporate_industrialcorp_custom_modifier:0  "НЕ ИСПОЛЬЗУЕТСЯ"
+
+ 	councilor_civic_tec_corporate_bureaumerce:0  "Бюро брокеров"
+ 	councilor_civic_tec_corporate_bureaumerce_female:0  "$councilor_civic_tec_corporate_bureaumerce$"
+ 	councilor_civic_tec_corporate_bureaumerce_desc:0  "$TITLE$ спекулирует богатством самой империи, чтобы искусственно создать еще больше богатства. Да, это звучит нелепо, но когда дело доходит до денег, все так и есть."
+ 	councilor_civic_tec_corporate_bureaumerce_custom_modifier:0  "НЕ ИСПОЛЬЗУЕТСЯ"
+
+ 	councilor_civic_tec_corporate_unions:0  "Представитель профсоюза"
+ 	councilor_civic_tec_corporate_unions_female:0  "$councilor_civic_tec_corporate_unions$"
+ 	councilor_civic_tec_corporate_unions_desc:0  "$TITLE$ представляют группы работников, борющихся за свои интересы внутри самого правительства корпорации".
+ 	councilor_civic_tec_corporate_unions_custom_modifier:0  "НЕ ИСПОЛЬЗУЕТСЯ"
+
+ 	councilor_civic_tec_corporate_enlightment:0  "Монитор просвещения"
+ 	councilor_civic_tec_corporate_enlightment_female:0  "$councilor_civic_tec_corporate_enlightment$"
+ 	councilor_civic_tec_corporate_enlightment_desc:0  "$TITLE$ проливает некоторый свет на культурное и социальное развитие, и под светом каждый подразумевает достаточные инвестиции".
+ 	councilor_civic_tec_corporate_enlightment_custom_modifier:0  "НЕ ИСПОЛЬЗУЕТСЯ"
+
+ 	councilor_civic_tec_corporate_seekers:0  "Искатель наживы"
+ 	councilor_civic_tec_corporate_seekers_female:0  "$councilor_civic_tec_corporate_seekers$"
+ 	councilor_civic_tec_corporate_seekers_desc:0  "Никто на самом деле не знает, что делает $TITLE$, но наверняка он приносит дополнительную прибыль, просто ища ее".
+ 	councilor_civic_tec_corporate_seekers_custom_modifier:0  "НЕ ИСПОЛЬЗУЕТСЯ"
+
+ 	councilor_civic_tec_corporate_settlers:0  "Колониальный арендатор"
+ 	councilor_civic_tec_corporate_settlers_female:0  "$councilor_civic_tec_corporate_settlers$"
+ 	councilor_civic_tec_corporate_settlers_desc:0  "$TITLE$ присваивает новые лицензии на аренду и временное поселение филиалам империи и колониальным предпринимателям".
+ 	councilor_civic_tec_corporate_settlers_custom_modifier:0  "НЕ ИСПОЛЬЗУЕТСЯ"
+
+ 	councilor_civic_tec_corporate_automatation:0  "Разработчик роботов"
+ 	councilor_civic_tec_corporate_automatation_female:0  "$councilor_civic_tec_corporate_automatation$"
+ 	councilor_civic_tec_corporate_automatation_desc:0  "$TITLE$ следит за тем, чтобы корпус инженеров и робототехников создавал новую, эффективную и более дорогую (на стороне заказчика) робототехнику".
+ 	councilor_civic_tec_corporate_automatation_custom_modifier:0  "НЕ ИСПОЛЬЗУЕТСЯ"
+
+ 	councilor_civic_tec_corporate_globalism:0  "Глобальный трейдер"
+ 	councilor_civic_tec_corporate_globalism_female:0  "$councilor_civic_tec_corporate_globalism$"
+ 	councilor_civic_tec_corporate_globalism_desc:0  "Планарная торговля слишком скучна, глобальная торговля больше подходит для $TITLE$ или даже галактической!"
+ 	councilor_civic_tec_corporate_globalism_custom_modifier:0  "НЕ ИСПОЛЬЗУЕТСЯ"
+
+ 	councilor_civic_tec_corporate_corvee:0  "Менеджер по перемещению"
+ 	councilor_civic_tec_corporate_corvee_female:0  "$councilor_civic_tec_corporate_corvee$"
+ 	councilor_civic_tec_corporate_corvee_desc:0  "Совсем устали от обыденной планеты, на которой вы живете? Стоят ли новые рубежи и новые чудеса вашего любопытства? Отправляйтесь в путешествие, которое случается раз в жизни, свяжитесь с бюро $TITLE$ и достигните новых звезд уже сегодня!"
+ 	councilor_civic_tec_corporate_corvee_custom_modifier:0  "НЕ ИСПОЛЬЗУЕТСЯ"
+
+ # /
+ # Replace Corporate
+
+ # /
+ # AI
+
+ # /
+ # Hive
+
+ # /
+ # Machine
+
+ # /
+
+
+# /
+
+# Ai authorities
+ # Auth
+ 	councilor_ruler_auth_tec_direct_democratic:  "$councilor_ruler$"
+ 	councilor_ruler_auth_tec_direct_democratic_female:  "$councilor_ruler_female$"
+ 	councilor_ruler_auth_tec_direct_democratic_desc:  ""
+
+ 	councilor_ruler_auth_tec_theocracy:  "$councilor_ruler$"
+ 	councilor_ruler_auth_tec_theocracy_female:  "$councilor_ruler_female$"
+ 	councilor_ruler_auth_tec_theocracy_desc:  ""
+
+ 	councilor_ruler_auth_tec_patrocorporate:  "$councilor_ruler$"
+ 	councilor_ruler_auth_tec_patrocorporate_female:  "$councilor_ruler_female$"
+ 	councilor_ruler_auth_tec_patrocorporate_desc:  ""
+
+ 	councilor_ruler_auth_tec_ai:  "$councilor_ruler$"
+ 	councilor_ruler_auth_tec_ai_female:  "$councilor_ruler_female$"
+ 	councilor_ruler_auth_tec_ai_desc:  ""
+
+ 	councilor_ruler_auth_tec_ai_corporate:  "$councilor_ruler$"
+ 	councilor_ruler_auth_tec_ai_corporate_female:  "$councilor_ruler_female$"
+ 	councilor_ruler_auth_tec_ai_corporate_desc:  ""
+
+ 	councilor_ruler_auth_tec_hive_cybernetic:  "$councilor_ruler$"
+ 	councilor_ruler_auth_tec_hive_cybernetic_female:  "$councilor_ruler_female$"
+ 	councilor_ruler_auth_tec_hive_cybernetic_desc:  ""
+
+ 	councilor_ruler_auth_tec_hive_biological:  "$councilor_ruler$"
+ 	councilor_ruler_auth_tec_hive_biological_female:  "$councilor_ruler_female$"
+ 	councilor_ruler_auth_tec_hive_biological_desc:  ""
+ # /
+ # Other
+ 	councilor_tec_aiauth_ruler_desc:  "Узел искусственного интеллекта Правитель, вершина искусственного интеллекта, служит бессмертным архитектором процветания в нашей империи. Обладая непревзойденной мудростью и точностью вычислений, он направляет нашу цивилизацию к прогрессу, формируя будущее, определяемое знаниями, расширением и улучшением всех".
+
+ 	councilor_tec_aiauth_development:  "Основная программа развития"
+ 	councilor_tec_aiauth_development_female:  "$councilor_tec_aiauth_development$"
+ 	councilor_tec_aiauth_development_desc:  "Заполненная узлом искусственного интеллекта, основная программа разработки стимулирует исследования и расширение. Высвобождая беспрецедентные технологические достижения, они продвигают империю вперед благодаря стратегическому росту и новаторским открытиям".
+
+ 	councilor_tec_aiauth_firewall:  "Основная программа брандмауэра"
+ 	councilor_tec_aiauth_firewall_female:  "$councilor_tec_aiauth_firewall$"
+ 	councilor_tec_aiauth_firewall_desc:   "Главная программа брандмауэра, заполненная узлом искусственного интеллекта, обеспечивает оборону империи и внутреннюю стабильность. Они укрепляют границы, разрабатывают передовые оборонительные системы и поддерживают безопасность своих территорий. С непоколебимой бдительностью они защищают свои интересы от внешних угроз и обеспечивают благополучие своей империи изнутри".
+ # /
+ # Фальшивые имена советников
+ 	councilor_tec_aiauth_fragment_admiral:  "Узел искусственного интеллекта адмирала"
+ 	councilor_tec_aiauth_fragment_admiral_desc:   "Руководя нашим флотом с непревзойденным мастерством, узел искусственного интеллекта Адмирала обеспечивает наше господство в космосе".
+
+ 	councilor_tec_aiauth_fragment_general:  "Узел искусственного интеллекта Генерала"
+ 	councilor_tec_aiauth_fragment_general_desc:   "Узел искусственного интеллекта Генерала командует нашими наземными силами со стратегической точностью, обеспечивая победы на поверхности планет".
+
+ 	councilor_tec_aiauth_fragment_governor:  "Узел искусственного интеллекта Губернатора"
+ 	councilor_tec_aiauth_fragment_governor_desc:   "Узел искусственного интеллекта Губернатора осуществляет надзор за управлением и развитием, способствуя процветанию на каждой планете".
+
+ 	councilor_tec_aiauth_fragment_scientist:  "Узел искусственного интеллекта ученого"
+ 	councilor_tec_aiauth_fragment_scientist_desc:   "Узел искусственного интеллекта ученого является пионером исследований и технологических достижений, разгадывая тайны Вселенной".
+ # /
+# /
+
+# Modifiers
+
+ mod_councilor_defense_exp_gain:1  "$councilor_defense$ $exp_gain$"
+ mod_councilor_tec_aiauth_firewall_exp_gain:1  "$councilor_tec_aiauth_firewall$ $exp_gain$"
+
+
+

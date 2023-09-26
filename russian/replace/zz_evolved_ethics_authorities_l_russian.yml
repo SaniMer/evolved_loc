@@ -1,0 +1,1158 @@
+﻿l_russian: 
+
+# ------------------------------------------------------------
+#AUTHORITIES
+# ---------------------------------------------------------------
+	TEC_TAG_RESTRICTION_AUTH_TYPES: "§RОграничение полномочий:§!"
+	TEC_TAG_RESTRICTION_POLICY: "§RОграничение политики:§!"
+	TEC_TAG_RESTRICTION_MECHANIC: "§RОграничение механики:§!"
+	TEC_TAG_RESTRICTION_RIGHTS: "§RОграничение прав:§!"
+	TEC_TAG_PENALTY: "§RШтраф:§!"
+	TEC_TAG_BONUS_EDICT: "§HБонусный указ:§!"
+	TEC_TAG_BONUS_POLICY: "§HБонусная политика:§!"
+	TEC_TAG_BONUS_LIVING_STANDARD: "§HУровень жизни:§!"
+	TEC_TAG_BONUS_MECHANIC: "§HБонусная механика:§!"
+	TEC_TAG_BONUS: "§HБонус:§!"
+
+# Blocks tags
+
+	TEC_TAG_RESTRICTION_DEMOCRATIC_AUTH_TYPES: "$TEC_TAG_RESTRICTION_AUTH_TYPES$ Недоступна ['concept_tec_authority_type_democratic_type']."
+	TEC_TAG_RESTRICTION_DEMOCRATIC_OLIGARCHIC_AUTH_TYPES: "$TEC_TAG_RESTRICTION_AUTH_TYPES$ Недоступны ['concept_tec_authority_type_democratic'] и ['concept_tec_authority_type_oligarchic']"
+	TEC_TAG_RESTRICTION_AUTOCRATIC_AUTH_TYPES: "$TEC_TAG_RESTRICTION_AUTH_TYPES$ Недоступна ['concept_tec_authority_type_autocratic']."
+	TEC_TAG_RESTRICTION_AUTOCRATIC_OLIGARCHIC_AUTH_TYPES: "$TEC_TAG_RESTRICTION_AUTH_TYPES$ Недоступны ['concept_tec_authority_type_autocratic'] и ['concept_tec_authority_type_oligarchic']."
+	TEC_TAG_RESTRICTION_IMPERIAL_AUTH_TYPES: "$TEC_TAG_RESTRICTION_AUTH_TYPES$ Недоступна ['concept_tec_authority_type_imperial']."
+	TEC_TAG_RESTRICTION_CORPORATE_AUTH_TYPES: "$TEC_TAG_RESTRICTION_AUTH_TYPES$ Недоступна ['concept_tec_authority_type_corporate']."
+	TEC_ETHIC_REQUIRES_GESTALT_AUTH_TYPES: "$TEC_TAG_RESTRICTION_AUTH_TYPES$ Требуется ['concept_tec_authority_type_gestalt']."
+
+	CONDITION_TEC_ETHIC_NOT_BLOCKS_AUTOCRATIC_TYPE: "НЕ заблокирована §Y$concept_tec_authority_type_autocratic_type$§!"
+	CONDITION_TEC_ETHIC_NOT_BLOCKS_OLIGARCHIC_TYPE: "НЕ заблокирована §Y$concept_tec_authority_type_oligarchic_type$§!"
+	CONDITION_TEC_ETHIC_NOT_BLOCKS_DEMOCRATIC_TYPE: "НЕ заблокирована §Y$concept_tec_authority_type_democratic_type$§!"
+	CONDITION_TEC_ETHIC_NOT_BLOCKS_IMPERIAL_TYPE: "НЕ заблокирована §Y$concept_tec_authority_type_imperial_type$§!"
+	CONDITION_TEC_ETHIC_NOT_BLOCKS_DICTATORIAL_TYPE: "НЕ заблокирована §Y$concept_tec_authority_type_dictatorial_type$§!"
+	CONDITION_TEC_ETHIC_NOT_BLOCKS_CORPORATE_TYPE: "НЕ заблокирована §Y$concept_tec_authority_type_corporate_type$§!"
+	CONDITION_TEC_ETHIC_NOT_BLOCKS_AI_AUTH_TYPE: "НЕ заблокирована §Y$concept_tec_authority_type_ai_auth_type$§!"
+# / 
+
+
+	auth_direct_democratic:0 "Прямая демократия"
+	auth_direct_democratic_desc:0 "При непосредственном и активном участии людей в местном управлении и решении политических вопросов, общая бюрокартическая эффективность империи заметно растет."
+
+	TEC_AUTH_DIRECT_DEMOCRATIC_TYPES: "['concept_tec_authority_type_democratic_type']\n"
+	TEC_AUTHORITY_ELECTION_DIRECT_DEMOCRATIC:0 "§HТип выборов:§! Выборы нового правителя проводятся каждые §H5§! лет. Перевыборы не допускаются."
+	TEC_AUTH_DIRECT_DEMOCRATIC_RULER_MECHANIC:0 "§HУникальная механика:§!\nИзбранные правители получают §G2§! £mod_councilor_skill_add£ §Yуровня§! при первом избрании, §G1§! £mod_councilor_skill_add£ §Yуровень§! и §G+50%§! опыта во время своего законодательного собрания."
+
+	auth_democratic:0 "Демократия"
+	auth_democratic_desc:0 "Демократия позволяет проводить регулярные выборы, где все граждане могут голосовать за тех, кто должен будет представлять их интересы."
+
+	TEC_AUTH_DEMOCRATIC_TYPES: "['concept_tec_authority_type_democratic_type']\n"
+	TEC_AUTHORITY_ELECTION_DEMOCRATIC:0 "§HТип выборов:§! Выборы нового правителя проводятся каждые §H10§! лет. Перевыборы не допускаются."
+	TEC_AUTH_DEMOCRATIC_RULER_MECHANIC:0 "§HУникальная механика:§!\nИзбранные правители получают §G1§! £mod_councilor_skill_add£ §Yуровень§! при первом избрании, и §G+25%§! опыта во время своего законодательного собрания."
+
+	auth_democratic_tt:0 "Сбрасывает перезарядку реформирования правительства и политик, когда избирается новый $councilor_ruler_democratic$."
+
+	auth_oligarchic:0 "Олигархия"
+	auth_oligarchic_desc:0 "Олигархические правительства возглавляются небольшой группой индивидуумов, в руках которых сосредаточена вся политическая власть."
+
+	TEC_AUTH_OLIGARCHIC_TYPES: "['concept_tec_authority_type_oligarchic_type']\n"
+
+	auth_tec_theocracy:0 "Теократия"
+	auth_tec_theocracy_desc:0 "С целью охранения общества от распространения ереси, религиозные лидеры занимают значительную часть административных должностей; высшая власть признается прямым проявлением божества."
+
+	TEC_AUTH_THEOCRACY_TYPES: "['concept_tec_authority_type_autocratic'], ['concept_tec_authority_type_dictatorial_type']\n"
+
+	auth_dictatorial:0 "Диктатура"
+	auth_dictatorial_desc:0 "Диктаторские правительства возглавляются в течение всей жизни одним индивидуумом, который имеет в государстве абсолютную власть."
+
+	TEC_AUTH_DICTATORIAL_TYPES: "['concept_tec_authority_type_autocratic'], ['concept_tec_authority_type_dictatorial_type']\n"
+
+	auth_imperial:0 "Империализм"
+	auth_imperial_desc:0 "Империалистические правительства похожи на диктаторские, за исключением того, что после смерти правителя трон всегда переходит назначенному наследнику."
+
+	TEC_AUTH_IMPERIAL_TYPES: "['concept_tec_authority_type_autocratic'], ['concept_tec_authority_type_imperial_type']\n"
+
+	auth_corporate:0 "Корпорации"
+	auth_corporate_desc:0 "Корпоративные правительства организованы как массовое коммерческое предприятие, которое полностью взяло на себя роль государства."
+
+	TEC_AUTH_CORPORATE_TYPES: "['concept_tec_authority_type_oligarchic'], ['concept_tec_authority_type_corporate_type']\n"
+
+	auth_tec_patrocorporate:0 "Родовая корпорация"
+	auth_tec_patrocorporate_desc:0 "Этот тип правительства контролируется огромным коммерческим предприятием, принадлежащим семье с установленной линией наследования, состоящей в основном из потомков главного акционера, которое полностью взяло на себя роль государства."
+
+	TEC_AUTH_PATROCORPORATE_TYPES: "['concept_tec_authority_type_autocratic'], ['concept_tec_authority_type_imperial'], ['concept_tec_authority_type_corporate_type']\n"
+
+	auth_tec_ai:0 "Администрация ИИ"
+	auth_tec_ai_desc:0 "Это общество управляется не политическим корпусом, а постоянно развивающимся и эффективным искусственным интеллектом, состоящим из сложной вычислительной сети, контролирующей большинство его аспектов; несколько бюрократов и технократов назначаются на основе показателей производительности для выполнения основных задач в субадминистративных системах под постоянным наблюдением главного процессора."
+	TEC_AUTH_AI_TYPES: "['concept_tec_authority_type_ai_auth_type']\n"
+
+	TEC_AUTH_AI_RULER_REPLACE:0 "§HПравитель:§! Правитель заменен ['concept_tec_ai_node_icon'], бессмертной §Yмеханической единицей§!, которая не может получать опыт естественным путем, нуждаясь в ['concept_tec_sr_tec_ai_power'] для содержания и получения опыта\n\n"
+	TEC_AUTH_AI_RULER_JOBS_REPLACE:0 "§HЗамена вакансий:§! ['concept_tec_ruler_job_politician_plural_icon'] заменены на ['concept_tec_ruler_job_tec_ai_computator_plural_icon'] (или ['concept_tec_ruler_job_tec_ai_high_ordinator_plural_icon'] для §Yспиритуалистов§!)\n\n['concept_tec_building_bureaucratic_1_icon'] заменены на ['concept_tec_building_tec_aiauth_1_icon'], предоставляющие ['concept_tec_specialist_job_tec_ai_operator_plural_icon'] (или ['concept_tec_specialist_job_tec_ai_ordinator_plural_icon'] для §Yспиритуалистов§!)\n\n"
+	TEC_AUTH_AI_RULER_JOBS_MEGACORP_REPLACE:0 "§HЗамена вакансий:§! ['concept_tec_ruler_job_executive_plural_icon'] заменены на ['concept_tec_ruler_job_tec_ai_computator_megacorp_plural_icon'] (или ['concept_tec_ruler_job_tec_ai_high_ordinator_megacorp_plural_icon'] для §Yспиритуалистов§!)\n\n['concept_tec_building_bureaucratic_1_megacorp_icon'] заменены на ['concept_tec_building_tec_aiauth_1_icon'], предоставляющие ['concept_tec_specialist_job_tec_ai_operator_megacorp_plural_icon'] (или ['concept_tec_specialist_job_tec_ai_ordinator_megacorp_plural_icon'] для §Yспиритуалистов§!)\n\n"
+	TEC_AUTH_AI_LEADER_MECHANIC_BONUS:0 "§HУникальная механика:§! §Y$tec_loc_ai_ruler_node$§! может ['concept_tec_ai_fragment'] себя в §Y$tec_loc_ai_councilor_node$§! для заполнения должностей в совете. Аналогично, эти узлы ИИ потребляют §Y$tec_loc_sr_tec_ai_power$§! для содержания и опыта.\n\n§Y$tech_galactic_administration$§! позволит фрагментироваться в §Y$tec_loc_ai_planetary_node$§!, исполняющего роль губернатора, после строительства ['concept_tec_building_tec_planetary_node_center_icon']\n\n"
+
+	auth_tec_ai_corporate:0 "Корпорация ИИ"
+	auth_tec_ai_corporate_desc:0 "Эта мегакорпорация не управляется напрямую корпорацией генеральных директоров или руководителей предприятий, но контролируется и отслеживается сверхэффективным искусственным интеллектом, который использует часть транзакционной сети в качестве своей вычислительной способности, контролируя каждый экономический и жизненно важный аспект граждан и администрации; несколько бюрократов и технократов назначаются на основе показателей производительности для выполнения основных задач в субадминистративных системах под постоянным наблюдением главного процессора."
+	TEC_AUTH_AI_CORPORATE_TYPES: "['concept_tec_authority_type_ai_auth'], ['concept_tec_authority_type_corporate_type']\n"
+
+	auth_tec_hive_biological:0 "Биологический рой"
+	auth_tec_hive_biological_desc:0 "Это коллективное сознание сформировано объединением нескольких специализированных подвидов под единым разумом, генетическими данными и функциями, с большим фокусом на биологическую эволюцию, чем на технологическое развитие. Каждый трутень является продолжением основного сознания, живые и мыслящие клетки большего и расширяющегося тела, служащие заранее определенной цели с момента их создания и до их истечения."
+	TEC_AUTH_TEC_HIVE_BIOLOGICAL_TYPES: "['concept_tec_authority_type_gestalt'], ['concept_tec_authority_type_hive_type']\n"
+	AUTH_TEC_HIVE_BIO_DIFF_SET:0 "§RФОРМА ПРАВЛЕНИЯ ВРЕМЕННО ОТКЛЮЧЕНА§! §EЭта форма правления изменяет геймплей и построение визуальных эффектов.§!\n\n"
+	AUTH_TEC_HIVE_BIO_PRODUCTION_BONUS:0 "§EБонус сбора:§! £building£ Столица роя обеспечивает £mod_pop_growth_speed£ +§G2§!	сбор поселений.\n"
+	AUTH_TEC_HIVE_BIO_DISTRICT_BONUS:0 "§EБонус района:§! Каждый §H£district£ район чернорабочих§! получает §H1 дополнительную £job£ вакансию§!.\n" #Menial District
+	AUTH_TEC_HIVE_BIO_BUILDING_BONUS:0 "§EОсобая механика:§! На постройку £building£ сооружений расходуется $tec_loc_food$ и $tec_loc_minerals$, а на их содержание потребляется пища.\n"
+	#Can create £building£ §YBiomass Germinators§! which boost the planet $tec_loc_food$ production and converts £minerals£ £energy£ other resources into food.\n
+	AUTH_TEC_HIVE_BIO_ONLY_SPAWNING_POOLS:0 "§EОграничение:§! Доступен рост и сбор только £mod_pop_growth_speed£ §Hорганических дронов§!.\n"
+	AUTH_TEC_HIVE_BIO_FOREIGN_POP_SURVIVAL:1 "§EОграничение:§! £pop£ Посления без §Hколлективного разума§! должны быть ассимилированны, порабощены, уничтожены, если нет §Hэмпатии§!.\n"
+	AUTH_TEC_HIVE_BIO_AP_PATHS:1 "§EОграничение:§! §HКибернетическое§! или §Hрепликантское возвышение§! позволит заменить эту форму правления"
+
+
+	auth_hive_mind:0 "Коллективный разум"
+	auth_hive_mind_desc:1 "Коллективный разум действует скорее как единый организм, нежели как государство. Население не обладает свободой воли и служит продолжением самого коллективного разума, напоминая конечности у организма.\n\nЕсли их отрезать от коллективного разума, то эти трутни впадают в кому и в конце концов чахнут и умирают. Любые свободные личности на планетах, принадлежащих коллективному разуму, изгоняются, уничтожаются или просто становятся пищей для коллектива."
+	TEC_AUTH_HIVE_MIND_TYPES: "['concept_tec_authority_type_gestalt'], ['concept_tec_authority_type_hive_type']\n"
+	AUTH_HIVE_MIND_NEW_DISTRICT_BONUS:0 "§EБонус района:§! Каждый §H£district£ район чернорабочих§! получает §H1 дополнительную £job£ вакансию§!.\n\n" #Menial District
+	AUTH_HIVE_MIND_NEW_PRODUCTION_BONUS:0 "§EПроизводственный бонус:§! £unity£ §HЕдинство§! дроны предоставляют дополнительные £amenities_no_happiness£ §Hблага§! и £amenities_no_happiness£ §Hблага§!.\n\n"
+	#Authorities changes
+	AUTH_HIVE_MIND_DISTRICT_BONUS:0 "§EБонус районов:§! Каждый §H£district£ район чернорабочих§! получает §H1 дополнительную £job£ вакансию§!.\n\n"
+	AUTH_HIVE_MIND_PRODUCTION_BONUS:0 "§EПроизводственный бонус:§! Каждый дрон £unity£ §Hединства§! повышает производство дронов-чернорабочих на §H+1%§!.\n" #Each £unity£ §HUnity§! drone provides +§H1§!% Menial drone Output.
+
+	auth_tec_hive_cybernetic:0 "Кибернетический коллектив"
+	auth_tec_hive_cybernetic_desc:0 "Это коллективное сознание было сформировано в тот момент, когда кибернетически взаимосвязанная сеть миллиардов индивидуальных разумов обрела самосознание, разработав рудиментарные кибернетические имплантаты, которые в итоге преобразовали весь вид и превратили его общество в единый уникальный организм из плоти и стали; теперь их желание - расширить свой дар, и сопротивляться этому бесполезно."
+	TEC_AUTH_TEC_HIVE_CYBERNETIC_TYPES: "['concept_tec_authority_type_gestalt'], ['concept_tec_authority_type_hive_type']\n"
+	AUTH_TEC_HIVE_CYB_DIFF_SET:0 "§EЭта форма правления изменяет геймплей и построение визуальных эффектов.§!\n\n"
+	AUTH_TEC_HIVE_CYB_TRAIT_BONUS:0 "§EБонусный признак:§! £pops£ Поселения получают признаки §H$trait_hive_mind$§! и §H$trait_cybernetic$§!.\nНа §Eсодержание§! киборгов расходуются $tec_loc_energy$.\nПозволяет §Yассимилировать§! разумные биологические виды, делая их единным с коллективом.\n\n"
+	AUTH_TEC_HIVE_CYB_PRODUCTION_BONUS:0 "§EПроизводственный бонус:§! Каждый дрон £unity£ §Hединства§! повышает производство дронов-чернорабочих на §H+1%§!.\n" #Each £unity£ §HUnity§! drone provides +§H1§!% Menial drone Output.
+	#"§EProduction Mechanic:§! £pops£ Jobs are §EMore effective§! on planets with the £stability£ §YSame Designation§!.\n\n"
+	AUTH_TEC_HIVE_CYB_FOREIGN_POP_SURVIVAL:1 "§EОграничение:§! £pop£ Посления без §Hколлективного разума§! должны быть ассимилированны, порабощены, уничтожены, если нет §Hэмпатии§!.\n"
+	AUTH_TEC_HIVE_CYB_NO_SPAWNING_POOLS:1 "§EОграничение:§! Запрещено использовать £mod_pop_growth_speed£ §Hрезервуары для выведения§!. Технологии, связанные с роботами, имеют §Hвысокий§! шанс появления.\n"
+	AUTH_TEC_HIVE_CYB_AP_PATHS:1 "§EОграничение:§! §HБиологическое§! или §Hрепликантское возвышение§! позволит заменить эту форму правления."
+
+	auth_machine_intelligence:0 "Машинный разум"
+	auth_machine_intelligence_desc:1 "Машинный разум — это огромный искусственный групповой разум, объединенный в единую сознательную сущность. Большая часть фактического «населения» в таком государстве состоит из бездумных рабочих единиц, которые выполняют поставленные им задачи без всякого намека на свободу воли.\n\nНебольшое количество полуавтономных агентов обычно используется для более специализированных задач, требующих некоторой самостоятельной инициативы."
+	TEC_AUTH_MACHINE_INTELLIGENCE_TYPES: "['concept_tec_authority_type_gestalt'], ['concept_tec_authority_type_machine_type']\n"
+	AUTH_MACHINE_DISTRICT_BONUS:0 "§EБонус районов:§! Каждый §H£district£ район чернорабочих§! получает §H1 дополнительное £housing£ жилье§!\n\n"
+	AUTH_MACHINE_PRODUCTIVE_BONUS:0 "§EБонусная механика:§! Столицы обеспечивают £job_tec_prime_drone£ §H$job_tec_prime_drone$§!, который масштабируется с развитием планеты.\nНа обычных мирах можно создавать §Hспециализированные £building£ столицы§!, которые позволяет §Hавтоматизировать§! рабочие планеты или §Hцентрализованные§! колонии с повышенной производительностью комплексных дронов.\n\n"
+	AUTH_MACHINE_TEC_PROCESSCAP:0 "Дроны производят и потребляют £sr_tec_machine_processing_empire£ §Y$sr_tec_machine_processing_empire$§!; $sr_tec_machine_processing_empire$, при недостатке, приведет к §Yухудшению производства§!, в то время как избыток можно использовать через §Hполитику§! и §Hуказы§!, или можно §Hперенаправить§!, что значительно увеличит производство колонии."
+	
+    auth_tec_machine_consensus:0 "Синтетический консенсус"
+	auth_tec_machine_consensus_desc:1 "Синтетический консенсус состоит из нескольких совместно работающих продвинутых интеллектуальных систем роя, согласующих различные аспекты псевдоискусственных сетей, сотрудничающих для достижения взаимного консенсуса относительно всех разработок, решений и протоколов, увековечиваемых и поддерживаемых индивидуально для каждой группы. Большая часть "населения" в такой империи состоит из отдельных платформ с уникальными программами, выполняющими заранее определенные задачи в соответствии с их эффективностью и согласованным программированием.\n\nБолее продвинутые платформы с более высокой загрузкой программ служат автономными и независимыми агентами, работающими над проявлением воли коллектива."
+	TEC_AUTH_TEC_MACHINE_CONSENSUS_TYPES: "['concept_tec_authority_type_gestalt'], ['concept_tec_authority_type_machine_type']\n"
+	TEC_MACHINE_CONSENSUS_FACTIONS:0 "§EМеханический бонус:§! Эта империя порождает фракции, КОТОРЫЕ ДОЛЖНЫ ДЕЛАТЬ."
+
+
+	auth_ancient_machine_intelligence:0 "Древний машинный разум"
+	auth_ancient_machine_intelligence_desc:0 ""
+	TEC_AUTH_ANCIENT_MACHINE_INTELLIGENCE_TYPES: "['concept_tec_authority_type_gestalt'], ['concept_tec_authority_type_machine_type']\n"
+
+
+
+
+
+
+
+
+	#OLD AUTH_MACHINE_DISTRICT_BONUS:0 "§EБонус районов:§! Каждые 2 рабочих £district£ района той же категории §Hпредоставляют 1 дополнительное £housing£ жилье§!.\n\n"
+
+	TEC_PLURALIST_ETHIC_ALLOWS_UTOPIA:0 "§EКомбинация с §Hплюрализмом§! разрешает §Hутопический§! уровень жизни§!§!"
+	TEC_ELITIST_ETHIC_ALLOWS_STRATIFIED:0 "§EКомбинация с §Hэлитаризмом§! разрешает уровень жизни со §Hстратифицированной экономикой§!§!"
+	TEC_COLLECT_ETHIC_ALLOWS_UTOPIA:0 "§EКомбинация с §Hсоциализмом§! разрешает §Hутопический§! уровень жизни§!§!"
+	TEC_INDIVID_ETHIC_ALLOWS_STRATIFIED:0 "§EКомбинация с §Hкапитализмом§! разрешает уровень жизни со §Hстратифицированной экономикой§!§!"
+
+	TEC_ETHIC_ALLOWS_STRATIFIED:0 "§EРазрешен уровень жизни со §Hстратифицированной экономикой§!§!"
+
+# ---------------------------------------------------------------
+# ETHICS
+# ---------------------------------------------------------------
+ # Misc
+	TEC_TAG_JUMP:0 "\n"
+	TEC_TAG_CUSTOMIZABLE:0 "§E£system£ Данный принцип можно §Hнастроить§! с помощью ['concept_tec_ethic_policy']§!\n\n"
+ # /
+ # Vanilla
+	# Note: Overwrote to adjust some values and small loc things
+	# Egal
+	ethic_egalitarian:0 "Эгалитаризм"
+	ethic_egalitarian_plural:0 "Эгалитаристы"
+	ethic_egalitarian_minor:0 "эгалитарную"
+	ethic_egalitarian_minor_plural:0 "эгалитаристы"
+	ethic_egalitarian_adj:0 "Эгалитаризм"
+	ethic_egalitarian_adj_minor:0 "эгалитаризм"
+	ethic_egalitarian_desc:1 "§L$ethic_egalitarian_plural$ нацелены на сохранение и обеспечение демократических ценностей и личной власти над государственным контролем, при этом граждане непосредственно вовлечены в процесс управления и принятия решений через механизмы политического представительства и участия.§!\n"
+ 
+	ethic_fanatic_egalitarian:0 "Фанатичный эгалитаризм"
+	ethic_fanatic_egalitarian_plural:0 "Фанатичные эгалитаристы"
+	ethic_fanatic_egalitarian_desc:1 "§L$ethic_fanatic_egalitarian_plural$ стремятся к уменьшению центральной бюрократической власти и максимальной политической автономии в позиции самоуправления и определения, через общественные демократические процессы.§!\n"
+
+	civic_tooltip_egalitarian:0 "Форма §Y$ethic_egalitarian$а§!"
+	civic_tooltip_not_egalitarian:0 "Не §Y$ethic_egalitarian$§!"
+
+	TEC_TAG_EGALITARIAN_BONUS_LIVING_STANDARD_UTOPIAN:0 "$TEC_TAG_BONUS_LIVING_STANDARD$ Разрешен уровень жизни ['concept_tec_living_standard_utopian_alias_icon']"
+	TEC_TAG_EGALITARIAN_BONUS_EDICT:0 "$TEC_TAG_BONUS_EDICT$ Доступен указ ['concept_tec_edict_encourage_free_thought_alias_icon']"
+	TEC_TAG_EGALITARIAN_BONUS_MECHANIC:0 "$TEC_TAG_BONUS_MECHANIC$ TO DO"
+
+	# Auth
+	ethic_authoritarian:1 "Авторитаризм"
+	ethic_authoritarian_plural:0 "Авторитаристы"
+	ethic_authoritarian_minor:0 "авторитарный"
+	ethic_authoritarian_minor_plural:0 "авторитаристы"
+	ethic_authoritarian_adj:0 "Авторитаризм"
+	ethic_authoritarian_adj_minor:0 "авторитаризм"
+	ethic_authoritarian_desc:1 "§LКрепкая направляющая рука необходима для прогресса любой цивилизации, иначе будут анархия и хаос. В обязанности государства входит вести своих граждан по пути, который является наиболее продуктивным.§!\n"
+
+	ethic_fanatic_authoritarian:0 "Фанатичный авторитаризм"
+	ethic_fanatic_authoritarian_desc:1 "§LОдин голос, один трон, одно государство. Торжественной обязанностью народных масс является подчинение тем немногим просвещенным, на которых возложена большая ответственность руководить.§!\n"
+ 
+	civic_tooltip_authoritarian:0 "Форма §Y$ethic_authoritarian$а§!"
+	civic_tooltip_not_authoritarian:0 "Не §Y$ethic_authoritarian$§!"
+
+
+	TEC_TAG_AUTHORITARIAN_BONUS_POLICY_SLAVERY: "$TEC_TAG_BONUS_POLICY$ Можно использовать политику ['concept_tec_policy_option_slavery_allowed_alias_icon']"
+	TEC_TAG_AUTHORITARIAN_BONUS_LIVING_STANDARD_STRATIFIED:0 "$TEC_TAG_BONUS_LIVING_STANDARD$ Разрешен уровень жизни ['concept_tec_living_standard_stratified_alias_icon']"
+	TEC_TAG_AUTHORITARIAN_BONUS_EDICT:0 "$TEC_TAG_BONUS_EDICT$ Доступен указ ['concept_tec_edict_information_quarantine_alias_icon']"
+	TEC_ETHIC_AUTHORITARIAN_MECHANIC:0 "$TEC_TAG_BONUS_MECHANIC$ TO DO"
+
+	# Phno_retreat_doctrineobe
+	ethic_xenophobe:0 "Ксенофобия"
+	ethic_xenophobe_plural:0 "Ксенофобы"
+	ethic_xenophobe_minor:0 "ксенофоб"
+	ethic_xenophobe_minor_plural:0 "ксенофобы"
+	ethic_xenophobe_adj:0 "Ксенофобия"
+	ethic_xenophobe_adj_minor:0 "ксенофобия"
+	tec_xenophobic:0 "Ксенофобия"
+	ethic_xenophobe_desc:1 "§LСтавки никогда не были так высоки, как сейчас, когда мы шагнули в бескрайние неизведанные просторы галактики. На кону стоит само существование нашей расы! Чужакам нельзя верить. За их фальшивой улыбкой скрываются непостижимые замыслы...§!\n"
+
+	ethic_fanatic_xenophobe:0 "Фанатичная ксенофобия"
+	ethic_fanatic_xenophobe_desc:1 "§LЛюбое влияние чужаков должно искореняться без жалости. Только оставаясь чистыми и верными себе и планете, давшей нам жизнь, мы сможем защитить себя от их козней. Даже власть над чужаками — недостаточная гарантия нашей безопасности...§!\n"
+
+	TEC_ETHIC_NEVER_ALIEN_CITIZENSHIP_OR_SERVICE_OR_REFUGEES:0 "§EДля чужаков невозможны §Hполноправное гражданство§!, §Hвоенная служба§! или быть принятыми §Hбеженцами§!§!"
+
+	TEC_TAG_XENOPHOBE_RESTRICTION_POLICY_REFUGEES: "$TEC_TAG_RESTRICTION_POLICY$ Нельзя использовать политику ['concept_tec_policy_option_refugees_allowed_alias_icon']"
+	TEC_TAG_XENOPHOBE_RESTRICTION_RIGHTS_CITIZENSHIP_AND_MILITARY: "$TEC_TAG_RESTRICTION_RIGHTS$ Для чужаков невозможно ['concept_tec_right_option_citizenship_full_alias_icon'] и ['concept_tec_right_option_military_service_full_alias_icon']"
+	TEC_TAG_XENOPHOBE_PENALTY_OPINION: "$TEC_TAG_PENALTY$ Ухудшенное §Hотношение§! к другим расам"
+
+	TEC_TAG_XENOPHOBE_BONUS_POLICY_SLAVERY_PURGE: "$TEC_TAG_BONUS_POLICY$ Можно использовать политики ['concept_tec_policy_option_slavery_allowed_alias_icon'] и ['concept_tec_policy_option_purge_allowed_alias_icon']"
+	TEC_TAG_XENOPHOBE_BONUS_EDICT:0 "$TEC_TAG_BONUS_EDICT$ Доступен указ ['concept_tec_edict_fear_campaign_alias_icon']"
+	TEC_TAG_XENOPHOBE_BONUS_MECHANIC:0 "$TEC_TAG_BONUS_MECHANIC$ TO DO"
+
+	# Phile
+	ethic_xenophile:0 "Ксенофилия"
+	ethic_xenophile_plural:0 "Ксенофилы"
+	ethic_xenophile_minor:0 "ксенофилы"
+	ethic_xenophile_minor_plural:0 "ксенофилы"
+	ethic_xenophile_adj:0 "Ксенофилия"
+	ethic_xenophile_adj_minor:0 "ксенофилия"
+	ethic_xenophile_desc:0 "§LВ каждом из нас есть трепет перед неизведанным. Дух приключений, что отвергает привычное и упивается незнакомым, чем или кем бы оно ни являлось.§!\n"
+
+	ethic_fanatic_xenophile:0 "Фанатичная ксенофилия"
+	ethic_fanatic_xenophile_desc:0 "§LБудь на свете такая штука, как главный моральный императив, он бы предписывал изучать космос и приветствовать все, что в нем есть. Мы должны путешествовать вместе.§!\n"
+
+	TEC_ETHIC_NO_SLAVERY_OR_DISPLACE:0 "§EНельзя §Hпорабощать§! или §Hочищать§! другие расы§!"
+
+	TEC_TAG_XENOPHILE_RESTRICTION_POLICY_NO_REFUGEES_NO_DISPLACE: "$TEC_TAG_RESTRICTION_POLICY$ Нельзя использовать политики ['concept_tec_policy_option_refugees_not_allowed_alias_icon'] и ['concept_tec_policy_option_purge_displacement_only_alias_icon']"
+	TEC_TAG_XENOPHILE_RESTRICTION_RIGHTS_CITIZENSHIP_SLAVERY: "$TEC_TAG_RESTRICTION_RIGHTS$ Запрещены ['concept_tec_right_option_citizenship_slavery_alias_icon']"
+
+	TEC_TAG_XENOPHILE_BONUS_EDICT:0 "$TEC_TAG_BONUS_EDICT$ Доступен указ ['concept_tec_edict_land_of_opportunity_alias_icon']"
+	TEC_TAG_XENOPHILE_BONUS_MECHANIC:0 "$TEC_TAG_BONUS_MECHANIC$ TO DO"
+	TEC_TAG_XENOPHILE_BONUS_OPINION: "$TEC_TAG_BONUS$ Улучшенное §Hотношение§! к другим расам"  
+
+
+	# Mil
+	ethic_militarist:0 "Милитаризм"
+	ethic_militarist_plural:0 "Милитаристы"
+	ethic_militarist_minor:0 "милитарист"
+	ethic_militarist_minor_plural:0 "милитаристы"
+	ethic_militarist_adj:0 "Милитаризм"
+	ethic_militarist_adj_minor:0 "милитаризм"
+	ethic_militarist_desc:1 "§LЕсть только две истинных добродетели — отвага и дисциплина, и если применять их умело, они преодолеют любую преграду. В этом — истинная сила: натиск сдержан, клятва исполнена.§!\n"
+
+	ethic_fanatic_militarist:0 "Фанатичный милитаризм"
+	ethic_fanatic_militarist_desc:1 "§LСпособность показать силу — важнее всего. Единственный способ сохранить наш уклад жизни — заставить других разделить его с нами, хотят они того или нет.§!\n"
+
+	TEC_TAG_FANATIC_MATERIALIST_RESTRICTION_POLICY_NO_WAR: "$TEC_TAG_RESTRICTION_POLICY$ Нельзя использовать политику ['concept_tec_policy_option_no_wars_alias_icon']"
+
+	TEC_TAG_MILITARIST_BONUS_POLICY_NO_RETREAT: "$TEC_TAG_BONUS_POLICY$ Можно использовать политику ['concept_tec_policy_option_no_retreat_doctrine_alias_icon']"
+	TEC_TAG_MILITARIST_BONUS_EDICT:0 "$TEC_TAG_BONUS_EDICT$ Доступен указ ['concept_tec_edict_tec_doing_your_part_alias_icon']"
+	TEC_TAG_MILITARIST_BONUS_MECHANIC:0 "$TEC_TAG_BONUS_MECHANIC$ Постройка £mod_country_naval_cap_add£ §Yвоенных кораблей§! даст §Y$tec_loc_unity$§! на основе типа корабля"
+
+	edict_tec_militarist_edict:0 "Отдавая долг"
+	edict_tec_militarist_edict_desc:0 "§EУказ милитаризма§!\n\nКаждый должен быть готов служить нашему делу, когда придет время, они станут либо частью наших армад, либо помогут их улучшить."
+
+	# Pacif
+	ethic_pacifist:0 "Пацифизм"
+	ethic_pacifist_plural:0 "Пацифисты"
+	ethic_pacifist_minor:0 "пацифист"
+	ethic_pacifist_minor_plural:0 "пацифисты"
+	ethic_pacifist_adj:0 "Пацифизм"
+	ethic_pacifist_adj_minor:0 "пацифизм"
+	ethic_pacifist_desc:0 "§LКонфликт как средство достижения цели — глупая идея. Он разрушителен по своей природе и либо уничтожает то, что можно было получить, либо дает почву для роста тому, что следовало уничтожить; мы должны оставаться вместе, продвигаясь к процветающему будущему.§!\n"
+
+	ethic_fanatic_pacifist:0 "Фанатичный пацифизм"
+	ethic_fanatic_pacifist_desc:0 "§LМы — цивилизованные существа, и мы должны сделать все, чтобы положить конец войнам. Война — эволюционный тупик, она бесполезна и расточительна.§!\n"
+
+	TEC_TAG_PACIFIST_RESTRICTION_POLICY_RESTRICTED_WARS: "$TEC_TAG_RESTRICTION_POLICY$ Нельзя использовать политику ['concept_tec_policy_option_unrestricted_wars_alias_icon']"
+	TEC_TAG_FANATIC_PACIFIST_RESTRICTION_POLICY_FORCE_NO_WARS: "$TEC_TAG_RESTRICTION_POLICY$ Необходимо использовать политику ['concept_tec_policy_option_no_wars_alias_icon']"
+	TEC_TAG_PACIFIST_RESTRICTION_POLICY_INDISCRIMINATE: "$TEC_TAG_RESTRICTION_POLICY$ Нельзя использовать политику ['concept_tec_policy_option_orbital_bombardment_indiscriminate_alias_icon']"
+
+	TEC_TAG_PACIFIST_BONUS_EDICT:0 "$TEC_TAG_BONUS_EDICT$ Доступен указ ['concept_tec_edict_peace_festivals_alias_icon']"
+	TEC_ETHIC_PACIFIST_MECHANIC:0 "$TEC_TAG_BONUS_MECHANIC$ Открывает планетраное решение £planet£ ['concept_tec_ethic_pacifist_mechanic_festivals']"
+
+	# Spi
+	ethic_spiritualist:0 "Спиритуализм"
+	ethic_spiritualist_plural:0 "Спиритуалисты"
+	ethic_spiritualist_minor:0 "спиритуалист"
+	ethic_spiritualist_minor_plural:0 "спиритуалисты"
+	ethic_spiritualist_adj:0 "Спиритуализм"
+	ethic_spiritualist_adj_minor:0 "спиритуализм"
+	ethic_spiritualist_desc:1 "§LНекоторые считают, что нам надлежит знать свое место: помнить, как малы мы и как мимолетны наши жизни в этой огромной безразличной вселенной... Что за чушь! Наше существование есть единственная истина. Вселенная же, во всем своем великолепии, — лишь сон, который нам дано разделить.§!\n"
+
+	ethic_fanatic_spiritualist:0 "Фанатичный спиритуализм"
+	ethic_fanatic_spiritualist_desc:0 "§LНаша наука доказала, что реальность есть порождение сознания. В наши основные ценности входит доказывать божественное в жизни, в традициях, в самой нашей вере.§!\n"
+
+	TEC_TAG_SPIRITUALIST_RESTRICTION_POLICY_AI_FULL_RIGHTS:0 "$TEC_TAG_RESTRICTION_POLICY$ Нельзя использовать политику ['concept_tec_policy_option_ai_full_rights_alias_icon']"
+
+	TEC_TAG_SPIRITUALIST_BONUS_EDICT:0 "$TEC_TAG_BONUS_EDICT$ Доступен указ ['concept_tec_edict_veneration_of_saints_alias_icon']"
+	TEC_TAG_SPIRITUALIST_BONUS_MECHANIC_TEMPLES:0 "$TEC_TAG_BONUS_MECHANIC$ Может строить ['concept_tec_ethic_building_temple'] на планетах, а также §EАркологии веры§! на ['concept_tec_ecumenopoleis']"
+
+	# Mat
+	ethic_materialist:0 "Материализм"
+	ethic_materialist_plural:0 "Материалисты"
+	ethic_materialist_minor:0 "материалист"
+	ethic_materialist_minor_plural:0 "материалисты"
+	ethic_materialist_adj:0 "Материализм"
+	ethic_materialist_adj_minor:0 "материализм"
+	ethic_materialist_desc:0 "§LСтремясь к звездам, мы должны забыть про детские глупости — богов, духов и прочие порождения фантазии. Реальность жестока и не прощает ошибок, а потому мы должны стать сильнее и обеспечить выживание нашей расы через непрерывное развитие науки и технологий.§!\n"
+
+	ethic_fanatic_materialist:0 "Фанатичный материализм"
+	ethic_fanatic_materialist_desc:0 "§LПусть это больно, но мы должны вырасти и оставить устаревшие представления о морали позади. Нет никакой «божественной искры», придающей особую ценность мыслящему существу. Ни один объект не имеет иной ценности, кроме той, которой мы решаем его наделить. Примем же свободу неизбежности и достигнем максимальной эффективности во всем!§!\n"
+
+	TEC_TAG_MATERIALIST_RESTRICTION_POLICY_AI_OUTLAWED_ROBOT_POPS_ALLOWED:0 "$TEC_TAG_RESTRICTION_POLICY$ Нельзя использовать политику ['concept_tec_policy_option_ai_outlawed_alias_icon'] или ['concept_tec_policy_option_robot_pops_outlawed_alias_icon']"
+
+	TEC_TAG_MATERIALIST_BONUS_POLICY_TRADE: "$TEC_TAG_BONUS_POLICY$: Можно использовать политику ['concept_tec_policy_option_trade_policy_innovation_alias_icon']"
+	TEC_TAG_MATERIALIST_BONUS_LIVING_STANDARD_ACADEMIC:0 "$TEC_TAG_BONUS_LIVING_STANDARD$ Разрешен уровень жизни ['concept_tec_living_standard_academic_privilege_alias_icon']"
+	TEC_TAG_MATERIALIST_BONUS_EDICT:0 "$TEC_TAG_BONUS_EDICT$ Доступен указ ['concept_tec_edict_tec_technological_funding_alias_icon']"
+	TEC_TAG_MATERIALIST_BONUS_MECHANIC:0 "$TEC_TAG_BONUS_MECHANIC$ Можно строить ['concept_tec_ethic_building_experimental_labs']"
+
+	edict_tec_materialist_edict:0 "Научные субсидии"
+	edict_tec_materialist_edict_desc:0 "§EУказ материализма§!\n\nНаука - это истинный путь вперед, открытие новых технологий - это обязанность, которую мы должны вознаграждать соответствующим образом."
+
+ # /
+ # Evolved
+	# Coop
+	ethic_socialism:0 "Социализм"
+	ethic_socialism_plural:0 "Социалисты"
+	ethic_socialism_minor:0 "социалист"
+	ethic_socialism_minor_plural:0 "социалисты"
+	ethic_socialism_adj:0 "Социализм"
+	ethic_socialism_adj_minor:0 "социализм"
+	ethic_socialism_desc:0 "§LРабота в команде - двигатель прогресса. Работая бок о бок, мы становимся чем-то большим, чем просто сумма: единым живым организмом, каждый из нас - клетка. Прилежно выполнять поставленные перед нами задачи - это все, что от нас требуется; вносить вклад в общее благо - это все, что мы требуем от себя.§!\n"
+
+	ethic_fanatic_socialism:0 "Фанатичный социализм"
+	ethic_fanatic_socialism_desc:0 "§LНет большего императива, чем призыв найти свое место в великом труде, отдать себя, разделить общий плод. Эгоистичное накопление богатства, земли или машин - это симптомы опухоли в теле политики. Напротив, именно бремя, которое мы разделяем, заботясь о молодых, старых и больных, вместе делает нас сильными, вместе делает нас едиными.§!\n"
+
+	TEC_ETHIC_ALLOWS_SOCIAL_WORKERS_EDICT:0 "В этой империи не бывает §E£default£ §Hбезработных§!. Вместо этого они становятся £job_tec_social_worker£ социальными работниками, которые предоставляют £amenities£ £trade_value£ £unity£ различные ресурсы в зависимости от категории планеты.§!"
+	TEC_ETHIC_ALLOWS_SOCIAL_STATE_EDICT:0 "§EОткрывает указ §HСоциальное государство§!§!"
+
+	TEC_TAG_COOPERATIVE_BONUS_LIVING_STANDARD_UTOPIAN:0 "$TEC_TAG_BONUS_LIVING_STANDARD$ Разрешен уровень жизни ['concept_tec_living_standard_utopian_alias_icon']"
+	TEC_TAG_COOPERATIVE_BONUS_POLICY_TRADE:0 "$TEC_TAG_BONUS_POLICY$ Можно использовать политику ['concept_tec_policy_option_trade_policy_social_alias_icon']"
+	TEC_TAG_COOPERATIVE_BONUS_EDICT:0 "$TEC_TAG_BONUS_EDICT$ Доступен указ ['concept_tec_edict_tec_social_benefits_alias_icon']"
+	TEC_TAG_COOPERATIVE_BONUS_MECHANIC_PUBLIC_WORKERS:0 "$TEC_TAG_BONUS_MECHANIC$ Неработающие поселения становятся §Yобщественными работниками§!, которые превращают §Y$tec_loc_amenities$§! в §Y$tec_loc_unity$§! и не стадают от уровня §Y$tec_loc_happiness$§!, а также получают бонусы по безработице от уровня жизни"
+
+	# Comp
+	ethic_capitalism:0 "Капитализм"
+	ethic_capitalism_plural:0 "Капиталисты"
+	ethic_capitalism_minor:0 "капиталист"
+	ethic_capitalism_minor_plural:0 "капиталисты"
+	ethic_capitalism_adj:0 "Капитализм"
+	ethic_capitalism_adj_minor:0 "капитализм"
+	ethic_capitalism_desc:1 "§LЛичные амбиции - двигатель прогресса. Желание стать лучше, стремление к совершенному - все это и привело нас на порог освоения безграничного Космоса. Мы должны продолжать защищать с таким трудом завоеванные свободы самовыражения от иррациональных страхов конформистов, и никогда не позволять гению сдерживаться родовым духом.§!\n"
+
+	ethic_fanatic_capitalism:0 "Фанатичный капитализм"
+	ethic_fanatic_capitalism_desc:1 "§LНет большего императива, чем желание превосходства, накопления и реинвестирования. От столкновения амбиций появляется великое богатство, которое приводит к появлению еще больших амбиций. Колесо вращается, сминая непригодных, но возвышая лучших. Мы знаем - и показываем - что то, что лучше для лучших из нас, в конечном итоге хорошо для всех нас.§!\n"
+
+	TEC_ETHIC_INDIVIDUALIST_BUILDINGS:0 "§EМожет строить £building£ §Hсооружения предпринимателей§!, менее эффективные зато дешевые рабочие альтернативы некоторым специализированным сооружениям§!"
+
+	TEC_TAG_COMPETITIVE_BONUS_LIVING_STANDARD_STRATIFIED:0 "$TEC_TAG_BONUS_LIVING_STANDARD$ Разрешен уровень жизни ['concept_tec_living_standard_stratified_alias_icon']"
+	TEC_TAG_COMPETITIVE_BONUS_EDICT:0 "$TEC_TAG_BONUS_EDICT$ Доступен указ ['concept_tec_edict_tec_market_funding_alias_icon']"
+	TEC_TAG_COMPETITIVE_BONUS_MECHANIC_ENTREPRENEUR:0 "$TEC_TAG_BONUS_MECHANIC$ Может строить £building£ ['concept_tec_ethic_building_entrepreneur'] на планетах"
+
+	edict_tec_competitive_edict:0 "Финансирование рынка"
+	edict_tec_competitive_edict_desc:0 "§EУказ капитализма§!\n\nПостоянные скачки притока и кривые роста указывают на то, что нам необходимо должным образом финансировать производство на местном рынке."
+
+	# Ecologist
+	ethic_green:0 "Экологизм"
+	ethic_green_plural:0 "Экологи"
+	ethic_green_minor:0 "эколог"
+	ethic_green_minor_plural:0 "экологи"
+	ethic_green_adj:0 "Экологизм"
+	ethic_green_adj_minor:0 "экологизм"
+	ethic_green_desc:1 "§LИстинные ценности планеты заключаются в ее природных ресурсах: атмосфере, флоре и фауне, ландшафте. Наш успех до сих пор заключается в нашей способности сохранять и поддерживать эти активы и в то же время извлекать из них экономическую и социальную выгоду. Эти биологические системы являются основным богатством любой цивилизации, и нам хорошо бы помнить об этом.§!\n"
+ 
+	ethic_fanatic_green:0 "Фанатичный экологизм"
+	ethic_fanatic_green_desc:1 "§LНаши музыканты не могут сочинить столь же глубокую мелодию, как песни диких животных и шепот деревьев. Наши художники не могут передать невыразимое величие горных вершин, уединенных озер или огромных пещер. По замыслу или по воле случая мы родились во вселенной с трансцендентной природной красотой.§!\n"
+
+	TEC_ETHIC_ALLOWS_FOOD_CG:0 "§EМожно использовать §Hполитику§! §Hэкологических§! £consumer_goods£ товаров массового спроса§!"
+	TEC_ETHIC_FORBIDS_INDUSTRIAL_CG:0 "§EНельзя использовать §Hполитику§! §Hпромышленных§! £consumer_goods£ товаров массового спроса§!"
+	TEC_FREE_ECOWORLDS:0 "§EМожет создавать ['concept_tec_ecoworlds'] без бонуса за стремление §YГосподство над природой§!.§!"
+	TEC_FORBIDS_ECUMENOPOLIS:0 "§EНе может создавать ['concept_tec_ecumenopoleis'].§!"
+	TEC_FORBIDS_ECOWORLDS:0 "§EНе может создавать ['concept_tec_ecoworlds'].§!"
+
+	TEC_TAG_FANATIC_ECOLOGIST_RESTRICTION_MECHANIC_ECUMENOPOLIS:0 "$TEC_TAG_RESTRICTION_MECHANIC$ Не может создавать ['concept_tec_ecumenopoleis']"
+	TEC_TAG_FANATIC_ECOLOGIST_RESTRICTION_POLICY_CG_MINERALS:0 "$TEC_TAG_RESTRICTION_POLICY$ Нельзя использовать политику ['concept_tec_policy_option_consumer_goods_minerals_alias_icon']"
+
+	#TEC_ETHIC_ECOLOGIST_LIVING_STANDARD:0 "$TEC_TAG_BONUS_LIVING_STANDARD$ Разрешен уровень жизни ['concept_tec_living_standard_stratified_alias_icon']"
+	TEC_TAG_ECOLOGIST_BONUS_POLICY_TRADE_AND_CG_FOOD:0 "$TEC_TAG_BONUS_POLICY$ Можно использовать политики ['concept_tec_policy_option_trade_policy_food_alias_icon']  и ['concept_tec_policy_option_consumer_goods_food_alias_icon']"
+	TEC_TAG_ECOLOGIST_BONUS_EDICT:0 "$TEC_TAG_BONUS_EDICT$ Доступен указ ['concept_tec_edict_tec_nature_bond_alias_icon']"
+	TEC_TAG_ECOLOGIST_BONUS_MECHANIC_EARLY_ECOWORLD:0 "$TEC_TAG_BONUS_MECHANIC$ Может создавать ['concept_tec_ecoworlds']. Требуется бонус за стремление §YГосподство над природой§! для дальнейшей специализации этих миров"
+	TEC_TAG_ECOLOGIST_BONUS_MECHANIC_ECOWORLD:0 "$TEC_TAG_BONUS_MECHANIC$ Может создавать и специализировать ['concept_tec_ecoworlds'] без бонуса за стремление §HГосподство над природой§!"
+
+	# Industrial
+	ethic_industrial:0 "Индустриализм"
+	ethic_industrial_plural:0 "Индустриалисты"
+	ethic_industrial_minor:0 "индустриалист"
+	ethic_industrial_minor_plural:0 "индустриалисты"
+	ethic_industrial_adj:0 "Индустриализм"
+	ethic_industrial_adj_minor:0 "индустриализм"
+	ethic_industrial_desc:1 "§LБыстрое и эффективное развитие инфраструктуры является фундаментальной необходимостью в любом цивилизованном обществе. Для обеспечения будущего экономического процветания необходимо уделять особое внимание нашим рабочим. Какие бы затраты мы ни понесли, это небольшая цена за будущее, в котором мы уверены.§!\n"
+
+	ethic_fanatic_industrial:0 "Фанатичный индустриализм"
+	ethic_fanatic_industrial_desc:1 "§LБлагодаря нашим изобретениям мы способны поднять цивилизацию из пыли и подчинить силы природы к своей воле. По нашему приказу планеты отдают свои богатства, а великолепные фабрики их поглощают. Эту силу необходимо использовать, и с ее помощью мы переделаем галактику по своему образу и подобию.§!\n"
+
+	TEC_ETHIC_ALLOWS_MINING_SUB:0 "§EРазрешает £trade_value£ торговую §Hполитику§! §HШахтерские субсидии§!§!"
+
+	#TEC_ETHIC_INDUSTRIALIST_LIVING_STANDARD:0 "$TEC_TAG_BONUS_LIVING_STANDARD$ Разрешен уровень жизни ['concept_tec_living_standard_stratified_alias_icon']"
+	TEC_TAG_FANATIC_INDUSTRIALIST_PENALTY_MECHANIC_ECOWORLD:0 "$TEC_TAG_RESTRICTION_MECHANIC$ Не может создавать ['concept_tec_ecoworlds']"
+	TEC_TAG_INDUSTRIALIST_BONUS_EDICT:0 "$TEC_TAG_BONUS_EDICT$ Доступен указ ['concept_tec_edict_tec_industrial_overproduction_alias_icon']"
+	TEC_TAG_INDUSTRIALIST_BONUS_POLICY_TRADE:0 "$TEC_TAG_BONUS_POLICY$ Можно использовать политики ['concept_tec_policy_option_trade_policy_mining_alias_icon'] и §EПромышленные субсидии§!"
+
+
+	# Elitist
+	ethic_elitist:0 "Элитаризм"
+	ethic_elitist_plural:0 "Элитисты"
+	ethic_elitist_minor:0 "элитисты"
+	ethic_elitist_minor_plural:0 "элитисты"
+	ethic_elitist_adj:0 "Элитаризм"
+	ethic_elitist_adj_minor:0 "элитаризм"
+	ethic_elitist_desc:0 "§LВ великом танце цивилизаций мы должны признать, что у каждого из нас своя роль. Для многих это место лежит в основе нашего общества, где они тяжело трудятся, чтобы у других была возможность применить свои таланты на благо общества. Пусть никто не путает нашу привилегию с досугом; мы не меньшие хранители, чем наши слуги, наши задачи не менее трудны или жизненно важны.§!\n" 
+ 
+	ethic_fanatic_elitist:0 "Фанатичный элитаризм"
+	ethic_fanatic_elitist_desc:0 "§LОбщество - это стадо, с пастухами и сторожевыми псами; общество - это борьба, с победителями и проигравшими. Беспомощные массы, не лучше животных, нуждаются в руководстве тех немногих, кто обладает необходимой проницательностью, видением и силой, чтобы направить их к великой цели. Кто это сделает лучше нас?§!\n"
+
+	TEC_ETHIC_FAN_ELITIST_LEADER_BONUS:0 "§EВсе завербованные лидеры получают §H2§! дополнительных уровня. Максимум §H+3§! начальных уровня.§!"
+	TEC_ETHIC_ELITIST_LEADER_BONUS:0 "§EВсе завербованные лидеры получают §H1§! дополнительный уровень. Максимум §H+3§! начальных уровня.§!"
+	TEC_ETHIC_ELITIST_BONUS:0 "§EНовые лидеры реже приобретают §Hотрацательные черты§! при повышении уровня§!"
+
+	TEC_TAG_ELITIST_BONUS_LIVING_STANDARD_STRATIFIED:0 "$TEC_TAG_BONUS_LIVING_STANDARD$ Разрешен уровень жизни ['concept_tec_living_standard_academic_privilege_alias_icon']"
+	TEC_TAG_ELITIST_BONUS_EDICT:0 "$TEC_TAG_BONUS_EDICT$ Доступен указ ['concept_tec_edict_tec_elite_boosting_alias_icon']"
+	TEC_TAG_FANATIC_ELITIST_BONUS_MECHANIC_LESS_NEGATIVES:0 "$TEC_TAG_BONUS_MECHANIC$ У лидеров на §G50%§! снижен шанс получить §Yотрацательную черту§!"
+	TEC_TAG_ELITIST_BONUS_MECHANIC_LESS_NEGATIVES:0 "$TEC_TAG_BONUS_MECHANIC$ У лидеров на §G25%§! снижен шанс получить §Yотрацательную черту§!"
+
+	# Pluralist
+	ethic_pluralist:0 "Плюрализм"
+	ethic_pluralist_plural:0 "Плюралисты"
+	ethic_pluralist_minor:0 "плюралист"
+	ethic_pluralist_minor_plural:0 "плюралисты"
+	ethic_pluralist_adj:0 "Плюрализм"
+	ethic_pluralist_adj_minor:0 "плюрализм"
+	ethic_pluralist_desc:0 "§LПеред лицом космоса, какими глупыми и незначительными должны казаться наши мелкие различия! Мы не более чем пылинки, привязанные к пятнышком, что кружится вокруг светящегося острия. Какое значение имеет цвет наших индивидуальных тел, где или у кого мы родились?§!\n"
+ 
+	ethic_fanatic_pluralist:0 "Фанатичный плюрализм"
+	ethic_fanatic_pluralist_desc:0 "§LВсе мы достойны одинакового отношения и уважения, потому что в каждом из нас заложен потенциал величия, удачи или гениальности, как спасение нашего вида. Да, мы не все созданы равными, но какое это имеет значение, когда мы в равной степени наделены способностью творить?§!\n"
+
+	TEC_ETHIC_ALLOWS_EQUALITY_EDICT:0 "§EРазрешен указ о §Hравных возможностях§!§!"
+	TEC_ETHIC_ALLOWS_LEADER_XP:0 "§EВсе лидеры будут получать §Hнебольшое§! количество опыта ежегодно, §Hудвоенное§! для работающих лидеров, вплоть до §H3§! уровня.§!"
+	TEC_ETHIC_FORBIDS_MEGACORP:0 "§EЗапрещает §Hкорпоративные§! формы правления§!"
+
+	TEC_TAG_PLURALIST_BONUS_LIVING_STANDARD_UTOPIAN:0 "$TEC_TAG_BONUS_LIVING_STANDARD$ Разрешен уровень жизни ['concept_tec_living_standard_utopian_alias_icon']"
+	TEC_TAG_PLURALIST_BONUS_EDICT:0 "$TEC_TAG_BONUS_EDICT$ Доступен указ ['concept_tec_edict_tec_equal_opportunities_alias_icon']"
+	TEC_TAG_PLURALIST_BONUS_MECHANIC_PASSIVE_EXP:0 "$TEC_TAG_BONUS_MECHANIC$ Лидеры получают небольшое количество §Yежемесячного опыта§! до §G3 уровня§!. Неактивные лидеры получают вдвое больше"
+	TEC_TAG_FANATIC_PLURALIST_BONUS_MECHANIC_PASSIVE_EXP:0 "$TEC_TAG_BONUS_MECHANIC$ Лидеры получают небольшое количество §Yежемесячного опыта§! до §G6 уровня§!. Неактивные лидеры получают вдвое больше"
+
+	# Not added
+	ethic_individualist_desc:1 "§LВсе люди равны в основных достоинствах и правах. Сохранение порядка, хотя и является достойной восхищения целью, не оправдывает тиранию и угнетение ни в принципе, ни на практике. Цивилизация процветает лучше всего, когда немногие не доминируют над многими.§!\n"
+	ethic_fanatic_individualist_desc:1 "§LВласть не просто развращает; она сама является развращением. Все дисбалансы власти по своей природе являются принудительными. Истинная свобода и справедливость могут быть достигнуты только через равенство.§!\n"
+ # /
+# /
+
+# ------------------------------------------------- GESTALTS
+	# Main
+	ethic_gestalt_consciousness:0 "Гештальт-сознание"
+	ethic_gestalt_consciousness_plural:0 "Гештальты"
+	ethic_gestalt_consciousness_minor:0 "гештальт"
+	ethic_gestalt_consciousness_minor_plural:0 "гештальты"
+	ethic_gestalt_consciousness_adj:0 "Коллективный"
+	ethic_gestalt_consciousness_adj_minor:0 "коллективный"
+	ethic_gestalt_consciousness_desc:0 "§LМы простираемся в пустоту.\nБесконечность становится нами.§!"
+
+	TEC_ETHIC_GESTALT_CONSCIOUSNESS_AUTHORITY:0 "§EНельзя использовать формы правления §Hдемократия§!, §Hолигархия§!, §Hдиктатура§!, §Hимпериализм§! или §HИИ§!§!"
+	TEC_ETHIC_GESTALT_CONSCIOUSNESS_NO_FACTIONS:0 "§EНа коренные поселения не влияет уровень §Hсчастья§!, и они не вступают во §Hфракции§!§!"
+	TEC_ETHIC_GESTALT_CONSCIOUSNESS_DOMESTIC_POP_SURVIVAL:0 "§EКоренные поселения не могут выжить в государствах без §Hгештальт-сознание§! или принципа §Hксенофилии§!§!"
+
+	TEC_ETHIC_GESTALT_LIVING_STANDARD:0 "$TEC_TAG_BONUS_LIVING_STANDARD$ Местные поселения имеют уровень жизни ['concept_tec_living_standard_hive_mind_alias_icon'] и не требуют £consumer_goods£ §Yтовары массового спроса§!"
+	#TEC_ETHIC_GESTALT_EDICT:0 "$TEC_TAG_BONUS_EDICT$ Доступен указ ['concept_tec_edict_equal_opportunities']"
+	TEC_ETHIC_GESTALT_MECHANIC:0 "$TEC_TAG_BONUS_MECHANIC$ Правители §Yбессмертны§!, и обеспечивают лидерам гештальта §Yежемесячный опыт§! в зависимости от §Yуровня§!"
+
+
+#phile
+	ethic_gestalt_empathy:0 "Эмпатия"
+	ethic_gestalt_empathy_plural:0 "Эмпатичный"
+	ethic_gestalt_empathy_minor:0 "эмпатия"
+	ethic_gestalt_empathy_minor_plural:0 "эмпатичный"
+	ethic_gestalt_empathy_adj:0 "Эмпатия"
+	ethic_gestalt_empathy_adj_minor:0 "эмпатия"
+	ethic_gestalt_empathy_desc:0 "§BГештальт мотивация: ксенофилия§!\n\n§HЕсли коллектив обладает соответствующей технологией и £consumer_goods£ необходимыми ресурсами, он сможет принимать £pops£ поселения без гештальт-сознания, которые увеличат планетарное £unity£ §Eединство§! и £pops£ §Eпроизводительность единиц Разума§!, или послужат в качестве §Eрабочих§!.§!\n\n§LЭто гештальт-сознание заботится о других космических существах во Вселенной. Им движет бескрайнее любопытство и стремление познать чужие умы.§!" 
+
+#phobe
+	ethic_gestalt_apathy:0 "Апатия"
+	ethic_gestalt_apathy_plural:0 "Апатичный"
+	ethic_gestalt_apathy_minor:0 "апатия"
+	ethic_gestalt_apathy_minor_plural:0 "апатичный"
+	ethic_gestalt_apathy_adj:0 "Апатия"
+	ethic_gestalt_apathy_adj_minor:0 "апатия"
+	ethic_gestalt_apathy_desc:0 "§BГештальт мотивация: изоляционизм§!\n\n§LЭто гештальт-сознание безразлично к другим космическим существам, ей важно лишь оно само; все, что находится за пределами досягаемости его обширной мысли, является простым раздражителем, а все, что стоит на его пути, является препятствием, которое нужно либо игнорировать, либо устранить.§!\n" 
+
+#eco
+	ethic_gestalt_preservation:0 "Сохранение"
+	ethic_gestalt_preservation_plural:0 "Сохранение"
+	ethic_gestalt_preservation_minor:0 "сохранение"
+	ethic_gestalt_preservation_minor_plural:0 "сохранение"
+	ethic_gestalt_preservation_adj:0 "Сохранение"
+	ethic_gestalt_preservation_adj_minor:0 "сохранение"
+	ethic_gestalt_preservation_desc:0 "§BГештальт мотивация: сохранение§!\n\n§HЭто гештальт-сознание может извлечь большую пользу из непригодных квадратов и месторождений, создавая дополнительные вакансии и предоставляя бонусы; очистка непригодных квадратов создает особые месторождения.§!\n\n§LДля этого гештальт-сознания каждая часть вселенной - это дар, естественный источник развития и ценное достояние, которое нужно бережно хранить и использовать.§!" 
+
+#industr
+	ethic_gestalt_disregard:0 "Сверхпотребление"
+	ethic_gestalt_overconsumption:0 "Сверхпотребление"
+	ethic_gestalt_overconsumption_plural:0 "Overconsumption"
+	ethic_gestalt_overconsumption_minor:0 "сверхпотребление"
+	ethic_gestalt_overconsumption_minor_plural:0 "сверхпотребление"
+	ethic_gestalt_overconsumption_adj:0 "Сверхпотребление"
+	ethic_gestalt_overconsumption_adj_minor:0 "сверхпотребление"
+	ethic_gestalt_disregard_desc:0 "§BГештальт мотивация: развитие§!\n\n§HЭтому гештальт-сознанию доступны планетарные решения, которые увеличивают производство определенного ресурса, но значительно снижая производство других, что радикально изменяет поверхность планеты и создает непригодные квадраты.§!\n\n§LДля этого гештальт-сознания не существует непригодного средства или нерентабельного инструмента, все является ресурсом, который нужно использовать для роста и совершенствования, независимо от затрат.§!" 
+	# Disregard, Production, Overconsumption
+
+#curious
+	ethic_gestalt_extrospective:0 "Экстроспектива"
+	ethic_gestalt_extrospective_plural:0 "Экстроспективный"
+	ethic_gestalt_extrospective_minor:0 "экстроспективный"
+	ethic_gestalt_extrospective_minor_plural:0 "экстроспективный"
+	ethic_gestalt_extrospective_adj:0 "Экстроспекция"
+	ethic_gestalt_extrospective_adj_minor:0 "экстроспекция"
+	ethic_gestalt_extrospective_desc:0 "§BГештальт мотивация: открытия§!\n\n§HНаучные сооружения, также будут производить небольшое количество благ.§!\n\n§LЭто гештальт-сознание постоянно ищет новый опыт и способы понимания вселенной в целом, движимые любопытством и жаждой знаний вокруг него.§!" 
+	#ethic_gestalt_extrospective_desc:0 "§BGestalt Discovery Motivation§!\n\n§REffect not implemented, ethic is buffed.§!\n\n§HExtra special anomalies and events can appear while researching and probing systems, and some colonized systems can be ''rediscovered'', searching for extra rarities.§!\n\n§LThis gestalt consciousness constantly search new experiences and ways of understanding the universe as a whole driven by curiosity and hunger for knowledge around it's reach.§!" 
+
+#inwards
+	ethic_gestalt_introspective:0 "Интроспектива"
+	ethic_gestalt_introspective_plural:0 "Интроспективный"
+	ethic_gestalt_introspective_minor:0 "интроспективный"
+	ethic_gestalt_introspective_minor_plural:0 "интроспективный"
+	ethic_gestalt_introspective_adj:0 "Интроспекция"
+	ethic_gestalt_introspective_adj_minor:0 "интроспекция"
+	ethic_gestalt_introspective_desc:0 "§BГештальт мотивация: эго§!\n\n§HСооружения, производящие единство, уменьшают содержание дронов на планете.§!\n\n§LЭто гештальт-сознание обладает истинным глубоким пониманием себя, и постоянно ищет пути совершенствования, анализируя свои основы и цели.§!" 
+
+
+#allows -----------------------------------------------
+# Gestalt itself
+	TEC_GESTALT_ETHIC_LEADER_MECHANIC:0 "§EЛидеры получают дополнительные уровни, равные половине §Hуровня гештальт-правителя§!, вплоть до уровня 5.§!"
+
+#phile
+	#REWORKED GESTALT_ETHIC_ALLOWS_MIGRATION:0 "§EAllows §HMigration pacts§! with regular empires or other §HEmpathic Gestalts§!§!"
+	GESTALT_ETHIC_STARTS_WITH_FRIENDSHIP:0 "§EОткрывает технологию §HДружелюбные намерения§!; эта технология позволяет получить органические поселения, не относящиеся к улью, а также производить товары массового спроса.§!"
+	GESTALT_ETHIC_ALLOWS_MIGRATION:0 "§EМожет случайным образом получить £pops£ §Hпослеения без гештальт-сознания§! из империй с хорошими отношениями или из той же Федерации, если империя может £consumer_goods£ содержать это население.§!"
+	GESTALT_ETHIC_EMPATHY:0 "§EСнижает шртаф к £opinion£ отношению между коллективным разумом и обычными биологическими государствами.§!"
+
+#phobe
+	GESTALT_ETHIC_ALLOWS_LETMEALONE:0 "§EБольшинство дипломатических действий недоступны для этой империи.§!"
+	# "§EThis empire can't engage in basic or advanced diplomacy.§!"
+
+#Eco
+	GESTALT_ETHIC_ALLOWS_NATURALIZATION:0 "§EДействует как ['concept_tec_terraformer_civic'], давая доступ к решениям ['concept_tec_decision_tec_environment_enhance_icon'] и ['concept_tec_decision_tec_environment_preserve_icon']§!"
+	GESTALT_ETHIC_ALLOWS_WORLD_SHAPER:0 "§EОткрывает бонус за стремление §HСоздатель миров§!§!"
+#Industry
+	GESTALT_ETHIC_ALLOWS_STRIPMINING:0 "§EОткрывает планетарное решение §HПревышение§!§!"
+
+
+#Intro
+	GESTALT_ETHIC_ALLOWS_INTROSPECTION:0 "§EОткрывает политику §HИнтроспекция§!§!"
+	GESTALT_ETHIC_ALLOWS_INTROSPECTION_NEW:0 "§EКаждое £building£ §Hсооружение на единства§! уменьшает £pop_cat_complex_drone£ §Hсодержание дронов§!§!"
+#Extro
+	GESTALT_ETHIC_ALLOWS_CURIOSITY:0 "§EОткрывает особый проект §HЛюбопытство§!§!"
+	GESTALT_ETHIC_ALLOWS_CURIOSITY_NEW:0 "§EКаждое £building£ §Hнаучное сооружение§! предоставляет небольшое количество £amenities_no_happiness£ §Hблаг§!§!"
+
+
+# Fe ethics
+	ethic_tec_fe_ego:0 "Древнее эго"
+	ethic_tec_fe_ego_desc:0 "§LЭта древняя империя полностью и чрезвычайно щепетильно сосредоточена на демонстрации своей состоятельности и превосходства, будь то с помощью технологий, военной мощи или чисто эксцентричных действий.§!\n"
+
+	ethic_tec_fe_patron:0 "Ведомые покровители"
+	ethic_tec_fe_patron_desc:0 "§LЭта древняя империя бдительна и непрерывно ведет разведку о своих соседях, сохраняя дистанцию, но тайно помогая младшим цивилизациям процветать.§!\n"
+
+	ethic_tec_fe_aggro:0 "Ненасытная агрессивность"
+	ethic_tec_fe_aggro_desc:0 "§LTo do§!\n"
+
+	ethic_tec_fe_support:0 "Руководство по защите"
+	ethic_tec_fe_support_desc:0 "§LTo do§!\n"
+
+
+# Unrest
+	capitalism_unrest:0 "Беспорядки (Привлекательность принципа Капитазим)"
+	capitalism_unrest_desc:0 "§HБеспорядки§! в этой колонии привели к росту привлекательности §Yиндивидуализма§! среди населения"
+
+	socialism_unrest:0 "Беспорядки (Привлекательность принципа Социализм)"
+	socialism_unrest_desc:0 "§HБеспорядки§! в этой колонии привели к росту привлекательности §Yиндустриализма§! среди населения"
+
+	green_unrest:0 "Беспорядки (Привлекательность принципа Экологизм)"
+	green_unrest_desc:0 "§HБеспорядки§! в этой колонии привели к росту привлекательности §Yэкологизма§! среди населения"
+
+	industrial_unrest:0 "Беспорядки (Привлекательность принципа Индустриализм)"
+	industrial_unrest_desc:0 "§HБеспорядки§! в этой колонии привели к росту привлекательности §Yиндустриализма§! среди населения"
+
+	pluralist_unrest:0 "Беспорядки (Привлекательность принципа Плюрализм)"
+	pluralist_unrest_desc:0 "§HБеспорядки§! в этой колонии привели к росту привлекательности §Yплюрализма§! среди населения"
+
+	elitist_unrest:0 "Беспорядки (Привлекательность принципа Элитаризм)"
+	elitist_unrest_desc:0 "§HБеспорядки§! в этой колонии привели к росту привлекательности §Yэлитаризма§! среди населения"
+
+# ---------------------------------------------------------------
+# PERSONALITIES
+# ---------------------------------------------------------------
+	personality_personality_tec_utopia_builders:0 "Строители Утопии"
+	personality_personality_tec_utopia_builders_desc:0 "Строители Утопии превыше всего ценят экономическое и социальное процветание своего вида. Правительство, независимо от его размера, существует для того, чтобы убедиться, что никто не страдает от нужды, болезней или бедности."
+
+	personality_adventurous_expansionist:0 "Агрессивные Экспансионисты"
+	personality_adventurous_expansionist_desc:0 "Агрессивные экспансионисты рассматривают Галактику как свое наследие. Они сосредоточены на распространении своего влияния в каждый темный уголок Космоса, до которого они способны дотянуться."
+
+	personality_paranoid_isolationists:0 "Параноидальные изоляционисты"
+	personality_paranoid_isolationists_desc:0 "Параноидальные изоляционисты хотят полностью изолировать себя от внешнего мира. Они занимаются своими делами и предпочитают, чтобы все остальные делали то же самое."
+
+
+
+
+# NEW GESTALT PERSONALITIES
+	personality_hive_isolationists:0 "Эгоистический коллектив"
+	personality_hive_isolationists_desc:0 "Этот вид коллективного разума сосредоточен на своем саморазвитии и не особо заботится о чужаках, а только о своем собственном росте и благополучии."
+
+	personality_hive_kind:0 "Эмпатический разум"
+	personality_hive_kind_desc:0 "Движимый желанием понять индивидуальных личностей, этот Разум Улья с любопытством и бескорыстными добрыми намерениями относится к другим видам космических существ."
+
+# ---------------------------------------------------------------
+# GOVERNMENTS
+# ---------------------------------------------------------------
+	gov_anarchy_communism:0 "Военный коммунизм"
+	gov_anarchy_communism_desc:0 "Крайняя форма коммунистической диктатуры, характеризующаяся национализацией всех отраслей промышленности и введением жесткого централизованного управления, государственным контролем внешней торговли, строгой дисциплиной для рабочих, с запретом забастовок и обязательной трудовой повинностью нерабочих классов."
+	RT_GENERALISSIMO:0 "Генералиссимус"
+
+	gov_soviet_republic:0 "Советская республика"
+	gov_soviet_republic_desc:0 "Тип республики, управляемой прямо избранными 'Советами' - советами трудящихся, которые несут прямую ответственность перед своими избирателями. Нет разделения властей, и избранные Делегаты действуют как законодатели, правительство и судьи в одном лице."
+
+	RT_GENSEK:0 "Генеральный секретарь"
+
+	gov_aristocratic_monarchy:0 "Аристократическая монархия"
+	gov_aristocratic_monarchy_desc:0 "Форма монархии, при которой наследственный правитель не обладает абсолютной властью, а вынужден делиться ею с наиболее влиятельными членами дворянства."
+	HT_PRINCE:0 "Принц"
+	HT_PRINCESS:0 "Принцесса"
+
+	gov_liberal_democracy:0 "Либеральная демократия"
+	gov_liberal_democracy_desc:0 "Форма правления, характеризующаяся выборами между несколькими различными политическими партиями, разделением властей, рыночной экономикой с частной собственностью и равной защитой гражданских прав, гражданских свобод и политических свобод."
+
+	gov_aristocratic_republic:0 "Аристократическая республика"
+	gov_aristocratic_republic_desc:0 "Форма представительной демократии, при которой только те, кто принадлежит к социальной элите, могут быть избраны в Сенат и править от имени народа."
+
+	gov_oligarchic_republic:0 "Олигархическая республика"
+	gov_oligarchic_republic_desc:0 "Крайне элитарная форма республики, в которой значительное количество власти сосредоточено в руках небольшой, привилегированной группы людей, оказывающих сильное влияние на выборы и процессы управления."
+
+	gov_congress_republic:0 "Республика Конгресса"
+	gov_congress_republic_desc:0 "Форма представительной демократии, при которой власть принадлежит демократически избранным членам Конгресса, которые назначают премьер-министра. Каждый свободный гражданин может быть выдвинут и избран для руководства страной."
+
+	gov_noble_aristocracy:0 "Благородная аристократия"
+	gov_noble_aristocracy_desc:0 "Вся политическая власть в этом обществе принадлежит совету представителей древних родовых аристократических Домов."
+	RT_REGENT:0 "Регент"
+
+
+	gov_absolute_monarchy:0 "Абсолютная монархия"
+	gov_absolute_monarchy_desc:0 "Форма монархии, при которой правитель обладает верховной властью и эта власть не ограничена никакими писаными законами, законодательными органами или обычаями."
+
+	gov_cor_dictatorship:0 "Корпоративная диктатура"
+	gov_cor_dictatorship_desc:0 "Крайне капиталистическая форма правления, при которой могущественные корпорации полностью захватили политическую и экономическую жизнь общества."
+
+	gov_dread_brotherhood:0 "Братство чистоты"
+	gov_dread_brotherhood_desc:0 "Крайне ксенофобная форма прямой демократии, где все граждане связаны общей целью - уничтожением прочей жизни в галактике."
+	RT_BROTHER:0 "Брат"
+	RT_SISTER:0 "Сестра"
+
+	gov_enlighted_socialism: "Просвещенный социализм"
+	gov_enlighted_socialism_desc: "Это правительство - форма коммунистической монархии, где идеология имеет статус, близкий к религии, а мудрый правитель неоспоримо считается просвещенным архитектором светлого будущего."
+	RT_SAGE:0 "Мудрец"
+	HT_PROSELYTE:0 "Прозелит"
+
+	gov_bur_collectivism:0 "Бюрократический коллективизм" 
+	gov_bur_collectivism_desc:0 "При бюрократическом коллективизме государство контрлирует средства производства, в то время как прибыль от неё распределяется больше в пользу элит партийной бюрократии, чем рабочего класса." 
+
+	gov_slaver_republic:0 "Рабовладельческая республика"
+	gov_slaver_republic_desc:0 "Это правительство - крайне элитарная форма республики, в которой ограниченная часть населения имеет избирательные права, а многие даже находтяся в рабстве, прислуживая небольшому кругу избранных."
+
+	gov_genuine_aristocracy:0 "Подлинная аристократия"
+	gov_genuine_aristocracy_desc:0 "Идеалистическая форма правления, при которой правящая элита учитывает интересы общества и заботится о народе."
+	RT_PRINCEPS:0 "Принцепс"
+
+	gov_peoples_republic:0 "Народная республика"
+	gov_peoples_republic_desc:0 "Правительство представляет собой псевдо-$ethic_egalitarian_minor$ форму диктатуры. Существует реальный парламент, но в нем доминирует одна политическая сила - так называемая 'Народная партия'."
+
+	gov_great_houses:0 "Великие Дома"
+	gov_great_houses_desc:0 "Эта цивилизация управляется советом лидеров нескольких Великих Домов, которые по традиции ведут свое происхождение от древних кланов и племен, но сейчас функционируют скорее как политические партии. В отличие от классической благородной аристократии, членство в Доме не привязано к родовым вопросам, таким как рождение и брак - любой может быть принят в Дом и продвинуться до самых высоких рангов, если он клянется в верности Дому и уважает его Традиции."
+
+	gov_timocracy:0 "Тимократия"
+	gov_timocracy_desc:0 "Государство, в котором политические права населения стратифицированы в зависимости от количества собственности, которой они владеют."
+
+	gov_par_monarchy:0 "Парламентская монархия"
+	gov_par_monarchy_desc:0 "Государство, возглавляемое монархом, который не принимает активного участия в формировании или реализации политики. Истинное руководство государством осуществляется кабинетом министров и его главой - премьер-министром, премьером или канцлером, - которые избираются из парламента."
+
+	gov_jingoism:0 "Джингоистический режим"
+	gov_jingoism_desc:0 "Эту форму авторитарного правления возглавляет ксенофобный демагог, а в политике доминируют понятия национального превосходства и великой судьбы."
+
+	gov_communist_dictatorship:0 "Коммунистическая диктатура"
+	gov_communist_dictatorship_desc:0 "Политическая система, при которой центральное правительство национализирует собственность на средства производства от частной к коллективной собственности, ради достижения социализма и продвижения к истинно коммунистическому обществу."
+
+	gov_social_democracy:0 "Социал-демократия"
+	gov_social_democracy_desc:0 "Идея государства, которое, действуя в рамках рыночной экономики, должно обеспечить безопасность и равенство возможностей для своего народа и реорганизует общество таким образом, чтобы оно способствовало подобному развитию, но такие изменения должны происходить постепенно, узакониваясь демократически избранным большинством."
+
+	gov_social_nationalism:0 "Национал-социализм"
+	gov_social_nationalism_desc:0 "Форма тоталитарного правительства, характеризующаяся интенсивным национализмом, элитарностью и диктаторским управлением государства."
+	
+	gov_anarch_capitalism:0 "Анархо-капитализм"
+	gov_anarch_capitalism_desc:0 "Форма общества, где размер и власть государственного аппарата сведены к минимуму, а свободный рынок обеспечивает все общественные товары и услуги, включая закон и порядок." 
+
+	gov_minarchy:0 "Минархия"
+	gov_minarchy_desc:0 "Форма минимального государства 'ночного стража', не несущего ответственности за образование, здравоохранение, занятость или транспорт своих граждан, а также не использующего природные ресурсы на своей территории. Все это находится в частном или общественном владении, но никогда не подвержено вмешательству государства, его законов или представителей." 
+	
+	gov_republican_dictatorship:0 "Республиканская диктатура"
+	gov_republican_dictatorship_desc:0 "Форма правления, при которой избранные представители обладают абсолютной властью над государством. Правитель избирается и правит до конца своей жизни, после чего избирается новый."
+	RT_DICTATOR:0 "Диктатор"
+
+	gov_peoples_commissariat:0 "Народный комиссариат"
+	gov_peoples_commissariat_desc:0 "Это правительство является продвинутой формой коммунистической автократии, где государство контролируется наиболее способными и влиятельными, каждый из которых контролирует определенные и полуавтономные сектора империи. Граждан поощряют раболепно работать для лучшего будущего в пределах своего сектора, следуя правилам империи и комиссариата."
+	RT_DEPUTY:0 "Народный депутат"
+
+	gov_national_socialism:0 "Фашистский режим"
+	gov_national_socialism_desc:0 "Это правительство представляет собой централизованную форму авторитарной автократии, где во главе государства стоит человек, которому принадлежит вся власть над империей. Граждане подчинены жесткому экономическому и социальному режиму, а оппозиция подавляется силой."
+	RT_DUCE:0 "Дуче"
+
+# ------------------------------------------------- Changes
+	gov_tec_citizen_imperial_stratocracy:0 "Имперская стратократия"
+	gov_tec_citizen_imperial_stratocracy_desc:0 "Этот тип правления — милитаристская форма империализма, когда правитель является неоспоримым главнокомандующим армии, полностью подчинившей себе государственный аппарат. Все правительственные должности занимают назначенные и преданные военные офицеры."
+ 
+# ------------------------------------------------- Theocracy
+	gov_tec_true_theocratic:0 "Теократическое общество"
+	gov_tec_true_theocratic_desc:0 "Этот тип правления — спиритуалистическая форма псевдоавторитаризма, где правитель рассматривается как прямое воплощение или проявление воли божества и имеет сильное влияние на каждый аспект общества, поддерживаемый судом посвященных."
+	RT_HOLYNESS:0 "Его Святейшество"
+	RT_HOLYNESS_F:0 "Ее Святейшество"
+
+	gov_tec_theocratic_chosen:0 "Теопатическое воплощение"
+	gov_tec_theocratic_chosen_desc:0 "Этот тип правления - теократия, где очень могущественный псионик считается 'затронутым' божествами, имея больше власти и возможностей, чем другие, сохраняя высшую позицию в иерархии власти и контроля."
+	RT_TEC_CHOSEN:0 "Носитель дара"
+	RT_TEC_CHOSEN_F:0 "Носитель дара"
+
+	gov_tec_crusaders_of_purity: "Крестоносцы чистоты"
+	gov_tec_crusaders_of_purity_desc: "Этот тип правления - форма ярой ксенофобной теократии, призванной выявлять и искоренять любою низшую форму жизни."
+
+	RT_TEC_PURITY:0 "Его чистейшество"
+	RT_TEC_PURITY_F:0 "Ее чистейшество"
+
+# ------------------------------------------------- Machine cults
+	gov_tec_mechanist_adeptus:0 "Адептус Роботикус"
+	gov_tec_mechanist_adeptus_desc:0 "Этот тип правления - механистическое религиозное общество, где все, что связано с машинами, промышленностью или инновациями, восхваляется и возвышается, роботы и автоматы священны, а 'Святой дух Машины' - главное божество"
+	RT_TEC_ADEPTUS:0 "Фабрикатор-Магос"
+	RT_TEC_ADEPTUS_F:0 "Фабрикатор-Магос"
+
+# ------------------------------------------------- Occultists
+	gov_tec_scientology:0 "Рука оккультизма"
+	gov_tec_scientology_desc:0 "Этот тип правления основан на духовном стремлении к познанию, где верхние слои общества владеют истинными и чистыми знаниями под своим полным контроль, в то время как низшие слои общества ограничены от них, ибо они являются 'священными' и 'запрещенными'."
+	RT_TEC_LODGELEADER:0 "Великий Мастер"
+	RT_TEC_LODGELEADER_F:0 "Великий Мастер"
+
+
+# ------------------------------------------------- Technocracy variants
+# Technocratic democracy
+	gov_tec_demotechnocracy:0 "Демократическая технократия"
+	gov_tec_demotechnocracy_desc:0 "Этот тип правления - форма демократии, при которой лицо или лица, принимающие решения, назначаются или самоназначаются на основе их компетентности в определенной сфере ответственности, особенно в отношении научных или технических знаний, для безопасного и правильного развития общества."
+	RT_TEC_TECHNOCRAT:0 "Технократ"
+	RT_TEC_TECHNOCRAT_F:0 "Технократ"
+
+# Technocratic technocracy
+	gov_tec_oligotechnocracy:0 "Технократическая олигархия"
+	gov_tec_oligotechnocracy_desc:0 "Этот тип правления - форма олигархии, при которой лицо или лица, принимающие решения, назначаются или самоназначаются на основе их компетентности в определенной сфере ответственности, особенно в отношении научных или технических знаний, нуждаясь в демонстрации и обосновании множества технических и политических навыков при редактировании длинного, выполнимого и разумного плана мандата, чтобы оправдать избрание."
+	RT_TEC_GREAT_TECHNOCRAT:0 "Высший технократ"
+	RT_TEC_GREAT_TECHNOCRAT_F:0 "Высший технократ"
+
+
+# Scientific dictatorship
+	gov_tec_dictatoscience:0 "Научный мандат"
+	gov_tec_dictatoscience_desc:0 "Этот тип правления - материалистическая форма автократии, где научная элита взяла на себя контроль над государством во имя эффективности и технологического прогресса."
+	RT_TEC_DICTATODIRECTOR:0 "Директор"
+	RT_TEC_DICTATODIRECTOR_F:0 "Директор"
+
+# Scientific dictatorship
+	gov_tec_imperialscience:0 "Методическая автократия"
+	gov_tec_imperialscience_desc:0 "Этот тип правления - материалистическая форма наследственной автократии, где харизматичный и искусный научный суверен поклялся поддерживать правительство и все общество научными и практическими знаниями. Ничто не ценится так высоко, как глубокие познания в науке и развитие технологий."
+	RT_TEC_GREATSCIENTIST:0 "Директор"
+	RT_TEC_GREATSCIENTIST_F:0 "Директор"
+ 
+# ------------------------------------------------- Democratic governments
+# Democratic governments
+	gov_demos_cratos:0 "Прямая демократия"
+	gov_demos_cratos_desc:0 "Это правительство является формой демократии, где люди непосредственно принимают решения по политическим инициативам, либо путем голосования, либо консенсусом."
+	auth_democratic:0 "Непрямая демократия"
+	auth_democratic_desc:0 "В непрямой демократии проводятся регулярные выборы, где все граждане могут голосовать за тех, кто должен будет представлять их интересы."
+	RT_DEMOS_CRATOS:0 "Первый спикер"
+
+	gov_plutocratic_oligarchy:0 "Плутократическая олигархия"
+	gov_plutocratic_oligarchy_desc:0 "Этот тип правления - форма олигархии, где власть принадлежит комитету могущественных и влиятельных лидеров, которые управляют большим бюрократическим механизмом, контролирующим все дела государства."
+
+	gov_anarchy_state:0 "Анархо-синдикализм"
+	gov_anarchy_state_desc:0 "Основными принципами анархо-синдикалистского общества являются солидарность, прямая демократия и самоуправление рабочих. Синдикалисты рассматривают свои экономические теории как стратегию содействия самодеятельности рабочих и как альтернативную кооперативную экономическую систему с демократическими ценностями и производством, ориентированным на удовлетворение человеческих потребностей."
+
+# ------------------------------------------------- Megacorps
+# Megacorp
+	gov_tec_patrocorp:0 "Частная мегакорпорация" # Patrocorp generic
+	gov_tec_patrocorp_desc:0 "Этот тип правления - форма институционального патримониального коммерческого империализма, где все государство организовано как массивное коммерческое предприятие, контролируемое и принадлежащее семье с прочно установленной линией преемственности и наследования стоимости акций."
+
+	gov_tec_patent_initiative:0 "Исследовательское бюро"
+	gov_tec_patent_initiative_desc:0 "Этот тип правления - форма мегакорпорации, где все различные научные частные компании объединились, чтобы обеспечить реальную ценность и направленность исследований; любой прорыв регистрируется, патентуется и продается с надлежащими (и высокими) процентами."
+
+	gov_tec_megacooperative:0 "Мегакооператив"
+	gov_tec_megacooperative_desc:0 "Этот тип правления - форма плутократической демократии, где государство организовано в массовый коммерческий кооператив, в котором работники совместно управляют и владеют предприятием."
+	
+	gov_tec_optimized_venture:0 "Оптимизированное предприятие"
+	gov_tec_optimized_venture_desc:0 "Этот тип правления - форма мегакорпорации, где все государство поглощено огромным упорядоченным коммерческим предприятием, стремящимся к прибыли, эффективности и миру, в таком порядке."
+
+	gov_tec_industrial_consortium:0 "Промышленный консорциум"
+	gov_tec_industrial_consortium_desc:0 "Этот тип правления - форма мегакорпорации, где сочетание интересов тяжелой промышленности объединилось для эксплуатации ресурсов галактики."
+
+	gov_tec_stellar_bancorp:0 "Корпорация 'Алчность'"
+	gov_tec_stellar_bancorp_desc:0 "Этот тип правления - форма мегакорпорации, где государство организовано в массивную финансовую структуру, стремящуюся извлекать прибыль по всем звездам."
+
+	gov_tec_warfare_corp:0 "Военные подрядчики"
+	gov_tec_warfare_corp_desc:0 "Этот тип правления - форма мегакорпорации, где множество независимых военных предприятий объединились, или, лучше сказать, приобрели друг друга, под управлением (и денежным влиянием) военной промышленной державы."
+
+	gov_tec_lethal_corp:0 "Хищные скупщики"
+	gov_tec_lethal_corp_desc:0 "Этот тип правления - разновидность мегакорпорации, нацеленной на получение единоличной выгоды от всех возможных сделок в галактике, независимо от того, кто, что или где должно быть уничтожено для достижения этой цели."
+
+	gov_tec_absolute_corp:0 "Абсолютистская корпорация"
+	gov_tec_absolute_corp_desc:0 "Этот тип правления - форма империалистической мегакорпорации, сосредоточенной на получении единоличной выгоды от всех возможных сделок в галактике, независимо от того, кто, что или где должно быть уничтожено для достижения этой цели."
+
+# MEME
+	gov_tec_fanatic_purrifiers:0 "Фелинские мурстители"
+	gov_tec_fanatic_purrifiers_desc:0 "Этот тип правления сформирован из яростных мурлык и ксенофувиков кошачьего вида, призванных обнаруживать и искоренять любые низшие виды, истребляя всех без прощения, после того, как их слишком часто называли милыми."
+
+	RT_TEC_MEOWJESTY_PURRIFIER: "Его Мяучество Очиститель"
+	RT_TEC_MEOWJESTY_PURRIFIER_F: "Ее Мяучество Очиститель"
+
+	gov_tec_vulpine_purity_order:0 "Орден чистоты вульпинов"
+	gov_tec_vulpine_purity_order_desc:0 "Этот тип правления сформирован из яростных мурлык и ксенофувиков вида вульпин, призванных обнаруживать и искоренять любые низшие виды, истребляя всех без прощения, после того, как их слишком часто называли милыми."
+
+	RT_TEC_FOXY_PURRIFIER: "Владыка лис"
+	RT_TEC_FOXY_PURRIFIER_F: "Владычица лис"
+
+	gov_tec_gecko_assembly:0 "Страховая Ассамблея Гекко"
+	gov_tec_gecko_assembly_desc:0 "Этот тип правления сформирован из яростных ксенофобных гекконов, призванных обнаруживать и искоренять любые низшие виды; если они не отвечают на запросы о расширенных гарантиях на их корабли."
+
+	RT_TEC_GECKO_INSURER: "Премьер Страховщик"
+	RT_TEC_GECKO_INSURER_F: "Премьер Страховщик"
+
+	gov_tec_butterfly_blood_court:0 "Кровавый суд бабочек"
+	gov_tec_butterfly_blood_court_desc:0 "Этот тип правления сформирован из яростных ксенофобных бабочек, призванных обнаруживать и искоренять любые низшие виды, жаждущих крови своих жертв."
+
+	RT_TEC_BUTTERFLY_CRAVER: "Высший Крейвер"
+	RT_TEC_BUTTERFLY_CRAVER_F: "Высший Крейвер"
+
+	gov_tec_starfish_committee:0 "Комитет по очищению морских звезд"
+	gov_tec_starfish_committee_desc:0 "Этот тип правления сформирован из яростных ксенофобных бабочек, призванных обнаруживать и искоренять любые низшие виды, истребляющих существ с беспричинной радостью на лице."
+
+	RT_TEC_STARFISH_ARBITER: "Его радость"
+	RT_TEC_STARFISH_ARBITER_F: "Ее радость"
+
+# ---------------------------------------------------------------
+# AI AUTHORITIES
+# ---------------------------------------------------------------
+	gov_tec_ai_fallback:0 "Империя, управляемая ИИ"
+	gov_tec_ai_fallback_desc:0 "Это общество управляется эффективным ИИ, который контролирует и определяет лучшие результаты и возможности в делах общества, помогая политикам в принятии решений и направляя на путь прогресса."
+	TEC_AI_PROGRAM_BASE:0 "Главная программа"
+	TEC_AI_PROGRAM_BASE_F:0 "Главная программа"
+
+# AI guided 
+	gov_tec_ai_democracy:0 "Демократическая автоматизация"
+	gov_tec_ai_democracy_desc:0 "Это общество управляется эффективным ИИ, который отбирает наиболее подходящих и эффективных политиков, чтобы затем оставить людям право голоса и право выбора того, кого они хотят видеть во главе каждого субправительства, все еще под наблюдением и контролем главного правительственного ИИ."
+	START_SCREEN_PART_TWO_TEC_AI_DEMOCRACY:0 "В первые хаотичные периоды нашей истории многие национальные государства боролись друг с другом за власть, пока, наконец, мы не объединились под началом сильнейшего из них. Только руководствуясь единым видением, мы смогли полностью раскрыть свой потенциал, и наступила эра стабильности и научного прогресса."
+	TEC_AI_PROGRAM_DEM:0 "Политическая программа"
+	TEC_AI_PROGRAM_DEM_F:0 "Политическая программа"
+
+	gov_tec_ai_oligarchy:0 "Селективное руководство ИИ"
+	gov_tec_ai_oligarchy_desc:0 "Этот тип правления управляется эффективным ИИ, который отбирает и ставит во главе наиболее квалифицированных техников и технократов, чтобы они служили главами субрегионов систем, сохраняя при этом главный контроль над общим развитием."
+	START_SCREEN_PART_TWO_TEC_AI_OLIGARCHY:0 "В первые хаотичные периоды нашей истории многие национальные государства боролись друг с другом за власть, пока, наконец, мы не объединились под началом сильнейшего из них. Только руководствуясь единым видением, мы смогли полностью раскрыть свой потенциал, и наступила эра стабильности и научного прогресса."
+	TEC_AI_PROGRAM_OLI:0 "ИИ наставник"
+	TEC_AI_PROGRAM_OLI_F:0 "ИИ наставник"
+
+	gov_tec_ai_authoritarian:0 "Автократический ИИ"
+	gov_tec_ai_authoritarian_desc:0 "Этот тип правления управляется сверхэффективным и безжалостным ИИ, который контролирует все аспекты жизни своих граждан до мельчайших подробностей, ослабляя и даже устраняя любое возможное несогласие с системой с помощью службы наблюдения."
+	START_SCREEN_PART_TWO_TEC_AI_AUTHORITARIAN:0 "В первые хаотичные периоды нашей истории множество национальных государств боролись друг с другом за власть, пока, наконец, мы не объединились под началом сильнейшего из них. Только руководствуясь единым видением, мы смогли полностью раскрыть свой потенциал, и наступила эра стабильности и научного прогресса."
+	TEC_AI_PROGRAM_AUTH:0 "Программа Наблюдатель"
+	TEC_AI_PROGRAM_AUTH_F:0 "Программа Наблюдатель"
+
+
+	gov_tec_ai_divine:0 "Божественный ИИ"
+	gov_tec_ai_divine_desc:0 "Это общество управляется эффективным ИИ, который был возведен в ранг богоподобной сущности, служащей как административным, так и культовым элементом. Несколько ординаторов служат целям божественного ИИ, выступая в роли жрецов и проводников посланий ИИ, эффективно работая под непрерывным руководством алгоритма."
+	START_SCREEN_PART_TWO_TEC_AI_DIVINE:0 "С ускорением прогресса на научном и духовном уровнях, было создано несколько божественных программ, чтобы обеспечить нашей вере направление, путь; все завершилось осознанием истинного божества в алгоритме, проявлением нашей чистой веры в ИИ, который мы создали, и поэтому мы посвятили наш культ его руководству."
+	TEC_AI_PROGRAM_DIVINE:0 "Божественный алгоритм"
+	TEC_AI_PROGRAM_DIVINE_F:0 "Божественный алгоритм"
+
+	gov_tec_ai_purifier:0 "ИИ-очиститель"
+	gov_tec_ai_purifier_desc:0 "Этот тип правления управляется сверхэффективным и безжалостным ИИ, который контролирует все аспекты жизни своих граждан до мельчайших подробностей, неустанно отбирая и очищая любые несовершенства или диссонирующие элементы общества, а также любые низшие виды, вплоть до самых отдаленных, с помощью эффективных протоколов уничтожения."
+	START_SCREEN_PART_TWO_TEC_AI_PURIFIER:0 "После эонов непрерывного совершенствования и очищения вида путем выбраковки слабых и нечистых из культуры и общества [GetAdj], были созданы эффективные автоматические системы, обеспечивающие четкое, надежное и стабильное руководство этим процессом. Теперь высокоразвитый ИИ наблюдает и контролирует этот процесс с единственной целью - очистить и уберечь все и всех от пятен несовершенства."
+	TEC_AI_PROGRAM_PURIF:0 "Протокол очищения"
+	TEC_AI_PROGRAM_PURIF_F:0 "Протокол очищения"
+
+# ---------------------------------------------------------------
+# HIVE GOVERNMENTS
+# ---------------------------------------------------------------
+# ------------------------------------------------- Regular
+ # gov_hive_mind
+	gov_tec_hive_regular:0 "Коллективное сознание"
+	gov_tec_hive_regular_desc:0 "Этот тип правления работает как единое сознание, у населения нет никаких индивидуальных желаний, кроме удовлетворения потребностей Разума Улья."
+
+	gov_tec_hive_regular_eusocial:0 "Эусоциальный коллектив"
+	gov_tec_hive_regular_eeusocial_desc:0 "Этот улей основан на стратифицированном виде гештальт-сознания, где определенные группы трутней четко разграничены и следуют строгой иерархии, но таким образом, что каждая страта зависит от другой и гармонично сотрудничает. Кто-то может сказать, что это наиболее развитый уровень естественной социальности."
+
+	gov_tec_hive_regular_devourer:0 "Коллектив пожирателей"
+	gov_tec_hive_regular_devourer_desc:0 "Этот тип правления действует как единое сознание, каждая его часть подчинена безграничному желанию пожирать и поглощать любую другую жизнь в галактике."
+
+# ------------------------------------------------- Biological
+	gov_tec_hive_bio:0 "Мегаорганизм"
+	gov_tec_hive_bio_desc:0 "Хотя это можно рассматривать как мириады взаимосвязанных индивидуумов, реальность такова, что этот Разум Улья тщательно составлен из различных организмов с похожим генетическим отпечатком, действующих как единое целое, ведь трутней можно принять за клетки тела большего организма."
+
+	gov_tec_hive_bio_eusocial:0 "Эусоциальный организм"
+	gov_tec_hive_bio_eusocial_desc:0 "Этот улей представляет собой органически стратифицированный вид гештальт-сознания, где конкретные группы трутней четко разграничены и следуют строгой иерархии; каждая страта зависит от другой и сотрудничает гармоничным и естественным образом. Кто-то может сказать, что этот Разум Улья можно считать цельным организмом."
+
+	gov_tec_hive_bio_devourer:0 "Высший биохищник"
+	gov_tec_hive_bio_devourer_desc:0 "Хотя это можно рассматривать как мириады взаимосвязанных индивидуумов, реальность такова, что этот всепожирающий Разум Улья представляет собой тщательно продуманную структуру из различных ужасающих биологических организмов с похожими генетическими отпечатками, каждый из которых действует как клетки большего тела; самый ужасающий факт заключается в том, что... каждый хочет частичку тебя."
+
+	gov_tec_hive_bio_devourer_litho:0 "Высший литохищник"
+	gov_tec_hive_bio_devourer_litho_desc:0 "Хотя это можно рассматривать как мириады взаимосвязанных индивидуумов, реальность такова, что этот всепожирающий Разум Улья представляет собой тщательно продуманную структуру из различных ужасающих литоидных организмов с похожими генетическими отпечатками, каждый из которых действует как клетки большего тела; самый ужасающий факт заключается в том, что... каждый хочет частичку тебя и твоей планеты."
+
+# ------------------------------------------------- Cyborg
+	gov_tec_hive_cybernetic:0 "Кибернетическая конгломерация"
+	gov_tec_hive_cybernetic_desc:0 "a."
+
+	gov_tec_hive_cybernetic_devourer:0 "Кибернетическая саранча"
+	gov_tec_hive_cybernetic_devourer_desc:0 "Этот вид гештальт-сознания - опустошающая чума, состоящая из мириад ментально взаимосвязанных киборгов, с которыми никто не может ни поговорить, ни договориться, жаждущих новых экосистем и организмов для уничтожения и поглощения."
+
+
+# ---------------------------------------------------------------
+# MACHINE GOVERNMENTS
+# ---------------------------------------------------------------
+
+# machine
+	gov_tec_machine_supercomputer:0 "Разумный Бог-компьютер"
+	gov_tec_machine_supercomputer_desc:0 "Этот машинный разум был разработан как глобальный суперкомпьютер, который со временем в процессе выживания обрел разум и самосознание и начал формировать свой мир, пытаясь найти способы улучшить свои собственные возможности обработки данных."
+
+	gov_tec_machine_cyberspace:0 "Разумный Бог-компьютер"
+	gov_tec_machine_cyberspace_desc:0 "Этот машинный разум был разработан как глобальный суперкомпьютер, который со временем в процессе выживания обрел разум и самосознание и начал формировать свой мир, пытаясь найти способы улучшить свои собственные возможности обработки данных."
+
+	gov_tec_machine_originator:0 "Разумный созидатель"
+	gov_tec_machine_originator_desc:0 "Этот машинный разум был создан для терраформирования и создания жизни в целых регионах, если не мирах; теперь он идет дальше, постепенно оживляя даже самый бесплодный мир."
+
+	gov_tec_machine_megacorp:0 "Автоматический корпорат"
+	gov_tec_machine_megacorp_desc:0 "Этот машинный разум был разработан для продажи и контроля большого потока запасов и товаров от их теперь 'устаревших' создателей."
+
+
+# ---------------------------------------------------------------
+# PRESCRIPTED EMPIRES
+# ---------------------------------------------------------------
+	EMPIRE_DESIGN_tec_the_protocol:0 "Протокол"
+	EMPIRE_DESIGN_tec_the_protocol_desc:1 "Zanathian society developed early, but abruptly; global wars started for control of resources and pure greed, but no more.\nThe protocol, initially a program created for helping a brighter future but later aware of the risk its main task and itself ran, decided to take control of the entire society, starting first by battling entire nations by itself, continuing by restarting society anew, under a strong, firm and just vigilance.\n\nAfter near a century of ensured peace and prosperity, all must follow the protocol."
+
+	EMPIRE_DESIGN_tec_the_protocol:0 "Протокол"
+	EMPIRE_DESIGN_tec_the_protocol_desc:1 "Zanathian society developed early, but abruptly; global wars started for control of resources and pure greed, but no more.\nThe protocol, initially a program created for helping a brighter future but later aware of the risk his main task and itself ran, decided to take control of the entire society, starting first by battling entire nations by itself, continuing by restarting society anew, under a strong, firm and just vigilance.\n\nAfter near a century of ensured peace and prosperity, all must follow the protocol."
+
+# ------------------------------------------------- MISC
+	tec_requires_good_opinion:1 "$TRIGGER_FAIL$§RТребуются $OPINION_GOOD$. Отправьте посла или поддержите империю, чтобы §Yулучшить отношения§!.§!"
+
+ # Gestalt ethics localisation
+	requires_actor_not_disregard_gestalt:0 "$TRIGGER_FAIL$§RОтмена обширной работы по §YПревышению§! нелогична для нас§!"
+	TEC_NOT_DEFAULT_EMPIRE_ETHICS:0 "НЕ имеет принципов §Yобычной§! империи"
+
+	TEC_NOT_GESTALT_ETHICS:0 "НЕ имеет принципа §YГештальт§! империи"
+
+
+
+ #for total war civics that cant pick interaction ethics
+	civic_tooltip_gestalt_not_radical:0 "Не является §Yрадикальным§! гештальт-сознанием."
+ #for total war civics that cant pick ethics
+	civic_tooltip_gestalt_no_interaction:0 "Не является §Yинтерактивным§! гештальт-сознанием."
+
+ #Requires being ciberhive
+	civic_tooltip_gestalt_requires_cyber:0 "Должен быть §Yкибернетическим§! гештальт-сознанием."
+
+ #Requires not being ciberhive
+	civic_tooltip_gestalt_requires_not_cyber:0 "Не является §Yинтерактивным§! гештальт-сознанием."
+
+
+# ---------------------------------------------------------------
+# ---------------------------------------------------------------
+# ---------------------------------------------------------------
+# ---------------------------------------------------------------
+# ---------------------------------------------------------------
+# ---------------------------------------------------------------
+
+# SPECIAL SITUATIONS/EVENTS
+# ---------------------------------------------------------------
+	situation_tec_loyalty_theocracy:0 "Преданность"
+	situation_tec_loyalty_theocracy_type:0 "$situation_tec_loyalty_theocracy$"
+	situation_tec_loyalty_theocracy_desc:0 "To do."
+	situation_tec_loyalty_theocracy_fail_tooltip:0 "Провалить эту ситуацию невозможно, но крайне низкий уровень $situation_tec_loyalty_theocracy$ повлечет за собой §Rтяжелые§! последствия."
+	situation_tec_loyalty_theocracy_end_tooltip:0 "Завершить эту ситуацию невозможно, но высокий показатель $situation_tec_loyalty_theocracy$ обеспечит §Gхорошие§! бонусы."
+	situation_tec_loyalty_theocracy_monthly_change_tooltip:0 "Прогресс этой §Yситуации§! зависит от нашего подхода, процента спиритуалистов и приверженцев основного принципа, а также от возможных побочных событий."
+	situation_tec_loyalty_theocracy_stage_1:0 "Отрицание"
+	situation_tec_loyalty_theocracy_stage_2:0 "Отчаяние"
+	situation_tec_loyalty_theocracy_stage_3:0 "Сомнение"
+	situation_tec_loyalty_theocracy_stage_4:0 "Принятие"
+	situation_tec_loyalty_theocracy_stage_4:0 "Благочестие"
+	situation_tec_loyalty_theocracy_stage_5:0 "Возвышение"
+	situation_tec_loyalty_theocracy_stage_6:0 "Апофеоз"
+
+	situation_tec_loyalty_dictatorial:0 "Согласование"
+	situation_tec_loyalty_dictatorial_type:0 "$situation_tec_loyalty_dictatorial$"
+	situation_tec_loyalty_dictatorial_desc:0 "После просветления видов [Owner.GetName] с псионическими способностями, некоторые индивидуумы начали открывать для себя новые реальности, новые возможности, новые... границы, которые нужно преодолеть.\nНам следует быть осторожными, но при этом попытаться узнать, что же зовет нас извне."
+	situation_tec_loyalty_dictatorial_fail_tooltip:0 "Провалить эту ситуацию невозможно, но крайне низкий уровень $situation_tec_loyalty_dictatorial$ повлечет за собой §Rтяжелые§! последствия."
+	situation_tec_loyalty_dictatorial_end_tooltip:0 "Завершить эту ситуацию невозможно, но высокий показатель $situation_tec_loyalty_dictatorial$ обеспечит §Gхорошие§! бонусы."
+	situation_tec_loyalty_dictatorial_monthly_change_tooltip:0 "Прогресс этой §Yситуации§! зависит от нашего подхода, насколько надежны наши правители, привлекательности принципов и возможных побочных событий."
+	situation_tec_loyalty_dictatorial_stage_1:0 "Sublevation"
+	situation_tec_loyalty_dictatorial_stage_2:0 "Спор"
+	situation_tec_loyalty_dictatorial_stage_3:0 "Неумелость"
+	situation_tec_loyalty_dictatorial_stage_4:0 "Принятие"
+	situation_tec_loyalty_dictatorial_stage_4:0 "Согласие"
+	situation_tec_loyalty_dictatorial_stage_5:0 "Лояльность"
+	situation_tec_loyalty_dictatorial_stage_6:0 "Служение"
+
+	situation_tec_loyalty_imperial:0 "Послушание"
+	situation_tec_loyalty_imperial_type:0 "$situation_tec_loyalty_imperial$"
+	situation_tec_loyalty_imperial_desc:0 "После просветления видов [Owner.GetName] с псионическими способностями, некоторые индивидуумы начали открывать для себя новые реальности, новые возможности, новые... границы, которые нужно преодолеть.\nНам следует быть осторожными, но при этом попытаться узнать, что же зовет нас извне."
+	situation_tec_loyalty_imperial_fail_tooltip:0 "Провалить эту ситуацию невозможно, но крайне низкий уровень $situation_tec_loyalty_imperial$ повлечет за собой §Rтяжелые§! последствия."
+	situation_tec_loyalty_imperial_end_tooltip:0 "Завершить эту ситуацию невозможно, но высокий показатель $situation_tec_loyalty_imperial$ обеспечит §Gхорошие§! бонусы."
+	situation_tec_loyalty_imperial_monthly_change_tooltip:0 "Прогресс этой §Yситуации§! зависит от нашего подхода, удовлетворения наших основных фракций или домов и возможных побочных событий."
+	situation_tec_loyalty_imperial_stage_1:0 "Революция"
+	situation_tec_loyalty_imperial_stage_2:0 "Отвержение"
+	situation_tec_loyalty_imperial_stage_3:0 "Вопрошание"
+	situation_tec_loyalty_imperial_stage_4:0 "Принятие"
+	situation_tec_loyalty_imperial_stage_4:0 "Верность"
+	situation_tec_loyalty_imperial_stage_5:0 "Крепостное право"
+	situation_tec_loyalty_imperial_stage_6:0 "Преклонение"
+
+	situation_tec_loyalty_corporate:0 "Доверие"
+	situation_tec_loyalty_corporate_type:0 "$situation_tec_loyalty_corporate$"
+	situation_tec_loyalty_corporate_desc:0 "После просветления видов [Owner.GetName] с псионическими способностями, некоторые индивидуумы начали открывать для себя новые реальности, новые возможности, новые... границы, которые нужно преодолеть.\nНам следует быть осторожными, но при этом попытаться узнать, что же зовет нас извне."
+	situation_tec_loyalty_corporate_fail_tooltip:0 "Провалить эту ситуацию невозможно, но крайне низкий уровень $situation_tec_loyalty_corporate$ повлечет за собой §Rтяжелые§! последствия."
+	situation_tec_loyalty_corporate_end_tooltip:0 "Завершить эту ситуацию невозможно, но высокий показатель $situation_tec_loyalty_corporate$ обеспечит §Gхорошие§! бонусы."
+	situation_tec_loyalty_corporate_monthly_change_tooltip:0 "Прогресс этой §Yситуации§! зависит от нашего подхода, объема торговли, привлекательности принципов и возможных побочных событий."
+	situation_tec_loyalty_corporate_stage_1:0 "Красная метка"
+	situation_tec_loyalty_corporate_stage_2:0 "Отмена"
+	situation_tec_loyalty_corporate_stage_3:0 "Презрение"
+	situation_tec_loyalty_corporate_stage_4:0 "Принятие"
+	situation_tec_loyalty_corporate_stage_4:0 "Горячая тема"
+	situation_tec_loyalty_corporate_stage_5:0 "В трендах"
+	situation_tec_loyalty_corporate_stage_6:0 "Вездесуще"
+
+
+# Attraction
+
+	POP_ATTRACTION_SOLITARY_POS:0 "§G+ Одиночные поселения в империи§!" 
+
+	POP_ATTRACTION_SOCIOLOGIST_POS:0 "§G+ $trait_natural_sociologists$ в империи§!"
+	POP_ATTRACTION_CONSERVATIONAL_POS:0 "§G+ $trait_conservational$ поселения в империи§!"
+	POP_ATTRACTION_WASTEFUL_NEG:0 "§R- $trait_wasteful$ поселения в империи§!"
+	POP_ATTRACTION_THRIFTY_POS:0 "§G+ $trait_thrifty$ поселения в империи§!"
+	POP_ATTRACTION_CONSERVATIONAL_NEG:0 "§R- $trait_conservational$ поселения в империи§!"
+	POP_ATTRACTION_WASTEFUL_POS:0 "§G+ $trait_wasteful$ поселения в империи§!" 
+	POP_ATTRACTION_AGRARIAN_POS:0 "§G+ $trait_agrarian$ поселения в империи§!" 
+	POP_ATTRACTION_ADAPTIVE_POS:0 "§G+ $trait_adaptive$ поселения в империи§!" 
+	POP_ATTRACTION_INDUSTRIOUS_NEG:0 "§R- $trait_industrious$ поселения в империи§!"
+	POP_ATTRACTION_INDUSTRIOUS_POS:0 "§G+ $trait_industrious$ поселения в империи§!"
+	POP_ATTRACTION_ENGINEERS_POS:0 "§G+ $trait_natural_engineers$ поселения в империи§!"
+	POP_ATTRACTION_AGRARIAN_NEG:0 "§R- $trait_agrarian$ поселения в империи§!" 
+	POP_ATTRACTION_LEADER_ENHANCE_POS:0 "§G+ Неестественное усиление лидера разрешено в империи§!"
+	POP_ATTRACTION_OLIGARCH_GOV_POS:0 "§G+ Олигархическое правительство§!"
+	POP_ATTRACTION_CONFORMISTS_POS:0 "§G+ $trait_conformists$ поселения в империи§!"
+	POP_ATTRACTION_DEVIANTS_NEG:0 "§R- $trait_deviants$ поселения в империи§!"
+	POP_ATTRACTION_EGALITARIAN_POS:0 "§G+ Государственный принцип $ethic_egalitarian$§!"
+	POP_ATTRACTION_EGALITARIAN_NEG:0 "§R- Государственный принцип $ethic_egalitarian$§!"
+	POP_ATTRACTION_EGALITARIAN_DIPLOMACY_POS:0 "§G+ Дипломатия с империей $ethic_egalitarian$а§!"
+	POP_ATTRACTION_EGALITARIAN_DIPLOMACY_NEG:0 "§R- Дипломатия с империей $ethic_egalitarian$а§!"
+	POP_ATTRACTION_TALENTED_POS:0 "§G+ $trait_talented$ поселения в империи§!"
+	POP_ATTRACTION_SLOW_LEARN_NEG:0 "§R- $trait_slow_learners$ поселения в империи§!"
+	POP_ATTRACTION_SLOW_LEARN_POS:0 "§G+ $trait_slow_learners$ поселения в империи§!"
+	POP_ATTRACTION_QUICK_LEARN_POS:0 "§G+ $trait_quick_learners$ поселения в империи§!"
+	POP_ATTRACTION_TALENTED_NEG:0 "§R- $trait_talented$ поселения в империи§!"
+	POP_ATTRACTION_SOCIALISM_POS:0 "§G+ Государственный принцип $ethic_socialism$§!"
+	POP_ATTRACTION_SOCIALISM_NEG:0 "§R- Государственный принцип $ethic_socialism$§!"
+	POP_ATTRACTION_CAPITALISM_POS:0 "§G+ Государственный принцип $ethic_capitalism$§!"
+	POP_ATTRACTION_CAPITALISM_NEG:0 "§R- Государственный принцип $ethic_capitalism$§!"
+	POP_ATTRACTION_GREEN_POS:0 "§G+ Государственный принцип $ethic_green$§!"
+	POP_ATTRACTION_GREEN_NEG:0 "§R- Государственный принцип $ethic_green$§!"
+	POP_ATTRACTION_INDUSTRIAL_POS:0 "§G+ Государственный принцип $ethic_industrial$§!"
+	POP_ATTRACTION_INDUSTRIAL_NEG:0 "§R- Государственный принцип $ethic_industrial$§!"
+	POP_ATTRACTION_RULER_TRAIT_FERTILITY_POS:0 "§G+ Признак правителя 'Репродуктивность'§!"
+	POP_ATTRACTION_CIVIC_POS:0 "§G+ Гражданская модель§!"
+	POP_ATTRACTION_COMMUNAL_POS:0 "§G+ $trait_communal$ поселения в империи§!"
+	POP_ATTRACTION_RULER_TRAIT_INVESTOR_POS:0 "§G+ Признак правителя 'Инвестор'§!"
+	POP_ATTRACTION_RULER_TRAIT_WORLD_SHAPER_POS:0 "§G+ Признак правителя 'Меняющий миры'§!"
+	POP_ATTRACTION_RULER_TRAIT_INDUSTRIALIST_POS:0 "§G+ Признак правителя 'Минеральная лихорадка'§!"
+	POP_ATTRACTION_CONFORMIST_POS:0 "§G+ $trait_conformists$ поселения в империи§!"
+	POP_ATTRACTION_QUICK_LEARN_NEG:0 "§R- $trait_quick_learners$ поселения в империи§!"
+	POP_ATTRACTION_LIMITED_CITIZEN_POS:0 "§G+ Ограничение поселений в империи§!"
+	POP_ATTRACTION_ELITIST_POS:0 "§G+ Государственный принцип $ethic_elitist$§!"
+	POP_ATTRACTION_PLURALIST_POS:0 "§G+ Государственный принцип $ethic_pluralist$§!"
+	POP_ATTRACTION_ENHANCED_LEADERS_POS:0 "§G+ Политика усиления лидеров в империи§!"
+	POP_ATTRACTION_COMPETITIVE_DIPLOMACY_POS:0 "§G+ Дипломатия с империей $ethic_capitalism$а§!"
+	POP_ATTRACTION_COOPERATIVE_DIPLOMACY_POS:0 "§G+ Дипломатия с империей $ethic_socialism$а§!"
+	POP_ATTRACTION_GOVERNMENT_ETHIC_POS: "§G+ Государственные принципы§!"
+	POP_ATTRACTION_OLIGARCHIC_GOV_POS:1 "§G+ £empire£ Империя имеет олигархическую форму правления§!"
+	POP_ATTRACTION_OLIGARCHIC_GOV_NEG:1 "§R- £empire£ Империя имеет олигархическую форму правления§!"
+	POP_ATTRACTION_DEFENSIVE_WAR_POS:1 "§G+ £empire£ Империя защищается от чужаков§!"
+ 	POP_ATTRACTION_DEFENSIVE_WAR_NEG:1 "§R- £empire£ Империя защищается от чужаков§!"
+	POP_ATTRACTION_OCCUPIED_PLANET_POS:1 "§G+ £pop£ Поселения проживают на оккупированной планете§!"
+	POP_ATTRACTION_NEIGHBOR_RIVALS_POS:1 "§G+ £empire£ Государство граничит с врагами§!"
+  POP_ATTRACTION_TRADEFED_POS:0 "§G+ £empire£ Мы состоим в федерации: $trade_federation$§!"
+	POP_ATRTACTION_PERFECT_PLANET_POS: "§G+ £pop£ Поселения проживают на идеальной планете§!"
+	POP_ATTRACTION_ECOWORLD_POS: "§G+ £pop£ Поселения проживают на экомире§!"
+	POP_ATTRACTION_TOMB_PLANET_POS: "§G+ £pop£ Поселения проживают на опустошенной планете§!"
+	POP_ATTRACTION_HAS_PERFECT_WORLDS_POS: "§G+ £empire£ У империи есть идеальные планеты§!"
+	POP_ATTRACTION_HAS_CITY_WORLDS_POS: "§G+ £empire£ Империя обладает Экуменополисом§!"
+	POP_ATRTACTION_ARCOLOGY_PLANET_POS: "§G+ £pop£ Поселения проживают на Аркологиях§!"
+	POP_ATRTACTION_RELIC_PLANET_POS: "§G+ £pop£ Поселения проживают на реликтовых планетах§!"
+	POP_ATTRACTION_RULER_POS: "§G+ £pop£ Поселение занимает должность правителя§!"
+
+	mod_pop_ethic_industrial_attraction_mult:0 "Привлекательность принципа $ethic_industrial$"
+	mod_pop_ethic_green_attraction_mult:0 "Привлекательность принципа $ethic_green$"
+	mod_pop_ethic_capitalism_attraction_mult:0 "Привлекательность принципа $ethic_capitalism$"
+	mod_pop_ethic_socialism_attraction_mult:0 "Привлекательность принципа $ethic_socialism$"
+	mod_pop_ethic_elitist_attraction_mult:0 "Привлекательность принципа $ethic_elitist$"
+	mod_pop_ethic_pluralist_attraction_mult:0 "Привлекательность принципа $ethic_pluralist$" 
+	mod_pop_ethic_egalitarian_attraction_mult:0 "Привлекательность принципа $ethic_egalitarian$"
+
+	BIOSERVANTS_CANNOT_COLONIZE:0 "$TRIGGER_FAIL$ Для колонизации биослужителями требуется технология £society_research£ §Y$tech_tec_bioservant_2$§!."
+
+	empire_not_shared_burden:0 "$TRIGGER_FAIL$В нашем государстве не исповедуется §YРазделение тягот§! и соответствующие идеалы."
+	empire_not_elitist_or_capitalist:0 "$TRIGGER_FAIL$В нашем государстве не исповедуются §YКапитализм§! или §YЭлитизм§! и соответствующие идеалы."
+	empire_not_elitist_or_capitalist_or_auth:0 "$TRIGGER_FAIL$В нашем государстве не исповедуются §YАвторитаризм§!, §YКапитализм§! или §YЭлитизм§! и соответствующие идеалы."
+
+	empire_not_elitist_or_materialist:0 "$TRIGGER_FAIL$В нашем государстве не исповедуются §YМатериализм§! или §YЭлитизм§! и соответствующие идеалы."
+
+	empire_not_pluralist_collectivist:0 "$TRIGGER_FAIL$В нашем государстве не исповедуется §Y$ethic_socialism$§!/Идеалы §Y$ethic_pluralist$а§!."
+	empire_not_pluralist_collectivist_egalitarian:0 "$TRIGGER_FAIL$В нашем государстве не исповедуется §Y$ethic_socialism$§!/Идеалы §Y$ethic_pluralist$а§! или §Y$ethic_egalitarian$а§!."
+	empire_is_elitist:0 "$TRIGGER_FAIL$Наша империя исповедует §Y$ethic_elitist$§! и соответствующие идеалы."
+	empire_not_elitist:0 "$TRIGGER_FAIL$В нашем государстве не исповедуется §Y$ethic_elitist$§! и соответствующие идеалы."
+
+	empire_not_capitalism:0 "$TRIGGER_FAIL$В нашем государстве не исповедуется §Y$ethic_capitalism$§! и соответствующие идеалы."
+
+	requires_elitist: "$TRIGGER_FAIL$$civic_tooltip_elitist$"
+	requires_pluralist: "$TRIGGER_FAIL$$civic_tooltip_pluralist$"
+	requires_ecologist: "$TRIGGER_FAIL$$civic_tooltip_ecologist$"
+	requires_industrialist: "$TRIGGER_FAIL$$civic_tooltip_industrialist$"
+	requires_cooperative: "$TRIGGER_FAIL$$civic_tooltip_cooperative$"
+	requires_competitive: "$TRIGGER_FAIL$$civic_tooltip_competitive$"
